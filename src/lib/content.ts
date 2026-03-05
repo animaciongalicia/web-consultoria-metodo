@@ -148,6 +148,11 @@ export const BENEFITS = {
       description:
         "Tu negocio dejará de ser una montaña rusa. Más previsibilidad, menos sustos.",
     },
+    {
+      title: "Un plan claro, no teoría",
+      description:
+        "Nada de informes que nadie lee. Acciones concretas, con plazos y responsables definidos.",
+    },
   ],
 };
 
