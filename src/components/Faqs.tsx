@@ -7,9 +7,9 @@ export default function Faqs() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faqs" className="section-padding bg-gray-50">
+    <section id="faqs" className="section-padding bg-white">
       <div className="container-narrow">
-        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <h2 className="section-heading text-gray-900">
           {FAQS.heading}
         </h2>
 

@@ -2,16 +2,16 @@ import { HOW_I_WORK } from "@/lib/content";
 
 export default function HowIWork() {
   return (
-    <section id="como-trabajo" className="section-padding bg-white">
+    <section id="como-trabajo" className="section-padding bg-gray-50">
       <div className="container-narrow">
-        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <h2 className="section-heading text-gray-900">
           {HOW_I_WORK.heading}
         </h2>
 
-        <div className="mt-10 space-y-8">
+        <div className="mx-auto mt-10 max-w-3xl space-y-8">
           {HOW_I_WORK.steps.map((step) => (
             <div key={step.number} className="flex gap-6">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-100 text-lg font-bold text-primary-800">
+              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white">
                 {step.number}
               </div>
               <div>
@@ -24,11 +24,11 @@ export default function HowIWork() {
           ))}
         </div>
 
-        <div className="mt-12 rounded-lg bg-primary-50 p-6 md:p-8">
-          <h3 className="text-lg font-semibold text-primary-900">
+        <div className="mx-auto mt-12 max-w-3xl rounded-lg border border-accent-200 bg-accent-50 p-6 md:p-8">
+          <h3 className="text-center text-lg font-semibold text-accent-800">
             {HOW_I_WORK.investment.heading}
           </h3>
-          <p className="mt-3 text-gray-700">{HOW_I_WORK.investment.text}</p>
+          <p className="mt-3 text-center text-gray-700">{HOW_I_WORK.investment.text}</p>
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import SocialProof from "@/components/SocialProof";
 import Problems from "@/components/Problems";
 import Method from "@/components/Method";
 import HowIWork from "@/components/HowIWork";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <SocialProof />
       <Problems />
       <Method />
       <HowIWork />

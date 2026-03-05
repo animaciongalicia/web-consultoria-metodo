@@ -38,14 +38,14 @@ export default function Contact() {
   };
 
   return (
-    <section id="contacto" className="section-padding bg-white">
+    <section id="contacto" className="section-padding bg-primary-900">
       <div className="container-narrow">
-        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <h2 className="section-heading text-white">
           {CONTACT.heading}
         </h2>
-        <p className="mt-4 max-w-2xl text-lg text-gray-600">{CONTACT.text}</p>
+        <p className="section-subtitle text-primary-200">{CONTACT.text}</p>
 
-        <div className="mt-10 flex flex-wrap gap-4">
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
             href={SITE.whatsapp}
             target="_blank"
@@ -54,19 +54,19 @@ export default function Contact() {
           >
             Hablar por WhatsApp
           </a>
-          <a href={SITE.phoneLink} className="btn-outline">
+          <a href={SITE.phoneLink} className="btn-outline-light">
             Llamar ahora
           </a>
         </div>
 
-        <div className="mt-12 max-w-xl">
-          <h3 className="text-xl font-semibold text-gray-900">
+        <div className="mx-auto mt-14 max-w-xl rounded-xl bg-white p-8 shadow-xl">
+          <h3 className="text-center text-xl font-semibold text-gray-900">
             {CONTACT.formTitle}
           </h3>
 
           {status === "sent" ? (
-            <div className="mt-6 rounded-lg bg-green-50 border border-green-200 p-6">
-              <p className="text-green-800 font-medium">
+            <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-6">
+              <p className="font-medium text-green-800">
                 {CONTACT.successMessage}
               </p>
             </div>
@@ -155,7 +155,7 @@ export default function Contact() {
                 disabled={status === "sending"}
                 className="btn-primary w-full disabled:opacity-50"
               >
-                {status === "sending" ? "Enviando…" : CONTACT.submitButton}
+                {status === "sending" ? "Enviando..." : CONTACT.submitButton}
               </button>
 
               {status === "error" && (

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingCta from "@/components/FloatingCta";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -30,6 +31,36 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  alternates: {
+    canonical: "https://consultoriametodo.com",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: "Consultoría Método",
+  description: SITE.description,
+  url: "https://consultoriametodo.com",
+  telephone: "+34678288284",
+  email: "info@consultoriametodo.com",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "A Coruña",
+    addressRegion: "Galicia",
+    addressCountry: "ES",
+  },
+  areaServed: [
+    { "@type": "City", name: "A Coruña" },
+    { "@type": "State", name: "Galicia" },
+  ],
+  founder: {
+    "@type": "Person",
+    name: "Pablo García Dacosta",
+    jobTitle: "Consultor de negocios",
+  },
+  priceRange: "€€",
+  openingHours: "Mo-Fr 09:00-19:00",
 };
 
 export default function RootLayout({
@@ -39,10 +70,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="antialiased">
         <Header />
         <main>{children}</main>
         <Footer />
+        <FloatingCta />
       </body>
     </html>
   );

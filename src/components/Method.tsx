@@ -2,13 +2,13 @@ import { METHOD } from "@/lib/content";
 
 export default function Method() {
   return (
-    <section id="metodo" className="section-padding bg-gray-50">
+    <section id="metodo" className="section-padding bg-white">
       <div className="container-narrow">
-        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <h2 className="section-heading text-gray-900">
           {METHOD.heading}
         </h2>
 
-        <div className="mt-6 space-y-4">
+        <div className="mx-auto mt-6 max-w-3xl space-y-4 text-center">
           {METHOD.paragraphs.map((p, i) => (
             <p key={i} className="text-gray-600 md:text-lg">
               {p}
@@ -20,7 +20,7 @@ export default function Method() {
           {METHOD.pillars.map((pillar, i) => (
             <div
               key={i}
-              className="rounded-lg border border-gray-200 bg-white p-6"
+              className="rounded-lg border border-primary-100 bg-primary-50/50 p-6"
             >
               <h3 className="text-lg font-semibold text-primary-800">
                 {pillar.title}
@@ -30,7 +30,7 @@ export default function Method() {
           ))}
         </div>
 
-        <p className="mt-10 text-lg font-medium text-gray-800">
+        <p className="mt-10 text-center text-lg font-semibold text-primary-800">
           {METHOD.closing}
         </p>
       </div>
