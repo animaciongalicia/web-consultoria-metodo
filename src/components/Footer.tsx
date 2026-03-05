@@ -10,6 +10,9 @@ export default function Footer() {
           © {year} {SITE.name} — {SITE.consultant}
         </p>
         <p className="mt-1 text-sm text-primary-400">
+          {SITE.address}
+        </p>
+        <p className="mt-1 text-sm text-primary-400">
           Consultoría de negocios y empresas en A Coruña y Galicia
         </p>
         <p className="mt-2 text-sm text-primary-400">

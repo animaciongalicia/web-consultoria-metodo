@@ -6,6 +6,7 @@ export const SITE = {
   phoneFormatted: "678 288 284",
   phoneLink: "tel:+34678288284",
   whatsapp: "https://wa.me/34678288284",
+  address: "Ronda de Montealto, 4 — 15002 A Coruña",
   location: "A Coruña (Galicia)",
   title:
     "Consultoría Método | Consultoría de Negocios y Empresas en A Coruña y Galicia",

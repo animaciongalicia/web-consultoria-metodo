@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { METHOD } from "@/lib/content";
 
 export default function Method() {
@@ -8,12 +9,23 @@ export default function Method() {
           {METHOD.heading}
         </h2>
 
-        <div className="mx-auto mt-6 max-w-3xl space-y-4 text-center">
-          {METHOD.paragraphs.map((p, i) => (
-            <p key={i} className="text-gray-600 md:text-lg">
-              {p}
-            </p>
-          ))}
+        <div className="mx-auto mt-8 flex flex-col items-center gap-8 md:flex-row">
+          <div className="max-w-xl space-y-4 text-center md:text-left">
+            {METHOD.paragraphs.map((p, i) => (
+              <p key={i} className="text-gray-600 md:text-lg">
+                {p}
+              </p>
+            ))}
+          </div>
+          <div className="relative hidden aspect-[4/3] w-full max-w-sm flex-shrink-0 overflow-hidden rounded-xl shadow-lg md:block">
+            <Image
+              src="/consultoria-datos.jpg"
+              alt="Análisis de datos y métricas de negocio — Consultoría Método"
+              fill
+              className="object-cover"
+              sizes="384px"
+            />
+          </div>
         </div>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">

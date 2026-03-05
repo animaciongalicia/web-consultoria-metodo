@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { HOW_I_WORK } from "@/lib/content";
 
 export default function HowIWork() {
@@ -7,6 +8,18 @@ export default function HowIWork() {
         <h2 className="section-heading text-gray-900">
           {HOW_I_WORK.heading}
         </h2>
+
+        <div className="mx-auto mt-6 mb-10 overflow-hidden rounded-xl shadow-lg md:max-w-2xl">
+          <div className="relative aspect-[16/7] w-full">
+            <Image
+              src="/consultoria-analisis.jpg"
+              alt="Sesión de trabajo y análisis de negocio — Consultoría Método"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 672px"
+            />
+          </div>
+        </div>
 
         <div className="mx-auto mt-10 max-w-3xl space-y-8">
           {HOW_I_WORK.steps.map((step) => (

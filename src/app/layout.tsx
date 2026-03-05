@@ -46,6 +46,8 @@ const jsonLd = {
   email: "info@consultoriametodo.com",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "Ronda de Montealto, 4",
+    postalCode: "15002",
     addressLocality: "A Coruña",
     addressRegion: "Galicia",
     addressCountry: "ES",
