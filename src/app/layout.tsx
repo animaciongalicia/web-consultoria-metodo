@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://consultoriametodo.com",
+    canonical: "https://consultoriametodo.es",
   },
 };
 
@@ -41,7 +41,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Consultoría Método",
   description: SITE.description,
-  url: "https://consultoriametodo.com",
+  url: "https://consultoriametodo.es",
   telephone: "+34678288284",
   email: "info@consultoriametodo.com",
   address: {

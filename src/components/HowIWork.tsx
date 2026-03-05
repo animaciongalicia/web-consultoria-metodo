@@ -37,7 +37,16 @@ export default function HowIWork() {
           ))}
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-lg border border-accent-200 bg-accent-50 p-6 md:p-8">
+        {/* Case study */}
+        <div className="mx-auto mt-12 max-w-3xl rounded-lg border border-primary-200 bg-primary-50 p-6 md:p-8">
+          <h3 className="text-center text-lg font-semibold text-primary-800">
+            {HOW_I_WORK.caseStudy.heading}
+          </h3>
+          <p className="mt-3 text-gray-700">{HOW_I_WORK.caseStudy.text}</p>
+        </div>
+
+        {/* Investment */}
+        <div className="mx-auto mt-6 max-w-3xl rounded-lg border border-accent-200 bg-accent-50 p-6 md:p-8">
           <h3 className="text-center text-lg font-semibold text-accent-800">
             {HOW_I_WORK.investment.heading}
           </h3>

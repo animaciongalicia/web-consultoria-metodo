@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { CONTACT, SITE } from "@/lib/content";
+import { CONTACT, SITE, URGENCY } from "@/lib/content";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -44,6 +44,10 @@ export default function Contact() {
           {CONTACT.heading}
         </h2>
         <p className="section-subtitle text-primary-200">{CONTACT.text}</p>
+
+        <p className="mx-auto mt-4 max-w-xl text-center text-sm font-medium text-accent-300">
+          {URGENCY.text}
+        </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a

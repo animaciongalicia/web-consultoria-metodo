@@ -28,13 +28,13 @@ export const NAV_LINKS = [
 export const HERO = {
   h1: "Consultoría de negocios y empresas en A Coruña y Galicia",
   subtitle:
-    "Ayudo a dueños de pymes y negocios a tomar mejores decisiones para ganar más dinero con menos caos.",
+    "Si tu negocio factura pero no ves los beneficios, si vives apagando fuegos y sientes que todo depende de ti... podemos cambiarlo.",
   bullets: [
     "Más claridad sobre qué hacer y qué dejar de hacer.",
     "Más rentabilidad con los recursos que ya tienes.",
     "Menos caos, menos improvisación, más control.",
   ],
-  ctaPrimary: "Quiero analizar mi empresa",
+  ctaPrimary: "Reservar mi llamada gratuita",
   ctaWhatsapp: "Hablar por WhatsApp",
   ctaPhone: "Llamar ahora",
 };
@@ -115,9 +115,32 @@ export const HOW_I_WORK = {
     },
   ],
   investment: {
-    heading: "Inversión orientativa",
-    text: "Entre 800 € y 1.500 €, dependiendo del alcance y la situación de tu negocio. No es un gasto: es una inversión que se recupera vía mejora de resultados. Si después del diagnóstico no ves claro el retorno, no seguimos. Así de simple.",
+    heading: "Inversión",
+    text: "A partir de 1.200 €, dependiendo del alcance y la situación de tu negocio. Si cada mes se te escapan 2.000–3.000 € por falta de claridad en márgenes, procesos o decisiones… ¿cuánto te cuesta NO hacer nada? La consultoría se paga sola en el primer o segundo mes.",
   },
+  caseStudy: {
+    heading: "Caso real: restaurante en Carral",
+    text: "Un restaurante en Carral facturaba 10.000 € al mes y el dueño sentía que trabajaba mucho pero no veía el beneficio. Definimos escandallos, revisamos márgenes, rediseñamos la carta, renegociamos proveedores y analizamos números y ventas a fondo. En 3 meses pasaron a facturar 15.000 € al mes — un 50% más — con la misma estructura.",
+  },
+};
+
+export const TESTIMONIAL = {
+  quote:
+    "Pasamos de facturar 10.000 € al mes a 15.000 € en solo 3 meses. Pablo nos ayudó a ver lo que teníamos delante y no veíamos.",
+  author: "Iván",
+  business: "Restaurante en Carral",
+};
+
+export const FREE_CALL = {
+  heading: "Primera conversación gratuita — 30 minutos",
+  text: "Antes de trabajar juntos, necesito conocer tu negocio y tú necesitas saber si soy la persona adecuada para ayudarte. Por eso ofrezco una primera llamada de 30 minutos sin coste ni compromiso.",
+  bullets: [
+    "Me cuentas tu situación real y qué te gustaría mejorar.",
+    "Te doy mi opinión honesta sobre por dónde empezar.",
+    "Decidimos juntos si tiene sentido trabajar juntos. Sin presión, sin venta agresiva.",
+  ],
+  note: "No es para todo el mundo. Analizo cada caso y solo trabajo con negocios donde sé que puedo aportar. Esa media hora es tan importante para ti como para mí.",
+  cta: "Reservar mi llamada gratuita",
 };
 
 export const BENEFITS = {
@@ -161,7 +184,7 @@ export const FOR_WHO = {
   forYou: {
     title: "Es para ti si…",
     items: [
-      "Tienes una pyme o negocio en Galicia que ya factura.",
+      "Tienes una pyme o negocio en Galicia y quieres mejorar de verdad.",
       "Sabes que puedes ir mejor, pero no tienes claro por dónde empezar.",
       "Estás dispuesto a mirar los números y tomar decisiones.",
       "Quieres a alguien externo que te diga la verdad, no lo que quieres oír.",
@@ -172,9 +195,9 @@ export const FOR_WHO = {
     title: "No es para ti si…",
     items: [
       "Buscas milagros rápidos o fórmulas mágicas.",
-      "No estás dispuesto a cambiar nada en tu negocio.",
+      "No quieres cambiar nada en tu forma de hacer las cosas.",
       "Solo quieres que alguien te dé la razón.",
-      "Esperas resultados sin implicarte en el proceso.",
+      "No estás dispuesto a implicarte en el proceso de mejora.",
       "Buscas una gestoría o asesoría contable (eso no es lo que hago).",
     ],
   },
@@ -233,6 +256,10 @@ export const FAQS = {
         "Sin problema. El diagnóstico tiene valor por sí solo: te llevas un análisis honesto de tu negocio y un plan de acción claro. Si decides no continuar con el seguimiento, perfecto.",
     },
   ],
+};
+
+export const URGENCY = {
+  text: "Trabajo con un máximo de 4 empresas a la vez para dedicar el tiempo que merece cada una. Si ahora hay hueco, es buen momento para hablarlo.",
 };
 
 export const CONTACT = {
