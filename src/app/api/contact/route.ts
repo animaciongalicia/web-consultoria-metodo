@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
 
     // TODO: Integrar con un servicio de email real (SendGrid, Resend, Nodemailer, etc.)
     // Por ahora, se registra en la consola del servidor.
-    // Para producción, enviar a info@consultoriametodo.com
+    // Para producción, enviar a info@consultoriametodo.es
     console.log("--- Nuevo contacto desde la web ---");
     console.log("Nombre:", name);
     console.log("Negocio:", business);
