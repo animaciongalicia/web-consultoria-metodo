@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Consultoría Método",
   consultant: "Pablo García Dacosta",
-  email: "info@consultoriametodo.com",
+  email: "info@consultoriametodo.es",
   phone: "678288284",
   phoneFormatted: "678 288 284",
   phoneLink: "tel:+34678288284",
