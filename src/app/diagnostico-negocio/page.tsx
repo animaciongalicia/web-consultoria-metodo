@@ -336,6 +336,88 @@ export default function DiagnosticoNegocio() {
         </div>
       </section>
 
+      {/* SOCIAL PROOF — stats */}
+      <section className="border-y border-primary-800 bg-primary-950 px-6 py-14">
+        <div className="container-narrow">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+            {[
+              { number: "+25", label: "años de experiencia" },
+              { number: "+200", label: "empresas asesoradas" },
+              { number: "+15", label: "sectores diferentes" },
+              { number: "100%", label: "enfoque práctico" },
+            ].map((stat, i) => (
+              <div key={i} className="text-center">
+                <p className="text-3xl font-extrabold text-accent-400 md:text-4xl">
+                  {stat.number}
+                </p>
+                <p className="mt-1 text-sm font-medium text-primary-200">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* TESTIMONIOS */}
+      <section className="section-padding bg-primary-50">
+        <div className="container-narrow">
+          <h2 className="section-heading text-gray-900">
+            Resultados reales de empresas reales
+          </h2>
+          <div className="mt-10 grid gap-8 md:grid-cols-3">
+            {[
+              {
+                quote: "En solo 3 meses aumentamos la facturación un 50%. El diagnóstico nos mostró errores que teníamos delante y no veíamos.",
+                author: "Carlos",
+                business: "Hostelería en A Coruña",
+              },
+              {
+                quote: "Dejé de gastar en acciones de marketing sin retorno. Con un plan claro de captación ahora tengo agenda completa y clientes recurrentes.",
+                author: "María",
+                business: "Profesional independiente en Galicia",
+              },
+              {
+                quote: "Nos ayudó a dejar de hacer de todo y centrarnos en lo rentable. Mejores clientes, mejores márgenes y menos estrés.",
+                author: "Eventos Norte",
+                business: "Empresa de servicios en Galicia",
+              },
+            ].map((t, i) => (
+              <blockquote
+                key={i}
+                className="flex flex-col rounded-xl border border-primary-100 bg-white p-6 shadow-sm"
+              >
+                <p className="flex-1 text-gray-700 md:text-lg">
+                  &ldquo;{t.quote}&rdquo;
+                </p>
+                <footer className="mt-4 border-t border-gray-100 pt-4">
+                  <p className="font-semibold text-primary-800">{t.author}</p>
+                  <p className="text-sm text-gray-500">{t.business}</p>
+                </footer>
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cross-link to home */}
+      <section className="bg-accent-50 border-y border-accent-200 py-12">
+        <div className="container-narrow text-center">
+          <p className="text-lg text-gray-700 md:text-xl">
+            Conoce más sobre nuestra{" "}
+            <strong className="text-primary-800">consultoría de negocios en A Coruña y Galicia</strong>,
+            el <strong className="text-primary-800">Método Rentabilismo</strong> y cómo trabajamos
+            con pymes y empresas.
+          </p>
+          <a
+            href="/"
+            className="btn-primary mt-6 inline-block"
+          >
+            Volver a la página principal
+          </a>
+        </div>
+      </section>
+
       {/* CTA FINAL + CONTACTO */}
       <DiagnosticoContactForm />
     </>

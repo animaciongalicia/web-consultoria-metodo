@@ -22,6 +22,13 @@ export default function Problems() {
             {PROBLEMS.closing}
           </p>
         </div>
+
+        <div className="mt-10 text-center">
+          <a href="#metodo" className="inline-flex items-center gap-2 text-accent-300 transition-colors hover:text-accent-200">
+            Descubre el método que lo cambia todo
+            <span aria-hidden="true">&darr;</span>
+          </a>
+        </div>
       </div>
     </section>
   );

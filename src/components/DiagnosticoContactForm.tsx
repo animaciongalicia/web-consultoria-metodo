@@ -1,41 +1,11 @@
-"use client";
-
-import { useState } from "react";
 import { SITE } from "@/lib/content";
 
 export default function DiagnosticoContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    business: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
-    "idle"
+  const subject = encodeURIComponent("Solicitud de diagnóstico de negocio");
+  const body = encodeURIComponent(
+    "Hola Pablo,\n\nMe interesa solicitar un diagnóstico de mi negocio.\n\nMi nombre: \nMi negocio: \nTeléfono: \n\n¿Qué me gustaría mejorar?\n\n"
   );
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus("sending");
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (res.ok) {
-        setStatus("sent");
-        setFormData({ name: "", business: "", email: "", phone: "", message: "" });
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
-  };
+  const mailtoLink = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
 
   return (
     <section id="contacto-diagnostico" className="section-padding bg-primary-900">
@@ -55,6 +25,9 @@ export default function DiagnosticoContactForm() {
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <a href={mailtoLink} className="btn-primary">
+            Solicitar diagnóstico por email
+          </a>
           <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-whatsapp">
             Hablar por WhatsApp
           </a>
@@ -63,95 +36,11 @@ export default function DiagnosticoContactForm() {
           </a>
         </div>
 
-        <div className="mx-auto mt-10 max-w-xl rounded-xl bg-white p-8 text-left shadow-xl">
-          <h3 className="text-center text-xl font-semibold text-gray-900">
-            Solicitar diagnóstico
-          </h3>
-
-          {status === "sent" ? (
-            <div className="mt-6 rounded-lg border border-green-200 bg-green-50 p-6">
-              <p className="font-medium text-green-800">
-                Mensaje enviado correctamente. Me pondré en contacto contigo lo antes posible.
-              </p>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="mt-6 space-y-4">
-              <div>
-                <label htmlFor="diag-name" className="block text-sm font-medium text-gray-700">
-                  Tu nombre
-                </label>
-                <input
-                  type="text"
-                  id="diag-name"
-                  required
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="diag-business" className="block text-sm font-medium text-gray-700">
-                  Nombre de tu negocio
-                </label>
-                <input
-                  type="text"
-                  id="diag-business"
-                  value={formData.business}
-                  onChange={(e) => setFormData({ ...formData, business: e.target.value })}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="diag-email" className="block text-sm font-medium text-gray-700">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="diag-email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="diag-phone" className="block text-sm font-medium text-gray-700">
-                  Teléfono
-                </label>
-                <input
-                  type="tel"
-                  id="diag-phone"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="diag-message" className="block text-sm font-medium text-gray-700">
-                  ¿Qué te gustaría mejorar en tu negocio?
-                </label>
-                <textarea
-                  id="diag-message"
-                  rows={4}
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500"
-                />
-              </div>
-              <button
-                type="submit"
-                disabled={status === "sending"}
-                className="btn-primary w-full disabled:opacity-50"
-              >
-                {status === "sending" ? "Enviando..." : "Solicitar diagnóstico"}
-              </button>
-              {status === "error" && (
-                <p className="text-sm text-red-600">
-                  Ha ocurrido un error. Inténtalo de nuevo o contacta directamente por WhatsApp o teléfono.
-                </p>
-              )}
-            </form>
-          )}
+        <div className="mx-auto mt-10 max-w-xl rounded-xl bg-white/10 p-6">
+          <p className="text-primary-200">
+            Al pulsar <strong className="text-white">&ldquo;Solicitar diagnóstico por email&rdquo;</strong> se
+            abrirá tu aplicación de correo con un mensaje preparado. Solo rellena tus datos y envíalo.
+          </p>
         </div>
       </div>
     </section>

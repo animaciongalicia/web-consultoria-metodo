@@ -52,6 +52,16 @@ export default function HowIWork() {
           </h3>
           <p className="mt-3 text-center text-gray-700">{HOW_I_WORK.investment.text}</p>
         </div>
+
+        <div className="mt-10 text-center">
+          <a
+            href="/diagnostico-negocio"
+            className="inline-flex items-center gap-2 text-primary-700 font-medium transition-colors hover:text-primary-900"
+          >
+            Ver programas de diagnóstico y mejora de rentabilidad
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
       </div>
     </section>
   );

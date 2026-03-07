@@ -124,12 +124,29 @@ export const HOW_I_WORK = {
   },
 };
 
-export const TESTIMONIAL = {
-  quote:
-    "Pasamos de facturar 10.000 € al mes a 15.000 € en solo 3 meses. Pablo nos ayudó a ver lo que teníamos delante y no veíamos.",
-  author: "Iván",
-  business: "Restaurante en Carral",
-};
+export const TESTIMONIALS = [
+  {
+    quote:
+      "Pasamos de facturar 10.000 € al mes a 15.000 € en solo 3 meses. Pablo nos ayudó a ver lo que teníamos delante y no veíamos.",
+    author: "Iván",
+    business: "Restaurante en Carral",
+  },
+  {
+    quote:
+      "Llevaba años gastando dinero en marketing y cursos, pero sin un método claro no conseguía clientes de forma constante. Pablo diseñó conmigo una estrategia de captación real y ahora tengo agenda llena y lista de espera.",
+    author: "Luisa",
+    business: "Abogada en A Coruña",
+  },
+  {
+    quote:
+      "Hacíamos de todo: bodas, comuniones, fiestas infantiles… y no éramos rentables. Pablo nos ayudó a especializarnos en eventos corporativos: tickets más altos, mejor captación de clientes y dejamos de perder dinero.",
+    author: "Mil Evento Galicia",
+    business: "Empresa de eventos en Galicia",
+  },
+];
+
+// Keep backward compat
+export const TESTIMONIAL = TESTIMONIALS[0];
 
 export const FREE_CALL = {
   heading: "Primera conversación gratuita — 30 minutos",
@@ -206,9 +223,9 @@ export const FOR_WHO = {
 export const ABOUT = {
   heading: "Sobre mí",
   paragraphs: [
-    "Soy Pablo García Dacosta. Llevo más de 25 años trabajando en consultoría con pymes, empresas y negocios de todo tipo.",
-    "He trabajado en distintos sectores —hostelería, servicios, comercio, industria, formación— y con empresas de distintos tamaños. Lo que tienen en común todas: un dueño que quiere que su negocio funcione mejor y no sabe exactamente qué mover primero.",
-    "Mi enfoque es práctico, directo y orientado a resultados. No vendo humo, no doy charlas motivacionales y no te voy a decir que \"todo va bien\" si no es verdad.",
+    "Soy Pablo García Dacosta. Me gusta ayudar a las personas y a sus negocios. Creo firmemente que las cosas se pueden hacer bien, y eso me mueve desde siempre.",
+    "Desde los 20 años me apasiona la organización de procesos, la mejora continua, el marketing y las ventas. He trabajado dentro de empresas y como consultor externo en sectores muy diferentes: casas rurales, hospitales, joyerías, consignatarios de buques, restaurantes, abogados, clínicas y muchos más.",
+    "Llevo más de 25 años ayudando a pymes y empresas a mejorar sus resultados. Mi enfoque es práctico, directo y orientado a resultados. No vendo humo, no doy charlas motivacionales y no te voy a decir que \"todo va bien\" si no es verdad.",
     "Mi rol es claro: soy la persona que se sienta contigo, mira la realidad de tu empresa con ojos limpios y te ayuda a decidir qué hacer para mejorar. Ni más ni menos.",
   ],
 };

@@ -22,6 +22,24 @@ export default function Home() {
       <HowIWork />
       <Testimonial />
       <Benefits />
+
+      {/* Cross-link to diagnostico */}
+      <section className="bg-accent-50 border-y border-accent-200 py-12">
+        <div className="container-narrow text-center">
+          <p className="text-lg text-gray-700 md:text-xl">
+            ¿Quieres conocer en detalle nuestros{" "}
+            <strong className="text-primary-800">programas de consultoría empresarial</strong> y{" "}
+            <strong className="text-primary-800">diagnóstico de negocio</strong>?
+          </p>
+          <a
+            href="/diagnostico-negocio"
+            className="btn-primary mt-6 inline-block"
+          >
+            Ver programas de consultoría
+          </a>
+        </div>
+      </section>
+
       <ForWho />
       <FreeCall />
       <About />
