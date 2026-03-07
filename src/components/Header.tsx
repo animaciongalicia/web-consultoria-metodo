@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur-sm">
       <div className="container-narrow flex items-center justify-between px-6 py-4">
-        <a href="#inicio" className="text-xl font-bold text-primary-800">
+        <a href="/" className="text-xl font-bold text-primary-800">
           {SITE.name}
         </a>
 
@@ -24,6 +24,12 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <a
+            href="/diagnostico-negocio"
+            className="text-sm font-semibold text-primary-700 transition-colors hover:text-primary-900"
+          >
+            Diagnóstico
+          </a>
         </nav>
 
         {/* Mobile menu button */}
@@ -57,6 +63,13 @@ export default function Header() {
               {link.label}
             </a>
           ))}
+          <a
+            href="/diagnostico-negocio"
+            onClick={() => setMenuOpen(false)}
+            className="block py-2 text-sm font-semibold text-primary-700 transition-colors hover:text-primary-900"
+          >
+            Diagnóstico
+          </a>
         </nav>
       )}
     </header>
