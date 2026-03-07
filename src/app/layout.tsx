@@ -43,7 +43,7 @@ const jsonLd = {
   description: SITE.description,
   url: "https://consultoriametodo.es",
   telephone: "+34678288284",
-  email: "info@consultoriametodo.com",
+  email: "info@consultoriametodo.es",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Ronda de Montealto, 4",
