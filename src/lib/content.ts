@@ -15,14 +15,14 @@ export const SITE = {
 };
 
 export const NAV_LINKS = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Problemas", href: "#problemas" },
-  { label: "Método", href: "#metodo" },
-  { label: "Cómo trabajo", href: "#como-trabajo" },
-  { label: "Beneficios", href: "#beneficios" },
-  { label: "Sobre mí", href: "#sobre-mi" },
-  { label: "FAQs", href: "#faqs" },
-  { label: "Contacto", href: "#contacto" },
+  { label: "Inicio", href: "/#inicio" },
+  { label: "Problemas", href: "/#problemas" },
+  { label: "Método", href: "/#metodo" },
+  { label: "Cómo trabajo", href: "/#como-trabajo" },
+  { label: "Beneficios", href: "/#beneficios" },
+  { label: "Sobre mí", href: "/#sobre-mi" },
+  { label: "FAQs", href: "/#faqs" },
+  { label: "Contacto", href: "/#contacto" },
 ];
 
 export const HERO = {
