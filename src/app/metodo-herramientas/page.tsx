@@ -233,7 +233,7 @@ export default function MetodoHerramientas() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Herramientas que utilizo para analizar negocios
+            Herramientas iniciales para analizar negocios
           </h2>
           <p className="section-subtitle text-gray-600">
             He desarrollado herramientas propias que permiten hacer un primer
