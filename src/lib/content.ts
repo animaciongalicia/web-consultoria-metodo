@@ -15,13 +15,11 @@ export const SITE = {
 };
 
 export const NAV_LINKS = [
-  { label: "Inicio", href: "/#inicio" },
-  { label: "Problemas", href: "/#problemas" },
-  { label: "Método", href: "/#metodo" },
-  { label: "Cómo trabajo", href: "/#como-trabajo" },
-  { label: "Beneficios", href: "/#beneficios" },
-  { label: "Sobre mí", href: "/#sobre-mi" },
-  { label: "FAQs", href: "/#faqs" },
+  { label: "Inicio", href: "/" },
+  { label: "Diagnóstico", href: "/diagnostico-negocio" },
+  { label: "Método y herramientas", href: "/metodo-herramientas" },
+  { label: "Experiencia y casos", href: "/experiencia-sectores-casos" },
+  { label: "Colaboradores", href: "/colaboradores" },
   { label: "Contacto", href: "/#contacto" },
 ];
 

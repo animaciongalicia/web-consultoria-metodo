@@ -14,7 +14,7 @@ export default function Header() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden gap-6 md:flex">
+        <nav className="hidden gap-5 lg:flex">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
@@ -24,18 +24,12 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="/diagnostico-negocio"
-            className="text-sm font-semibold text-primary-700 transition-colors hover:text-primary-900"
-          >
-            Diagnóstico
-          </a>
         </nav>
 
         {/* Mobile menu button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="flex flex-col gap-1.5 md:hidden"
+          className="flex flex-col gap-1.5 lg:hidden"
           aria-label="Menú"
         >
           <span
@@ -52,7 +46,7 @@ export default function Header() {
 
       {/* Mobile nav */}
       {menuOpen && (
-        <nav className="border-t border-gray-100 bg-white px-6 py-4 md:hidden">
+        <nav className="border-t border-gray-100 bg-white px-6 py-4 lg:hidden">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
@@ -63,13 +57,6 @@ export default function Header() {
               {link.label}
             </a>
           ))}
-          <a
-            href="/diagnostico-negocio"
-            onClick={() => setMenuOpen(false)}
-            className="block py-2 text-sm font-semibold text-primary-700 transition-colors hover:text-primary-900"
-          >
-            Diagnóstico
-          </a>
         </nav>
       )}
     </header>

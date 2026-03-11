@@ -44,6 +44,27 @@ export default function Home() {
       <FreeCall />
       <About />
       <SeoLocal />
+
+      {/* Cross-link to colaboradores */}
+      <section className="border-y border-gray-200 bg-gray-50 py-12">
+        <div className="container-narrow text-center">
+          <p className="text-lg text-gray-700 md:text-xl">
+            <strong className="text-primary-800">¿Eres gestoría, asesoría o profesional</strong>{" "}
+            que trabaja con empresas?
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-gray-600">
+            Consultoría Método complementa tu trabajo con mejora de rentabilidad,
+            captación y organización. Sin pisar tu terreno.
+          </p>
+          <a
+            href="/colaboradores"
+            className="btn-outline mt-6 inline-block"
+          >
+            Conoce cómo colaborar
+          </a>
+        </div>
+      </section>
+
       <Faqs />
       <Contact />
     </>

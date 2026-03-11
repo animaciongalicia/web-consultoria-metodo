@@ -31,6 +31,12 @@ export default function About() {
                 {p}
               </p>
             ))}
+            <a
+              href="/experiencia-sectores-casos"
+              className="inline-block text-sm font-medium text-primary-700 underline decoration-primary-300 underline-offset-4 transition-colors hover:text-primary-900"
+            >
+              Ver experiencia, sectores y casos reales →
+            </a>
           </div>
         </div>
       </div>

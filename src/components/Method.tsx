@@ -45,6 +45,15 @@ export default function Method() {
         <p className="mt-10 text-center text-lg font-semibold text-primary-800">
           {METHOD.closing}
         </p>
+
+        <div className="mt-6 text-center">
+          <a
+            href="/metodo-herramientas"
+            className="text-sm font-medium text-primary-700 underline decoration-primary-300 underline-offset-4 transition-colors hover:text-primary-900"
+          >
+            Conoce nuestro método y herramientas en detalle →
+          </a>
+        </div>
       </div>
     </section>
   );
