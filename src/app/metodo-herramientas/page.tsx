@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Método y herramientas para mejorar la rentabilidad de tu empresa | Consultoría Método",
   description:
-    "Sistema estructurado de consultoría empresarial para analizar, priorizar y mejorar la rentabilidad de pymes en A Coruña y Galicia. Herramientas gratuitas de diagnóstico y análisis de negocio.",
+    "Sistema estructurado de consultoría para analizar y mejorar la rentabilidad de pymes en A Coruña y Galicia. Herramientas gratuitas de diagnóstico, cliente ideal y validación de ideas. Solicita tu análisis.",
   alternates: {
     canonical: "https://consultoriametodo.es/metodo-herramientas",
   },
@@ -16,19 +16,19 @@ const fases = [
     number: "01",
     title: "Diagnóstico inicial",
     description:
-      "Analizamos la situación real de la empresa: números, procesos, clientes, equipo, márgenes y estructura. Sin suposiciones. Con datos.",
+      "Analizo la situación real de la empresa: números, procesos, clientes, equipo, márgenes y estructura. Sin suposiciones. Con datos.",
   },
   {
     number: "02",
     title: "Detección de problemas y oportunidades",
     description:
-      "Identificamos qué frena el negocio y qué oportunidades no se están aprovechando. Muchas veces el problema principal no es el que el empresario cree.",
+      "Identifico qué frena el negocio y qué oportunidades no se están aprovechando. Muchas veces el problema principal no es el que el empresario cree.",
   },
   {
     number: "03",
     title: "Plan de acción",
     description:
-      "Definimos qué hacer, en qué orden y con qué recursos. Un plan concreto, no un documento de 80 páginas que nadie va a leer.",
+      "Defino qué hacer, en qué orden y con qué recursos. Un plan concreto, no un documento de 80 páginas que nadie va a leer.",
   },
   {
     number: "04",
@@ -40,19 +40,43 @@ const fases = [
     number: "05",
     title: "Seguimiento y ajuste",
     description:
-      "Revisamos avances, medimos resultados y ajustamos lo que haga falta. Un negocio no se mejora con una reunión, se mejora con constancia.",
+      "Reviso avances, mido resultados y ajusto lo que haga falta. Un negocio no se mejora con una reunión, se mejora con constancia.",
   },
 ];
 
 const areasAnalisis = [
-  "Captación de clientes",
-  "Posicionamiento comercial",
-  "Propuesta de valor",
-  "Precios y márgenes",
-  "Organización y procesos",
-  "Rentabilidad real",
-  "Dependencia del dueño",
-  "Oportunidades de mejora no detectadas",
+  {
+    title: "Captación de clientes",
+    description: "Cómo llegan, cuántos llegan y qué se puede mejorar.",
+  },
+  {
+    title: "Posicionamiento comercial",
+    description: "Qué percibe el mercado y si coincide con lo que ofreces.",
+  },
+  {
+    title: "Propuesta de valor",
+    description: "Por qué deberían elegirte a ti y no a otro.",
+  },
+  {
+    title: "Precios y márgenes",
+    description: "Si lo que cobras tiene sentido con lo que te cuesta.",
+  },
+  {
+    title: "Organización y procesos",
+    description: "Si el negocio funciona o si todo depende de una persona.",
+  },
+  {
+    title: "Rentabilidad real",
+    description: "No la que crees, la que dicen los números.",
+  },
+  {
+    title: "Dependencia del dueño",
+    description: "Si el negocio puede funcionar sin que tú estés encima de todo.",
+  },
+  {
+    title: "Oportunidades ocultas",
+    description: "Lo que no se ve desde dentro pero se detecta desde fuera.",
+  },
 ];
 
 const herramientas = [
@@ -60,19 +84,22 @@ const herramientas = [
     title: "Diagnóstico empresarial",
     url: "https://rentabilismo.online/",
     description:
-      "Herramienta para revisar de forma inicial distintas áreas del negocio: ventas, organización, rentabilidad y estructura. Detecta puntos débiles y abre una primera reflexión sobre qué mejorar.",
+      "Revisa de forma inicial distintas áreas del negocio: ventas, organización, rentabilidad y estructura. Detecta puntos débiles y abre una primera reflexión sobre qué mejorar.",
+    cta: "Hacer diagnóstico gratuito",
   },
   {
     title: "Cliente ideal y propuesta comercial",
     url: "https://www.avatar-rentabilismo.com/",
     description:
-      "Herramienta para definir mejor el cliente ideal, entender a quién vendes y cómo comunicar tu oferta con más precisión. Si no sabes a quién le hablas, es difícil que te escuchen.",
+      "Define mejor el cliente ideal, entiende a quién vendes y cómo comunicar tu oferta con más precisión. Si no sabes a quién le hablas, es difícil que te escuchen.",
+    cta: "Definir mi cliente ideal",
   },
   {
     title: "Validación de ideas de negocio",
     url: "https://www.idea-rentabilismo.com/",
     description:
-      "Útil para empresarios y emprendedores que quieren validar una idea o revisar si una nueva línea de negocio tiene sentido antes de invertir tiempo o dinero.",
+      "Para empresarios y emprendedores que quieren validar una idea o revisar si una nueva línea de negocio tiene sentido antes de invertir tiempo o dinero.",
+    cta: "Validar mi idea",
   },
 ];
 
@@ -104,7 +131,6 @@ const noEs = [
   "No es formación genérica ni cursos motivacionales",
   "No es una gestoría ni asesoría contable",
   "No es solo dar ideas y marcharse",
-  "Es trabajo aplicado a negocio real, con seguimiento y resultados medibles",
 ];
 
 export default function MetodoHerramientas() {
@@ -118,35 +144,51 @@ export default function MetodoHerramientas() {
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
             Mejorar un negocio no consiste en aplicar ideas al azar. Consiste en
-            analizar, priorizar y actuar con criterio. Consultoría Método trabaja con
-            un enfoque estructurado para detectar problemas, encontrar oportunidades
-            y aplicar mejoras reales.
+            analizar, priorizar y actuar con criterio. Trabajo con un enfoque
+            estructurado para detectar problemas, encontrar oportunidades y
+            aplicar mejoras reales.
           </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-4">
+            <a href="/diagnostico-negocio" className="btn-primary">
+              Solicitar diagnóstico
+            </a>
+            <a
+              href={SITE.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline-light"
+            >
+              Hablar por WhatsApp
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Cómo trabajamos */}
+      {/* Cómo trabajo */}
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Cómo trabajamos para analizar y mejorar un negocio
+            Cómo trabajo para analizar y mejorar un negocio
           </h2>
           <p className="section-subtitle text-gray-600">
             Un proceso claro, con fases definidas y objetivos concretos en cada
             etapa.
           </p>
 
-          <div className="mt-12 space-y-8">
+          <div className="mt-12 space-y-6">
             {fases.map((fase) => (
-              <div key={fase.number} className="flex gap-6">
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white">
+              <div
+                key={fase.number}
+                className="flex gap-5 rounded-lg border border-gray-100 bg-gray-50 p-5 transition-colors hover:border-primary-200 hover:bg-primary-50/30 md:gap-6 md:p-6"
+              >
+                <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-primary-700 text-base font-bold text-white md:h-12 md:w-12 md:text-lg">
                   {fase.number}
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">
                     {fase.title}
                   </h3>
-                  <p className="mt-2 text-gray-600">{fase.description}</p>
+                  <p className="mt-1.5 text-gray-600">{fase.description}</p>
                 </div>
               </div>
             ))}
@@ -154,27 +196,33 @@ export default function MetodoHerramientas() {
         </div>
       </section>
 
-      {/* Qué analizamos */}
+      {/* Qué analizo */}
       <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Qué analizamos en una empresa
+            Qué analizo en una empresa
           </h2>
           <p className="section-subtitle text-gray-600">
-            Cada negocio es diferente, pero hay áreas que siempre revisamos porque
+            Cada negocio es diferente, pero hay áreas que siempre reviso porque
             son las que más impacto tienen en la rentabilidad.
           </p>
 
-          <div className="mx-auto mt-10 grid max-w-3xl gap-4 md:grid-cols-2">
+          <div className="mx-auto mt-10 grid max-w-4xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {areasAnalisis.map((area, i) => (
               <div
                 key={i}
-                className="flex items-start gap-3 rounded-lg border border-gray-100 bg-white p-4"
+                className="rounded-lg border border-gray-100 bg-white p-5"
               >
-                <span className="mt-0.5 font-bold text-primary-600">
-                  &#10003;
-                </span>
-                <span className="text-gray-700">{area}</span>
+                <div className="flex items-center gap-2">
+                  <span
+                    className="font-bold text-primary-600"
+                    aria-hidden="true"
+                  >
+                    &#10003;
+                  </span>
+                  <h3 className="font-semibold text-gray-900">{area.title}</h3>
+                </div>
+                <p className="mt-2 text-sm text-gray-500">{area.description}</p>
               </div>
             ))}
           </div>
@@ -185,10 +233,10 @@ export default function MetodoHerramientas() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Herramientas que utilizamos para analizar negocios
+            Herramientas que utilizo para analizar negocios
           </h2>
           <p className="section-subtitle text-gray-600">
-            Hemos desarrollado herramientas propias que permiten hacer un primer
+            He desarrollado herramientas propias que permiten hacer un primer
             análisis antes de empezar a trabajar juntos. Son gratuitas y están
             pensadas para que el empresario empiece a reflexionar sobre su negocio.
           </p>
@@ -197,8 +245,11 @@ export default function MetodoHerramientas() {
             {herramientas.map((h, i) => (
               <div
                 key={i}
-                className="flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-6"
+                className="flex flex-col rounded-xl border border-gray-100 bg-gray-50 p-6 shadow-sm transition-shadow hover:shadow-md"
               >
+                <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-primary-100 text-lg font-bold text-primary-700">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
                 <h3 className="text-lg font-semibold text-primary-800">
                   {h.title}
                 </h3>
@@ -209,7 +260,7 @@ export default function MetodoHerramientas() {
                   rel="noopener noreferrer"
                   className="btn-primary mt-6 text-center text-sm"
                 >
-                  Acceder a la herramienta
+                  {h.cta}
                 </a>
               </div>
             ))}
@@ -224,7 +275,7 @@ export default function MetodoHerramientas() {
             Herramientas específicas de captación de clientes
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-300">
-            Además de las herramientas de análisis, desarrollamos sistemas
+            Además de las herramientas de análisis, desarrollo sistemas
             orientados a detectar oportunidades de captación y ayudar a distintos
             tipos de negocio a atraer clientes de forma práctica.
           </p>
@@ -244,7 +295,7 @@ export default function MetodoHerramientas() {
               {sectoresCaptacion.map((sector, i) => (
                 <div
                   key={i}
-                  className="rounded-lg bg-white/10 px-4 py-3 text-center text-sm font-medium text-gray-200"
+                  className="rounded-lg bg-white/10 px-4 py-3 text-center text-sm font-medium text-gray-200 transition-colors hover:bg-white/15"
                 >
                   {sector}
                 </div>
@@ -252,8 +303,8 @@ export default function MetodoHerramientas() {
             </div>
 
             <p className="mt-8 text-center text-gray-400">
-              Se desarrollan herramientas prácticas, se piensa en captación real
-              y se trabaja con soluciones orientadas a negocio.
+              Desarrollo herramientas prácticas, pienso en captación real y
+              trabajo con soluciones orientadas a negocio.
             </p>
           </div>
         </div>
@@ -266,16 +317,22 @@ export default function MetodoHerramientas() {
             Qué obtiene una empresa al trabajar con este método
           </h2>
 
-          <ul className="mx-auto mt-10 max-w-2xl space-y-4">
+          <div className="mx-auto mt-10 grid max-w-3xl gap-4 sm:grid-cols-2">
             {beneficiosMetodo.map((b, i) => (
-              <li key={i} className="flex items-start gap-3 text-gray-700">
-                <span className="mt-0.5 font-bold text-primary-600">
+              <div
+                key={i}
+                className="flex items-start gap-3 rounded-lg border border-gray-100 bg-gray-50 p-4"
+              >
+                <span
+                  className="mt-0.5 font-bold text-primary-600"
+                  aria-hidden="true"
+                >
                   &#10003;
                 </span>
-                <span className="md:text-lg">{b}</span>
-              </li>
+                <span className="text-gray-700">{b}</span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
@@ -289,16 +346,39 @@ export default function MetodoHerramientas() {
             Conviene dejarlo claro para no perder el tiempo de nadie.
           </p>
 
-          <ul className="mx-auto mt-10 max-w-2xl space-y-4">
-            {noEs.map((item, i) => (
-              <li key={i} className="flex items-start gap-3 text-gray-700">
-                <span className="mt-0.5 font-bold text-red-500">
-                  {i < noEs.length - 1 ? "✕" : "→"}
+          <div className="mx-auto mt-10 max-w-2xl">
+            <div className="space-y-3">
+              {noEs.map((item, i) => (
+                <div
+                  key={i}
+                  className="flex items-start gap-3 rounded-lg border border-red-100 bg-red-50/50 p-4"
+                >
+                  <span
+                    className="mt-0.5 font-bold text-red-400"
+                    aria-hidden="true"
+                  >
+                    ✕
+                  </span>
+                  <span className="text-gray-700 md:text-lg">{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-4 rounded-lg border border-primary-200 bg-primary-50 p-4">
+              <div className="flex items-start gap-3">
+                <span
+                  className="mt-0.5 font-bold text-primary-600"
+                  aria-hidden="true"
+                >
+                  →
                 </span>
-                <span className="md:text-lg">{item}</span>
-              </li>
-            ))}
-          </ul>
+                <span className="font-medium text-primary-800 md:text-lg">
+                  Es trabajo aplicado a negocio real, con seguimiento y
+                  resultados medibles.
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -327,10 +407,7 @@ export default function MetodoHerramientas() {
           </div>
 
           <div className="mt-10 flex flex-wrap justify-center gap-6 text-sm text-gray-400">
-            <a
-              href="/"
-              className="transition-colors hover:text-accent-300"
-            >
+            <a href="/" className="transition-colors hover:text-accent-300">
               ← Inicio
             </a>
             <a

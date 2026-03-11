@@ -51,7 +51,7 @@ export default function Method() {
             href="/metodo-herramientas"
             className="text-sm font-medium text-primary-700 underline decoration-primary-300 underline-offset-4 transition-colors hover:text-primary-900"
           >
-            Conoce nuestro método y herramientas en detalle →
+            Conoce el método y las herramientas en detalle →
           </a>
         </div>
       </div>
