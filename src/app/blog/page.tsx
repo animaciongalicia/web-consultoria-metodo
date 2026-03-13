@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "como-organizar-empresa-pequena-salir-autoempleo",
+    title:
+      "Por qué trabajas todo el día y tu negocio no crece (y cómo salir del autoempleo)",
+    excerpt:
+      "Procesos, delegación y método práctico para dejar de ser esclavo de tu negocio. Cómo organizar una empresa pequeña para que funcione sin depender de ti las 24 horas.",
+    date: "13 marzo 2025",
+  },
+  {
     slug: "como-conseguir-clientes-para-tu-negocio",
     title:
       "Cómo conseguir más clientes para tu negocio sin gastar una fortuna en publicidad",
