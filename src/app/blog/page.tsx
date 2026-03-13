@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "como-tomar-decisiones-en-un-negocio",
+    title:
+      "Las decisiones que están frenando tu negocio (aunque no te des cuenta)",
+    excerpt:
+      "Soledad, miedo, decisiones emocionales y falta de claridad estratégica. Descubre qué bloquea a los empresarios y cómo aprender a pensar con método para desbloquear tu negocio.",
+    date: "13 marzo 2025",
+  },
+  {
     slug: "como-organizar-empresa-pequena-salir-autoempleo",
     title:
       "Por qué trabajas todo el día y tu negocio no crece (y cómo salir del autoempleo)",
