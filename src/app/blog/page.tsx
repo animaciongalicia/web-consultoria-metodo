@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "como-conseguir-clientes-para-tu-negocio",
+    title:
+      "Cómo conseguir más clientes para tu negocio sin gastar una fortuna en publicidad",
+    excerpt:
+      "Estrategias reales para captar clientes de forma constante: marketing local, alianzas, mejora de conversión y seguimiento. Sin depender del boca a boca ni arruinarte en publicidad.",
+    date: "13 marzo 2025",
+  },
+  {
     slug: "por-que-tu-empresa-factura-pero-no-gana-dinero",
     title: "Por qué tu empresa factura pero no gana dinero",
     excerpt:
