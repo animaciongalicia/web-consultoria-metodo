@@ -11,6 +11,22 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
+    title:
+      "Por qué muchas empresas tiran el dinero en marketing (y cómo evitarlo)",
+    excerpt:
+      "Frustración con agencias, publicidad sin estrategia y dinero perdido. Descubre cómo saber si tu marketing funciona y un sistema práctico para evaluar cada euro que inviertes.",
+    date: "13 marzo 2025",
+  },
+  {
+    slug: "como-hacer-crecer-una-empresa-pequena",
+    title:
+      "Tu empresa está estancada: cómo volver a crecer sin volverte loco",
+    excerpt:
+      "Cuando un negocio deja de crecer, el problema casi nunca es el mercado. Detecta oportunidades, supera el estancamiento y diseña un plan estratégico simple para volver a avanzar.",
+    date: "13 marzo 2025",
+  },
+  {
     slug: "indicadores-clave-de-una-empresa",
     title:
       "Qué números debe controlar cualquier empresa para no ir a ciegas",
