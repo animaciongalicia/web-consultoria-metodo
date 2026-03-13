@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "indicadores-clave-de-una-empresa",
+    title:
+      "Qué números debe controlar cualquier empresa para no ir a ciegas",
+    excerpt:
+      "Los 8 indicadores clave que todo empresario debe vigilar cada mes. KPIs básicos, cómo analizarlos, tabla de referencia y un ejemplo real que cambió la rentabilidad de una pyme.",
+    date: "13 marzo 2025",
+  },
+  {
     slug: "como-tomar-decisiones-en-un-negocio",
     title:
       "Las decisiones que están frenando tu negocio (aunque no te des cuenta)",
