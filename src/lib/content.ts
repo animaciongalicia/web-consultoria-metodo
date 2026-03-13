@@ -20,6 +20,7 @@ export const NAV_LINKS = [
   { label: "Método y herramientas", href: "/metodo-herramientas" },
   { label: "Experiencia y casos", href: "/experiencia-sectores-casos" },
   { label: "Colaboradores", href: "/colaboradores" },
+  { label: "Blog", href: "/blog" },
   { label: "Contacto", href: "/#contacto" },
 ];
 
