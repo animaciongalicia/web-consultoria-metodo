@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
+import BlogNav from "@/components/BlogNav";
 
 export const metadata: Metadata = {
   title:
@@ -863,6 +864,8 @@ export default function ArticuloIndicadores() {
           </p>
         </div>
       </section>
+
+      <BlogNav currentSlug="indicadores-clave-de-una-empresa" />
 
       {/* Cross-link */}
       <section className="border-y border-accent-200 bg-accent-50 py-12">

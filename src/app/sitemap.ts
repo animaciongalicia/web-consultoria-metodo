@@ -41,7 +41,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/blog/por-que-tu-empresa-factura-pero-no-gana-dinero`,
+      url: `${baseUrl}/blog/por-que-no-funciona-la-publicidad-en-mi-negocio`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/como-hacer-crecer-una-empresa-pequena`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/indicadores-clave-de-una-empresa`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/como-tomar-decisiones-en-un-negocio`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog/como-organizar-empresa-pequena-salir-autoempleo`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
@@ -53,7 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/blog/como-organizar-empresa-pequena-salir-autoempleo`,
+      url: `${baseUrl}/blog/por-que-tu-empresa-factura-pero-no-gana-dinero`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,

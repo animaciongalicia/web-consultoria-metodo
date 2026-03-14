@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
+import BlogNav from "@/components/BlogNav";
 
 export const metadata: Metadata = {
   title:
@@ -436,6 +437,8 @@ export default function ArticuloRentabilidad() {
           </p>
         </div>
       </section>
+
+      <BlogNav currentSlug="por-que-tu-empresa-factura-pero-no-gana-dinero" />
 
       {/* Cross-link */}
       <section className="border-y border-accent-200 bg-accent-50 py-12">

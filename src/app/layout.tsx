@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     description: SITE.description,
     locale: "es_ES",
     type: "website",
+    images: [
+      {
+        url: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
+        width: 800,
+        height: 600,
+        alt: "Pablo García Dacosta — Consultor de negocios en A Coruña",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -74,6 +82,12 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W495S1YC51"
           strategy="afterInteractive"
