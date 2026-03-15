@@ -3,9 +3,23 @@ import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
-    "Colaboradores — Profesionales con los que trabajamos | Consultoría Método",
+    "Colaboradores — Red de Profesionales para Mejora Empresarial | Consultoría Método",
   description:
-    "Consultoría Método complementa a gestorías, asesorías, abogados y despachos profesionales. Mejora de rentabilidad, captación y organización para sus clientes empresa. Solicita una reunión.",
+    "Consultoría Método complementa a gestorías, asesorías, abogados y despachos profesionales en A Coruña, Galicia y España. Mejora de rentabilidad, gestión de procesos y captación para sus clientes empresa.",
+  keywords: [
+    "colaboración profesional consultoría",
+    "derivación clientes consultoría empresarial",
+    "complemento gestoría asesoría",
+    "consultoría para clientes de gestorías",
+    "red profesional mejora empresarial Galicia",
+  ],
+  openGraph: {
+    title: "Colaboradores — Red de Profesionales | Consultoría Método",
+    description:
+      "Complementamos a gestorías, asesorías y despachos con mejora de rentabilidad y gestión empresarial.",
+    locale: "es_ES",
+    type: "website",
+  },
   alternates: {
     canonical: "https://consultoriametodo.es/colaboradores",
   },

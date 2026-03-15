@@ -900,7 +900,7 @@ export default function ArticuloRentabilidadHosteleria() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="https://consultoriametodo.es/diagnostico-negocio"
+              href="/diagnostico-negocio"
               className="btn-primary"
             >
               Solicitar diagnóstico de mi negocio

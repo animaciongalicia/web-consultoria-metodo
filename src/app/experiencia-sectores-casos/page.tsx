@@ -3,9 +3,26 @@ import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
-    "Experiencia, sectores y casos reales de mejora empresarial | Consultoría Método",
+    "Casos Reales de Mejora Empresarial — Consultor de Empresas en Galicia | Consultoría Método",
   description:
-    "Más de 25 años mejorando pymes de hostelería, comercio, clínicas, servicios e industria. Presencial en Galicia, online en toda España. Casos reales con resultados.",
+    "Más de 25 años como consultor empresarial mejorando pymes en A Coruña, Galicia y toda España. Casos reales de mejora de rentabilidad, gestión de procesos y captación de clientes en hostelería, comercio, clínicas, servicios e industria.",
+  keywords: [
+    "casos reales mejora empresarial",
+    "consultor empresas Galicia",
+    "mejora de negocios A Coruña",
+    "consultoría hostelería Galicia",
+    "consultor pymes resultados",
+    "experiencia consultoría empresarial",
+    "mejora rentabilidad casos reales",
+    "consultor de empresas España",
+  ],
+  openGraph: {
+    title: "Casos Reales de Mejora Empresarial — Consultor en Galicia y España",
+    description:
+      "Más de 25 años mejorando pymes. Casos reales de mejora de rentabilidad, gestión y captación en +12 sectores.",
+    locale: "es_ES",
+    type: "website",
+  },
   alternates: {
     canonical: "https://consultoriametodo.es/experiencia-sectores-casos",
   },
@@ -167,9 +184,10 @@ export default function ExperienciaSectoresCasos() {
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">
         <div className="container-narrow text-center">
           <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Experiencia, sectores y casos reales de mejora empresarial
+            Casos reales de mejora empresarial — consultor de empresas en Galicia y España
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
+            Más de 25 años como consultor empresarial en A Coruña, Galicia y toda España.
             La experiencia no sirve para presumir. Sirve para detectar antes los
             errores, entender más rápido cada negocio y aplicar mejoras con
             sentido.

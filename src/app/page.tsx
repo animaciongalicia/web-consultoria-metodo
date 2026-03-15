@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import SocialProof from "@/components/SocialProof";
 import Problems from "@/components/Problems";
@@ -11,6 +12,38 @@ import About from "@/components/About";
 import SeoLocal from "@/components/SeoLocal";
 import Faqs from "@/components/Faqs";
 import Contact from "@/components/Contact";
+
+export const metadata: Metadata = {
+  title:
+    "Consultoría Empresarial en A Coruña y Galicia | Consultor de Negocios Online — Consultoría Método",
+  description:
+    "Consultoría empresarial para pymes en A Coruña, Galicia y online en toda España. Mejora empresarial, gestión de procesos, rentabilidad y decisiones estratégicas. Pablo García Dacosta — Método Rentabilismo. +25 años de experiencia.",
+  keywords: [
+    "consultoría empresarial A Coruña",
+    "consultor de negocios Galicia",
+    "mejora empresarial pymes",
+    "consultor gestión de procesos",
+    "consultoría estratégica para empresas",
+    "mejorar rentabilidad empresa",
+    "consultoría pymes España",
+    "consultoría online empresas",
+    "asesoría estratégica empresarial",
+    "consultoría metodológica",
+    "Método Rentabilismo",
+    "Pablo García Dacosta",
+  ],
+  openGraph: {
+    title:
+      "Consultoría Empresarial en A Coruña y Galicia | Consultoría Método",
+    description:
+      "Consultoría de negocios para pymes. Mejora empresarial, gestión de procesos y rentabilidad. Presencial en A Coruña y Galicia, online en toda España.",
+    locale: "es_ES",
+    type: "website",
+  },
+  alternates: {
+    canonical: "https://consultoriametodo.es",
+  },
+};
 
 export default function Home() {
   return (

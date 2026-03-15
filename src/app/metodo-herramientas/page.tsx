@@ -3,9 +3,27 @@ import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
-    "Método y herramientas para mejorar la rentabilidad de tu empresa | Consultoría Método",
+    "Método Rentabilismo — Consultoría Metodológica para Mejorar tu Empresa | Consultoría Método",
   description:
-    "Sistema estructurado de consultoría para analizar y mejorar la rentabilidad de pymes. Presencial en Galicia, online en toda España. Herramientas gratuitas de diagnóstico, cliente ideal y validación de ideas.",
+    "Sistema estructurado de consultoría metodológica para analizar y mejorar la rentabilidad de pymes. Gestión de procesos, diagnóstico empresarial y plan de acción. Presencial en A Coruña y Galicia, online en toda España.",
+  keywords: [
+    "consultoría metodológica",
+    "método mejora empresarial",
+    "gestión de procesos empresariales",
+    "mejora de rentabilidad pyme",
+    "herramientas diagnóstico empresarial",
+    "consultoría estratégica pymes",
+    "método rentabilismo",
+    "optimización procesos negocio",
+    "consultor gestión empresarial Galicia",
+  ],
+  openGraph: {
+    title: "Método Rentabilismo — Consultoría Metodológica para Empresas",
+    description:
+      "Sistema de consultoría para mejorar procesos, rentabilidad y gestión de pymes. Herramientas gratuitas de diagnóstico.",
+    locale: "es_ES",
+    type: "website",
+  },
   alternates: {
     canonical: "https://consultoriametodo.es/metodo-herramientas",
   },
@@ -140,12 +158,13 @@ export default function MetodoHerramientas() {
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">
         <div className="container-narrow text-center">
           <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            Método y herramientas para mejorar la rentabilidad de una empresa
+
+            Consultoría metodológica para mejorar la rentabilidad y gestión de tu empresa
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
-            Mejorar un negocio no consiste en aplicar ideas al azar. Consiste en
+            La mejora empresarial no consiste en aplicar ideas al azar. Consiste en
             analizar, priorizar y actuar con criterio. Trabajo con un enfoque
-            estructurado para detectar problemas, encontrar oportunidades y
+            estructurado de gestión de procesos para detectar problemas, encontrar oportunidades y
             aplicar mejoras reales.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -168,7 +187,7 @@ export default function MetodoHerramientas() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Cómo trabajo para analizar y mejorar un negocio
+            Cómo trabajo: gestión de procesos y mejora empresarial paso a paso
           </h2>
           <p className="section-subtitle text-gray-600">
             Un proceso claro, con fases definidas y objetivos concretos en cada

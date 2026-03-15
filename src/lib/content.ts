@@ -57,7 +57,7 @@ export const METHOD = {
   heading: "¿Qué es Consultoría Método?",
   paragraphs: [
     "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y online en toda España. No soy una gestoría, no llevo tus impuestos, no te digo lo que quieres oír. Soy la persona que se sienta contigo — en persona o en videollamada —, mira la realidad de tu negocio y te ayuda a decidir qué hacer para mejorar.",
-    "Mi enfoque se llama Método Rentabilismo. Es un sistema práctico, directo y sin humo para que tu negocio funcione mejor:",
+    "Mi enfoque se llama Método Rentabilismo. Es una consultoría metodológica: un sistema práctico de mejora empresarial basado en la gestión de procesos, el análisis de datos y las decisiones con criterio. Sin humo, sin teoría vacía:",
   ],
   pillars: [
     {
@@ -82,7 +82,7 @@ export const METHOD = {
     },
   ],
   closing:
-    "Consultoría de negocios, no humo. Dirección estratégica para que tu empresa funcione como debe.",
+    "Consultoría empresarial en A Coruña y toda España. Gestión de procesos, mejora de rentabilidad y dirección estratégica para que tu empresa funcione como debe.",
 };
 
 export const HOW_I_WORK = {
@@ -223,18 +223,18 @@ export const ABOUT = {
   heading: "Sobre mí",
   paragraphs: [
     "Soy Pablo García Dacosta. Me gusta ayudar a las personas y a sus negocios. Creo firmemente que las cosas se pueden hacer bien, y eso me mueve desde siempre.",
-    "Desde los 20 años me apasiona la organización de procesos, la mejora continua, el marketing y las ventas. He trabajado dentro de empresas y como consultor externo en sectores muy diferentes: casas rurales, hospitales, joyerías, consignatarios de buques, restaurantes, abogados, clínicas y muchos más.",
+    "Desde los 20 años me apasiona la gestión de procesos, la mejora empresarial continua, el marketing y las ventas. He trabajado dentro de empresas y como consultor externo en sectores muy diferentes: casas rurales, hospitales, joyerías, consignatarios de buques, restaurantes, abogados, clínicas y muchos más.",
     "Llevo más de 25 años ayudando a pymes y empresas a mejorar sus resultados. Mi enfoque es práctico, directo y orientado a resultados. No vendo humo, no doy charlas motivacionales y no te voy a decir que \"todo va bien\" si no es verdad.",
     "Mi rol es claro: soy la persona que se sienta contigo, mira la realidad de tu empresa con ojos limpios y te ayuda a decidir qué hacer para mejorar. Ni más ni menos.",
   ],
 };
 
 export const SEO_LOCAL = {
-  heading: "Consultoría empresarial presencial en Galicia y online en toda España",
+  heading: "Consultor empresarial en A Coruña, Galicia y online en toda España",
   paragraphs: [
-    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajo contigo presencialmente. Llevo años trabajando con empresas gallegas y conozco la realidad del tejido empresarial de la zona.",
+    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajo contigo presencialmente. Llevo años como consultor de empresas en Galicia y conozco la realidad del tejido empresarial de la zona: sus fortalezas, sus limitaciones y lo que funciona de verdad aquí.",
     "Y si tu negocio está en Madrid, Barcelona, Valencia, Sevilla, Bilbao o cualquier otra ciudad de España, trabajamos igual de bien por videollamada. El método es el mismo, los resultados son los mismos. La distancia no cambia nada.",
-    "Hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria y cualquier pyme que quiera mejorar sus resultados. Consultoría de negocios adaptada a la realidad de cada empresa, esté donde esté.",
+    "Hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria y cualquier pyme que quiera mejorar sus resultados. Consultoría empresarial con enfoque en gestión de procesos, mejora de rentabilidad y decisiones estratégicas — adaptada a la realidad de cada empresa, esté donde esté.",
   ],
 };
 
@@ -254,7 +254,7 @@ export const FAQS = {
     {
       question: "¿En qué se diferencia de una gestoría?",
       answer:
-        "Una gestoría lleva tus impuestos y tu contabilidad. Yo trabajo en la dirección estratégica de tu negocio: procesos, ventas, rentabilidad, equipo y decisiones. Son cosas muy distintas y complementarias.",
+        "Una gestoría lleva tus impuestos y tu contabilidad. Yo trabajo en la mejora empresarial y la dirección estratégica de tu negocio: gestión de procesos, ventas, rentabilidad, equipo y decisiones. Son cosas muy distintas y complementarias.",
     },
     {
       question: "¿Trabajas solo en Galicia o también online?",
