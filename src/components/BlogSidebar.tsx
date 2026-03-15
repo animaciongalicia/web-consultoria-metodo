@@ -18,8 +18,36 @@ export default function BlogSidebar({
 }) {
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== currentSlug);
 
+  const categories = [...new Set(BLOG_POSTS.map((p) => p.category))];
+
   return (
     <aside className="space-y-8">
+      {/* Temas */}
+      <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+        <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
+          Temas
+        </h3>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {categories.map((cat) => {
+            const colors = categoryColors[cat] || {
+              bg: "bg-gray-50",
+              text: "text-gray-600",
+            };
+            const count = BLOG_POSTS.filter((p) => p.category === cat).length;
+            return (
+              <a
+                key={cat}
+                href="/blog"
+                className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all hover:scale-105 ${colors.bg} ${colors.text}`}
+              >
+                {cat}
+                <span className="opacity-60">({count})</span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Otros artículos */}
       <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
         <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">

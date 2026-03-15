@@ -34,6 +34,31 @@ export const BLOG_POSTS = [
     title: "Por qué tu empresa factura pero no gana dinero",
     category: "Rentabilidad",
   },
+  {
+    slug: "como-fijar-precios-en-tu-negocio",
+    title: "Cómo fijar precios en tu negocio sin perder clientes ni margen",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-mejorar-rentabilidad-restaurante-bar",
+    title: "Cómo mejorar la rentabilidad de un restaurante o bar",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "como-diferenciarte-de-tu-competencia",
+    title: "Cómo diferenciarte de tu competencia cuando todos venden lo mismo",
+    category: "Estrategia",
+  },
+  {
+    slug: "problemas-de-liquidez-en-pymes",
+    title: "Problemas de liquidez en pymes: por qué facturas pero nunca hay dinero",
+    category: "Control y gestión",
+  },
+  {
+    slug: "cuando-contratar-un-consultor-de-negocios",
+    title: "Cuándo contratar un consultor de negocios (y cuándo no)",
+    category: "Estrategia",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
