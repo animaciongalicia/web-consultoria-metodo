@@ -266,7 +266,7 @@ export default function ArticuloIndicadores() {
             <p className="mt-2 text-sm text-gray-500">
               <strong>Fórmula:</strong> (Ingresos − Costes directos) ÷
               Ingresos × 100 &nbsp;|&nbsp; <strong>Referencia:</strong>{" "}
-              Comercio 40-60% · Servicios &gt;50% · Hostelería 65-75%
+              Comercio 40-60% · Servicios &gt;50% · <a href="/blog/como-mejorar-rentabilidad-restaurante-bar" className="text-accent-600 underline hover:text-accent-700">Hostelería 65-75%</a>
             </p>
           </div>
 
@@ -334,7 +334,8 @@ export default function ArticuloIndicadores() {
               Lo que realmente queda después de pagar absolutamente todo:
               costes directos, gastos fijos, impuestos, amortizaciones. Es la
               verdad desnuda de tu negocio. Si este número es cero o negativo
-              mes tras mes, da igual cuánto factures — estás trabajando gratis
+              mes tras mes,{" "}
+              <a href="/blog/por-que-tu-empresa-factura-pero-no-gana-dinero" className="text-accent-600 underline hover:text-accent-700">da igual cuánto factures</a> — estás trabajando gratis
               o perdiendo dinero. Una pyme sana debería aspirar a un beneficio
               neto de al menos el 8-15% sobre facturación.
             </p>
@@ -410,7 +411,8 @@ export default function ArticuloIndicadores() {
               Cuánto dinero real tienes disponible en la cuenta del negocio, no
               cuánto te deben ni cuánto has facturado — cuánto puedes usar hoy.
               Es el indicador de supervivencia. Muchas empresas rentables
-              cierran por problemas de tesorería: han vendido mucho pero cobran
+              cierran por{" "}
+              <a href="/blog/problemas-de-liquidez-en-pymes" className="text-accent-600 underline hover:text-accent-700">problemas de liquidez</a>: han vendido mucho pero cobran
               a 60 días y tienen que pagar a 30. Vigilar la tesorería es
               vigilar el oxígeno de tu empresa.
             </p>
@@ -820,8 +822,9 @@ export default function ArticuloIndicadores() {
           <p className="mt-4 text-gray-600 md:text-lg">
             Un empresario que controla sus indicadores sabe cuándo subir
             precios, cuándo recortar gastos, qué clientes cuidar y cuáles
-            soltar, dónde invertir y dónde frenar. Toma decisiones con
-            seguridad, no con miedo. Y duerme mejor porque sabe exactamente
+            soltar, dónde invertir y dónde frenar.{" "}
+            <a href="/blog/como-tomar-decisiones-en-un-negocio" className="text-accent-600 underline hover:text-accent-700">Toma decisiones con
+            seguridad</a>, no con miedo. Y duerme mejor porque sabe exactamente
             cómo va su negocio — no lo intuye, lo sabe.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
@@ -879,15 +882,17 @@ export default function ArticuloIndicadores() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo incluye herramientas gratuitas de diagnóstico
+            </a>{" "}
+            para empezar a medir tu negocio hoy. Consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresas que mejoraron sus indicadores
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

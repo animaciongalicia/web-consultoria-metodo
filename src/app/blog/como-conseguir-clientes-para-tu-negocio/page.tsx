@@ -131,8 +131,9 @@ export default function ArticuloConseguirClientes() {
             equivocada: «el marketing no funciona para mi negocio».
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
-            La lección correcta es otra: el marketing mal hecho no funciona
-            para ningún negocio. Pero eso no significa que la solución sea no
+            La lección correcta es otra:{" "}
+            <a href="/blog/por-que-no-funciona-la-publicidad-en-mi-negocio" className="text-accent-600 underline hover:text-accent-700">el marketing mal hecho no funciona
+            para ningún negocio</a>. Pero eso no significa que la solución sea no
             hacer nada. La solución es hacer las cosas bien, con estrategia,
             con medición y empezando por lo que realmente mueve la aguja, no
             por lo que está de moda.
@@ -172,7 +173,9 @@ export default function ArticuloConseguirClientes() {
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
             Si tu negocio ofrece lo mismo que los demás, al mismo precio, con
-            el mismo mensaje, ¿por qué debería elegirte un cliente? La
+            el mismo mensaje, ¿por qué debería elegirte un cliente?{" "}
+            <a href="/blog/como-diferenciarte-de-tu-competencia" className="text-accent-600 underline hover:text-accent-700">Diferenciarte de tu competencia</a>{" "}
+            es clave para captar clientes sin competir en precio. La
             diferenciación no tiene que ser radical ni inventar algo nuevo. A
             veces es tan simple como especializarte en un nicho, ofrecer un
             servicio adicional que nadie da, garantizar un plazo de entrega que
@@ -266,7 +269,9 @@ export default function ArticuloConseguirClientes() {
           </p>
           <p className="mt-3 text-gray-600 md:text-lg">
             Revisa cuántas consultas recibes al mes y cuántas se convierten en
-            ventas. Si de cada 10 personas que preguntan solo cierras 2, tienes
+            ventas — son{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">indicadores clave de tu empresa</a>{" "}
+            que deberías controlar. Si de cada 10 personas que preguntan solo cierras 2, tienes
             un problema de conversión. Mejorar ese ratio del 20% al 40%
             equivale a duplicar tus clientes sin gastar un euro más en
             captación. ¿Cómo? Respondiendo más rápido, presentando mejor tu
@@ -453,15 +458,17 @@ export default function ArticuloConseguirClientes() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Descubre nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo y herramientas gratuitas
+            </a>{" "}
+            o consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresas que han mejorado su captación de clientes
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

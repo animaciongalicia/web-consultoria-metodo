@@ -221,8 +221,8 @@ export default function ArticuloOrganizarEmpresa() {
           </ul>
           <p className="mt-6 text-gray-600 md:text-lg">
             La dependencia del dueño no es un defecto del equipo. Es un defecto
-            de la estructura del negocio. Y se puede corregir, pero requiere
-            decisiones que cuestan: soltar control, aceptar que al principio las
+            de la estructura del negocio. Y se puede corregir, pero requiere{" "}
+            <a href="/blog/como-tomar-decisiones-en-un-negocio" className="text-accent-600 underline hover:text-accent-700">decisiones que cuestan</a>: soltar control, aceptar que al principio las
             cosas no se harán exactamente como tú las harías y confiar en un
             sistema en vez de en tu propia capacidad para estar en todo.
           </p>
@@ -275,8 +275,9 @@ export default function ArticuloOrganizarEmpresa() {
             Establece indicadores básicos
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
-            No puedes mejorar lo que no mides. Define 3 o 4 números clave que
-            revises cada semana: facturación, número de clientes nuevos,
+            No puedes mejorar lo que no mides. Define 3 o 4{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">indicadores clave de tu empresa</a>{" "}
+            que revises cada semana: facturación, número de clientes nuevos,
             incidencias, margen bruto. Lo justo para saber si el negocio va
             bien sin necesidad de estar encima de cada operación.
           </p>
@@ -436,8 +437,8 @@ export default function ArticuloOrganizarEmpresa() {
             dentro de un mes ya habrás recuperado horas que ahora pierdes en
             tareas que no son tuyas. Y dentro de tres meses, tendrás un
             negocio que funciona mejor, un equipo que rinde más y tú podrás
-            dedicar tu tiempo a lo que de verdad importa: decidir hacia dónde
-            va tu empresa.
+            dedicar tu tiempo a lo que de verdad importa:{" "}
+            <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">hacer crecer tu empresa</a>.
           </p>
           </article>
           <div className="mt-12 lg:mt-0">
@@ -487,15 +488,17 @@ export default function ArticuloOrganizarEmpresa() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Conoce nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              método de trabajo y herramientas de diagnóstico
+            </a>{" "}
+            o descubre{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              cómo hemos ayudado a empresas a organizarse y crecer
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

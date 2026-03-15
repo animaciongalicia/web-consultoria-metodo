@@ -235,7 +235,7 @@ export default function ArticuloDecisiones() {
                 {[
                   [
                     "No subir precios porque «me da cosa» con los clientes de siempre",
-                    "Calcular el margen real y ajustar precios a la rentabilidad necesaria",
+                    <>Calcular el margen real y <a href="/blog/como-fijar-precios-en-tu-negocio" className="text-accent-600 underline hover:text-accent-700">ajustar precios a la rentabilidad necesaria</a></>,
                   ],
                   [
                     "Mantener a un empleado que no rinde porque «lleva años conmigo»",
@@ -391,8 +391,9 @@ export default function ArticuloDecisiones() {
           <p className="mt-3 text-gray-600 md:text-lg">
             Antes de tomar cualquier decisión relevante, pregúntate:
             &ldquo;¿Qué me dicen los números?&rdquo;. No lo que sientes, no lo
-            que crees, no lo que te parece — los números. Rentabilidad por
-            cliente, margen por servicio, coste de cada empleado, retorno de
+            que crees, no lo que te parece — los{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">indicadores clave de tu empresa</a>.
+            Rentabilidad por cliente, margen por servicio, coste de cada empleado, retorno de
             cada inversión. Los datos eliminan el miedo porque sustituyen la
             incertidumbre por información.
           </p>
@@ -402,8 +403,9 @@ export default function ArticuloDecisiones() {
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
             Cuando llevas años dentro de un negocio, hay cosas que dejas de
-            ver. No por incompetencia, sino por costumbre. Un asesor, un
-            mentor, un consultor o simplemente alguien de confianza que conozca
+            ver. No por incompetencia, sino por costumbre.{" "}
+            <a href="/blog/cuando-contratar-un-consultor-de-negocios" className="text-accent-600 underline hover:text-accent-700">Un consultor de negocios</a>,
+            un mentor o simplemente alguien de confianza que conozca
             el mundo empresarial puede darte la perspectiva que necesitas para
             desbloquear decisiones que llevas meses aplazando.
           </p>
@@ -684,15 +686,17 @@ export default function ArticuloDecisiones() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Descubre nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo para tomar decisiones con datos
+            </a>{" "}
+            y consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresarios que han desbloqueado su negocio
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

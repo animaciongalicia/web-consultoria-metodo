@@ -18,7 +18,7 @@ export default function BlogSidebar({
 }) {
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== currentSlug);
 
-  const categories = [...new Set(BLOG_POSTS.map((p) => p.category))];
+  const categories = Array.from(new Set(BLOG_POSTS.map((p) => p.category)));
 
   return (
     <aside className="space-y-8">

@@ -256,7 +256,8 @@ export default function ArticuloMarketing() {
             &ldquo;Mi producto es para todo el mundo&rdquo; es la frase que
             más dinero ha quemado en publicidad. Si no defines a tu cliente
             ideal — edad, situación, problema, dónde está, qué busca — tu
-            mensaje se diluye y no le habla a nadie.
+            mensaje se diluye y no le habla a nadie. Antes de invertir en publicidad,{" "}
+            <a href="/blog/como-diferenciarte-de-tu-competencia" className="text-accent-600 underline hover:text-accent-700">define qué te diferencia</a>.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             <strong className="text-gray-900">
@@ -309,8 +310,9 @@ export default function ArticuloMarketing() {
           </h2>
           <p className="mt-4 text-gray-600 md:text-lg">
             Aquí es donde se separa la publicidad que funciona de la que quema
-            dinero. La clave es medir las métricas correctas — y solo las
-            correctas. No necesitas un dashboard de 40 gráficos. Necesitas
+            dinero. La clave es medir los{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">indicadores clave de tu empresa</a> — y solo los
+            correctos. No necesitas un dashboard de 40 gráficos. Necesitas
             cuatro o cinco números que te digan con claridad si el dinero que
             inviertes vuelve multiplicado o se evapora.
           </p>
@@ -697,7 +699,10 @@ export default function ArticuloMarketing() {
           <p className="mt-4 text-gray-600 md:text-lg">
             El marketing funciona cuando se trata como una inversión con
             retorno medible, no como un gasto obligatorio que &ldquo;hay que
-            hacer porque todo el mundo lo hace&rdquo;. Cada euro que inviertes
+            hacer porque todo el mundo lo hace&rdquo;. Y muchas veces, antes
+            de invertir más en publicidad, conviene{" "}
+            <a href="/blog/como-conseguir-clientes-para-tu-negocio" className="text-accent-600 underline hover:text-accent-700">revisar tu estrategia de captación de clientes</a>{" "}
+            desde la base. Cada euro que inviertes
             tiene que poder justificarse. Y si no puede, o cambias la
             estrategia o dejas de invertirlo ahí.
           </p>
@@ -757,15 +762,17 @@ export default function ArticuloMarketing() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Descubre nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo para optimizar tu inversión en marketing
+            </a>{" "}
+            y consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresas que han mejorado su captación
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

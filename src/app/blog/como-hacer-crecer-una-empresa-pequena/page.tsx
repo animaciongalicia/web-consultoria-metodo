@@ -146,9 +146,9 @@ export default function ArticuloCrecimiento() {
             </h3>
             <ul className="mt-4 space-y-3">
               {[
-                ["Dependencia del dueño", "El negocio no funciona si tú no estás. Eso limita tu capacidad a tus propias horas, tu propia energía y tu propio conocimiento."],
+                ["Dependencia del dueño", <><a href="/blog/como-organizar-empresa-pequena-salir-autoempleo" className="text-accent-600 underline hover:text-accent-700">El negocio no funciona si tú no estás</a>. Eso limita tu capacidad a tus propias horas, tu propia energía y tu propio conocimiento.</>],
                 ["Modelo agotado", "Lo que funcionó los primeros años ya no da más de sí. El mercado ha cambiado, la competencia ha crecido, pero tú sigues haciendo lo mismo."],
-                ["Falta de nuevos clientes", "Vives de los clientes de siempre. No captas nuevos con regularidad y cuando pierdes uno, lo notas."],
+                ["Falta de nuevos clientes", <><a href="/blog/como-conseguir-clientes-para-tu-negocio" className="text-accent-600 underline hover:text-accent-700">No captas clientes nuevos</a> con regularidad. Vives de los de siempre y cuando pierdes uno, lo notas.</>],
                 ["Dispersión", "Haces demasiadas cosas, para demasiados tipos de clientes, con demasiados servicios. Mucho catálogo, poco foco."],
                 ["No invertir en lo que genera retorno", "Recortas en marketing, en formación, en herramientas — justo en lo que podría impulsar el crecimiento."],
                 ["Resistencia al cambio", "Haces las cosas así porque «siempre se han hecho así». El confort de lo conocido es el enemigo del crecimiento."],
@@ -516,8 +516,9 @@ export default function ArticuloCrecimiento() {
               </h3>
               <p className="mt-2 text-gray-600 md:text-lg">
                 &ldquo;Calidad&rdquo; y &ldquo;buen servicio&rdquo; no son
-                diferenciadores — todo el mundo dice lo mismo. Tu
-                diferenciación tiene que ser concreta, demostrable y relevante
+                diferenciadores — todo el mundo dice lo mismo.{" "}
+                <a href="/blog/como-diferenciarte-de-tu-competencia" className="text-accent-600 underline hover:text-accent-700">Tu
+                diferenciación</a> tiene que ser concreta, demostrable y relevante
                 para tu cliente. ¿Es tu especialización? ¿Tu garantía? ¿Tu
                 método de trabajo? ¿Tu experiencia en un sector concreto? Si no
                 puedes explicar en una frase por qué un cliente debería elegirte
@@ -679,15 +680,17 @@ export default function ArticuloCrecimiento() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Descubre nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo y herramientas de crecimiento empresarial
+            </a>{" "}
+            y consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresas que han vuelto a crecer
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>

@@ -136,8 +136,9 @@ export default function ArticuloRentabilidad() {
           <p className="mt-3 text-gray-600 md:text-lg">
             Un restaurante puede pensar que su plato estrella le deja un 60% de
             margen, pero cuando incluye desperdicios, coste de personal de
-            cocina y tiempo de preparación, ese margen baja al 25%. Y si encima
-            es el plato más pedido, la pérdida se multiplica cada día.
+            cocina y tiempo de preparación, ese margen baja al 25%. Si tienes un negocio de hostelería,{" "}
+            <a href="/blog/como-mejorar-rentabilidad-restaurante-bar" className="text-accent-600 underline hover:text-accent-700">esta guía sobre rentabilidad en restaurantes y bares</a>{" "}
+            lo explica en detalle.
           </p>
 
           <h3 className="mt-8 text-xl font-semibold text-gray-900">
@@ -152,7 +153,8 @@ export default function ArticuloRentabilidad() {
             ciegas.
           </p>
           <p className="mt-3 text-gray-600 md:text-lg">
-            Los precios deben construirse desde dentro hacia fuera: primero tus
+            Los precios deben{" "}
+            <a href="/blog/como-fijar-precios-en-tu-negocio" className="text-accent-600 underline hover:text-accent-700">construirse desde dentro hacia fuera</a>: primero tus
             costes, después tu margen objetivo y luego el precio final. Si el
             mercado no acepta ese precio, el problema no es el precio — es tu
             estructura de costes o tu propuesta de valor. Pero al menos lo
@@ -174,7 +176,10 @@ export default function ArticuloRentabilidad() {
           <p className="mt-3 text-gray-600 md:text-lg">
             Crecer en facturación es relativamente fácil si bajas precios o
             aceptas cualquier cliente. Crecer en rentabilidad requiere
-            disciplina, números claros y decisiones que a veces duelen.
+            disciplina, números claros y decisiones que a veces duelen. Además,
+            facturar mucho no garantiza tener dinero en la cuenta:{" "}
+            <a href="/blog/problemas-de-liquidez-en-pymes" className="text-accent-600 underline hover:text-accent-700">los problemas de liquidez</a>{" "}
+            pueden hundir a una empresa que sobre el papel parece sana.
           </p>
 
           <h3 className="mt-8 text-xl font-semibold text-gray-900">
@@ -195,7 +200,8 @@ export default function ArticuloRentabilidad() {
           <p className="mt-3 text-gray-600 md:text-lg">
             Muchas pymes funcionan «a ojo». El empresario tiene una sensación
             general de cómo va el negocio, pero no revisa los números cada mes.
-            No sabe cuál es su punto de equilibrio, no controla los KPIs básicos,
+            No sabe cuál es su punto de equilibrio, no controla los{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">KPIs básicos de su empresa</a>,
             no compara un mes con otro. Sin medición no hay gestión. Y sin
             gestión, la rentabilidad se escapa por grietas que ni siquiera ves.
           </p>
@@ -356,7 +362,7 @@ export default function ArticuloRentabilidad() {
             prácticas basadas en lo que funciona.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
-            Pedir ayuda tiene sentido cuando:
+            <a href="/blog/cuando-contratar-un-consultor-de-negocios" className="text-accent-600 underline hover:text-accent-700">Pedir ayuda</a> tiene sentido cuando:
           </p>
           <ul className="mt-4 space-y-3">
             {[
@@ -452,15 +458,17 @@ export default function ArticuloRentabilidad() {
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+            Descubre cómo nuestro{" "}
+            <a href="/metodo-herramientas" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              Método Rentabilismo mejora la rentabilidad de las pymes
+            </a>{" "}
+            y consulta{" "}
+            <a href="/experiencia-sectores-casos" className="font-semibold text-primary-800 underline hover:text-primary-900">
+              casos reales de empresas que han aumentado sus beneficios
+            </a>.
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <a href="/diagnostico-negocio" className="btn-primary mt-6 inline-block">
+            Solicitar diagnóstico gratuito
           </a>
         </div>
       </section>
