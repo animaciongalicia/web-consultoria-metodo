@@ -105,6 +105,17 @@ const posts = [
     readTime: "18 min",
     isPillar: true,
   },
+  {
+    slug: "como-hacer-crecer-una-empresa-pequena",
+    title:
+      "Cómo hacer crecer una empresa paso a paso — Guía completa de estrategia de crecimiento",
+    excerpt:
+      "Fases de crecimiento, errores al escalar, cuándo invertir, cuándo contratar, nuevas líneas de negocio, mentalidad empresarial y plan real de crecimiento para pymes.",
+    date: "10 abril 2025",
+    category: "Crecimiento",
+    readTime: "18 min",
+    isPillar: true,
+  },
   // --- ARTÍCULOS DE APOYO ---
   {
     slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
@@ -145,16 +156,6 @@ const posts = [
     date: "13 marzo 2025",
     category: "Control y gestión",
     readTime: "13 min",
-  },
-  {
-    slug: "como-hacer-crecer-una-empresa-pequena",
-    title:
-      "Tu empresa está estancada: cómo volver a crecer sin volverte loco",
-    excerpt:
-      "Cuando un negocio deja de crecer, el problema casi nunca es el mercado. Detecta oportunidades, supera el estancamiento y diseña un plan estratégico simple para volver a avanzar.",
-    date: "13 marzo 2025",
-    category: "Crecimiento",
-    readTime: "14 min",
   },
   {
     slug: "como-tomar-decisiones-en-un-negocio",
@@ -220,46 +221,49 @@ export default function Blog() {
         <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
           {/* Columna principal - Posts */}
           <div>
-            {/* Artículos pilar destacados */}
-            {posts.filter((p) => p.isPillar).map((post) => {
-              const colors = categoryColors[post.category];
-              return (
-                <a
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${colors.border} ${colors.shadow}`}
-                >
-                  <div className="flex flex-wrap items-center gap-3">
-                    <span
-                      className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
-                    >
-                      {post.category}
-                    </span>
-                    <span className="text-xs text-gray-400">
-                      {post.date}
-                    </span>
-                    <span className="text-xs text-gray-400">
-                      {post.readTime} de lectura
-                    </span>
-                    <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
-                      Artículo pilar
-                    </span>
-                  </div>
-                  <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
-                    {post.title}
-                  </h2>
-                  <p className="mt-3 text-gray-600 leading-relaxed">
-                    {post.excerpt}
-                  </p>
-                  <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                    Leer artículo
-                    <span aria-hidden="true">&rarr;</span>
-                  </p>
-                </a>
-              );
-            })}
+            {/* Guías completas — pilares SEO */}
+            <div className="mb-10">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-accent-600 mb-4">
+                Guías completas
+              </h2>
+              <div className="rounded-xl border-2 border-accent-200 bg-gradient-to-br from-accent-50/80 to-white p-4 md:p-5">
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {posts.filter((p) => p.isPillar).map((post) => {
+                    const colors = categoryColors[post.category];
+                    return (
+                      <a
+                        key={post.slug}
+                        href={`/blog/${post.slug}`}
+                        className="group flex flex-col rounded-lg border border-accent-200/60 bg-white p-4 shadow-sm transition-all hover:shadow-md hover:border-accent-300"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
+                          >
+                            {post.category}
+                          </span>
+                          <span className="text-[10px] text-gray-400">
+                            {post.readTime}
+                          </span>
+                        </div>
+                        <h3 className="mt-2 text-sm font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors line-clamp-2">
+                          {post.title}
+                        </h3>
+                        <p className="mt-1.5 flex-1 text-xs text-gray-500 leading-relaxed line-clamp-2">
+                          {post.excerpt}
+                        </p>
+                        <p className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-accent-600 group-hover:gap-1.5 transition-all">
+                          Leer guía completa
+                          <span aria-hidden="true">&rarr;</span>
+                        </p>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
 
-            {/* Grid de posts restantes */}
+            {/* Grid de artículos de apoyo */}
             <div className="grid gap-5 sm:grid-cols-2">
               {posts.filter((p) => !p.isPillar).map((post) => {
                 const colors = categoryColors[post.category];
