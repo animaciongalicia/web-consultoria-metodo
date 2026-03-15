@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Método y herramientas para mejorar la rentabilidad de tu empresa | Consultoría Método",
   description:
-    "Sistema estructurado de consultoría para analizar y mejorar la rentabilidad de pymes en A Coruña y Galicia. Herramientas gratuitas de diagnóstico, cliente ideal y validación de ideas. Solicita tu análisis.",
+    "Sistema estructurado de consultoría para analizar y mejorar la rentabilidad de pymes. Presencial en Galicia, online en toda España. Herramientas gratuitas de diagnóstico, cliente ideal y validación de ideas.",
   alternates: {
     canonical: "https://consultoriametodo.es/metodo-herramientas",
   },

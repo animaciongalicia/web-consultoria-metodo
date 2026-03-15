@@ -9,9 +9,9 @@ export const SITE = {
   address: "Ronda de Montealto, 4 — 15002 A Coruña",
   location: "A Coruña (Galicia)",
   title:
-    "Consultoría Método | Consultoría de Negocios y Empresas en A Coruña y Galicia",
+    "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y Online en toda España",
   description:
-    "Pablo García Dacosta — Consultoría empresarial para pymes en A Coruña y Galicia. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
+    "Pablo García Dacosta — Consultoría empresarial para pymes. Presencial en A Coruña y Galicia, online en toda España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
 };
 
 export const NAV_LINKS = [
@@ -25,7 +25,7 @@ export const NAV_LINKS = [
 ];
 
 export const HERO = {
-  h1: "Consultoría de negocios y empresas en A Coruña y Galicia",
+  h1: "Consultoría de negocios para pymes — presencial en Galicia, online en toda España",
   subtitle:
     "Si tu negocio factura pero no ves los beneficios, si vives apagando fuegos y sientes que todo depende de ti... podemos cambiarlo.",
   bullets: [
@@ -56,7 +56,7 @@ export const PROBLEMS = {
 export const METHOD = {
   heading: "¿Qué es Consultoría Método?",
   paragraphs: [
-    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas en Galicia. No soy una gestoría, no llevo tus impuestos, no te digo lo que quieres oír. Soy la persona que se sienta contigo, mira la realidad de tu negocio y te ayuda a decidir qué hacer para mejorar.",
+    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y online en toda España. No soy una gestoría, no llevo tus impuestos, no te digo lo que quieres oír. Soy la persona que se sienta contigo — en persona o en videollamada —, mira la realidad de tu negocio y te ayuda a decidir qué hacer para mejorar.",
     "Mi enfoque se llama Método Rentabilismo. Es un sistema práctico, directo y sin humo para que tu negocio funcione mejor:",
   ],
   pillars: [
@@ -200,7 +200,7 @@ export const FOR_WHO = {
   forYou: {
     title: "Es para ti si…",
     items: [
-      "Tienes una pyme o negocio en Galicia y quieres mejorar de verdad.",
+      "Tienes una pyme o negocio en España y quieres mejorar de verdad.",
       "Sabes que puedes ir mejor, pero no tienes claro por dónde empezar.",
       "Estás dispuesto a mirar los números y tomar decisiones.",
       "Quieres a alguien externo que te diga la verdad, no lo que quieres oír.",
@@ -230,11 +230,11 @@ export const ABOUT = {
 };
 
 export const SEO_LOCAL = {
-  heading: "Consultoría empresarial en A Coruña y Galicia",
+  heading: "Consultoría empresarial presencial en Galicia y online en toda España",
   paragraphs: [
-    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, entiendo tu contexto. Llevo años trabajando con empresas gallegas y conozco la realidad del tejido empresarial de la zona.",
-    "Trabajo con negocios de hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria local y cualquier pyme que quiera mejorar sus resultados. Consultoría para empresas en A Coruña y consultoría de negocios en Galicia adaptada a la realidad de cada negocio.",
-    "Tanto presencial como online. Lo importante no es dónde nos sentemos, sino que tu negocio mejore de verdad.",
+    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajo contigo presencialmente. Llevo años trabajando con empresas gallegas y conozco la realidad del tejido empresarial de la zona.",
+    "Y si tu negocio está en Madrid, Barcelona, Valencia, Sevilla, Bilbao o cualquier otra ciudad de España, trabajamos igual de bien por videollamada. El método es el mismo, los resultados son los mismos. La distancia no cambia nada.",
+    "Hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria y cualquier pyme que quiera mejorar sus resultados. Consultoría de negocios adaptada a la realidad de cada empresa, esté donde esté.",
   ],
 };
 
@@ -257,9 +257,9 @@ export const FAQS = {
         "Una gestoría lleva tus impuestos y tu contabilidad. Yo trabajo en la dirección estratégica de tu negocio: procesos, ventas, rentabilidad, equipo y decisiones. Son cosas muy distintas y complementarias.",
     },
     {
-      question: "¿Trabajas online o presencial en Galicia?",
+      question: "¿Trabajas solo en Galicia o también online?",
       answer:
-        "Ambas opciones. Trabajo presencialmente en A Coruña y alrededores, y online con empresas de toda Galicia y España. Lo importante es que el proceso funcione, no el formato.",
+        "Ambas opciones. Presencialmente trabajo en A Coruña y toda Galicia. Y online con empresas de cualquier punto de España: Madrid, Barcelona, Valencia, Sevilla… donde sea. El proceso es exactamente el mismo y los resultados también. Lo importante es que tu negocio mejore, no el formato.",
     },
     {
       question: "¿Qué pasa si mi negocio ya funciona bien pero quiero mejorar?",

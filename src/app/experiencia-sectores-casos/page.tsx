@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Experiencia, sectores y casos reales de mejora empresarial | Consultoría Método",
   description:
-    "Más de 25 años mejorando pymes de hostelería, comercio, clínicas, servicios e industria en A Coruña y Galicia. Casos reales con resultados. Solicita un diagnóstico gratuito.",
+    "Más de 25 años mejorando pymes de hostelería, comercio, clínicas, servicios e industria. Presencial en Galicia, online en toda España. Casos reales con resultados.",
   alternates: {
     canonical: "https://consultoriametodo.es/experiencia-sectores-casos",
   },
@@ -67,7 +67,7 @@ const sectores = [
   {
     title: "Otros sectores",
     description:
-      "El tejido empresarial de Galicia es amplio y diverso. Si tu sector no aparece aquí, probablemente ya he trabajado con negocios similares.",
+      "El tejido empresarial en España es amplio y diverso. Si tu sector no aparece aquí, probablemente ya he trabajado con negocios similares — tanto en Galicia como en el resto de España.",
   },
 ];
 

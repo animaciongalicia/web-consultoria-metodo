@@ -16,6 +16,10 @@ export const metadata: Metadata = {
     "consultor de empresas A Coruña",
     "consultoría de negocios Galicia",
     "consultoría para pymes Galicia",
+    "consultoría online España",
+    "consultoría empresarial online",
+    "consultor de negocios online",
+    "consultoría pymes online",
     "Método Rentabilismo",
     "Pablo García Dacosta",
     "mejora de rentabilidad",
@@ -32,7 +36,7 @@ export const metadata: Metadata = {
         url: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
         width: 800,
         height: 600,
-        alt: "Pablo García Dacosta — Consultor de negocios en A Coruña",
+        alt: "Pablo García Dacosta — Consultor de negocios en Galicia y online en toda España",
       },
     ],
   },
@@ -64,6 +68,7 @@ const jsonLd = {
   areaServed: [
     { "@type": "City", name: "A Coruña" },
     { "@type": "State", name: "Galicia" },
+    { "@type": "Country", name: "España" },
   ],
   founder: {
     "@type": "Person",

@@ -405,7 +405,7 @@ export default function DiagnosticoNegocio() {
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">consultoría de negocios en A Coruña y Galicia</strong>,
+            <strong className="text-primary-800">consultoría de negocios presencial en Galicia y online en toda España</strong>,
             el <strong className="text-primary-800">Método Rentabilismo</strong> y cómo trabajamos
             con pymes y empresas.
           </p>

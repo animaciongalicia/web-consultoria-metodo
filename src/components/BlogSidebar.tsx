@@ -85,8 +85,8 @@ export default function BlogSidebar({
         </p>
         <p className="mt-1 text-xs text-gray-500 leading-relaxed">
           Consultor de negocios con más de 25 años de experiencia ayudando a
-          pymes en Galicia a mejorar su rentabilidad y tomar mejores
-          decisiones.
+          pymes en Galicia y en toda España a mejorar su rentabilidad y
+          tomar mejores decisiones. Presencial y online.
         </p>
         <a
           href="/"

@@ -15,7 +15,7 @@ export default function About() {
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-xl bg-gray-200 shadow-lg">
               <Image
                 src="/pablo-garcia-dacosta.jpg"
-                alt="Pablo García Dacosta — Consultor de negocios en A Coruña"
+                alt="Pablo García Dacosta — Consultor de negocios en Galicia y online en toda España"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 192px, 256px"

@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title:
     "Blog — Consultoría Método | Artículos sobre rentabilidad y gestión empresarial",
   description:
-    "Artículos prácticos sobre rentabilidad, gestión empresarial y consultoría de negocios para pymes en A Coruña y Galicia.",
+    "Artículos prácticos sobre rentabilidad, gestión empresarial y consultoría de negocios para pymes en España.",
   alternates: {
     canonical: "https://consultoriametodo.es/blog",
   },

@@ -31,7 +31,7 @@ export default function Footer() {
           </p>
           <p className="mt-1 text-sm text-primary-400">{SITE.address}</p>
           <p className="mt-1 text-sm text-primary-400">
-            Consultoría de negocios y empresas en A Coruña y Galicia
+            Consultoría de negocios — Presencial en Galicia, online en toda España
           </p>
           <p className="mt-2 text-sm text-primary-400">
             <a

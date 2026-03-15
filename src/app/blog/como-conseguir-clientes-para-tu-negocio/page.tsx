@@ -80,8 +80,8 @@ export default function ArticuloConseguirClientes() {
             sistema para que los clientes lleguen de forma constante.
           </p>
           <p className="mt-4 text-sm text-primary-300">
-            Por {SITE.consultant} · Consultoría de negocios en A Coruña y
-            Galicia
+            Por {SITE.consultant} · Consultoría de negocios — Galicia y
+            online en toda España
           </p>
         </div>
       </section>
@@ -455,7 +455,7 @@ export default function ArticuloConseguirClientes() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios en A Coruña y Galicia
+              consultoría de negocios presencial en Galicia y online en toda España
             </strong>{" "}
             y el{" "}
             <strong className="text-primary-800">Método Rentabilismo</strong>.
