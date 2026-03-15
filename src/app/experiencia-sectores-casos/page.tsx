@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const stats = [
   { number: "+25", label: "años de experiencia" },
-  { number: "+10", label: "sectores diferentes" },
+  { number: "+12", label: "sectores diferentes" },
   { number: "+100", label: "negocios analizados" },
   { number: "5", label: "herramientas propias" },
 ];
@@ -63,6 +63,16 @@ const sectores = [
     title: "Negocios locales",
     description:
       "Peluquerías, talleres, centros de estética y todo tipo de negocios de proximidad que dependen de su zona y de su reputación.",
+  },
+  {
+    title: "Construcción y reformas",
+    description:
+      "Pequeñas constructoras, empresas de reformas y oficios que necesitan controlar costes por obra, mejorar presupuestos y dejar de competir solo por precio.",
+  },
+  {
+    title: "Alimentación y distribución",
+    description:
+      "Obradores, distribuidores y negocios de alimentación que buscan optimizar márgenes, rutas y cartera de clientes para crecer con rentabilidad.",
   },
   {
     title: "Otros sectores",

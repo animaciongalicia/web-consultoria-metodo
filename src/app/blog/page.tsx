@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
@@ -10,7 +11,10 @@ export const metadata: Metadata = {
   },
 };
 
-const categoryColors: Record<string, { bg: string; text: string; border: string; shadow: string }> = {
+const categoryColors: Record<
+  string,
+  { bg: string; text: string; border: string; shadow: string }
+> = {
   Rentabilidad: {
     bg: "bg-emerald-50",
     text: "text-emerald-700",
@@ -127,12 +131,14 @@ const posts = [
   },
 ];
 
+const categories = Object.keys(categoryColors);
+
 export default function Blog() {
   return (
     <>
       {/* HERO */}
-      <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950 pt-32 lg:pt-40">
-        <div className="container-narrow text-center">
+      <section className="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950 pb-12 pt-32 lg:pt-40 lg:pb-16">
+        <div className="mx-auto max-w-7xl px-4 text-center">
           <h1 className="text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
             Blog
           </h1>
@@ -143,18 +149,16 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* POST DESTACADO (el más reciente) */}
-      <section className="section-padding bg-gray-50">
-        <div className="container-narrow">
-          <a
-            href={`/blog/${posts[0].slug}`}
-            className="group block overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md transition-all hover:shadow-xl md:flex"
-          >
-            {/* Barra lateral de color */}
-            <div
-              className={`flex items-center justify-center px-6 py-4 md:w-2 md:px-0 md:py-0 ${categoryColors[posts[0].category].bg}`}
-            />
-            <div className="flex-1 p-6 md:p-8 lg:p-10">
+      {/* CONTENIDO PRINCIPAL: Grid + Sidebar */}
+      <section className="bg-gray-50 py-12 lg:py-16">
+        <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
+          {/* Columna principal - Posts */}
+          <div>
+            {/* Post destacado - integrado pero con más presencia */}
+            <a
+              href={`/blog/${posts[0].slug}`}
+              className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${categoryColors[posts[0].category].border} ${categoryColors[posts[0].category].shadow}`}
+            >
               <div className="flex flex-wrap items-center gap-3">
                 <span
                   className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${categoryColors[posts[0].category].bg} ${categoryColors[posts[0].category].text}`}
@@ -167,71 +171,166 @@ export default function Blog() {
                 <span className="text-xs text-gray-400">
                   {posts[0].readTime} de lectura
                 </span>
+                <span className="rounded-full bg-primary-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-primary-700">
+                  Último artículo
+                </span>
               </div>
-              <h2 className="mt-3 text-2xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-3xl">
+              <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
                 {posts[0].title}
               </h2>
-              <p className="mt-3 text-gray-600 md:text-lg leading-relaxed">
+              <p className="mt-3 text-gray-600 leading-relaxed">
                 {posts[0].excerpt}
               </p>
-              <p className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+              <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
                 Leer artículo
                 <span aria-hidden="true">&rarr;</span>
               </p>
+            </a>
+
+            {/* Grid de posts restantes */}
+            <div className="grid gap-5 sm:grid-cols-2">
+              {posts.slice(1).map((post) => {
+                const colors = categoryColors[post.category];
+                return (
+                  <a
+                    key={post.slug}
+                    href={`/blog/${post.slug}`}
+                    className={`group flex flex-col rounded-xl border bg-white p-5 shadow-sm transition-all hover:shadow-lg ${colors.border} ${colors.shadow}`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span
+                        className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
+                      >
+                        {post.category}
+                      </span>
+                      <span className="text-xs text-gray-400">
+                        {post.readTime}
+                      </span>
+                    </div>
+                    <h3 className="mt-3 text-base font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="mt-2 flex-1 text-sm text-gray-500 leading-relaxed">
+                      {post.excerpt}
+                    </p>
+                    <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-3">
+                      <span className="text-xs text-gray-400">
+                        {post.date}
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+                        Leer
+                        <span aria-hidden="true">&rarr;</span>
+                      </span>
+                    </div>
+                  </a>
+                );
+              })}
             </div>
-          </a>
-        </div>
-      </section>
-
-      {/* GRID DE POSTS */}
-      <section className="section-padding bg-white">
-        <div className="container-narrow">
-          <h2 className="text-center text-xl font-bold text-gray-900 md:text-2xl">
-            Todos los artículos
-          </h2>
-          <div className="mx-auto mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {posts.slice(1).map((post) => {
-              const colors = categoryColors[post.category];
-              return (
-                <a
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  className={`group flex flex-col rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg ${colors.border} ${colors.shadow}`}
-                >
-                  {/* Etiqueta de categoría */}
-                  <div className="flex items-center justify-between">
-                    <span
-                      className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
-                    >
-                      {post.category}
-                    </span>
-                    <span className="text-xs text-gray-400">
-                      {post.readTime}
-                    </span>
-                  </div>
-
-                  {/* Título */}
-                  <h3 className="mt-4 text-lg font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors">
-                    {post.title}
-                  </h3>
-
-                  {/* Extracto */}
-                  <p className="mt-3 flex-1 text-sm text-gray-500 leading-relaxed">
-                    {post.excerpt}
-                  </p>
-
-                  {/* Footer de la card */}
-                  <div className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4">
-                    <span className="text-xs text-gray-400">{post.date}</span>
-                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                      Leer
-                      <span aria-hidden="true">&rarr;</span>
-                    </span>
-                  </div>
-                </a>
-              );
-            })}
           </div>
+
+          {/* Sidebar */}
+          <aside className="mt-10 lg:mt-0">
+            <div className="lg:sticky lg:top-28 space-y-6">
+              {/* Navegación rápida por categorías */}
+              <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
+                  Temas
+                </h3>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {categories.map((cat) => {
+                    const colors = categoryColors[cat];
+                    const postCount = posts.filter(
+                      (p) => p.category === cat
+                    ).length;
+                    return (
+                      <a
+                        key={cat}
+                        href={`#${cat.toLowerCase().replace(/ /g, "-")}`}
+                        className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all hover:scale-105 ${colors.bg} ${colors.text}`}
+                      >
+                        {cat}
+                        <span className="opacity-60">({postCount})</span>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Índice de artículos */}
+              <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
+                  Todos los artículos
+                </h3>
+                <nav className="mt-3 space-y-2">
+                  {posts.map((post) => {
+                    const colors = categoryColors[post.category];
+                    return (
+                      <a
+                        key={post.slug}
+                        href={`/blog/${post.slug}`}
+                        className="group block rounded-lg border border-gray-100 px-3 py-2.5 transition-all hover:border-primary-200 hover:bg-primary-50/30"
+                      >
+                        <span
+                          className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
+                        >
+                          {post.category}
+                        </span>
+                        <p className="mt-1 text-xs font-semibold leading-snug text-gray-700 group-hover:text-primary-700 transition-colors">
+                          {post.title}
+                        </p>
+                      </a>
+                    );
+                  })}
+                </nav>
+              </div>
+
+              {/* CTA */}
+              <div className="rounded-xl bg-gradient-to-br from-primary-900 to-primary-950 p-5 text-center shadow-md">
+                <p className="text-sm font-bold text-white">
+                  ¿Prefieres que lo analicemos juntos?
+                </p>
+                <p className="mt-2 text-xs text-primary-200 leading-relaxed">
+                  30 minutos de conversación gratuita sobre tu negocio. Sin
+                  compromiso.
+                </p>
+                <a
+                  href="/diagnostico-negocio"
+                  className="mt-4 inline-block w-full rounded-lg bg-accent-500 px-4 py-2.5 text-sm font-semibold text-white transition-all hover:bg-accent-600"
+                >
+                  Solicitar diagnóstico
+                </a>
+                <a
+                  href={SITE.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block w-full rounded-lg bg-green-600 px-4 py-2.5 text-sm font-semibold text-white transition-all hover:bg-green-700"
+                >
+                  WhatsApp directo
+                </a>
+              </div>
+
+              {/* Sobre el autor */}
+              <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
+                  Sobre el autor
+                </h3>
+                <p className="mt-3 text-sm font-semibold text-gray-900">
+                  {SITE.consultant}
+                </p>
+                <p className="mt-1 text-xs text-gray-500 leading-relaxed">
+                  Consultor de negocios con más de 25 años de experiencia
+                  ayudando a pymes en Galicia y en toda España a mejorar su
+                  rentabilidad. Presencial y online.
+                </p>
+                <a
+                  href="/experiencia-sectores-casos"
+                  className="mt-3 inline-block text-xs font-semibold text-primary-700 hover:text-primary-800 transition-colors"
+                >
+                  Ver experiencia y casos reales &rarr;
+                </a>
+              </div>
+            </div>
+          </aside>
         </div>
       </section>
 

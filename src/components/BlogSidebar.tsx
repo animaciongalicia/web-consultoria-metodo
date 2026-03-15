@@ -89,10 +89,10 @@ export default function BlogSidebar({
           tomar mejores decisiones. Presencial y online.
         </p>
         <a
-          href="/"
+          href="/experiencia-sectores-casos"
           className="mt-3 inline-block text-xs font-semibold text-primary-700 hover:text-primary-800 transition-colors"
         >
-          Conocer más &rarr;
+          Ver experiencia y casos reales &rarr;
         </a>
       </div>
     </aside>
