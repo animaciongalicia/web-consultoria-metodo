@@ -60,6 +60,30 @@ const categoryColors: Record<
 };
 
 const posts = [
+  // --- PILARES SEO (los más importantes, primero) ---
+  {
+    slug: "como-mejorar-rentabilidad-empresa",
+    title:
+      "Cómo mejorar la rentabilidad de tu empresa — Guía completa para pymes",
+    excerpt:
+      "Guía pilar con todo lo que necesitas saber para mejorar la rentabilidad de tu pyme: márgenes, costes, precios, productividad, flujo de caja y un plan de acción paso a paso.",
+    date: "10 abril 2025",
+    category: "Rentabilidad",
+    readTime: "18 min",
+    isPillar: true,
+  },
+  {
+    slug: "como-conseguir-clientes-para-tu-negocio",
+    title:
+      "Cómo conseguir más clientes para tu negocio — Guía completa de captación para pymes",
+    excerpt:
+      "Por qué falla la captación, canales reales, estrategia local vs digital, cómo crear un sistema estable, errores que tiran dinero y casos reales. Todo lo que una pyme necesita.",
+    date: "10 abril 2025",
+    category: "Clientes",
+    readTime: "18 min",
+    isPillar: true,
+  },
+  // --- ARTÍCULOS DE APOYO ---
   {
     slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
     title:
@@ -69,6 +93,36 @@ const posts = [
     date: "13 marzo 2025",
     category: "Marketing",
     readTime: "12 min",
+  },
+  {
+    slug: "como-diferenciarte-de-tu-competencia",
+    title:
+      "Cómo diferenciarte de tu competencia sin competir en precio",
+    excerpt:
+      "Si tu negocio ofrece lo mismo que los demás, compites por precio y pierdes margen. Descubre cómo encontrar tu ventaja competitiva real y posicionarte como la mejor opción.",
+    date: "13 marzo 2025",
+    category: "Estrategia",
+    readTime: "13 min",
+  },
+  {
+    slug: "como-fijar-precios-en-tu-negocio",
+    title:
+      "Cómo fijar precios en tu negocio sin perder clientes ni margen",
+    excerpt:
+      "La mayoría de pymes fijan precios por intuición o copiando a la competencia. Aprende métodos reales para calcular precios que cubran costes, generen beneficio y el cliente acepte.",
+    date: "13 marzo 2025",
+    category: "Rentabilidad",
+    readTime: "14 min",
+  },
+  {
+    slug: "problemas-de-liquidez-en-pymes",
+    title:
+      "Tu empresa factura pero no tiene dinero: cómo resolver los problemas de liquidez",
+    excerpt:
+      "Facturas pendientes, pagos que no cuadran y la cuenta siempre al límite. Causas reales de los problemas de liquidez en pymes y un plan práctico para resolverlos.",
+    date: "13 marzo 2025",
+    category: "Control y gestión",
+    readTime: "13 min",
   },
   {
     slug: "como-hacer-crecer-una-empresa-pequena",
@@ -111,14 +165,24 @@ const posts = [
     readTime: "14 min",
   },
   {
-    slug: "como-conseguir-clientes-para-tu-negocio",
+    slug: "como-mejorar-rentabilidad-restaurante-bar",
     title:
-      "Cómo conseguir más clientes para tu negocio sin gastar una fortuna en publicidad",
+      "Cómo mejorar la rentabilidad de tu restaurante o bar sin subir precios",
     excerpt:
-      "Estrategias reales para captar clientes de forma constante: marketing local, alianzas, mejora de conversión y seguimiento. Sin depender del boca a boca ni arruinarte en publicidad.",
+      "Escandallos, costes ocultos, turnos, carta y proveedores. Guía práctica para que tu restaurante o bar gane más dinero optimizando lo que ya tienes.",
     date: "13 marzo 2025",
-    category: "Clientes",
-    readTime: "13 min",
+    category: "Rentabilidad",
+    readTime: "14 min",
+  },
+  {
+    slug: "cuando-contratar-un-consultor-de-negocios",
+    title:
+      "¿Cuándo merece la pena contratar un consultor de negocios?",
+    excerpt:
+      "Señales claras de que tu negocio necesita una mirada externa, qué esperar de una consultoría, cuánto cuesta y cómo elegir al consultor adecuado sin tirar el dinero.",
+    date: "13 marzo 2025",
+    category: "Estrategia",
+    readTime: "12 min",
   },
   {
     slug: "por-que-tu-empresa-factura-pero-no-gana-dinero",
@@ -171,8 +235,8 @@ export default function Blog() {
                 <span className="text-xs text-gray-400">
                   {posts[0].readTime} de lectura
                 </span>
-                <span className="rounded-full bg-primary-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-primary-700">
-                  Último artículo
+                <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
+                  Artículo pilar
                 </span>
               </div>
               <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
@@ -187,9 +251,42 @@ export default function Blog() {
               </p>
             </a>
 
+            {/* Segundo pilar destacado */}
+            <a
+              href={`/blog/${posts[1].slug}`}
+              className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${categoryColors[posts[1].category].border} ${categoryColors[posts[1].category].shadow}`}
+            >
+              <div className="flex flex-wrap items-center gap-3">
+                <span
+                  className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${categoryColors[posts[1].category].bg} ${categoryColors[posts[1].category].text}`}
+                >
+                  {posts[1].category}
+                </span>
+                <span className="text-xs text-gray-400">
+                  {posts[1].date}
+                </span>
+                <span className="text-xs text-gray-400">
+                  {posts[1].readTime} de lectura
+                </span>
+                <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
+                  Artículo pilar
+                </span>
+              </div>
+              <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
+                {posts[1].title}
+              </h2>
+              <p className="mt-3 text-gray-600 leading-relaxed">
+                {posts[1].excerpt}
+              </p>
+              <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+                Leer artículo
+                <span aria-hidden="true">&rarr;</span>
+              </p>
+            </a>
+
             {/* Grid de posts restantes */}
             <div className="grid gap-5 sm:grid-cols-2">
-              {posts.slice(1).map((post) => {
+              {posts.slice(2).map((post) => {
                 const colors = categoryColors[post.category];
                 return (
                   <a
