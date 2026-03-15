@@ -59,6 +59,11 @@ export const BLOG_POSTS = [
     title: "Cuándo contratar un consultor de negocios (y cuándo no)",
     category: "Estrategia",
   },
+  {
+    slug: "como-mejorar-rentabilidad-empresa",
+    title: "Cómo mejorar la rentabilidad de una empresa: guía completa para pymes",
+    category: "Rentabilidad",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
