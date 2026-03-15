@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
 import BlogNav from "@/components/BlogNav";
+import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
@@ -86,8 +87,9 @@ export default function ArticuloIndicadores() {
       </section>
 
       {/* ARTÍCULO */}
-      <article className="section-padding bg-white">
-        <div className="container-narrow prose prose-lg mx-auto max-w-3xl">
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
+          <article className="prose prose-lg mx-auto w-full max-w-3xl">
           {/* Introducción */}
           <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
             Si te pregunto ahora mismo cuál fue el margen neto de tu negocio el
@@ -828,8 +830,14 @@ export default function ArticuloIndicadores() {
             los ocho indicadores y empieza. Y si necesitas ayuda para montarlo
             o para interpretar lo que los números te dicen, hablamos.
           </p>
+          </article>
+          <div className="mt-12 lg:mt-0">
+            <div className="lg:sticky lg:top-28">
+              <BlogSidebar currentSlug="indicadores-clave-de-una-empresa" />
+            </div>
+          </div>
         </div>
-      </article>
+      </section>
 
       {/* CTA FINAL */}
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
 import BlogNav from "@/components/BlogNav";
+import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
@@ -86,8 +87,9 @@ export default function ArticuloOrganizarEmpresa() {
       </section>
 
       {/* ARTÍCULO */}
-      <article className="section-padding bg-white">
-        <div className="container-narrow prose prose-lg mx-auto max-w-3xl">
+      <section className="section-padding bg-white">
+        <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
+          <article className="prose prose-lg mx-auto w-full max-w-3xl">
           {/* Introducción */}
           <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
             Conozco a muchos empresarios que montaron su negocio para tener más
@@ -437,8 +439,14 @@ export default function ArticuloOrganizarEmpresa() {
             dedicar tu tiempo a lo que de verdad importa: decidir hacia dónde
             va tu empresa.
           </p>
+          </article>
+          <div className="mt-12 lg:mt-0">
+            <div className="lg:sticky lg:top-28">
+              <BlogSidebar currentSlug="como-organizar-empresa-pequena-salir-autoempleo" />
+            </div>
+          </div>
         </div>
-      </article>
+      </section>
 
       {/* CTA FINAL */}
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">
