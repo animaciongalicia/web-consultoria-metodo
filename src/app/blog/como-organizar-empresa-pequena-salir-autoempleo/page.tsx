@@ -5,22 +5,28 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Por qué trabajas todo el día y tu negocio no crece | Consultoría Método",
+    "Cómo organizar una empresa para que crezca — Guía completa de organización empresarial para pymes | Consultoría Método",
   description:
-    "Descubre cómo organizar una empresa pequeña para dejar de ser esclavo de tu negocio. Procesos, delegación y método para liberar tiempo y hacer crecer tu pyme.",
+    "Guía práctica para organizar tu empresa pequeña: caos operativo, procesos, delegación, sistemas simples, cómo liberar tiempo y preparar el crecimiento. Con ejemplos reales y plan de acción.",
   keywords: [
+    "organización empresarial",
+    "empresa desorganizada",
+    "delegar en empresa pequeña",
+    "sistemas de empresa",
     "cómo organizar una empresa pequeña",
     "salir del autoempleo",
-    "delegar en mi empresa",
-    "organizar procesos negocio",
-    "mi negocio no crece",
+    "procesos en pymes",
+    "cómo delegar tareas",
     "empresa depende de mí",
+    "organizar negocio para crecer",
+    "caos operativo empresa",
+    "liberar tiempo empresario",
   ],
   openGraph: {
     title:
-      "Por qué trabajas todo el día y tu negocio no crece (y cómo salir del autoempleo)",
+      "Cómo organizar una empresa para que crezca — Guía completa para pymes",
     description:
-      "Procesos, delegación y método práctico para dejar de ser esclavo de tu negocio y empezar a dirigirlo de verdad.",
+      "Caos operativo, procesos, delegación, sistemas simples, cómo liberar tiempo y preparar el crecimiento. Todo lo que una pyme necesita para dejar de depender del dueño.",
     locale: "es_ES",
     type: "article",
   },
@@ -34,9 +40,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Por qué trabajas todo el día y tu negocio no crece (y cómo salir del autoempleo)",
+    "Cómo organizar una empresa para que crezca — Guía completa de organización empresarial para pymes",
   description:
-    "Procesos, delegación y método práctico para dejar de ser esclavo de tu negocio y empezar a dirigirlo de verdad.",
+    "Guía práctica para organizar tu empresa pequeña: caos operativo, procesos, delegación, sistemas simples, cómo liberar tiempo y preparar el crecimiento.",
   author: {
     "@type": "Person",
     name: "Pablo García Dacosta",
@@ -48,7 +54,7 @@ const jsonLd = {
     url: "https://consultoriametodo.es",
   },
   datePublished: "2025-03-13",
-  dateModified: "2025-03-13",
+  dateModified: "2025-04-10",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -71,8 +77,8 @@ export default function ArticuloOrganizarEmpresa() {
             Blog — Consultoría Método
           </p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
-            Por qué trabajas todo el día y tu negocio no crece (y cómo salir
-            del autoempleo)
+            Cómo organizar una empresa para que crezca (y dejar de ser esclavo
+            de tu propio negocio)
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
             Eres el comercial, el técnico, el administrativo, el que apaga
@@ -90,6 +96,22 @@ export default function ArticuloOrganizarEmpresa() {
       <section className="section-padding bg-white">
         <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
           <article className="prose prose-lg mx-auto w-full max-w-3xl">
+
+          {/* Breadcrumbs */}
+          <nav aria-label="Breadcrumb" className="mb-8 text-sm text-gray-500 not-prose">
+            <ol className="flex items-center gap-1">
+              <li>
+                <a href="/" className="hover:text-accent-600 transition-colors">Inicio</a>
+              </li>
+              <li className="before:content-['>'] before:mx-2 before:text-gray-400">
+                <a href="/blog" className="hover:text-accent-600 transition-colors">Blog</a>
+              </li>
+              <li className="before:content-['>'] before:mx-2 before:text-gray-400">
+                <span className="text-gray-700 font-medium">Cómo organizar una empresa para que crezca</span>
+              </li>
+            </ol>
+          </nav>
+
           {/* Introducción */}
           <p className="text-lg leading-relaxed text-gray-700 md:text-xl">
             Conozco a muchos empresarios que montaron su negocio para tener más
@@ -101,107 +123,120 @@ export default function ArticuloOrganizarEmpresa() {
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             Lo paradójico es que muchos de estos negocios facturan bien. No es
-            un problema de ingresos. Es un problema de estructura. El negocio
-            depende al cien por cien de una sola persona — el dueño — y eso
-            impide que crezca, que sea rentable de verdad y que permita al
-            empresario vivir como debería.
+            un problema de ingresos. Es un problema de organización empresarial.
+            El negocio depende al cien por cien de una sola persona — el
+            dueño — y eso impide que crezca, que sea rentable de verdad y que
+            permita al empresario vivir como debería.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
-            Si te preguntas{" "}
-            <strong className="text-gray-900">
-              cómo organizar una empresa pequeña
-            </strong>{" "}
-            para dejar de ser esclavo de tu propio negocio, este artículo es
-            para ti. Sin teoría de MBA, sin soluciones mágicas. Solo lo que
-            funciona en pymes reales.
+            Esta guía es para ti si tu empresa está desorganizada, si sientes
+            que no puedes delegar, si trabajas más que nadie y tu negocio
+            sigue sin crecer. Sin teoría de MBA, sin soluciones mágicas. Solo
+            lo que funciona en pymes reales, con ejemplos concretos y un plan
+            de acción que puedes empezar esta semana.
           </p>
 
-          {/* H2 — Atrapado en lo operativo */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            El empresario atrapado: cuando tú eres el negocio
+          {/* Índice de contenidos */}
+          <div className="my-10 rounded-xl border border-primary-200 bg-primary-50/60 p-6 not-prose">
+            <h2 className="text-lg font-bold text-primary-900 mb-4">Índice de contenidos</h2>
+            <ol className="space-y-2 text-sm md:text-base text-primary-800">
+              <li><a href="#caos-operativo" className="hover:text-accent-600 transition-colors">1. El caos operativo: cómo se desorganiza una empresa sin darse cuenta</a></li>
+              <li><a href="#empresario-autoempleado" className="hover:text-accent-600 transition-colors">2. El empresario autoempleado: cuando tú eres el negocio</a></li>
+              <li><a href="#procesos" className="hover:text-accent-600 transition-colors">3. Procesos: la base de cualquier empresa organizada</a></li>
+              <li><a href="#delegacion" className="hover:text-accent-600 transition-colors">4. Cómo delegar en una empresa pequeña sin que todo salga mal</a></li>
+              <li><a href="#sistemas" className="hover:text-accent-600 transition-colors">5. Sistemas simples que hacen funcionar un negocio</a></li>
+              <li><a href="#liberar-tiempo" className="hover:text-accent-600 transition-colors">6. Cómo liberar tu tiempo en 4 semanas</a></li>
+              <li><a href="#caso-real" className="hover:text-accent-600 transition-colors">7. Caso real: la empresa de eventos que pasó del caos al control</a></li>
+              <li><a href="#preparar-crecimiento" className="hover:text-accent-600 transition-colors">8. Cómo preparar tu empresa para el crecimiento</a></li>
+              <li><a href="#conclusion" className="hover:text-accent-600 transition-colors">9. Conclusión: un negocio que depende de ti no es un negocio</a></li>
+            </ol>
+          </div>
+
+          <blockquote className="my-10 border-l-4 border-accent-500 bg-accent-50 py-6 px-6 italic text-gray-800 md:text-xl rounded-r-lg">
+            «Si tu empresa no puede funcionar sin ti durante un mes, no tienes
+            una empresa. Tienes un empleo disfrazado de negocio.»
+          </blockquote>
+
+          {/* ====================== SECCIÓN 1 ====================== */}
+          <h2 id="caos-operativo" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            1. El caos operativo: cómo se desorganiza una empresa sin darse cuenta
           </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            La trampa del autoempleo es silenciosa. No llegas a ella de golpe.
-            Empieza poco a poco. Montas el negocio y, como es pequeño, haces
-            de todo. Normal. Pero pasan los años, el negocio crece, entran
-            empleados y tú sigues haciendo de todo. Porque nadie lo hace como
-            tú. Porque es más rápido hacerlo que explicarlo. Porque no tienes
-            tiempo para enseñar.
+          <p className="text-gray-600 md:text-lg">
+            La desorganización empresarial no llega de golpe. No hay un día en
+            que todo funciona bien y al siguiente reina el caos. Es un proceso
+            lento, casi imperceptible, que se alimenta de decisiones que en su
+            momento parecían lógicas.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
-            El resultado es un negocio que gira alrededor de una sola persona.
-            Tú decides todo, tú supervisas todo, tú resuelves todo. Tu equipo
-            te espera para cada decisión. Si te vas de vacaciones, te llaman.
-            Si no estás, las cosas se hacen mal o no se hacen. Te has
-            convertido en el cuello de botella de tu propia empresa.
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Y lo peor: no tienes tiempo para hacer lo que realmente debería
-            hacer un empresario. Pensar en estrategia, buscar oportunidades,
-            mejorar el negocio, planificar el futuro. Todo tu día se consume
-            en tareas operativas que no deberías estar haciendo. Apagar fuegos,
-            resolver incidencias, contestar correos, perseguir a proveedores.
-            Trabajo necesario, sí. Pero no el tuyo.
+            Montas el negocio y, como es pequeño, haces de todo. Normal.
+            Contratas al primer empleado y, como es más rápido hacerlo tú,
+            sigues haciendo de todo. Normal. Crecen los clientes y, como nadie
+            lo hace como tú, sigues controlando cada detalle. Normal. Hasta
+            que dejas de dormir bien, tu familia se queja de que nunca estás y
+            tu negocio no puede crecer porque tú eres el techo.
           </p>
 
-          {/* H2 — Falta de procesos */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            La raíz del problema: falta de procesos
-          </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Cuando pregunto a un empresario «¿tienes documentados los procesos
-            clave de tu negocio?», la respuesta casi siempre es la misma: «No,
-            pero todo el mundo sabe lo que tiene que hacer.» Y ahí está el
-            problema.
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Un proceso es simplemente una forma clara y repetible de hacer algo.
-            Cómo se atiende a un cliente nuevo. Cómo se prepara un pedido. Cómo
-            se gestiona una reclamación. Cómo se hace el cierre de caja. Cómo
-            se incorpora un empleado nuevo. Si estas cosas no están definidas
-            en algún sitio — aunque sea en un simple documento — dependen de la
-            memoria y el criterio de cada persona. Y cuando eso pasa, todo acaba
-            dependiendo del que más sabe: tú.
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Sin procesos claros ocurren tres cosas predecibles:
-          </p>
-          <ul className="mt-4 space-y-3">
-            {[
-              "Cada persona hace las cosas a su manera, con resultados desiguales.",
-              "El dueño tiene que supervisar todo porque no hay un estándar que seguir.",
-              "Cuando alguien se va, se lleva el conocimiento en la cabeza y hay que empezar de cero.",
-            ].map((item, i) => (
-              <li
-                key={i}
-                className="flex items-start gap-3 text-gray-700 md:text-lg"
-              >
-                <span className="mt-1 text-accent-500">&#10005;</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 text-gray-600 md:text-lg">
-            No hablo de crear manuales de 200 páginas que nadie va a leer.
-            Hablo de definir, para cada tarea importante, los pasos clave, quién
-            es responsable y qué resultado se espera. Eso es organizar una
-            empresa pequeña. Lo demás es improvisar.
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Señales de que tu empresa está desorganizada
+          </h3>
+          <div className="my-6 rounded-xl border border-red-200 bg-red-50 p-6 md:p-8 not-prose">
+            <ul className="space-y-3">
+              {[
+                "Tu equipo te consulta varias veces al día para cosas que debería resolver solo.",
+                "Si tú no estás, los problemas se acumulan hasta que vuelves.",
+                "Cada persona hace las cosas a su manera, con resultados desiguales.",
+                "No hay un sitio donde estén escritas las formas de hacer las cosas.",
+                "Cuando un empleado se va, se lleva el conocimiento en la cabeza.",
+                "Tú eres quien más trabaja pero quien menos avanza en lo estratégico.",
+                "Los errores se repiten porque nadie documenta cómo evitarlos.",
+                "No puedes irte de vacaciones sin que te llamen cada día.",
+              ].map((item, i) => (
+                <li
+                  key={i}
+                  className="flex items-start gap-3 text-gray-700 md:text-lg"
+                >
+                  <span className="mt-1 text-red-500 font-bold">✕</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-sm text-gray-500 italic">
+              Si te reconoces en tres o más de estas situaciones, tu empresa
+              tiene un problema de organización. No de personas, no de
+              mercado — de estructura.
+            </p>
+          </div>
+
+          <p className="text-gray-600 md:text-lg">
+            Lo peor del caos operativo es que se normaliza. Llevas años
+            funcionando así y crees que «es lo que hay», que «así son las
+            pymes», que «cuando facture más podré organizarme». Pero la
+            realidad es la contraria: primero te organizas, y después creces.
+            Porque sin organización, cada euro de facturación extra genera más
+            caos, más horas y más estrés.
           </p>
 
-          {/* H2 — Dependencia del dueño */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            La dependencia del dueño: el freno invisible al crecimiento
+          {/* ====================== SECCIÓN 2 ====================== */}
+          <h2 id="empresario-autoempleado" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            2. El empresario autoempleado: cuando tú eres el negocio
           </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Hay una prueba muy sencilla para saber si tu negocio depende
-            demasiado de ti: imagina que mañana tienes que desaparecer durante
-            un mes. No un mes de vacaciones mirando el móvil cada hora. Un mes
-            completo sin intervenir en nada. ¿Qué pasaría con tu negocio?
+          <p className="text-gray-600 md:text-lg">
+            Hay una diferencia enorme entre ser empresario y ser autoempleado.
+            El empresario dirige un negocio que funciona con o sin él. El
+            autoempleado es el negocio: si él no está, no hay empresa. La
+            mayoría de los dueños de pymes están en el segundo grupo aunque
+            tengan empleados, local y facturación.
           </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Si la respuesta es «se hundiría» o «sería un desastre», tienes un
-            problema de dependencia. Y ese problema tiene consecuencias
-            concretas:
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            La prueba del mes
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Imagina que mañana tienes que desaparecer durante un mes. No un mes
+            de vacaciones mirando el móvil cada hora. Un mes completo sin
+            intervenir en nada. ¿Qué pasaría con tu negocio? Si la respuesta
+            es «se hundiría», tienes un problema de dependencia. Y ese
+            problema tiene consecuencias concretas:
           </p>
           <ul className="mt-4 space-y-3">
             {[
@@ -219,83 +254,136 @@ export default function ArticuloOrganizarEmpresa() {
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-gray-600 md:text-lg">
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Por qué el empresario no suelta el control
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            No es por incompetencia. Las razones son profundamente humanas.
+            Has construido tu negocio con tus manos, lo conoces mejor que
+            nadie y soltar el control da miedo. Piensas que nadie lo hará como
+            tú (probablemente tengas razón). Piensas que si dejas de
+            supervisar todo, las cosas saldrán mal (probablemente también
+            tengas razón al principio). Pero mientras sigas siendo
+            imprescindible en cada operación, tu empresa no podrá crecer más
+            allá de lo que aguanten tus horas y tu energía.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
             La dependencia del dueño no es un defecto del equipo. Es un defecto
             de la estructura del negocio. Y se puede corregir, pero requiere{" "}
-            <a href="/blog/como-tomar-decisiones-en-un-negocio" className="text-accent-600 underline hover:text-accent-700">decisiones que cuestan</a>: soltar control, aceptar que al principio las
+            <a href="/blog/como-tomar-decisiones-en-un-negocio" className="text-accent-600 underline hover:text-accent-700">
+              decisiones que cuestan
+            </a>: soltar control, aceptar que al principio las
             cosas no se harán exactamente como tú las harías y confiar en un
             sistema en vez de en tu propia capacidad para estar en todo.
           </p>
 
-          {/* H2 — Cómo organizar */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Cómo organizar una empresa pequeña para que funcione sin ti
+          {/* ====================== SECCIÓN 3 ====================== */}
+          <h2 id="procesos" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            3. Procesos: la base de cualquier empresa organizada
           </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Organizar no significa burocratizar. No necesitas un departamento
-            de recursos humanos ni un ERP de 50.000 euros. Necesitas claridad,
-            orden y decisiones. Estos son los pilares básicos.
+          <p className="text-gray-600 md:text-lg">
+            Cuando pregunto a un empresario «¿tienes documentados los procesos
+            clave de tu negocio?», la respuesta casi siempre es la misma: «No,
+            pero todo el mundo sabe lo que tiene que hacer.» Y ahí está el
+            problema. Si el conocimiento está en cabezas, no en sistemas, la
+            empresa es frágil. Cualquier baja, cualquier rotación, cualquier
+            día malo de alguien rompe la cadena.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Define las funciones y responsabilidades de cada persona
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Qué es un proceso (y qué no es)
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
-            Suena elemental, pero en muchas pymes nadie tiene claro exactamente
-            qué se espera de él. Todos hacen un poco de todo y al final nadie
-            es responsable de nada concreto. Define por escrito qué hace cada
-            persona, qué resultados se esperan y qué decisiones puede tomar
-            sin consultarte. Esto solo ya libera una cantidad enorme de
-            interrupciones en tu día.
+            Un proceso no es un manual de 200 páginas que nadie va a leer. Un
+            proceso es simplemente una forma clara y repetible de hacer algo.
+            Cómo se atiende a un cliente nuevo. Cómo se prepara un pedido.
+            Cómo se gestiona una reclamación. Cómo se hace el cierre de caja.
+            Cómo se incorpora un empleado nuevo. Un checklist de 10 pasos
+            en un folio es un proceso. Y es infinitamente mejor que nada.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Documenta los 5 o 6 procesos más importantes
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Los 6 procesos que toda pyme necesita tener claros
           </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            No tienes que documentar todo. Empieza por los procesos que se
-            repiten más, que más impacto tienen en el cliente o que más errores
-            generan. Un checklist de 10 pasos para cada uno es suficiente. Lo
-            importante es que cualquier persona pueda seguirlo sin necesitar
-            que tú le expliques cómo se hace.
+          <div className="my-6 space-y-4 not-prose">
+            {[
+              {
+                num: "1",
+                title: "Captación y venta",
+                desc: "Cómo llega un cliente, cómo se le atiende, cómo se hace el presupuesto, cómo se cierra la venta. Si cada comercial hace esto de forma diferente, los resultados serán imprevisibles.",
+              },
+              {
+                num: "2",
+                title: "Entrega del servicio o producto",
+                desc: "Cómo se ejecuta lo que has vendido. Los pasos, los plazos, los estándares de calidad, quién revisa qué. Es donde se juega la satisfacción del cliente.",
+              },
+              {
+                num: "3",
+                title: "Atención postventa y reclamaciones",
+                desc: "Cómo se gestiona cuando algo sale mal. Quién responde, en qué plazo, qué soluciones puede ofrecer sin consultar al dueño. Un mal proceso aquí destruye la reputación.",
+              },
+              {
+                num: "4",
+                title: "Facturación y cobros",
+                desc: "Cuándo se factura, cómo se cobra, qué pasa cuando no pagan a tiempo. Si no controlas esto, tendrás problemas de liquidez aunque vendas mucho.",
+              },
+              {
+                num: "5",
+                title: "Incorporación de empleados",
+                desc: "Cómo se forma a alguien nuevo: qué tiene que aprender, en qué orden, quién le enseña, cuándo se le evalúa. Sin esto, cada incorporación es un caos de semanas.",
+              },
+              {
+                num: "6",
+                title: "Compras y proveedores",
+                desc: "Quién compra qué, a qué precios, con qué proveedor, cuándo se renegocia. Si cada persona compra a su criterio, se pierde dinero y control.",
+              },
+            ].map((item) => (
+              <div key={item.num} className="flex gap-4 rounded-lg border border-gray-200 bg-gray-50 p-4 md:p-5">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 text-sm font-bold text-primary-700">
+                  {item.num}
+                </span>
+                <div>
+                  <h4 className="font-semibold text-gray-900">{item.title}</h4>
+                  <p className="mt-1 text-gray-600 text-sm md:text-base">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-gray-600 md:text-lg">
+            No tienes que documentar los seis a la vez. Empieza por el que
+            más errores genera o el que más depende de ti. Escribe los pasos,
+            pruébalo con tu equipo, ajústalo y pasa al siguiente.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Crea una rutina de reuniones breves
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            Una reunión semanal de 30 minutos con tu equipo para revisar qué se
-            ha hecho, qué problemas hay y qué se va a hacer la semana siguiente.
-            Eso sustituye a las 50 interrupciones diarias de «oye, ¿qué hago
-            con esto?». El equipo sabe que tiene un espacio para resolver dudas
-            y tú dejas de ser el buzón permanente de consultas.
-          </p>
-
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Establece indicadores básicos
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            No puedes mejorar lo que no mides. Define 3 o 4{" "}
-            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">indicadores clave de tu empresa</a>{" "}
-            que revises cada semana: facturación, número de clientes nuevos,
-            incidencias, margen bruto. Lo justo para saber si el negocio va
-            bien sin necesidad de estar encima de cada operación.
-          </p>
-
-          {/* H2 — Cómo delegar */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Cómo delegar sin que todo salga mal
+          {/* ====================== SECCIÓN 4 ====================== */}
+          <h2 id="delegacion" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            4. Cómo delegar en una empresa pequeña sin que todo salga mal
           </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
+          <p className="text-gray-600 md:text-lg">
             Delegar es la palabra que más repiten los libros de management y la
-            que peor ejecutan los empresarios. Y tiene sentido: has construido
-            tu negocio con tus manos, lo conoces mejor que nadie y soltar el
+            que peor ejecutan los empresarios. Tiene sentido: soltar el
             control da miedo. Pero delegar no es «que otro haga mi trabajo y
-            yo desaparezco». Es un proceso con reglas.
+            yo desaparezco». Es un proceso con reglas claras.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Empieza por lo que menos riesgo tiene
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Regla 1: Clasifica tus tareas antes de delegar
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Divide todo lo que haces en tres columnas. Primera: lo que solo
+            puedes hacer tú (negociación con clientes grandes, decisiones
+            estratégicas, relaciones clave). Segunda: lo que puede hacer tu
+            equipo con formación (coordinación, presupuestos estándar,
+            atención al cliente, compras rutinarias). Tercera: lo que se
+            puede eliminar o externalizar (contabilidad, diseño, tareas
+            administrativas repetitivas). Sé honesto. Si algo puede hacerlo
+            otra persona al 80% de tu nivel, va a la segunda columna.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Regla 2: Empieza por lo que menos riesgo tiene
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
             No delegues lo más importante el primer día. Empieza por tareas
@@ -305,8 +393,8 @@ export default function ArticuloOrganizarEmpresa() {
             veas que funcionan sin ti, avanza hacia tareas más complejas.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Explica el resultado esperado, no solo la tarea
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Regla 3: Explica el resultado, no solo la tarea
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
             El error más común al delegar es decir «haz esto» sin explicar por
@@ -314,68 +402,154 @@ export default function ArticuloOrganizarEmpresa() {
             estos clientes», puede hacerlo de muchas formas. Si le dices
             «llama a estos clientes, preséntales la oferta nueva y apunta
             cuántos dicen que sí para revisarlo juntos el viernes», la persona
-            sabe exactamente qué se espera de ella.
+            sabe exactamente qué se espera de ella. Y tú puedes evaluar el
+            resultado sin necesidad de supervisar cada paso.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Acepta que no lo harán como tú
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Regla 4: Acepta el 80% (y gana el 100% de tu tiempo)
           </h3>
           <p className="mt-3 text-gray-600 md:text-lg">
-            Esta es la parte más difícil. La persona que recibe la tarea no la
-            hará exactamente como tú la harías. Y en la mayoría de casos, eso
-            está bien. Si el resultado es un 80% de lo que tú habrías logrado
-            pero te libera 10 horas a la semana, has ganado. Esas 10 horas
-            puedes dedicarlas a lo que realmente mueve la aguja: estrategia,
-            clientes clave, nuevas oportunidades. Perseguir la perfección en
-            cada tarea operativa es lo que te mantiene atrapado.
+            La persona que recibe la tarea no la hará exactamente como tú la
+            harías. Y en la mayoría de casos, eso está bien. Si el resultado
+            es un 80% de lo que tú habrías logrado pero te libera 10 horas a
+            la semana, has ganado. Esas 10 horas puedes dedicarlas a lo que
+            realmente mueve la aguja: estrategia, clientes clave, nuevas
+            oportunidades,{" "}
+            <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">
+              hacer crecer tu empresa
+            </a>. Perseguir la perfección en cada tarea operativa es lo que
+            te mantiene atrapado.
           </p>
 
-          {/* H2 — Caso real */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Caso real: empresa de eventos en Galicia
-          </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Una empresa de eventos en Galicia tenía tres empleados y el dueño
-            trabajaba más que los tres juntos. Hacía los presupuestos, coordinaba
-            a los proveedores, atendía a los clientes, supervisaba cada montaje
-            y se encargaba de la contabilidad. Facturaban bien pero el margen
-            era pequeño, el dueño estaba quemado y el negocio no podía aceptar
-            más clientes porque no daba abasto.
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Lo primero que hicimos fue identificar todas las tareas que hacía el
-            dueño y clasificarlas en tres grupos: las que solo puede hacer él
-            (negociación con clientes grandes, decisiones estratégicas), las que
-            puede hacer su equipo con formación (coordinación de proveedores,
-            presupuestos estándar) y las que se pueden externalizar
-            (contabilidad, diseño gráfico).
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            Documentamos los procesos de presupuestación y coordinación de
-            eventos. Definimos responsables para cada fase. Creamos una
-            reunión semanal de seguimiento. Y establecimos criterios claros
-            para que el equipo pudiera tomar decisiones sin esperar al dueño
-            en cada paso.
-          </p>
-          <p className="mt-4 text-gray-600 md:text-lg">
-            En dos meses, el dueño pasó de trabajar 14 horas al día a trabajar
-            8. El equipo empezó a resolver situaciones que antes esperaban a
-            que él decidiera. Pudieron aceptar un 40% más de eventos porque ya
-            no había un cuello de botella humano. Y el dueño, por primera vez
-            en años, tuvo tiempo para pensar en cómo hacer crecer el negocio en
-            lugar de solo sostenerlo.
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Regla 5: Supervisa resultados, no procesos
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            El objetivo es que tú controles si las cosas se han hecho bien,
+            no que estés encima mientras se hacen. Establece puntos de control
+            semanales: «cada viernes revisamos juntos los números de la
+            semana». Eso sustituye a las 50 interrupciones diarias de «oye,
+            ¿qué hago con esto?» y te da la tranquilidad de que las cosas
+            avanzan sin tu intervención constante.
           </p>
 
-          {/* H2 — Método para liberar tiempo */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Un método sencillo para liberar tu tiempo en 4 semanas
+          {/* CTA intermedio */}
+          <div className="my-10 rounded-xl border-2 border-accent-300 bg-accent-50 p-6 not-prose">
+            <p className="font-semibold text-primary-900 text-lg">
+              ¿Tu negocio depende demasiado de ti?
+            </p>
+            <p className="mt-2 text-gray-700">
+              En un{" "}
+              <a
+                href="/diagnostico-negocio"
+                className="text-accent-600 underline hover:text-accent-700 font-medium"
+              >
+                diagnóstico gratuito
+              </a>{" "}
+              analizamos juntos la estructura de tu empresa, identificamos qué
+              puedes delegar y diseñamos los primeros pasos para que dejes de
+              ser el cuello de botella. 30 minutos sin compromiso.
+            </p>
+          </div>
+
+          {/* ====================== SECCIÓN 5 ====================== */}
+          <h2 id="sistemas" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            5. Sistemas simples que hacen funcionar un negocio
           </h2>
-          <p className="mt-4 text-gray-600 md:text-lg">
+          <p className="text-gray-600 md:text-lg">
+            Un sistema de empresa no es un software caro ni un diagrama
+            complicado. Es un conjunto de reglas simples que permiten que las
+            cosas funcionen de forma predecible sin que tú tengas que
+            intervenir en cada decisión. Los mejores sistemas son tan sencillos
+            que parecen obvios — pero la diferencia entre tenerlos y no
+            tenerlos es enorme.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Sistema de reuniones (adiós a las interrupciones)
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Una reunión semanal de 30 minutos con tu equipo para revisar qué se
+            ha hecho, qué problemas hay y qué se va a hacer la semana siguiente.
+            Con agenda fija, horario fijo y duración fija. El equipo sabe que
+            tiene un espacio para resolver dudas y tú dejas de ser el buzón
+            permanente de consultas. Una reunión semanal bien hecha sustituye
+            a decenas de interrupciones diarias.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Sistema de indicadores (saber sin estar encima)
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Define 4 o 5{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">
+              indicadores clave de tu empresa
+            </a>{" "}
+            que revises cada semana: facturación, número de clientes nuevos,
+            incidencias, margen bruto, satisfacción del cliente. Con esos datos,
+            sabes si el negocio va bien sin necesidad de estar encima de cada
+            operación. Y si algo se desvía, lo ves antes de que se convierta en
+            un problema.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Sistema de decisiones (quién decide qué)
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Define qué decisiones puede tomar cada persona sin consultarte.
+            Por ejemplo: «cualquier gasto de menos de 200 euros lo puede
+            aprobar el encargado», «las reclamaciones de menos de 100 euros
+            se resuelven directamente con el cliente», «los presupuestos
+            estándar los puede enviar el comercial sin mi visto bueno». Cada
+            regla de estas elimina decenas de interrupciones al mes y hace que
+            tu equipo se sienta responsable y capaz.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Sistema de checklists (eliminar errores repetitivos)
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Los errores que se repiten no son un problema de personas — son un
+            problema de sistema. Si un envío sale mal porque alguien olvida
+            revisar la dirección, no necesitas echar una bronca: necesitas un
+            checklist de 5 puntos antes de cada envío. Los pilotos de avión
+            usan checklists. Los cirujanos usan checklists. Tu empresa también
+            debería.
+          </p>
+
+          {/* Cuadro de herramientas */}
+          <div className="my-10 rounded-xl border-2 border-accent-400 bg-white p-6 md:p-8 shadow-sm not-prose">
+            <h3 className="text-lg font-bold text-gray-900">
+              Herramientas sencillas para implementar sistemas
+            </h3>
+            <ul className="mt-4 space-y-3">
+              {[
+                ["Google Sheets o Excel", "Gratis, para llevar indicadores, checklists y control de procesos."],
+                ["Trello o Asana (versión gratuita)", "Para asignar tareas y ver en qué estado está cada cosa sin preguntar."],
+                ["WhatsApp Business o un grupo interno", "Para comunicaciones operativas del día a día (no para decisiones importantes)."],
+                ["Una pizarra en la oficina", "A veces lo más sencillo funciona mejor. Tareas de la semana, responsables, estado."],
+              ].map(([titulo, desc], i) => (
+                <li key={i} className="flex items-start gap-3 md:text-lg">
+                  <span className="mt-1 text-accent-500">&#10003;</span>
+                  <span className="text-gray-700">
+                    <strong className="text-gray-900">{titulo}:</strong> {desc}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* ====================== SECCIÓN 6 ====================== */}
+          <h2 id="liberar-tiempo" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            6. Cómo liberar tu tiempo en 4 semanas
+          </h2>
+          <p className="text-gray-600 md:text-lg">
             No vas a reorganizar tu empresa de un día para otro. Pero puedes
             empezar a soltar lastre en cuatro semanas con este método:
           </p>
 
-          <div className="mt-8 space-y-6">
+          <div className="mt-8 space-y-6 not-prose">
             {[
               {
                 week: "Semana 1",
@@ -413,33 +587,201 @@ export default function ArticuloOrganizarEmpresa() {
             ))}
           </div>
 
-          {/* Conclusión */}
-          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Conclusión: un negocio que depende de ti no es un negocio, es una
-            trampa
+          <blockquote className="my-10 border-l-4 border-accent-500 bg-accent-50 py-6 px-6 italic text-gray-800 md:text-xl rounded-r-lg">
+            «No se trata de trabajar menos. Se trata de trabajar en lo
+            correcto. El empresario que dedica su tiempo a tareas operativas
+            le está robando futuro a su propia empresa.»
+          </blockquote>
+
+          {/* ====================== SECCIÓN 7 ====================== */}
+          <h2 id="caso-real" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            7. Caso real: la empresa de eventos que pasó del caos al control
           </h2>
+          <p className="text-gray-600 md:text-lg">
+            Una empresa de eventos en Galicia tenía tres empleados y el dueño
+            trabajaba más que los tres juntos. Hacía los presupuestos,
+            coordinaba a los proveedores, atendía a los clientes, supervisaba
+            cada montaje y se encargaba de la contabilidad. Facturaban bien
+            pero el{" "}
+            <a href="/blog/como-mejorar-rentabilidad-empresa" className="text-accent-600 underline hover:text-accent-700">
+              margen era pequeño
+            </a>, el dueño estaba quemado y el negocio no podía aceptar
+            más clientes porque no daba abasto.
+          </p>
+
+          <div className="my-10 rounded-xl border border-amber-200 bg-amber-50 p-6 md:p-8 not-prose">
+            <h3 className="text-lg font-bold text-amber-900">
+              Lo que hicimos: tres cambios en tres meses
+            </h3>
+            <ul className="mt-4 space-y-4">
+              <li className="flex items-start gap-3 text-gray-700 md:text-lg">
+                <span className="mt-1 text-amber-600 font-bold">1.</span>
+                <span>
+                  <strong>Clasificamos sus tareas.</strong> Identificamos
+                  todo lo que hacía el dueño y lo separamos en tres columnas.
+                  Resultado: el 60% de su tiempo se iba en tareas que podía
+                  hacer su equipo con formación y procesos claros.
+                </span>
+              </li>
+              <li className="flex items-start gap-3 text-gray-700 md:text-lg">
+                <span className="mt-1 text-amber-600 font-bold">2.</span>
+                <span>
+                  <strong>Documentamos procesos.</strong> Creamos checklists
+                  para presupuestación, coordinación de proveedores y montaje
+                  de eventos. Definimos responsables para cada fase y criterios
+                  claros para que el equipo tomara decisiones sin esperar al
+                  dueño.
+                </span>
+              </li>
+              <li className="flex items-start gap-3 text-gray-700 md:text-lg">
+                <span className="mt-1 text-amber-600 font-bold">3.</span>
+                <span>
+                  <strong>Implantamos sistemas.</strong> Reunión semanal de
+                  30 minutos, cuadro de indicadores básico, reglas de decisión
+                  (quién puede aprobar qué). Externalizamos la contabilidad.
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="my-10 rounded-xl border border-green-200 bg-green-50 p-6 md:p-8 not-prose">
+            <h3 className="text-lg font-bold text-green-900">
+              Resultado a los tres meses
+            </h3>
+            <ul className="mt-4 space-y-3">
+              {[
+                "El dueño pasó de trabajar 14 horas al día a 8.",
+                "El equipo empezó a resolver situaciones que antes esperaban.",
+                "Pudieron aceptar un 40% más de eventos sin contratar a nadie.",
+                "El dueño tuvo tiempo para pensar en cómo hacer crecer el negocio.",
+                "Las reclamaciones de clientes bajaron porque los procesos eran más consistentes.",
+                "Por primera vez en 4 años, el dueño se fue una semana de vacaciones sin que le llamaran.",
+              ].map((item, i) => (
+                <li
+                  key={i}
+                  className="flex items-start gap-3 text-green-800 md:text-lg"
+                >
+                  <span className="mt-1 font-bold">+</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <p className="text-gray-600 md:text-lg">
+            No contrataron a nadie nuevo. No compraron ningún software. No
+            hicieron una «transformación digital». Simplemente pusieron orden:
+            procesos claros, responsabilidades definidas y sistemas simples que
+            funcionan sin depender de una sola persona.
+          </p>
+
+          {/* ====================== SECCIÓN 8 ====================== */}
+          <h2 id="preparar-crecimiento" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            8. Cómo preparar tu empresa para el crecimiento
+          </h2>
+          <p className="text-gray-600 md:text-lg">
+            Organizar tu empresa no es solo para dejar de sufrir. Es la
+            condición previa para poder crecer. Una empresa desorganizada que
+            intenta crecer es como un coche con los frenos puestos al que le
+            metes más gasolina: más ruido, más humo, pero no avanza.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            El crecimiento necesita estructura previa
+          </h3>
+          <p className="mt-3 text-gray-600 md:text-lg">
+            Si hoy no puedes irte un día sin que todo se descontrole, ¿qué
+            pasará cuando dupliques clientes? Si hoy no tienes procesos de
+            venta documentados, ¿cómo vas a{" "}
+            <a href="/blog/como-conseguir-clientes-para-tu-negocio" className="text-accent-600 underline hover:text-accent-700">
+              captar más clientes
+            </a>{" "}
+            de forma sistemática? Si hoy tu equipo no puede tomar decisiones
+            sin ti, ¿cómo vas a abrir una segunda sede o un nuevo mercado?
+          </p>
           <p className="mt-4 text-gray-600 md:text-lg">
+            La secuencia correcta es: primero organizas, después creces. No al
+            revés. «Cuando crezca me organizaré» es la frase que mantiene a
+            miles de empresarios atrapados en negocios que facturan pero no
+            avanzan.
+          </p>
+
+          <h3 className="mt-8 text-xl font-semibold text-primary-800">
+            Los cinco pilares para preparar el crecimiento
+          </h3>
+          <div className="my-6 overflow-x-auto not-prose">
+            <table className="w-full rounded-lg border border-gray-200 text-left text-sm md:text-base">
+              <thead>
+                <tr className="bg-primary-900 text-white">
+                  <th className="px-4 py-3 font-semibold">Pilar</th>
+                  <th className="px-4 py-3 font-semibold">Qué implica</th>
+                  <th className="px-4 py-3 font-semibold">Si no lo tienes...</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                {[
+                  ["Procesos documentados", "Las tareas clave están escritas y cualquiera puede seguirlas", "Cada nueva persona tarda meses en ser productiva"],
+                  ["Equipo autónomo", "Tu equipo toma decisiones operativas sin consultarte", "Tú eres el cuello de botella y el techo del crecimiento"],
+                  ["Control financiero", "Conoces tus márgenes, tu punto de equilibrio y tu flujo de caja", "Creces a ciegas y descubres los problemas cuando ya es tarde"],
+                  ["Captación predecible", "Tienes un sistema para conseguir clientes de forma estable", "Dependes de la suerte, del boca a boca o de tu red personal"],
+                  ["Tiempo del dueño liberado", "Dedicas al menos el 40% de tu tiempo a estrategia y desarrollo", "No tienes capacidad mental ni horaria para planificar el futuro"],
+                ].map(([pilar, implica, sinEl], i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                    <td className="px-4 py-3 font-medium text-gray-900">{pilar}</td>
+                    <td className="px-4 py-3 text-gray-600">{implica}</td>
+                    <td className="px-4 py-3 text-gray-600">{sinEl}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <p className="text-gray-600 md:text-lg">
+            No necesitas tener los cinco pilares perfectos para empezar a
+            crecer. Pero necesitas tener los cinco al menos en un nivel
+            básico. Si te falta uno, ese será el que te frene cuando intentes
+            dar el salto. Y normalmente, el que más falta hace es el quinto:
+            liberar el tiempo del dueño. Porque sin tiempo, no puedes pensar.
+            Y sin pensar, no puedes dirigir.
+          </p>
+
+          {/* ====================== SECCIÓN 9 ====================== */}
+          <h2 id="conclusion" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">
+            9. Conclusión: un negocio que depende de ti no es un negocio, es una trampa
+          </h2>
+          <p className="text-gray-600 md:text-lg">
             Si trabajas todo el día y tu negocio no crece, el problema no es
             que trabajes poco. El problema es que trabajas en lo que no debes.
             Has construido un negocio que te necesita en cada esquina y eso
             tiene un techo muy claro: tu propia energía y tu propio tiempo.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
-            Saber cómo organizar una empresa pequeña no es un lujo de grandes
+            La organización empresarial no es un lujo de grandes
             corporaciones. Es una necesidad de supervivencia para cualquier
             pyme que quiera crecer — o simplemente que quiera que su dueño
             pueda vivir con tranquilidad. Procesos claros, responsabilidades
-            definidas, delegación progresiva y un sistema que funcione con o
-            sin ti presente.
+            definidas, delegación progresiva y sistemas simples que funcionen
+            con o sin ti presente.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             No vas a cambiar tu empresa en un día. Pero si empiezas hoy,
             dentro de un mes ya habrás recuperado horas que ahora pierdes en
-            tareas que no son tuyas. Y dentro de tres meses, tendrás un
+            tareas que no son tuyas. Dentro de tres meses, tendrás un
             negocio que funciona mejor, un equipo que rinde más y tú podrás
             dedicar tu tiempo a lo que de verdad importa:{" "}
-            <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">hacer crecer tu empresa</a>.
+            <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">
+              hacer crecer tu empresa
+            </a>.
           </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Y si necesitas a alguien que te ayude a dar el primer paso — a
+            ver tu empresa desde fuera, a identificar qué puedes soltar y a
+            montar los sistemas que necesitas —{" "}
+            <a href="/diagnostico-negocio" className="text-accent-600 underline hover:text-accent-700">
+              hablamos
+            </a>.
+          </p>
+
           </article>
           <div className="mt-12 lg:mt-0">
             <div className="lg:sticky lg:top-28">
@@ -458,7 +800,8 @@ export default function ArticuloOrganizarEmpresa() {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-100/90">
             Analizamos juntos la estructura de tu empresa, identificamos qué
             puedes delegar y diseñamos un plan para que dejes de ser el cuello
-            de botella de tu propio negocio.
+            de botella de tu propio negocio. Sin teoría, sin informes
+            decorativos — solo orden y soluciones.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
