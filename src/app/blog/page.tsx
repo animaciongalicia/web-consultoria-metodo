@@ -83,6 +83,17 @@ const posts = [
     readTime: "18 min",
     isPillar: true,
   },
+  {
+    slug: "indicadores-clave-de-una-empresa",
+    title:
+      "Qué números debe controlar cualquier empresa para no ir a ciegas — Guía completa de KPIs",
+    excerpt:
+      "Los 9 KPIs que toda pyme debe vigilar: margen, punto muerto, ticket medio, CAC, flujo de caja. Cómo interpretar datos, tomar decisiones con números reales y montar tu sistema de control mensual.",
+    date: "10 abril 2025",
+    category: "Control y gestión",
+    readTime: "18 min",
+    isPillar: true,
+  },
   // --- ARTÍCULOS DE APOYO ---
   {
     slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
@@ -133,16 +144,6 @@ const posts = [
     date: "13 marzo 2025",
     category: "Crecimiento",
     readTime: "14 min",
-  },
-  {
-    slug: "indicadores-clave-de-una-empresa",
-    title:
-      "Qué números debe controlar cualquier empresa para no ir a ciegas",
-    excerpt:
-      "Los 8 indicadores clave que todo empresario debe vigilar cada mes. KPIs básicos, cómo analizarlos, tabla de referencia y un ejemplo real que cambió la rentabilidad de una pyme.",
-    date: "13 marzo 2025",
-    category: "Control y gestión",
-    readTime: "15 min",
   },
   {
     slug: "como-tomar-decisiones-en-un-negocio",
@@ -218,75 +219,48 @@ export default function Blog() {
         <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
           {/* Columna principal - Posts */}
           <div>
-            {/* Post destacado - integrado pero con más presencia */}
-            <a
-              href={`/blog/${posts[0].slug}`}
-              className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${categoryColors[posts[0].category].border} ${categoryColors[posts[0].category].shadow}`}
-            >
-              <div className="flex flex-wrap items-center gap-3">
-                <span
-                  className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${categoryColors[posts[0].category].bg} ${categoryColors[posts[0].category].text}`}
+            {/* Artículos pilar destacados */}
+            {posts.filter((p) => p.isPillar).map((post) => {
+              const colors = categoryColors[post.category];
+              return (
+                <a
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${colors.border} ${colors.shadow}`}
                 >
-                  {posts[0].category}
-                </span>
-                <span className="text-xs text-gray-400">
-                  {posts[0].date}
-                </span>
-                <span className="text-xs text-gray-400">
-                  {posts[0].readTime} de lectura
-                </span>
-                <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
-                  Artículo pilar
-                </span>
-              </div>
-              <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
-                {posts[0].title}
-              </h2>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                {posts[0].excerpt}
-              </p>
-              <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                Leer artículo
-                <span aria-hidden="true">&rarr;</span>
-              </p>
-            </a>
-
-            {/* Segundo pilar destacado */}
-            <a
-              href={`/blog/${posts[1].slug}`}
-              className={`group mb-8 block rounded-xl border bg-white p-6 shadow-sm transition-all hover:shadow-lg md:p-8 ${categoryColors[posts[1].category].border} ${categoryColors[posts[1].category].shadow}`}
-            >
-              <div className="flex flex-wrap items-center gap-3">
-                <span
-                  className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${categoryColors[posts[1].category].bg} ${categoryColors[posts[1].category].text}`}
-                >
-                  {posts[1].category}
-                </span>
-                <span className="text-xs text-gray-400">
-                  {posts[1].date}
-                </span>
-                <span className="text-xs text-gray-400">
-                  {posts[1].readTime} de lectura
-                </span>
-                <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
-                  Artículo pilar
-                </span>
-              </div>
-              <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
-                {posts[1].title}
-              </h2>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                {posts[1].excerpt}
-              </p>
-              <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                Leer artículo
-                <span aria-hidden="true">&rarr;</span>
-              </p>
-            </a>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <span
+                      className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
+                    >
+                      {post.category}
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      {post.date}
+                    </span>
+                    <span className="text-xs text-gray-400">
+                      {post.readTime} de lectura
+                    </span>
+                    <span className="rounded-full bg-accent-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent-700">
+                      Artículo pilar
+                    </span>
+                  </div>
+                  <h2 className="mt-4 text-xl font-bold text-gray-900 group-hover:text-primary-700 transition-colors md:text-2xl">
+                    {post.title}
+                  </h2>
+                  <p className="mt-3 text-gray-600 leading-relaxed">
+                    {post.excerpt}
+                  </p>
+                  <p className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+                    Leer artículo
+                    <span aria-hidden="true">&rarr;</span>
+                  </p>
+                </a>
+              );
+            })}
 
             {/* Grid de posts restantes */}
             <div className="grid gap-5 sm:grid-cols-2">
-              {posts.slice(2).map((post) => {
+              {posts.filter((p) => !p.isPillar).map((post) => {
                 const colors = categoryColors[post.category];
                 return (
                   <a
