@@ -884,15 +884,26 @@ export default function ArticuloConseguirClientes() {
             >
               empresarios que vivían atrapados en el día a día
             </a>{" "}
-            de su negocio, sin tiempo ni energía para pensar en cómo
-            crecer. La solución nunca fue trabajar más horas. Fue
+            de su negocio, sin tiempo ni energía para pensar en cómo{" "}
+            <a
+              href="/blog/como-hacer-crecer-una-empresa-pequena"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              hacer crecer su empresa
+            </a>. La solución nunca fue trabajar más horas. Fue
             trabajar con método: definir prioridades, montar sistemas
             y dejar de improvisar.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             Si llevas tiempo preguntándote cómo conseguir clientes para
             tu negocio sin depender del azar, la respuesta empieza por
-            mirar hacia dentro: tu propuesta, tu proceso, tu estrategia.
+            mirar hacia dentro: tu propuesta, tu proceso, tu{" "}
+            <a
+              href="/blog/como-definir-estrategia-negocio"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              estrategia de negocio
+            </a>.
             Y cuando necesitas una mirada externa que te ayude a ver lo
             que tú ya no puedes ver desde dentro,{" "}
             <a

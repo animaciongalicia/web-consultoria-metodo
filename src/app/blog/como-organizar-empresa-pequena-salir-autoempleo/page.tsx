@@ -414,7 +414,10 @@ export default function ArticuloOrganizarEmpresa() {
             harías. Y en la mayoría de casos, eso está bien. Si el resultado
             es un 80% de lo que tú habrías logrado pero te libera 10 horas a
             la semana, has ganado. Esas 10 horas puedes dedicarlas a lo que
-            realmente mueve la aguja: estrategia, clientes clave, nuevas
+            realmente mueve la aguja:{" "}
+            <a href="/blog/como-definir-estrategia-negocio" className="text-accent-600 underline hover:text-accent-700">
+              definir la estrategia
+            </a>, clientes clave, nuevas
             oportunidades,{" "}
             <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">
               hacer crecer tu empresa

@@ -127,7 +127,8 @@ export default function ArticuloCrecimiento() {
             con total convicción: cuando una empresa pequeña se estanca, el
             problema casi nunca es el mercado. Es algo interno. Un modelo que
             ya no da más de sí, un enfoque que se ha quedado obsoleto, una
-            falta de estrategia que se disimula con esfuerzo.
+            <a href="/blog/como-definir-estrategia-negocio" className="text-accent-600 underline hover:text-accent-700">falta
+            de estrategia</a> que se disimula con esfuerzo.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             En esta guía vamos a ver las fases reales del crecimiento

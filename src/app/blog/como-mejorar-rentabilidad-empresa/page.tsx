@@ -1126,7 +1126,13 @@ export default function ArticuloRentabilidadEmpresa() {
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             No es algo que pase por casualidad. Es algo que se construye
-            deliberadamente, con información, con criterio y con disciplina.
+            deliberadamente, con información, con criterio y con{" "}
+            <a
+              href="/blog/como-definir-estrategia-negocio"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              una estrategia clara
+            </a>.
             He visto empresas en los sectores más difíciles ser muy rentables.
             Y empresas en sectores «fáciles» estar al borde de cerrar. La
             diferencia nunca era el sector. Era cómo se tomaban las{" "}

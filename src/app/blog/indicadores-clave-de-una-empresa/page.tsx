@@ -684,7 +684,12 @@ export default function ArticuloIndicadores() {
             tener una hoja de cálculo bonita — es{" "}
             <a href="/blog/como-tomar-decisiones-en-un-negocio" className="text-accent-600 underline hover:text-accent-700">
               tomar mejores decisiones
-            </a>. Pero ¿cómo se pasa de los datos a la acción?
+            </a>{" "}
+            y alimentar tu{" "}
+            <a href="/blog/como-definir-estrategia-negocio" className="text-accent-600 underline hover:text-accent-700">
+              estrategia de negocio
+            </a>{" "}
+            con datos reales. Pero ¿cómo se pasa de los datos a la acción?
           </p>
 
           <h3 className="mt-8 text-xl font-semibold text-primary-800">

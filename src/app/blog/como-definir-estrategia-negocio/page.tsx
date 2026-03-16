@@ -480,7 +480,7 @@ export default function ArticuloEstrategia() {
               {[
                 {
                   bloque: "1. Mi cliente ideal",
-                  contenido: "Descripción concreta del cliente para el que trabajas. No «empresas». Qué tipo, qué tamaño, qué problema tiene, dónde está.",
+                  contenido: <>Descripción concreta del cliente para el que trabajas. No «empresas». Qué tipo, qué tamaño, qué problema tiene, dónde está. Y cómo vas a <a href="/blog/como-conseguir-clientes-para-tu-negocio" className="text-accent-600 underline hover:text-accent-700">llegar a él de forma sistemática</a>.</>,
                 },
                 {
                   bloque: "2. El problema que resuelvo",
@@ -696,9 +696,13 @@ export default function ArticuloEstrategia() {
           <p className="text-gray-600 md:text-lg">
             Puedes tener el mejor equipo, el mejor producto y el mejor
             marketing. Pero si no sabes a dónde vas, todo ese esfuerzo se
-            dispersa. La estrategia no es algo que solo necesitan las grandes
-            empresas. Es lo que permite a una pyme dejar de improvisar y
-            empezar a construir algo con dirección.
+            dispersa. La estrategia es lo que conecta todo lo demás: tu{" "}
+            <a href="/blog/como-organizar-empresa-pequena-salir-autoempleo" className="text-accent-600 underline hover:text-accent-700">
+              organización interna
+            </a>, tu captación de clientes, tu forma de{" "}
+            <a href="/blog/como-hacer-crecer-una-empresa-pequena" className="text-accent-600 underline hover:text-accent-700">
+              crecer
+            </a>. Sin estrategia, cada pieza va por su lado.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             No necesitas un MBA ni un consultor de estrategia de los caros.
