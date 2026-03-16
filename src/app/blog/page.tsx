@@ -116,6 +116,17 @@ const posts = [
     readTime: "18 min",
     isPillar: true,
   },
+  {
+    slug: "como-definir-estrategia-negocio",
+    title:
+      "Cómo definir la estrategia de tu negocio para dejar de improvisar — Guía completa",
+    excerpt:
+      "Modelo de negocio, propuesta de valor, posicionamiento, plan estratégico en una página, errores que cuestan dinero y revisión periódica. Todo lo que una pyme necesita para tener dirección.",
+    date: "10 abril 2025",
+    category: "Estrategia",
+    readTime: "18 min",
+    isPillar: true,
+  },
   // --- ARTÍCULOS DE APOYO ---
   {
     slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
