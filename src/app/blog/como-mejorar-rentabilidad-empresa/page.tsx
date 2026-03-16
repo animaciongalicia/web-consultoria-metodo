@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo mejorar la rentabilidad de una empresa — Guía completa para pymes | Consultoría Método",
   description:
-    "Guía práctica para mejorar la rentabilidad de tu empresa. Aprende a analizar márgenes, subir precios sin perder clientes, reducir costes y vender mejor. Con ejemplos reales y plan de acción paso a paso.",
+    "Guía práctica para mejorar la rentabilidad de tu empresa. Márgenes, precios, costes y ventas con ejemplos reales. Consultoría empresarial en Coruña, Galicia y online en toda España.",
   keywords: [
     "mejorar rentabilidad empresa",
     "rentabilidad empresarial",
@@ -19,8 +19,9 @@ export const metadata: Metadata = {
     "subir precios sin perder clientes",
     "reducir costes empresa",
     "mejorar ventas empresa",
-    "consultoría rentabilidad",
-    "consultoría empresarial",
+    "consultor empresarial Coruña",
+    "consultoría mejora de empresas",
+    "mejora de empresas Galicia",
   ],
   openGraph: {
     title:

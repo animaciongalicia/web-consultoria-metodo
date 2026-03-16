@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo organizar una empresa para que crezca — Guía completa de organización empresarial para pymes | Consultoría Método",
   description:
-    "Guía práctica para organizar tu empresa pequeña: caos operativo, procesos, delegación, sistemas simples, cómo liberar tiempo y preparar el crecimiento. Con ejemplos reales y plan de acción.",
+    "Guía práctica para organizar tu empresa: procesos, delegación, sistemas simples y cómo liberar tiempo. Consultor de negocios en Coruña, Galicia y online en toda España.",
   keywords: [
     "organización empresarial",
     "empresa desorganizada",
@@ -19,8 +19,9 @@ export const metadata: Metadata = {
     "cómo delegar tareas",
     "empresa depende de mí",
     "organizar negocio para crecer",
-    "caos operativo empresa",
-    "liberar tiempo empresario",
+    "consultor de negocios Coruña",
+    "consultoría empresas Galicia",
+    "mejora de empresas organización",
   ],
   openGraph: {
     title:

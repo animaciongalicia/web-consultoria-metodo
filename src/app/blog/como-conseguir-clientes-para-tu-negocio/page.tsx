@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo conseguir más clientes para tu negocio — Guía completa de captación para pymes | Consultoría Método",
   description:
-    "Guía práctica para conseguir clientes de forma constante. Estrategias reales de captación para pymes: marketing local, digital, alianzas, proceso comercial y sistema de ventas que funciona sin depender del boca a boca.",
+    "Guía práctica para conseguir clientes de forma constante: marketing local, digital, alianzas y sistema de ventas para pymes. Consultor de negocios en Coruña, Galicia y online.",
   keywords: [
     "cómo conseguir clientes",
     "captación de clientes pymes",
@@ -18,9 +18,10 @@ export const metadata: Metadata = {
     "marketing para pymes",
     "estrategia captación clientes",
     "sistema de ventas pyme",
-    "consultoría captación clientes",
     "clientes para negocio local",
-    "cómo atraer clientes",
+    "consultoría empresas Coruña",
+    "consultor de negocios Galicia",
+    "mejora de empresas captación clientes",
   ],
   openGraph: {
     title:

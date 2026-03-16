@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo hacer crecer una empresa paso a paso — Guía completa de crecimiento empresarial para pymes | Consultoría Método",
   description:
-    "Guía práctica para hacer crecer tu empresa: fases de crecimiento, errores al escalar, cuándo invertir, cuándo contratar, nuevas líneas de negocio, mentalidad empresarial y plan real de crecimiento paso a paso.",
+    "Guía práctica para hacer crecer tu empresa: fases de crecimiento, errores al escalar, cuándo invertir y cuándo contratar. Consultoría empresarial en Coruña, Galicia y online.",
   keywords: [
     "crecer empresa",
     "escalar negocio",
@@ -19,8 +19,9 @@ export const metadata: Metadata = {
     "cuándo contratar empleados",
     "cuándo invertir en el negocio",
     "escalar un negocio pequeño",
-    "mentalidad empresarial",
-    "empresa no crece",
+    "consultoría empresarial A Coruña",
+    "mejora de empresas Galicia",
+    "consultor crecimiento empresas",
   ],
   openGraph: {
     title:

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo definir la estrategia de tu negocio para dejar de improvisar — Guía completa para pymes | Consultoría Método",
   description:
-    "Guía práctica para definir la estrategia de tu negocio: modelo de negocio, propuesta de valor, posicionamiento, plan estratégico simple, errores estratégicos y revisión anual. Todo lo que una pyme necesita para dejar de ir a ciegas.",
+    "Guía práctica para definir la estrategia de tu negocio: modelo, propuesta de valor, posicionamiento y plan estratégico. Consultor empresarial en Coruña, Galicia y online en toda España.",
   keywords: [
     "estrategia negocio",
     "plan estratégico pyme",
@@ -18,9 +18,10 @@ export const metadata: Metadata = {
     "plan de negocio pyme",
     "dirección estratégica",
     "ventaja competitiva",
-    "visión empresarial",
-    "estrategia comercial",
     "definir estrategia empresa",
+    "consultor empresarial Coruña",
+    "consultoría estratégica Galicia",
+    "mejora de empresas estrategia",
   ],
   openGraph: {
     title:

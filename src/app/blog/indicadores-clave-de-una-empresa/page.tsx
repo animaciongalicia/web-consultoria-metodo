@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Indicadores clave de una empresa — Guía completa de KPIs y control financiero para pymes | Consultoría Método",
   description:
-    "Guía práctica con los KPIs que toda empresa pequeña debe controlar: margen, punto muerto, ticket medio, coste de adquisición, flujo de caja. Cómo interpretar datos y tomar decisiones de negocio con números reales.",
+    "Los KPIs que toda pyme debe controlar: margen, punto muerto, ticket medio, CAC, flujo de caja. Consultoría de mejora de empresas en Coruña, Galicia y online en toda España.",
   keywords: [
     "indicadores clave de una empresa",
     "indicadores empresa",
@@ -19,8 +19,9 @@ export const metadata: Metadata = {
     "ticket medio negocio",
     "coste adquisición cliente",
     "flujo de caja pyme",
-    "cuadro de mando pyme",
-    "control de gestión empresarial",
+    "consultoría empresarial Coruña",
+    "control de gestión pymes Galicia",
+    "mejora de empresas indicadores",
   ],
   openGraph: {
     title:
