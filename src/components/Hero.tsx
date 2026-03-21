@@ -10,14 +10,14 @@ export default function Hero() {
         <h1 className="text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
           {HERO.h1}
         </h1>
-        <p className="mx-auto mt-6 max-w-3xl text-lg text-primary-100/90 md:text-xl">
+        <p className="mx-auto mt-6 text-lg text-primary-100/90 md:text-xl">
           {HERO.subtitleLine1}
         </p>
-        <p className="mx-auto mt-3 max-w-3xl text-lg text-primary-100/90 md:text-xl">
+        <p className="mx-auto mt-3 text-lg text-primary-100/90 md:text-xl">
           {HERO.subtitleLine2}
         </p>
 
-        <div className="mx-auto mt-8 max-w-3xl space-y-2 text-center text-primary-100/90">
+        <div className="mx-auto mt-8 space-y-2 text-center text-primary-100/90">
           <p>
             {HERO.bullets[0]}<span className="mx-3 text-accent-400">—</span>{HERO.bullets[1]}
           </p>
