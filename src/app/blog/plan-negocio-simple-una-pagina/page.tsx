@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://consultoriametodo.es/blog/plan-negocio-simple-una-pagina" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Plan de negocio en una página: lo único que necesitas", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-10-06" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Plan de negocio en una página: lo único que necesitas", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-05-05" };
 
 export default function ArticuloPlanNegocio() {
   return (

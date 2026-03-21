@@ -32,7 +32,7 @@ const jsonLd = {
   headline: "Consultor de empresas en Galicia: qué esperar y cómo elegir bien",
   author: { "@type": "Person", name: "Pablo García Dacosta" },
   publisher: { "@type": "Organization", name: "Consultoría Método" },
-  datePublished: "2025-08-18",
+  datePublished: "2025-04-24",
 };
 
 export default function ArticuloConsultorGalicia() {

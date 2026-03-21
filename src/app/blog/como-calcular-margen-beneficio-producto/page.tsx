@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: { title: "Cómo calcular el margen de beneficio de un producto o servicio", description: "La mayoría de pymes no sabe el margen real de lo que vende. Descubre cómo calcularlo y qué hacer cuando descubres que un producto te da pérdidas.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/como-calcular-margen-beneficio-producto" },
 };
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo calcular el margen de beneficio de un producto o servicio", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-06-02" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo calcular el margen de beneficio de un producto o servicio", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-04-07" };
 
 export default function ArticuloMargen() {
   return (

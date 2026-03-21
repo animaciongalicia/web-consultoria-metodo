@@ -54,8 +54,8 @@ const jsonLd = {
     name: "Consultoría Método",
     url: "https://consultoriametodo.es",
   },
-  datePublished: "2025-04-10",
-  dateModified: "2025-04-10",
+  datePublished: "2025-03-20",
+  dateModified: "2025-03-20",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":

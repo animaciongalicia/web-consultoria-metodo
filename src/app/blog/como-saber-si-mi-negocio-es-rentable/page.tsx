@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://consultoriametodo.es/blog/como-saber-si-mi-negocio-es-rentable" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo saber si tu negocio es rentable de verdad", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-07-21" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo saber si tu negocio es rentable de verdad", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-04-17" };
 
 export default function ArticuloNegocioRentable() {
   return (

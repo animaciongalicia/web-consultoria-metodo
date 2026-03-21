@@ -32,7 +32,7 @@ const jsonLd = {
   headline: "Cómo vender más sin bajar precios",
   author: { "@type": "Person", name: "Pablo García Dacosta" },
   publisher: { "@type": "Organization", name: "Consultoría Método" },
-  datePublished: "2025-09-15",
+  datePublished: "2025-05-01",
 };
 
 export default function ArticuloVenderMas() {

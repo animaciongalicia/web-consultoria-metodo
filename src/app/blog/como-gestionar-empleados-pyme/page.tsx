@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://consultoriametodo.es/blog/como-gestionar-empleados-pyme" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo gestionar empleados en una pyme sin volverte loco", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-09-01" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo gestionar empleados en una pyme sin volverte loco", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-04-28" };
 
 export default function ArticuloGestionarEmpleados() {
   return (

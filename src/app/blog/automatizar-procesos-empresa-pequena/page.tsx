@@ -32,7 +32,7 @@ const jsonLd = {
   headline: "Cómo automatizar procesos en una empresa pequeña",
   author: { "@type": "Person", name: "Pablo García Dacosta" },
   publisher: { "@type": "Organization", name: "Consultoría Método" },
-  datePublished: "2025-10-20",
+  datePublished: "2025-05-08",
 };
 
 export default function ArticuloAutomatizar() {

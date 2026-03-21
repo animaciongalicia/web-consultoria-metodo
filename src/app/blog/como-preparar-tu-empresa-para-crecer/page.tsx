@@ -32,7 +32,7 @@ const jsonLd = {
   headline: "Cómo preparar tu empresa para crecer sin que se rompa por el camino",
   author: { "@type": "Person", name: "Pablo García Dacosta" },
   publisher: { "@type": "Organization", name: "Consultoría Método" },
-  datePublished: "2025-11-03",
+  datePublished: "2025-05-12",
 };
 
 export default function ArticuloPrepararCrecimiento() {
