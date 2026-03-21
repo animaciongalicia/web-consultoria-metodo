@@ -127,7 +127,7 @@ const posts = [
     readTime: "18 min",
     isPillar: true,
   },
-  // --- ARTÍCULOS DE APOYO ---
+  // --- ARTÍCULOS DE APOYO (existentes) ---
   {
     slug: "por-que-no-funciona-la-publicidad-en-mi-negocio",
     title:
@@ -207,7 +207,147 @@ const posts = [
     category: "Rentabilidad",
     readTime: "12 min",
   },
+  // --- ARTÍCULOS LONG TAIL (publicación programada) ---
+  {
+    slug: "como-reducir-gastos-empresa-sin-recortar",
+    title: "Cómo reducir gastos en tu empresa sin recortar en lo que importa",
+    excerpt: "7 áreas donde las pymes malgastan dinero y cómo optimizar gastos sin cargarte la calidad ni el crecimiento.",
+    date: "21 abril 2025",
+    category: "Rentabilidad",
+    readTime: "10 min",
+    publishDate: "2025-04-21",
+  },
+  {
+    slug: "mi-negocio-no-crece-que-hago",
+    title: "Mi negocio no crece: qué hacer cuando te estancas",
+    excerpt: "Señales de estancamiento, causas reales y 5 acciones concretas para salir del bloqueo y volver a crecer.",
+    date: "24 abril 2025",
+    category: "Crecimiento",
+    readTime: "10 min",
+    publishDate: "2025-04-24",
+  },
+  {
+    slug: "cuanto-debe-ganar-el-dueno-de-un-negocio",
+    title: "Cuánto debe ganar el dueño de un negocio: la pregunta incómoda",
+    excerpt: "Muchos empresarios cobran menos que sus empleados. Cómo calcular tu sueldo justo y separar beneficio de compensación.",
+    date: "5 mayo 2025",
+    category: "Rentabilidad",
+    readTime: "10 min",
+    publishDate: "2025-05-05",
+  },
+  {
+    slug: "como-delegar-tareas-sin-perder-control",
+    title: "Cómo delegar tareas en tu empresa sin perder el control",
+    excerpt: "Por qué no delegas, qué te cuesta no hacerlo, qué delegar primero y cómo montar un sistema de delegación real.",
+    date: "19 mayo 2025",
+    category: "Organización",
+    readTime: "10 min",
+    publishDate: "2025-05-19",
+  },
+  {
+    slug: "como-calcular-margen-beneficio-producto",
+    title: "Cómo calcular el margen de beneficio de un producto o servicio",
+    excerpt: "Margen bruto vs neto, fórmulas claras, los costes que nadie incluye y qué hacer cuando un producto tiene margen negativo.",
+    date: "2 junio 2025",
+    category: "Rentabilidad",
+    readTime: "10 min",
+    publishDate: "2025-06-02",
+  },
+  {
+    slug: "como-fidelizar-clientes-pyme",
+    title: "Cómo fidelizar clientes en una pyme: estrategias que funcionan",
+    excerpt: "Retener clientes cuesta 5 veces menos que conseguir nuevos. Estrategias prácticas de fidelización para pymes.",
+    date: "16 junio 2025",
+    category: "Clientes",
+    readTime: "10 min",
+    publishDate: "2025-06-16",
+  },
+  {
+    slug: "errores-empresarios-pyme-mas-comunes",
+    title: "Los 10 errores más comunes de los empresarios pyme",
+    excerpt: "Los fallos de gestión que frenan a la mayoría de pymes. Identificarlos es el primer paso para evitarlos.",
+    date: "7 julio 2025",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2025-07-07",
+  },
+  {
+    slug: "como-saber-si-mi-negocio-es-rentable",
+    title: "Cómo saber si tu negocio es rentable de verdad",
+    excerpt: "Facturar no es ganar. Indicadores clave de rentabilidad, punto de equilibrio y qué hacer si descubres que no eres rentable.",
+    date: "21 julio 2025",
+    category: "Rentabilidad",
+    readTime: "10 min",
+    publishDate: "2025-07-21",
+  },
+  {
+    slug: "como-subir-precios-sin-perder-clientes",
+    title: "Cómo subir precios sin perder clientes: guía para pymes",
+    excerpt: "Cuándo es el momento, cómo comunicarlo y estrategias para que la subida de precios refuerce tu negocio.",
+    date: "4 agosto 2025",
+    category: "Rentabilidad",
+    readTime: "10 min",
+    publishDate: "2025-08-04",
+  },
+  {
+    slug: "consultor-empresas-galicia-que-esperar",
+    title: "Consultor de empresas en Galicia: qué esperar y cómo elegir bien",
+    excerpt: "Qué puede hacer un consultor por tu negocio, qué preguntar antes de contratar y cómo sacarle el máximo partido.",
+    date: "18 agosto 2025",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2025-08-18",
+  },
+  {
+    slug: "como-gestionar-empleados-pyme",
+    title: "Cómo gestionar empleados en una pyme sin volverte loco",
+    excerpt: "Contratar bien, dar feedback, gestionar conflictos y construir cultura de equipo en una empresa pequeña.",
+    date: "1 septiembre 2025",
+    category: "Organización",
+    readTime: "10 min",
+    publishDate: "2025-09-01",
+  },
+  {
+    slug: "como-vender-mas-sin-bajar-precios",
+    title: "Cómo vender más sin bajar precios",
+    excerpt: "Bajar precios no es una estrategia. Vende más mejorando tu propuesta de valor, tu proceso comercial y tu seguimiento.",
+    date: "15 septiembre 2025",
+    category: "Clientes",
+    readTime: "10 min",
+    publishDate: "2025-09-15",
+  },
+  {
+    slug: "plan-negocio-simple-una-pagina",
+    title: "Plan de negocio en una página: lo único que necesitas",
+    excerpt: "Olvida los planes de 50 páginas. Un plan práctico y actualizable cabe en una página. Te enseñamos cómo.",
+    date: "6 octubre 2025",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2025-10-06",
+  },
+  {
+    slug: "automatizar-procesos-empresa-pequena",
+    title: "Cómo automatizar procesos en una empresa pequeña",
+    excerpt: "No necesitas ser grande para automatizar. Qué procesos priorizar, herramientas accesibles y errores a evitar.",
+    date: "20 octubre 2025",
+    category: "Organización",
+    readTime: "10 min",
+    publishDate: "2025-10-20",
+  },
+  {
+    slug: "como-preparar-tu-empresa-para-crecer",
+    title: "Cómo preparar tu empresa para crecer sin que se rompa por el camino",
+    excerpt: "Crecer sin estructura es la receta para el caos. Cómo preparar tu empresa antes de dar el salto.",
+    date: "3 noviembre 2025",
+    category: "Crecimiento",
+    readTime: "10 min",
+    publishDate: "2025-11-03",
+  },
 ];
+
+// Filtrar artículos por fecha de publicación (para publicación programada)
+const now = new Date().toISOString().slice(0, 10);
+const visiblePosts = posts.filter((p) => !("publishDate" in p) || (p as { publishDate: string }).publishDate <= now);
 
 const categories = Object.keys(categoryColors);
 
@@ -239,7 +379,7 @@ export default function Blog() {
               </h2>
               <div className="rounded-xl border-2 border-accent-200 bg-gradient-to-br from-accent-50/80 to-white p-4 md:p-5">
                 <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {posts.filter((p) => p.isPillar).map((post) => {
+                  {visiblePosts.filter((p) => p.isPillar).map((post) => {
                     const colors = categoryColors[post.category];
                     return (
                       <a
@@ -276,7 +416,7 @@ export default function Blog() {
 
             {/* Grid de artículos de apoyo */}
             <div className="grid gap-5 sm:grid-cols-2">
-              {posts.filter((p) => !p.isPillar).map((post) => {
+              {visiblePosts.filter((p) => !p.isPillar).map((post) => {
                 const colors = categoryColors[post.category];
                 return (
                   <a
@@ -326,7 +466,7 @@ export default function Blog() {
                 <div className="mt-3 flex flex-wrap gap-2">
                   {categories.map((cat) => {
                     const colors = categoryColors[cat];
-                    const postCount = posts.filter(
+                    const postCount = visiblePosts.filter(
                       (p) => p.category === cat
                     ).length;
                     return (
@@ -349,7 +489,7 @@ export default function Blog() {
                   Todos los artículos
                 </h3>
                 <nav className="mt-3 space-y-2">
-                  {posts.map((post) => {
+                  {visiblePosts.map((post) => {
                     const colors = categoryColors[post.category];
                     return (
                       <a

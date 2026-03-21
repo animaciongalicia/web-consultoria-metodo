@@ -64,6 +64,86 @@ export const BLOG_POSTS = [
     title: "Cómo mejorar la rentabilidad de una empresa: guía completa para pymes",
     category: "Rentabilidad",
   },
+  {
+    slug: "como-definir-estrategia-negocio",
+    title: "Cómo definir la estrategia de tu negocio para dejar de improvisar",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-reducir-gastos-empresa-sin-recortar",
+    title: "Cómo reducir gastos en tu empresa sin recortar en lo que importa",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "mi-negocio-no-crece-que-hago",
+    title: "Mi negocio no crece: qué hacer cuando te estancas",
+    category: "Crecimiento",
+  },
+  {
+    slug: "cuanto-debe-ganar-el-dueno-de-un-negocio",
+    title: "Cuánto debe ganar el dueño de un negocio: la pregunta incómoda",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "como-delegar-tareas-sin-perder-control",
+    title: "Cómo delegar tareas en tu empresa sin perder el control",
+    category: "Organización",
+  },
+  {
+    slug: "como-calcular-margen-beneficio-producto",
+    title: "Cómo calcular el margen de beneficio de un producto o servicio",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "como-fidelizar-clientes-pyme",
+    title: "Cómo fidelizar clientes en una pyme: estrategias que funcionan",
+    category: "Clientes",
+  },
+  {
+    slug: "errores-empresarios-pyme-mas-comunes",
+    title: "Los 10 errores más comunes de los empresarios pyme",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-saber-si-mi-negocio-es-rentable",
+    title: "Cómo saber si tu negocio es rentable de verdad",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "como-subir-precios-sin-perder-clientes",
+    title: "Cómo subir precios sin perder clientes: guía para pymes",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "consultor-empresas-galicia-que-esperar",
+    title: "Consultor de empresas en Galicia: qué esperar y cómo elegir bien",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-gestionar-empleados-pyme",
+    title: "Cómo gestionar empleados en una pyme sin volverte loco",
+    category: "Organización",
+  },
+  {
+    slug: "como-vender-mas-sin-bajar-precios",
+    title: "Cómo vender más sin bajar precios",
+    category: "Clientes",
+  },
+  {
+    slug: "plan-negocio-simple-una-pagina",
+    title: "Plan de negocio en una página: lo único que necesitas",
+    category: "Estrategia",
+  },
+  {
+    slug: "automatizar-procesos-empresa-pequena",
+    title: "Cómo automatizar procesos en una empresa pequeña",
+    category: "Organización",
+  },
+  {
+    slug: "como-preparar-tu-empresa-para-crecer",
+    title: "Cómo preparar tu empresa para crecer sin que se rompa por el camino",
+    category: "Crecimiento",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
