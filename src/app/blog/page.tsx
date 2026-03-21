@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
 
+// Revalidar cada 24h para que los artículos programados aparezcan en su fecha
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title:
     "Blog — Consultoría Método | Artículos sobre rentabilidad y gestión empresarial",
