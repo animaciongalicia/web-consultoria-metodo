@@ -25,13 +25,14 @@ export const NAV_LINKS = [
 ];
 
 export const HERO = {
-  h1: "Consultoría de negocios para pymes — presencial en Galicia, online en toda España",
+  h1: "Consultoría para empresas y negocios",
   subtitle:
-    "Si tu negocio factura pero no ves los beneficios, si vives apagando fuegos y sientes que todo depende de ti... podemos cambiarlo.",
+    "Trabajamos con personas que quieren que su empresa funcione mejor. No es solo rentabilidad — es tener claridad, orden y un negocio que funcione como debe.",
   bullets: [
-    "Más claridad sobre qué hacer y qué dejar de hacer.",
-    "Más rentabilidad con los recursos que ya tienes.",
-    "Menos caos, menos improvisación, más control.",
+    "Que las cosas funcionen sin depender de ti para todo.",
+    "Vender mejor, no solo más. Con sistema, no con suerte.",
+    "Saber dónde ganas, dónde pierdes y qué cambiar.",
+    "Dejar de improvisar. Decidir con datos y con criterio.",
   ],
   ctaPrimary: "Reservar mi llamada gratuita",
   ctaWhatsapp: "Hablar por WhatsApp",
