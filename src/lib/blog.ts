@@ -144,6 +144,41 @@ export const BLOG_POSTS = [
     title: "Cómo preparar tu empresa para crecer sin que se rompa por el camino",
     category: "Crecimiento",
   },
+  {
+    slug: "como-analizar-tu-competencia",
+    title: "Cómo analizar a tu competencia: guía práctica para pymes",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-digitalizar-tu-negocio-pequeno",
+    title: "Cómo digitalizar tu negocio pequeño sin complicarte",
+    category: "Organización",
+  },
+  {
+    slug: "como-hacer-un-presupuesto-empresarial",
+    title: "Cómo hacer un presupuesto empresarial: guía práctica para pymes",
+    category: "Control y gestión",
+  },
+  {
+    slug: "como-mejorar-el-flujo-de-caja",
+    title: "Cómo mejorar el flujo de caja en tu negocio",
+    category: "Control y gestión",
+  },
+  {
+    slug: "como-motivar-equipo-trabajo-pyme",
+    title: "Cómo motivar a tu equipo de trabajo en una pyme",
+    category: "Organización",
+  },
+  {
+    slug: "cuando-cerrar-un-negocio",
+    title: "Cuándo cerrar un negocio: señales que no debes ignorar",
+    category: "Estrategia",
+  },
+  {
+    slug: "traspaso-generacional-empresa-familiar",
+    title: "Traspaso generacional en la empresa familiar: cómo hacerlo bien",
+    category: "Estrategia",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
