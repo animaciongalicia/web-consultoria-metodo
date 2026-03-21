@@ -11,13 +11,16 @@ export default function Hero() {
           {HERO.h1}
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90 md:text-xl">
-          {HERO.subtitle}
+          {HERO.subtitleLine1}
+        </p>
+        <p className="mx-auto mt-3 max-w-2xl text-lg text-primary-100/90 md:text-xl">
+          {HERO.subtitleLine2}
         </p>
 
-        <ul className="mx-auto mt-8 max-w-xl space-y-3 text-left">
+        <ul className="mx-auto mt-8 max-w-xl space-y-3 text-center">
           {HERO.bullets.map((bullet, i) => (
-            <li key={i} className="flex items-start gap-3 text-primary-100">
-              <span className="mt-1.5 block h-2 w-2 flex-shrink-0 rounded-full bg-accent-400" />
+            <li key={i} className="inline-flex items-center gap-3 text-primary-100">
+              <span className="block h-2 w-2 flex-shrink-0 rounded-full bg-accent-400" />
               {bullet}
             </li>
           ))}

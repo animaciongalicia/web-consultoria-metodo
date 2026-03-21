@@ -26,13 +26,15 @@ export const NAV_LINKS = [
 
 export const HERO = {
   h1: "Consultoría para empresas y negocios",
-  subtitle:
-    "Trabajamos con personas que quieren que su empresa funcione mejor. No es solo rentabilidad — es tener claridad, orden y un negocio que funcione como debe.",
+  subtitleLine1:
+    "Trabajamos con personas que quieren que su empresa funcione mejor.",
+  subtitleLine2:
+    "No es solo rentabilidad — es tener claridad, orden y un negocio que funcione como debe.",
   bullets: [
-    "Que las cosas funcionen sin depender de ti para todo.",
-    "Vender mejor, no solo más. Con sistema, no con suerte.",
-    "Saber dónde ganas, dónde pierdes y qué cambiar.",
-    "Dejar de improvisar. Decidir con datos y con criterio.",
+    "Que las cosas funcionen sin depender de ti para todo",
+    "Vender mejor, no solo más. Con sistema, no con suerte",
+    "Saber dónde ganas, dónde pierdes y qué cambiar",
+    "Dejar de improvisar. Decidir con datos y con criterio",
   ],
   ctaPrimary: "Reservar mi llamada gratuita",
   ctaWhatsapp: "Hablar por WhatsApp",
