@@ -179,6 +179,11 @@ export const BLOG_POSTS = [
     title: "Traspaso generacional en la empresa familiar: cómo hacerlo bien",
     category: "Estrategia",
   },
+  {
+    slug: "caso-exito-ferrados-transformacion-modelo-negocio",
+    title: "Caso de éxito: cómo transformamos un blog con tráfico en un modelo de negocio rentable",
+    category: "Caso de éxito",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
