@@ -60,6 +60,12 @@ const categoryColors: Record<
     border: "border-orange-200",
     shadow: "hover:shadow-orange-100",
   },
+  "Caso de éxito": {
+    bg: "bg-teal-50",
+    text: "text-teal-700",
+    border: "border-teal-200",
+    shadow: "hover:shadow-teal-100",
+  },
 };
 
 const posts = [
@@ -346,6 +352,78 @@ const posts = [
     readTime: "10 min",
     publishDate: "2025-11-03",
   },
+  {
+    slug: "como-analizar-tu-competencia",
+    title: "Cómo analizar a tu competencia: guía práctica para pymes",
+    excerpt: "Aprende a analizar a tu competencia de forma práctica para tomar mejores decisiones en tu negocio.",
+    date: "17 noviembre 2025",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2025-11-17",
+  },
+  {
+    slug: "como-digitalizar-tu-negocio-pequeno",
+    title: "Cómo digitalizar tu negocio pequeño sin complicarte",
+    excerpt: "Digitalizar no es tener redes sociales. Es ordenar tu negocio con herramientas que ahorran tiempo y errores.",
+    date: "1 diciembre 2025",
+    category: "Organización",
+    readTime: "10 min",
+    publishDate: "2025-12-01",
+  },
+  {
+    slug: "como-hacer-un-presupuesto-empresarial",
+    title: "Cómo hacer un presupuesto empresarial: guía práctica para pymes",
+    excerpt: "Un presupuesto no es una hoja de cálculo — es la herramienta que te dice si vas por buen camino o no.",
+    date: "15 diciembre 2025",
+    category: "Control y gestión",
+    readTime: "10 min",
+    publishDate: "2025-12-15",
+  },
+  {
+    slug: "como-mejorar-el-flujo-de-caja",
+    title: "Cómo mejorar el flujo de caja en tu negocio",
+    excerpt: "El flujo de caja mata más empresas que la falta de ventas. Cómo controlarlo y mejorarlo desde hoy.",
+    date: "12 enero 2026",
+    category: "Control y gestión",
+    readTime: "10 min",
+    publishDate: "2026-01-12",
+  },
+  {
+    slug: "como-motivar-equipo-trabajo-pyme",
+    title: "Cómo motivar a tu equipo de trabajo en una pyme",
+    excerpt: "La motivación no va de pizzas ni de futbolines. Va de claridad, autonomía y sentirse parte de algo.",
+    date: "26 enero 2026",
+    category: "Organización",
+    readTime: "10 min",
+    publishDate: "2026-01-26",
+  },
+  {
+    slug: "cuando-cerrar-un-negocio",
+    title: "Cuándo cerrar un negocio: señales que no debes ignorar",
+    excerpt: "A veces la mejor decisión empresarial es cerrar. Cómo saber cuándo ha llegado ese momento.",
+    date: "9 febrero 2026",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2026-02-09",
+  },
+  {
+    slug: "traspaso-generacional-empresa-familiar",
+    title: "Traspaso generacional en la empresa familiar: cómo hacerlo bien",
+    excerpt: "El 70 % de las empresas familiares no sobreviven al traspaso generacional. Cómo prepararlo para que la tuya sí.",
+    date: "23 febrero 2026",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2026-02-23",
+  },
+  {
+    slug: "caso-exito-ferrados-transformacion-modelo-negocio",
+    title: "Caso de éxito: cómo transformamos un blog con tráfico en un modelo de negocio rentable",
+    excerpt: "Un portal con miles de visitas y cero ingresos. Así reconvertimos un proyecto informativo en un sistema de captación de leads para el sector forestal gallego.",
+    date: "31 marzo 2026",
+    category: "Caso de éxito",
+    readTime: "12 min",
+    publishDate: "2026-03-31",
+  },
 ];
 
 // Filtrar artículos por fecha de publicación (para publicación programada)
@@ -417,45 +495,56 @@ export default function Blog() {
               </div>
             </div>
 
-            {/* Grid de artículos de apoyo */}
-            <div className="grid gap-5 sm:grid-cols-2">
-              {visiblePosts.filter((p) => !p.isPillar).map((post) => {
-                const colors = categoryColors[post.category];
-                return (
-                  <a
-                    key={post.slug}
-                    href={`/blog/${post.slug}`}
-                    className={`group flex flex-col rounded-xl border bg-white p-5 shadow-sm transition-all hover:shadow-lg ${colors.border} ${colors.shadow}`}
-                  >
-                    <div className="flex items-center justify-between">
-                      <span
-                        className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
+            {/* Artículos de apoyo agrupados por categoría */}
+            {categories.filter((cat) => visiblePosts.some((p) => !p.isPillar && p.category === cat)).map((cat) => {
+              const colors = categoryColors[cat];
+              const catSlug = cat.toLowerCase().replace(/ /g, "-").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+              const catPosts = visiblePosts.filter((p) => !p.isPillar && p.category === cat);
+              return (
+                <div key={cat} id={catSlug} className="mb-10 scroll-mt-24">
+                  <h2 className="mb-4 text-xs font-bold uppercase tracking-widest text-gray-400">
+                    <span className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}>
+                      {cat}
+                    </span>
+                  </h2>
+                  <div className="grid gap-5 sm:grid-cols-2">
+                    {catPosts.map((post) => (
+                      <a
+                        key={post.slug}
+                        href={`/blog/${post.slug}`}
+                        className={`group flex flex-col rounded-xl border bg-white p-5 shadow-sm transition-all hover:shadow-lg ${colors.border} ${colors.shadow}`}
                       >
-                        {post.category}
-                      </span>
-                      <span className="text-xs text-gray-400">
-                        {post.readTime}
-                      </span>
-                    </div>
-                    <h3 className="mt-3 text-base font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors">
-                      {post.title}
-                    </h3>
-                    <p className="mt-2 flex-1 text-sm text-gray-500 leading-relaxed">
-                      {post.excerpt}
-                    </p>
-                    <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-3">
-                      <span className="text-xs text-gray-400">
-                        {post.date}
-                      </span>
-                      <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
-                        Leer
-                        <span aria-hidden="true">&rarr;</span>
-                      </span>
-                    </div>
-                  </a>
-                );
-              })}
-            </div>
+                        <div className="flex items-center justify-between">
+                          <span
+                            className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${colors.bg} ${colors.text}`}
+                          >
+                            {post.category}
+                          </span>
+                          <span className="text-xs text-gray-400">
+                            {post.readTime}
+                          </span>
+                        </div>
+                        <h3 className="mt-3 text-base font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors">
+                          {post.title}
+                        </h3>
+                        <p className="mt-2 flex-1 text-sm text-gray-500 leading-relaxed">
+                          {post.excerpt}
+                        </p>
+                        <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-3">
+                          <span className="text-xs text-gray-400">
+                            {post.date}
+                          </span>
+                          <span className="inline-flex items-center gap-1 text-sm font-semibold text-primary-700 group-hover:gap-2 transition-all">
+                            Leer
+                            <span aria-hidden="true">&rarr;</span>
+                          </span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </div>
 
           {/* Sidebar */}
@@ -475,7 +564,7 @@ export default function Blog() {
                     return (
                       <a
                         key={cat}
-                        href={`#${cat.toLowerCase().replace(/ /g, "-")}`}
+                        href={`#${cat.toLowerCase().replace(/ /g, "-").normalize("NFD").replace(/[\u0300-\u036f]/g, "")}`}
                         className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold transition-all hover:scale-105 ${colors.bg} ${colors.text}`}
                       >
                         {cat}
