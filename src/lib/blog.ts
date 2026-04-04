@@ -184,6 +184,16 @@ export const BLOG_POSTS = [
     title: "Caso de éxito: cómo transformamos un blog con tráfico en un modelo de negocio rentable",
     category: "Caso de éxito",
   },
+  {
+    slug: "caso-exito-restaurante-rentabilidad",
+    title: "Un restaurante que llenaba cada fin de semana y perdía dinero: qué encontramos y qué cambiamos",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "redes-sociales-para-pymes",
+    title: "Redes sociales para pymes: cuándo sirven, cuándo no y cuándo son una pérdida de tiempo",
+    category: "Marketing",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {

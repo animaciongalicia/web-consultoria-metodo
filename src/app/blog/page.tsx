@@ -424,6 +424,22 @@ const posts = [
     readTime: "12 min",
     publishDate: "2026-03-31",
   },
+  {
+    slug: "caso-exito-restaurante-rentabilidad",
+    title: "Un restaurante que llenaba cada fin de semana y perdía dinero: qué encontramos y qué cambiamos",
+    excerpt: "Caso real de un restaurante en Galicia que facturaba más de 10.000 € al mes y no conseguía ganar dinero. Escandallos, carta, turnos y proveedores: qué encontramos y qué cambiamos.",
+    date: "4 abril 2026",
+    category: "Caso de éxito",
+    readTime: "12 min",
+  },
+  {
+    slug: "redes-sociales-para-pymes",
+    title: "Redes sociales para pymes: cuándo sirven, cuándo no y cuándo son una pérdida de tiempo",
+    excerpt: "Análisis honesto sobre redes sociales para negocios pequeños. Cuándo invertir, cuándo no, errores que queman dinero y alternativas más rentables para captar clientes.",
+    date: "4 abril 2026",
+    category: "Marketing",
+    readTime: "14 min",
+  },
 ];
 
 // Filtrar artículos por fecha de publicación (para publicación programada)
