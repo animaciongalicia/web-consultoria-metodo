@@ -138,7 +138,10 @@ export default function ArticuloRentabilidad() {
             margen, pero cuando incluye desperdicios, coste de personal de
             cocina y tiempo de preparación, ese margen baja al 25%. Si tienes un negocio de hostelería,{" "}
             <a href="/blog/como-mejorar-rentabilidad-restaurante-bar" className="text-accent-600 underline hover:text-accent-700">esta guía sobre rentabilidad en restaurantes y bares</a>{" "}
-            lo explica en detalle.
+            lo explica en detalle — y puedes verlo aplicado en el{" "}
+            <a href="/blog/caso-exito-restaurante-rentabilidad" className="text-accent-600 underline hover:text-accent-700">
+              caso real de un restaurante con local lleno y cero beneficio
+            </a>.
           </p>
 
           <h3 className="mt-8 text-xl font-semibold text-gray-900">

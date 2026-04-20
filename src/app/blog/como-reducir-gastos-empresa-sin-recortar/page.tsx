@@ -52,6 +52,17 @@ export default function ArticuloReducirGastos() {
             gana 5.000 euros más de margen al año con el mismo nivel de gasto.
           </p>
 
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Por qué recortar a ciegas suele empeorar las cosas</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Cuando una empresa atraviesa un mal momento, aparece la tentación de aplicar tijeretazos rápidos para mejorar las cuentas. Es una reacción lógica pero peligrosa. El problema es que los gastos más fáciles de eliminar suelen ser los que tienen retorno — mientras que los gastos improductivos están escondidos y requieren análisis.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Un ejemplo que he visto decenas de veces: la empresa elimina el presupuesto de marketing porque &quot;ahora no es momento&quot;. En tres meses, el pipeline comercial se seca. En seis meses, las ventas caen un 30 %. En un año, hay que despedir personal. El recorte de 1.500 € al mes en marketing acabó costando 80.000 € en facturación perdida.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Lo mismo pasa con la formación del equipo, con las herramientas que usa el día a día, o con el mantenimiento de las instalaciones. Todos son gastos visibles, todos parecen prescindibles — y todos son justamente los que sostienen la capacidad de generar ingresos.
+          </p>
+
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">7 áreas donde las pymes malgastan dinero sin saberlo</h2>
 
           <h3 className="mt-8 text-xl font-semibold text-gray-900">1. Suscripciones y herramientas que nadie usa</h3>
@@ -102,6 +113,58 @@ export default function ArticuloReducirGastos() {
             pequeños. Sumados a final de año, pueden suponer 5.000-10.000 euros. No se trata de ser tacaño — se trata de ser consciente.
           </p>
 
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Caso real: cuando la optimización funciona</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            En el{" "}
+            <a href="/blog/caso-exito-restaurante-rentabilidad" className="text-accent-600 underline hover:text-accent-700">
+              caso del restaurante que acompañamos
+            </a>{" "}
+            la clave no fue recortar — fue optimizar. El restaurante no bajó la calidad, no redujo personal, no cerró una mesa. Lo que hicimos fue:
+          </p>
+          <ul className="mt-4 space-y-2 list-disc list-inside">
+            <li className="text-gray-700 md:text-lg">Renegociar condiciones con proveedores (ahorro: 300-400 € al mes)</li>
+            <li className="text-gray-700 md:text-lg">Consolidar compras en 3 proveedores en lugar de 6 (mejor precio por volumen)</li>
+            <li className="text-gray-700 md:text-lg">Reducir la carta de 52 a 24 platos (menos stock, menos merma, menos compras de urgencia)</li>
+            <li className="text-gray-700 md:text-lg">Reorganizar turnos para que el personal coincidiera con los picos de demanda</li>
+            <li className="text-gray-700 md:text-lg">Escandallar cada plato y ajustar precios donde el margen era insuficiente</li>
+          </ul>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Resultado: margen neto pasó de cero a 12-15 % mensual. Y lo importante: el cliente no notó ningún cambio. La experiencia seguía siendo la misma. Porque no recortamos en lo que el cliente valora — optimizamos en lo que el cliente no ve.
+          </p>
+
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Ejemplos reales de optimización por sector</h2>
+
+          <div className="my-8 space-y-5 not-prose">
+            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
+              <p className="font-bold text-gray-900">Consultora de 12 personas</p>
+              <p className="mt-2 text-gray-600">Auditamos licencias de software: 14 herramientas distintas, varias duplicadas, 3 sin uso real. Consolidación y negociación de planes: <strong className="text-emerald-700">ahorro de 9.800 € al año</strong> sin perder ninguna funcionalidad.</p>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
+              <p className="font-bold text-gray-900">Taller mecánico de 6 empleados</p>
+              <p className="mt-2 text-gray-600">Renegociación con proveedores de piezas tras pedir tres presupuestos: <strong className="text-emerald-700">reducción del 11 % en compra de material</strong>. En un taller que compra 120.000 € al año, son 13.200 € directos al margen.</p>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
+              <p className="font-bold text-gray-900">Tienda de decoración</p>
+              <p className="mt-2 text-gray-600">Análisis de stock: 32 % del inventario llevaba más de 180 días sin rotar. Liquidación controlada del stock viejo y rediseño de las compras: <strong className="text-emerald-700">liberación de 48.000 € en caja</strong> y reducción del espacio de almacén necesario.</p>
+            </div>
+            <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
+              <p className="font-bold text-gray-900">Empresa de servicios técnicos</p>
+              <p className="mt-2 text-gray-600">Los comerciales dedicaban 40 % del tiempo a tareas administrativas. Implementamos un sistema sencillo de automatización de presupuestos y seguimientos: <strong className="text-emerald-700">liberamos 12 horas semanales por comercial</strong> para tareas de venta real.</p>
+            </div>
+          </div>
+
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">La trampa de los &quot;gastos pequeños&quot;</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Los gastos grandes se ven. Los que pasan desapercibidos son los de 50-100 € que se repiten cada mes. Individualmente parecen irrelevantes. En conjunto, pueden sumar miles de euros al año.
+          </p>
+
+          <div className="my-8 rounded-xl border border-amber-200 bg-amber-50 p-6 not-prose">
+            <p className="font-bold text-amber-900">Ejercicio para el próximo mes</p>
+            <p className="mt-2 text-amber-800">
+              Coge tu extracto bancario del último mes. Marca con un color los gastos por encima de 500 €, con otro los de 100-500 € y con otro los de menos de 100 €. Suma cada grupo. Casi siempre, el tercer grupo — los gastos pequeños — es donde hay más oportunidad de optimización porque es el que menos se controla.
+            </p>
+          </div>
+
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Lo que NUNCA deberías recortar</h2>
           <div className="my-8 rounded-xl border-2 border-red-200 bg-red-50 p-6 not-prose">
             <h3 className="text-lg font-bold text-red-900">No toques esto por mucho que apriete</h3>
@@ -144,6 +207,46 @@ export default function ArticuloReducirGastos() {
           <blockquote className="my-10 border-l-4 border-accent-500 bg-accent-50 py-6 px-6 italic text-gray-800 md:text-xl rounded-r-lg">
             «Las empresas que mejor gestionan sus gastos no son las que menos gastan. Son las que mejor saben dónde poner cada euro.»
           </blockquote>
+
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Antes de recortar: mide tu situación real</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Nadie puede optimizar gastos sin saber el tamaño real del problema. Antes de lanzar ningún plan de reducción, necesitas tener claro:
+          </p>
+          <ul className="mt-4 space-y-2 list-disc list-inside">
+            <li className="text-gray-700 md:text-lg">Qué porcentaje representan tus costes fijos sobre tu facturación</li>
+            <li className="text-gray-700 md:text-lg">Qué porcentaje representan tus costes variables</li>
+            <li className="text-gray-700 md:text-lg">Cuál es tu punto de equilibrio (facturación mínima para no perder dinero)</li>
+            <li className="text-gray-700 md:text-lg">Qué partidas de gasto han crecido más rápido que tus ingresos en los últimos 12 meses</li>
+          </ul>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Esta información la obtienes con los{" "}
+            <a href="/blog/indicadores-clave-de-una-empresa" className="text-accent-600 underline hover:text-accent-700">
+              indicadores clave
+            </a>{" "}
+            que debería tener cualquier empresa. Si aún no los tienes montados, empezar por ahí es prioritario.
+          </p>
+
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">El coste oculto más grande: el tiempo del empresario</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Cuando hablo de gastos con empresarios pyme, casi nunca aparece en la lista el gasto más caro de todos: su propio tiempo dedicado a tareas de bajo valor. El dueño que se encarga personalmente de tareas que podría hacer un administrativo o una herramienta, está usando el recurso más caro de la empresa para resolver los problemas más baratos.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Si tu hora valiese 80 € (es un cálculo conservador para la mayoría de dueños de pyme), pasar 10 horas semanales haciendo facturación, seguimiento de cobros o tareas administrativas supone un coste de 800 € a la semana, o 38.000 € al año. Un administrativo a tiempo parcial o una herramienta de automatización cuesta una fracción de eso.
+          </p>
+
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">Una última regla: ¿ahorro o inversión?</h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Antes de eliminar cualquier gasto, hazte esta pregunta: <strong>¿esto es un ahorro o una desinversión?</strong> Si cortas un gasto que genera retorno medible, no estás ahorrando — estás desinvirtiendo. Estás reduciendo tu capacidad futura de generar ingresos.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Por el contrario, si cortas un gasto que no aporta nada (una suscripción sin uso, una licencia duplicada, un servicio que nadie valora), estás ahorrando de verdad. El dinero liberado puede reinvertirse en lo que sí funciona. Eso es optimización.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Y si tienes dudas serias sobre la viabilidad del negocio, no te quedes en la optimización superficial —{" "}
+            <a href="/blog/como-saber-si-mi-negocio-es-rentable" className="text-accent-600 underline hover:text-accent-700">
+              empieza por saber si tu negocio es rentable de verdad
+            </a>. A veces el problema no está en los gastos, sino en los ingresos o en el modelo.
+          </p>
 
           </article>
           <div className="mt-12 lg:mt-0"><div className="lg:sticky lg:top-28"><BlogSidebar currentSlug="como-reducir-gastos-empresa-sin-recortar" /></div></div>

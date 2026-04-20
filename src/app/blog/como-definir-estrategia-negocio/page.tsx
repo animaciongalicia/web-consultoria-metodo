@@ -263,6 +263,16 @@ export default function ArticuloEstrategia() {
             modelo de negocio responde a una pregunta brutal: ¿cómo ganas
             dinero exactamente?
           </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Un ejemplo clarísimo de cómo un cambio de modelo transforma un
+            negocio es el{" "}
+            <a href="/blog/caso-exito-ferrados-transformacion-modelo-negocio" className="text-accent-600 underline hover:text-accent-700">
+              caso de un proyecto con miles de visitas y cero ingresos
+            </a>{" "}
+            que reconvertimos en un sistema rentable. No faltaba tráfico, ni
+            contenido, ni audiencia — faltaba modelo. Es un patrón que se
+            repite en muchas empresas.
+          </p>
 
           <h3 className="mt-8 text-xl font-semibold text-primary-800">
             Los 4 pilares de un modelo de negocio

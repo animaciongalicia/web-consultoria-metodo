@@ -608,6 +608,19 @@ export default function ArticuloPrecios() {
             que valoren tu trabajo y estén dispuestos a pagar un precio justo
             por él.
           </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Un ejemplo muy claro de lo que ocurre cuando los precios se fijan
+            sin haber escandallado bien los costes: el{" "}
+            <a
+              href="/blog/caso-exito-restaurante-rentabilidad"
+              className="text-primary-700 underline hover:text-primary-900"
+            >
+              caso real de un restaurante que facturaba bien y no ganaba
+              dinero
+            </a>. Varios platos tenían margen negativo sin que el dueño lo
+            supiera. La solución empezó por calcular los costes de verdad y
+            ajustar los precios con criterio.
+          </p>
 
           {/* H2 — Conclusión */}
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">

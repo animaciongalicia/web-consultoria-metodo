@@ -357,6 +357,14 @@ export default function ArticuloCrecimiento() {
             da claridad sobre los siguientes pasos. No siempre se necesita
             dinero — a veces se necesita dirección.
           </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Un ejemplo de cambio de modelo sin inversión enorme: el{" "}
+            <a href="/blog/caso-exito-ferrados-transformacion-modelo-negocio" className="text-accent-600 underline hover:text-accent-700">
+              caso de un proyecto con mucho tráfico y ningún ingreso
+            </a>{" "}
+            que reconvertimos en un sistema rentable de captación. No fue una
+            cuestión de más presupuesto — fue una cuestión de modelo.
+          </p>
 
           {/* ====================== SECCIÓN 5 ====================== */}
           <h2 id="cuando-contratar" className="text-2xl font-bold text-primary-900 mt-14 mb-6 scroll-mt-28">

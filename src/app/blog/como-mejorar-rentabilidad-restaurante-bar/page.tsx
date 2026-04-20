@@ -117,6 +117,18 @@ export default function ArticuloRentabilidadHosteleria() {
             bien tomadas.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
+            Si quieres ver un ejemplo concreto de cómo se hace este trabajo en
+            la práctica, lee el{" "}
+            <a
+              href="/blog/caso-exito-restaurante-rentabilidad"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              caso real de un restaurante que facturaba 10.000 € al mes sin
+              ganar dinero
+            </a>{" "}
+            y cómo pasó a tener un margen estable del 12-15 % en tres meses.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
             Si te interesa entender este fenómeno de forma general — más allá
             de la hostelería —, te recomiendo leer{" "}
             <a

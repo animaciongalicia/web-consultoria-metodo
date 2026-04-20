@@ -217,6 +217,18 @@ export default function ArticuloRentabilidadEmpresa() {
               cómo se gestionaba cada euro que entraba y cada euro que salía
             </a>.
           </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Para ver un ejemplo concreto, lee el{" "}
+            <a
+              href="/blog/caso-exito-restaurante-rentabilidad"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              caso real de un restaurante que llenaba cada fin de semana y
+              perdía dinero
+            </a>. El local estaba lleno. La facturación era buena. Y aun así, a
+            final de mes no quedaba nada. El problema no era vender poco —
+            era todo lo demás.
+          </p>
 
           <h3 className="text-xl font-semibold text-primary-800 mt-8 mb-4">
             Los tres niveles de margen que debes conocer

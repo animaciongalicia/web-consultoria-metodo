@@ -655,7 +655,12 @@ export default function ArticuloConseguirClientes() {
             resultados. «Es que hay que estar en redes», dicen. No. Hay que
             estar donde estén tus clientes y con un objetivo claro. Si tu
             cuenta de Instagram no te genera consultas ni ventas, tu tiempo
-            está mejor invertido en otros canales.
+            está mejor invertido en otros canales. Este tema es tan frecuente
+            que le he dedicado un artículo entero:{" "}
+            <a href="/blog/redes-sociales-para-pymes" className="text-accent-600 underline hover:text-accent-700">
+              cuándo las redes sociales sirven para una pyme y cuándo son una
+              pérdida de tiempo
+            </a>.
           </p>
 
           <h3 className="text-xl font-semibold text-primary-800 mt-8 mb-4">

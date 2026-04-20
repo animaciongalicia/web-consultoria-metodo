@@ -707,6 +707,15 @@ export default function ArticuloMarketing() {
             estrategia o dejas de invertirlo ahí.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
+            Un caso particular dentro de este problema general son las{" "}
+            <a href="/blog/redes-sociales-para-pymes" className="text-accent-600 underline hover:text-accent-700">
+              redes sociales para pymes
+            </a>: cuándo realmente funcionan, cuándo son una pérdida de tiempo
+            y qué alternativas suelen dar mejor retorno. Si gran parte de tu
+            inversión en marketing va ahí, te conviene leerlo antes de seguir
+            publicando.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
             Y si no sabes por dónde empezar, si sientes que llevas demasiado
             tiempo gastando dinero sin ver resultados claros, a veces lo que
             necesitas es alguien que mire desde fuera, ponga orden en los
