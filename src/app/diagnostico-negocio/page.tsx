@@ -1,6 +1,62 @@
 import type { Metadata } from "next";
 import DiagnosticoContactForm from "@/components/DiagnosticoContactForm";
 
+const FAQS = [
+  {
+    question: "¿Cuánto cuesta un diagnóstico de negocio?",
+    answer:
+      "Desde 500 € el diagnóstico puntual, 1.200 € el programa de mejora de rentabilidad (unos 2 meses) y 2.200 € el programa de transformación (unos 3 meses). Siempre con propuesta cerrada tras una primera conversación sin compromiso, para que sepas exactamente qué incluye y qué vas a pagar.",
+  },
+  {
+    question: "¿Cuánto tiempo dura un diagnóstico empresarial?",
+    answer:
+      "La sesión inicial son 60-90 minutos. El diagnóstico completo, con informe y plan de acción, se entrega en 1-2 semanas. Los programas de mejora o transformación se desarrollan entre 2 y 3 meses, con reuniones periódicas de seguimiento.",
+  },
+  {
+    question: "¿El diagnóstico es presencial u online?",
+    answer:
+      "Presencial en A Coruña ciudad y provincia (Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y resto de comarcas). Online en el resto de España. Muchos clientes combinan las dos modalidades: una primera visita presencial y después seguimiento por videollamada.",
+  },
+  {
+    question: "¿Qué diferencia hay entre contratarte a ti y una asesoría o gestoría?",
+    answer:
+      "No hago contabilidad, impuestos ni laboral. Eso lo sigue llevando tu gestoría. Yo trabajo la rentabilidad, la captación de clientes, los precios, los procesos internos y la estrategia. Son tareas que una gestoría no hace y que muchas pymes tienen desatendidas.",
+  },
+  {
+    question: "¿Cuándo empezaré a ver resultados?",
+    answer:
+      "Las primeras mejoras suelen notarse en 4-6 semanas, cuando se aplican las primeras decisiones del plan. Los resultados sólidos (más margen, mejor captación, procesos en orden) llegan entre los 2 y 3 meses. No vendo milagros — sí resultados medibles y sostenibles.",
+  },
+  {
+    question: "¿En qué sectores tienes experiencia?",
+    answer:
+      "Más de 15 sectores: hostelería y restauración, comercio local, clínicas y salud, academias y formación, servicios profesionales, despachos, construcción, turismo, industria, eventos y otros. La mayoría de problemas de rentabilidad, precios y organización son comunes a cualquier pyme.",
+  },
+  {
+    question: "¿Atiendes a empresas en toda la provincia de A Coruña?",
+    answer:
+      "Sí. Voy presencialmente a A Coruña ciudad, Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y cualquier punto de la provincia. Para resto de Galicia y España trabajo online con el mismo método y los mismos resultados.",
+  },
+  {
+    question: "¿Y si después del diagnóstico no me convence seguir?",
+    answer:
+      "La primera llamada es gratis y sin compromiso. Si después del diagnóstico no ves valor, no tienes que seguir. En 25 años nunca he tenido que presionar a nadie para que contrate un programa completo — cuando el trabajo es bueno, se nota en la primera conversación.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQS.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
 export const metadata: Metadata = {
   title:
     "Diagnóstico y Mejora de Rentabilidad para Empresas | Consultor Empresarial — Consultoría Método",
@@ -30,6 +86,10 @@ export const metadata: Metadata = {
 export default function DiagnosticoNegocio() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* HERO */}
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950 pt-32 lg:pt-40">
         <div className="container-narrow text-center">
@@ -395,6 +455,37 @@ export default function DiagnosticoNegocio() {
                   <p className="text-sm text-gray-500">{t.business}</p>
                 </footer>
               </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="section-padding bg-white">
+        <div className="container-narrow">
+          <h2 className="text-center text-3xl font-extrabold text-primary-900 md:text-4xl">
+            Preguntas frecuentes sobre el diagnóstico
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-gray-600 md:text-lg">
+            Las dudas que más me llegan antes de contratar un diagnóstico o un programa de mejora.
+            Si tienes otra pregunta, escríbeme por WhatsApp y te respondo.
+          </p>
+          <div className="mt-10 space-y-4">
+            {FAQS.map((faq) => (
+              <details
+                key={faq.question}
+                className="group rounded-xl border border-gray-200 bg-gray-50 p-5 open:border-accent-300 open:bg-accent-50/40"
+              >
+                <summary className="cursor-pointer list-none font-semibold text-primary-900 md:text-lg">
+                  <span className="mr-2 text-accent-600 group-open:rotate-90 inline-block transition-transform">
+                    ▸
+                  </span>
+                  {faq.question}
+                </summary>
+                <p className="mt-3 pl-6 text-gray-700 md:text-lg leading-relaxed">
+                  {faq.answer}
+                </p>
+              </details>
             ))}
           </div>
         </div>

@@ -29,9 +29,8 @@ export default function Footer() {
           <p className="text-sm text-primary-300">
             © {year} {SITE.name} — {SITE.consultant}
           </p>
-          <p className="mt-1 text-sm text-primary-400">{SITE.address}</p>
           <p className="mt-1 text-sm text-primary-400">
-            Consultoría de negocios — Presencial en Galicia, online en toda España
+            Consultor de negocios en {SITE.addressCity} — Presencial en Galicia, online en toda España
           </p>
           <p className="mt-2 text-sm text-primary-400">
             <a
@@ -46,6 +45,16 @@ export default function Footer() {
               className="transition-colors hover:text-white"
             >
               {SITE.phoneFormatted}
+            </a>
+          </p>
+          <p className="mt-3 text-xs text-primary-500">
+            <a
+              href={SITE.googleBusinessProfile}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-primary-300"
+            >
+              Ver ficha en Google
             </a>
           </p>
         </div>

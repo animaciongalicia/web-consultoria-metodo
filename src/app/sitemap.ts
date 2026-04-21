@@ -1,86 +1,25 @@
 import type { MetadataRoute } from "next";
+import { STATIC_PAGES, getVisiblePosts } from "@/lib/posts";
+
+const BASE_URL = "https://consultoriametodo.es";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://consultoriametodo.es";
+  const now = new Date();
 
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/diagnostico-negocio`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/metodo-herramientas`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/experiencia-sectores-casos`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/colaboradores`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/blog/por-que-no-funciona-la-publicidad-en-mi-negocio`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/como-hacer-crecer-una-empresa-pequena`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/indicadores-clave-de-una-empresa`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/como-tomar-decisiones-en-un-negocio`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/como-organizar-empresa-pequena-salir-autoempleo`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/como-conseguir-clientes-para-tu-negocio`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog/por-que-tu-empresa-factura-pero-no-gana-dinero`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-  ];
+  const staticEntries: MetadataRoute.Sitemap = STATIC_PAGES.map((page) => ({
+    url: `${BASE_URL}${page.path === "/" ? "" : page.path}`,
+    lastModified: now,
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+  }));
+
+  const visiblePosts = getVisiblePosts();
+  const blogEntries: MetadataRoute.Sitemap = visiblePosts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: post.isPillar ? 0.8 : 0.6,
+  }));
+
+  return [...staticEntries, ...blogEntries];
 }

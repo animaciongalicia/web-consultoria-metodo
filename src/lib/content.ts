@@ -6,8 +6,16 @@ export const SITE = {
   phoneFormatted: "678 288 284",
   phoneLink: "tel:+34678288284",
   whatsapp: "https://wa.me/34678288284",
+  // Dirección para Schema.org LocalBusiness y Google Business Profile
   address: "Ronda de Montealto, 4 — 15002 A Coruña",
+  addressStreet: "Ronda de Montealto, 4",
+  addressPostalCode: "15002",
+  addressCity: "A Coruña",
+  addressRegion: "Galicia",
+  addressCountry: "ES",
   location: "A Coruña (Galicia)",
+  // Ficha Google Business Profile
+  googleBusinessProfile: "https://share.google/jaBnKfqDvizpNf1WV",
   title:
     "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y Online en toda España",
   description:

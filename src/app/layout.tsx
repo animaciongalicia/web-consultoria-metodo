@@ -51,22 +51,27 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "ProfessionalService",
   name: "Consultoría Método",
   description: SITE.description,
   url: "https://consultoriametodo.es",
   telephone: "+34678288284",
   email: "info@consultoriametodo.es",
+  image: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
+  sameAs: [SITE.googleBusinessProfile],
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Ronda de Montealto, 4",
-    postalCode: "15002",
-    addressLocality: "A Coruña",
-    addressRegion: "Galicia",
-    addressCountry: "ES",
+    streetAddress: SITE.addressStreet,
+    postalCode: SITE.addressPostalCode,
+    addressLocality: SITE.addressCity,
+    addressRegion: SITE.addressRegion,
+    addressCountry: SITE.addressCountry,
   },
   areaServed: [
     { "@type": "City", name: "A Coruña" },
+    { "@type": "City", name: "Santiago de Compostela" },
+    { "@type": "City", name: "Ferrol" },
+    { "@type": "AdministrativeArea", name: "Provincia de A Coruña" },
     { "@type": "State", name: "Galicia" },
     { "@type": "Country", name: "España" },
   ],
@@ -77,6 +82,27 @@ const jsonLd = {
   },
   priceRange: "€€",
   openingHours: "Mo-Fr 09:00-19:00",
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Servicios de consultoría empresarial",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Diagnóstico Estratégico del Negocio" },
+        priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", price: "500" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Programa de Mejora de Rentabilidad" },
+        priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", price: "1200" },
+      },
+      {
+        "@type": "Offer",
+        itemOffered: { "@type": "Service", name: "Programa de Transformación del Negocio" },
+        priceSpecification: { "@type": "PriceSpecification", priceCurrency: "EUR", price: "2200" },
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
