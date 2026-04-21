@@ -9,6 +9,7 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
   Organización: { bg: "bg-violet-50", text: "text-violet-700" },
   Clientes: { bg: "bg-blue-50", text: "text-blue-700" },
   Rentabilidad: { bg: "bg-emerald-50", text: "text-emerald-700" },
+  "Caso de éxito": { bg: "bg-teal-50", text: "text-teal-700" },
 };
 
 export default function BlogSidebar({
@@ -76,6 +77,42 @@ export default function BlogSidebar({
               </a>
             );
           })}
+        </nav>
+      </div>
+
+      {/* Páginas destacadas */}
+      <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
+        <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
+          Páginas destacadas
+        </h3>
+        <nav className="mt-4 space-y-2">
+          <a
+            href="/consultor-empresas-coruna"
+            className="group flex items-center gap-2 rounded-lg border border-gray-100 p-3 transition-all hover:border-primary-200 hover:bg-primary-50/30"
+          >
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-700">📍</span>
+            <span className="text-sm font-semibold leading-snug text-gray-800 group-hover:text-primary-700 transition-colors">
+              Consultor de empresas en A Coruña
+            </span>
+          </a>
+          <a
+            href="/consultoria-empresarial-galicia"
+            className="group flex items-center gap-2 rounded-lg border border-gray-100 p-3 transition-all hover:border-primary-200 hover:bg-primary-50/30"
+          >
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-700">🗺️</span>
+            <span className="text-sm font-semibold leading-snug text-gray-800 group-hover:text-primary-700 transition-colors">
+              Consultoría empresarial en Galicia
+            </span>
+          </a>
+          <a
+            href="/diagnostico-negocio"
+            className="group flex items-center gap-2 rounded-lg border border-gray-100 p-3 transition-all hover:border-accent-200 hover:bg-accent-50/30"
+          >
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-accent-100 text-xs font-bold text-accent-700">🔍</span>
+            <span className="text-sm font-semibold leading-snug text-gray-800 group-hover:text-accent-700 transition-colors">
+              Diagnóstico gratuito de tu negocio
+            </span>
+          </a>
         </nav>
       </div>
 

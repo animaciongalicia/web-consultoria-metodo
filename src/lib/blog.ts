@@ -194,6 +194,26 @@ export const BLOG_POSTS = [
     title: "Redes sociales para pymes: cuándo sirven, cuándo no y cuándo son una pérdida de tiempo",
     category: "Marketing",
   },
+  {
+    slug: "caso-exito-clinica-ocupacion-rentabilidad",
+    title: "Caso de éxito: una clínica con agenda llena y rentabilidad baja",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "caso-exito-despacho-profesional-independiente",
+    title: "Caso de éxito: un despacho profesional atrapado en el autoempleo",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "caso-exito-empresa-formacion-rentabilidad",
+    title: "Caso de éxito: una empresa de formación que facturaba sin saber si ganaba dinero",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "caso-exito-tienda-barrio-rentabilidad",
+    title: "Caso de éxito: una tienda de barrio que competía con el supermercado y ganó",
+    category: "Caso de éxito",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {

@@ -354,6 +354,38 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Marketing",
     readTime: "14 min",
   },
+  {
+    slug: "caso-exito-clinica-ocupacion-rentabilidad",
+    title: "Caso de éxito: una clínica con agenda llena y rentabilidad baja",
+    excerpt: "Caso real de una clínica en la provincia de A Coruña con buena ocupación pero márgenes muy bajos. Análisis de servicios, recall de pacientes y reorganización de precios.",
+    date: "21 abril 2026",
+    category: "Caso de éxito",
+    readTime: "12 min",
+  },
+  {
+    slug: "caso-exito-despacho-profesional-independiente",
+    title: "Caso de éxito: un despacho profesional atrapado en el autoempleo",
+    excerpt: "Caso real de un profesional independiente en A Coruña que facturaba pero no crecía. Segmentación de cartera, subida de tarifas, sistematización de procesos y salida del autoempleo.",
+    date: "21 abril 2026",
+    category: "Caso de éxito",
+    readTime: "13 min",
+  },
+  {
+    slug: "caso-exito-empresa-formacion-rentabilidad",
+    title: "Caso de éxito: una empresa de formación que facturaba sin saber si ganaba dinero",
+    excerpt: "Caso real de una empresa de formación en Galicia con 14 cursos activos y cero control de márgenes. Escandallo por curso, eliminación de líneas deficitarias y producto recurrente.",
+    date: "21 abril 2026",
+    category: "Caso de éxito",
+    readTime: "13 min",
+  },
+  {
+    slug: "caso-exito-tienda-barrio-rentabilidad",
+    title: "Caso de éxito: una tienda de barrio que competía con el supermercado y ganó",
+    excerpt: "Caso real de un comercio de alimentación de barrio en A Coruña presionado por la gran distribución. Diferenciación, mix de producto, precios y servicio.",
+    date: "21 abril 2026",
+    category: "Caso de éxito",
+    readTime: "13 min",
+  },
 ];
 
 // Páginas principales del sitio para sitemap
