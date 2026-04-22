@@ -214,6 +214,26 @@ export const BLOG_POSTS = [
     title: "Caso de éxito: una tienda de barrio que competía con el supermercado y ganó",
     category: "Caso de éxito",
   },
+  {
+    slug: "consultor-empresas-a-coruna-guia",
+    title: "Consultor de empresas en A Coruña: guía para pymes que buscan ayuda real",
+    category: "Estrategia",
+  },
+  {
+    slug: "retos-pymes-galicia-2026",
+    title: "Retos de las pymes en Galicia en 2026: lo que tienes que mirar este año",
+    category: "Estrategia",
+  },
+  {
+    slug: "hosteleria-coruna-rentabilidad",
+    title: "Hostelería en A Coruña: cómo ser rentable en un mercado cada vez más difícil",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "emprender-galicia-errores",
+    title: "Emprender en Galicia: los 8 errores que hacen que el 50 % de los negocios cierre antes de 5 años",
+    category: "Estrategia",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {

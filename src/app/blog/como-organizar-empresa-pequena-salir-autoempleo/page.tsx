@@ -786,6 +786,17 @@ export default function ArticuloOrganizarEmpresa() {
             </a>.
           </p>
 
+          <div className="my-8 rounded-xl border-l-4 border-primary-500 bg-primary-50/60 p-5 not-prose">
+            <p className="text-sm font-semibold text-primary-800">
+              Si estás emprendiendo o acabas de empezar en Galicia, te interesarán{" "}
+              <a href="/blog/emprender-galicia-errores" className="text-accent-600 underline hover:text-accent-700">
+                los 8 errores más frecuentes al emprender en Galicia
+              </a>{" "}
+              — muchos de ellos son exactamente los que convierten a un empresario en
+              autoempleado encubierto desde el primer día.
+            </p>
+          </div>
+
           </article>
           <div className="mt-12 lg:mt-0">
             <div className="lg:sticky lg:top-28">

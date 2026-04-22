@@ -365,6 +365,51 @@ export default function ConsultorEmpresasCoruna() {
               </p>
             </a>
           </div>
+
+          {/* Lecturas locales */}
+          <div className="mt-14 border-t border-gray-200 pt-10">
+            <h3 className="text-center text-2xl font-bold text-primary-900">
+              Guías locales para pymes de la provincia
+            </h3>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <a
+                href="/blog/consultor-empresas-a-coruna-guia"
+                className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              >
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">Guía local</p>
+                <p className="mt-2 text-sm font-bold text-primary-900 leading-snug">
+                  Consultor de empresas en A Coruña: guía para pymes
+                </p>
+              </a>
+              <a
+                href="/blog/hosteleria-coruna-rentabilidad"
+                className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              >
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">Sectores</p>
+                <p className="mt-2 text-sm font-bold text-primary-900 leading-snug">
+                  Hostelería en A Coruña: cómo ser rentable
+                </p>
+              </a>
+              <a
+                href="/blog/retos-pymes-galicia-2026"
+                className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              >
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">Contexto</p>
+                <p className="mt-2 text-sm font-bold text-primary-900 leading-snug">
+                  Retos de las pymes en Galicia en 2026
+                </p>
+              </a>
+              <a
+                href="/blog/emprender-galicia-errores"
+                className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              >
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">Emprender</p>
+                <p className="mt-2 text-sm font-bold text-primary-900 leading-snug">
+                  Emprender en Galicia: los 8 errores clave
+                </p>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 

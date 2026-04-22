@@ -873,6 +873,16 @@ export default function ArticuloConsultor() {
             situación y yo te diga honestamente si puedo ayudarte — o no.
             Así de simple.
           </p>
+
+          <div className="my-8 rounded-xl border-l-4 border-primary-500 bg-primary-50/60 p-5 not-prose">
+            <p className="text-sm font-semibold text-primary-800">
+              Si tu pyme está en la provincia de A Coruña, encontrarás detalles específicos
+              sobre precios, servicios y cómo elegir bien en la{" "}
+              <a href="/blog/consultor-empresas-a-coruna-guia" className="text-accent-600 underline hover:text-accent-700">
+                guía local de consultor de empresas en A Coruña
+              </a>.
+            </p>
+          </div>
           </article>
           <div className="mt-12 lg:mt-0">
             <div className="lg:sticky lg:top-28">

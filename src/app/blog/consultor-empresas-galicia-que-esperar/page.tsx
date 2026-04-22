@@ -220,6 +220,22 @@ export default function ArticuloConsultorGalicia() {
               datos y ejecutado con disciplina. Y un buen consultor es quien te ayuda a recorrer ese camino con menos
               tropiezos y más velocidad.
             </p>
+
+            <div className="rounded-xl border-l-4 border-primary-500 bg-primary-50 p-6 not-prose my-8">
+              <p className="text-sm font-semibold text-primary-800">
+                Lecturas recomendadas si estás en la provincia de A Coruña:{" "}
+                <a href="/blog/consultor-empresas-a-coruna-guia" className="text-accent-600 underline hover:text-accent-700">
+                  guía local de consultor en A Coruña
+                </a>{" "}
+                y{" "}
+                <a href="/blog/retos-pymes-galicia-2026" className="text-accent-600 underline hover:text-accent-700">
+                  retos de las pymes gallegas en 2026
+                </a>. Si quieres ver la página hub de la consultoría local:{" "}
+                <a href="/consultor-empresas-coruna" className="text-accent-600 underline hover:text-accent-700">
+                  consultor de empresas en A Coruña
+                </a>.
+              </p>
+            </div>
           </article>
 
           <div className="mt-12 lg:mt-0">

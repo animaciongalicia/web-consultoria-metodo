@@ -386,6 +386,38 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Caso de éxito",
     readTime: "13 min",
   },
+  {
+    slug: "consultor-empresas-a-coruna-guia",
+    title: "Consultor de empresas en A Coruña: guía para pymes que buscan ayuda real",
+    excerpt: "Qué esperar de un consultor de empresas en A Coruña, cuánto cuesta, cómo elegir bien y en qué se diferencia de una gestoría. Guía local para pymes.",
+    date: "21 abril 2026",
+    category: "Estrategia",
+    readTime: "11 min",
+  },
+  {
+    slug: "retos-pymes-galicia-2026",
+    title: "Retos de las pymes en Galicia en 2026: lo que tienes que mirar este año",
+    excerpt: "Los 6 retos que marcarán la rentabilidad de las pymes gallegas en 2026: costes, relevo generacional, digitalización, talento, competencia y complejidad interna.",
+    date: "22 abril 2026",
+    category: "Estrategia",
+    readTime: "12 min",
+  },
+  {
+    slug: "hosteleria-coruna-rentabilidad",
+    title: "Hostelería en A Coruña: cómo ser rentable en un mercado cada vez más difícil",
+    excerpt: "Análisis práctico de la rentabilidad en la hostelería de A Coruña: costes, estacionalidad, escandallos, cartas y competencia. Guía para bares, cafeterías y restaurantes.",
+    date: "22 abril 2026",
+    category: "Rentabilidad",
+    readTime: "12 min",
+  },
+  {
+    slug: "emprender-galicia-errores",
+    title: "Emprender en Galicia: los 8 errores que hacen que el 50 % de los negocios cierre antes de 5 años",
+    excerpt: "Los errores más frecuentes al emprender en Galicia y cómo evitarlos. Viabilidad, costes, precios, estacionalidad y estructura. Guía para emprendedores gallegos.",
+    date: "22 abril 2026",
+    category: "Estrategia",
+    readTime: "13 min",
+  },
 ];
 
 // Páginas principales del sitio para sitemap

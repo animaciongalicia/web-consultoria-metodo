@@ -1105,6 +1105,21 @@ export default function ArticuloRentabilidadEmpresa() {
             </li>
           </ul>
 
+          <div className="my-8 rounded-xl border-l-4 border-primary-500 bg-primary-50/60 p-5 not-prose">
+            <p className="text-sm font-semibold text-primary-800">
+              Si diriges una pyme en la provincia de A Coruña o en otro punto de Galicia, te
+              interesará también{" "}
+              <a href="/blog/retos-pymes-galicia-2026" className="text-accent-600 underline hover:text-accent-700">
+                los retos específicos de las pymes gallegas en 2026
+              </a>{" "}
+              y{" "}
+              <a href="/consultor-empresas-coruna" className="text-accent-600 underline hover:text-accent-700">
+                la guía de consultoría local en A Coruña
+              </a>{" "}
+              donde explico cómo adapto esta misma metodología al tejido empresarial gallego.
+            </p>
+          </div>
+
           <div className="my-8 rounded-xl border-2 border-accent-300 bg-accent-50 p-6 not-prose">
             <p className="font-semibold text-primary-900 text-lg">
               ¿Necesitas ayuda con este proceso?

@@ -129,6 +129,16 @@ export default function ArticuloRentabilidadHosteleria() {
             y cómo pasó a tener un margen estable del 12-15 % en tres meses.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
+            Si tu bar, cafetería o restaurante está en la provincia de A Coruña, también te
+            será útil la guía específica sobre{" "}
+            <a
+              href="/blog/hosteleria-coruna-rentabilidad"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              hostelería en A Coruña y cómo ser rentable en un mercado cada vez más difícil
+            </a>, con las palancas que más veo aplicar en el contexto hostelero gallego.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
             Si te interesa entender este fenómeno de forma general — más allá
             de la hostelería —, te recomiendo leer{" "}
             <a
