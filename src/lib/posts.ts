@@ -235,7 +235,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Cómo vender más sin bajar precios",
     excerpt: "Bajar precios no es una estrategia. Vende más mejorando tu propuesta de valor, tu proceso comercial y tu seguimiento.",
     date: "15 septiembre 2025",
-    category: "Clientes",
+    category: "Ventas",
     readTime: "10 min",
     publishDate: "2025-09-15",
   },

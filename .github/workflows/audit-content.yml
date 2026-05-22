@@ -1,0 +1,35 @@
+name: Auditoría semanal de contenido
+
+on:
+  schedule:
+    - cron: '0 20 * * 0'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run content audit
+        run: node scripts/audit-content.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Create issue with report
+        if: hashFiles('audit-report.md') != ''
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Auditoría semanal de contenido — ${{ github.run_id }}"
+          content-filepath: audit-report.md
+          labels: contenido,seo

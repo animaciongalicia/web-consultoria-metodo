@@ -2,34 +2,19 @@ name: Publicación programada de artículos
 
 on:
   schedule:
-    # Cada lunes y jueves a las 8:00 (hora España peninsular = 06:00 UTC)
-    - cron: '0 6 * * 1,4'
-  workflow_dispatch: # Permite lanzar manualmente desde GitHub
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
-  rebuild:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build
-        run: npm run build
-
-      # Si usas Vercel, el deploy se dispara automáticamente con el push.
-      # Si usas otro hosting, añade aquí el paso de deploy.
-      # Ejemplo para Vercel (sin necesidad de step adicional si tienes
-      # integración con GitHub — el simple hecho de que exista un commit
-      # o se dispare un rebuild en Vercel es suficiente).
-
-      - name: Trigger deploy (optional - for non-Vercel setups)
-        run: echo "Build completado. Los artículos cuya fecha ya ha llegado se muestran automáticamente."
+      - name: Trigger Vercel rebuild
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}")
+          if [ "$response" -ge 200 ] && [ "$response" -lt 300 ]; then
+            echo "Deploy triggered (HTTP $response)"
+          else
+            echo "Deploy failed (HTTP $response)"
+            exit 1
+          fi

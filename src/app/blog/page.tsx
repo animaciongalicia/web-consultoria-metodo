@@ -67,6 +67,12 @@ const categoryColors: Record<
     border: "border-teal-200",
     shadow: "hover:shadow-teal-100",
   },
+  Ventas: {
+    bg: "bg-indigo-50",
+    text: "text-indigo-700",
+    border: "border-indigo-200",
+    shadow: "hover:shadow-indigo-100",
+  },
 };
 
 const posts = BLOG_POSTS;

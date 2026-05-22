@@ -10,6 +10,7 @@ const categoryColors: Record<string, { bg: string; text: string }> = {
   Clientes: { bg: "bg-blue-50", text: "text-blue-700" },
   Rentabilidad: { bg: "bg-emerald-50", text: "text-emerald-700" },
   "Caso de éxito": { bg: "bg-teal-50", text: "text-teal-700" },
+  Ventas: { bg: "bg-indigo-50", text: "text-indigo-700" },
 };
 
 export default function BlogSidebar({

@@ -127,7 +127,7 @@ export const BLOG_POSTS = [
   {
     slug: "como-vender-mas-sin-bajar-precios",
     title: "Cómo vender más sin bajar precios",
-    category: "Clientes",
+    category: "Ventas",
   },
   {
     slug: "plan-negocio-simple-una-pagina",
