@@ -234,6 +234,106 @@ export const BLOG_POSTS = [
     title: "Emprender en Galicia: los 8 errores que hacen que el 50 % de los negocios cierre antes de 5 años",
     category: "Estrategia",
   },
+  {
+    slug: "como-hacer-proceso-comercial-pyme",
+    title: "Cómo montar un proceso comercial en tu pyme (aunque no seas vendedor)",
+    category: "Ventas",
+  },
+  {
+    slug: "cuanto-cuesta-realmente-un-empleado",
+    title: "Cuánto cuesta realmente un empleado (y cómo calcularlo)",
+    category: "Control y gestión",
+  },
+  {
+    slug: "que-hacer-cuando-cliente-importante-te-deja",
+    title: "Qué hacer cuando un cliente importante te deja",
+    category: "Clientes",
+  },
+  {
+    slug: "como-saber-si-tu-marketing-funciona",
+    title: "Cómo saber si tu marketing está funcionando: métricas para pymes",
+    category: "Marketing",
+  },
+  {
+    slug: "mi-empresa-depende-de-mi",
+    title: "Mi empresa depende de mí: cómo salir de la trampa",
+    category: "Organización",
+  },
+  {
+    slug: "como-negociar-con-proveedores",
+    title: "Cómo negociar con proveedores cuando eres pequeño",
+    category: "Rentabilidad",
+  },
+  {
+    slug: "como-captar-clientes-negocio-local",
+    title: "Cómo captar clientes en un negocio local sin tirar dinero",
+    category: "Marketing",
+  },
+  {
+    slug: "caso-exito-gimnasio-coruna-precio",
+    title: "Caso de éxito: un gimnasio en Coruña que dejó de competir por precio",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "como-montar-sistema-cobros",
+    title: "Cómo montar un sistema de cobros que funcione",
+    category: "Control y gestión",
+  },
+  {
+    slug: "por-que-tu-web-no-trae-clientes",
+    title: "Por qué tu web no te trae clientes (y qué hacer)",
+    category: "Marketing",
+  },
+  {
+    slug: "como-vender-servicios-profesionales",
+    title: "Cómo vender servicios profesionales sin sentirte vendedor",
+    category: "Ventas",
+  },
+  {
+    slug: "caso-exito-empresa-servicios-tecnicos-margen",
+    title: "Caso de éxito: una empresa de servicios técnicos que duplicó su margen",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "como-crear-oferta-irresistible",
+    title: "Cómo crear una oferta irresistible para tu negocio",
+    category: "Ventas",
+  },
+  {
+    slug: "coste-de-no-tomar-decisiones",
+    title: "El coste de no tomar decisiones en tu empresa",
+    category: "Estrategia",
+  },
+  {
+    slug: "como-hacer-seguimiento-comercial",
+    title: "Cómo hacer seguimiento comercial sin ser pesado",
+    category: "Ventas",
+  },
+  {
+    slug: "google-my-business-negocios-locales",
+    title: "Google My Business para negocios locales: guía práctica",
+    category: "Marketing",
+  },
+  {
+    slug: "como-revisar-si-tu-negocio-va-bien",
+    title: "Cómo revisar si tu negocio va bien: el check-up trimestral",
+    category: "Control y gestión",
+  },
+  {
+    slug: "caso-exito-comercio-rural-galicia-nicho-online",
+    title: "Caso de éxito: un comercio rural en Galicia que encontró su nicho online",
+    category: "Caso de éxito",
+  },
+  {
+    slug: "cuando-contratar-primer-empleado",
+    title: "Cuándo y cómo contratar a tu primer empleado",
+    category: "Crecimiento",
+  },
+  {
+    slug: "como-dejar-de-competir-por-precio",
+    title: "Cómo dejar de competir por precio: estrategia de valor para pymes",
+    category: "Ventas",
+  },
 ];
 
 export function getAdjacentPosts(currentSlug: string) {
