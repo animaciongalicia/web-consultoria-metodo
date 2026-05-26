@@ -19,7 +19,7 @@ export const SITE = {
   title:
     "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y Online en toda España",
   description:
-    "Pablo García Dacosta — Consultoría empresarial para pymes. Presencial en A Coruña y Galicia, online en toda España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
+    "Consultoría Método — Consultoría empresarial para pymes y empresas. Presencial en A Coruña y Galicia, online en toda España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
 };
 
 export const NAV_LINKS = [
@@ -44,7 +44,7 @@ export const HERO = {
     "Saber dónde ganas, dónde pierdes y qué cambiar",
     "Dejar de improvisar. Decidir con datos y con criterio",
   ],
-  ctaPrimary: "Reservar mi llamada gratuita",
+  ctaPrimary: "Reservar llamada gratuita",
   ctaWhatsapp: "Hablar por WhatsApp",
   ctaPhone: "Llamar ahora",
 };
@@ -67,8 +67,8 @@ export const PROBLEMS = {
 export const METHOD = {
   heading: "¿Qué es Consultoría Método?",
   paragraphs: [
-    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y online en toda España. No soy una gestoría, no llevo tus impuestos, no te digo lo que quieres oír. Soy la persona que se sienta contigo — en persona o en videollamada —, mira la realidad de tu negocio y te ayuda a decidir qué hacer para mejorar.",
-    "Mi enfoque se llama Método Rentabilismo. Es una consultoría metodológica: un sistema práctico de mejora empresarial basado en la gestión de procesos, el análisis de datos y las decisiones con criterio. Sin humo, sin teoría vacía:",
+    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y online en toda España. No somos una gestoría, no llevamos tus impuestos, no te decimos lo que quieres oír. En Consultoría Método nos sentamos contigo — en persona o en videollamada —, miramos la realidad de tu negocio y te ayudamos a decidir qué hacer para mejorar.",
+    "Nuestro enfoque se llama Método Rentabilismo. Es una consultoría metodológica: un sistema práctico de mejora empresarial basado en la gestión de procesos, el análisis de datos y las decisiones con criterio. Sin humo, sin teoría vacía:",
   ],
   pillars: [
     {
@@ -97,25 +97,25 @@ export const METHOD = {
 };
 
 export const HOW_I_WORK = {
-  heading: "Cómo trabajo contigo",
+  heading: "Cómo trabajamos contigo",
   steps: [
     {
       number: "01",
       title: "Diagnóstico de negocio",
       description:
-        "En 1–2 horas analizamos juntos la situación real de tu empresa: números, procesos, equipo, ventas, márgenes. Sin adornos. Te digo lo que veo, aunque no sea lo que esperas oír.",
+        "En 1–2 horas analizamos juntos la situación real de tu empresa: números, procesos, equipo, ventas, márgenes. Sin adornos. Te decimos lo que vemos, aunque no sea lo que esperas oír.",
     },
     {
       number: "02",
       title: "Informe claro y plan de acción",
       description:
-        "Te entrego un informe directo con los puntos clave de mejora y un plan de acción concreto: qué hacer, en qué orden y qué impacto esperar. Sin relleno ni PowerPoints decorativos.",
+        "Te entregamos un informe directo con los puntos clave de mejora y un plan de acción concreto: qué hacer, en qué orden y qué impacto esperar. Sin relleno ni PowerPoints decorativos.",
     },
     {
       number: "03",
       title: "Reuniones de dirección y seguimiento",
       description:
-        "Nos reunimos periódicamente para revisar avances, ajustar el plan y tomar decisiones sobre la marcha. Como tener un director externo enfocado solo en que tu negocio mejore.",
+        "Nos reunimos periódicamente para revisar avances, ajustar el plan y tomar decisiones sobre la marcha. Como tener un equipo de dirección externo enfocado solo en que tu negocio mejore.",
     },
     {
       number: "04",
@@ -160,14 +160,14 @@ export const TESTIMONIAL = TESTIMONIALS[0];
 
 export const FREE_CALL = {
   heading: "Primera conversación gratuita — 30 minutos",
-  text: "Antes de trabajar juntos, necesito conocer tu negocio y tú necesitas saber si soy la persona adecuada para ayudarte. Por eso ofrezco una primera llamada de 30 minutos sin coste ni compromiso.",
+  text: "Antes de trabajar juntos, necesitamos conocer tu negocio y tú necesitas saber si somos el equipo adecuado para ayudarte. Por eso ofrecemos una primera llamada de 30 minutos sin coste ni compromiso.",
   bullets: [
-    "Me cuentas tu situación real y qué te gustaría mejorar.",
-    "Te doy mi opinión honesta sobre por dónde empezar.",
+    "Nos cuentas tu situación real y qué te gustaría mejorar.",
+    "Te damos nuestra opinión honesta sobre por dónde empezar.",
     "Decidimos juntos si tiene sentido trabajar juntos. Sin presión, sin venta agresiva.",
   ],
-  note: "No es para todo el mundo. Analizo cada caso y solo trabajo con negocios donde sé que puedo aportar. Esa media hora es tan importante para ti como para mí.",
-  cta: "Reservar mi llamada gratuita",
+  note: "No es para todo el mundo. Analizamos cada caso y solo trabajamos con negocios donde sabemos que podemos aportar. Esa media hora es tan importante para ti como para nosotros.",
+  cta: "Reservar llamada gratuita",
 };
 
 export const BENEFITS = {
@@ -211,7 +211,7 @@ export const FOR_WHO = {
   forYou: {
     title: "Es para ti si…",
     items: [
-      "Tienes una pyme o negocio en España y quieres mejorar de verdad.",
+      "Tienes una empresa o negocio en España y quieres mejorar de verdad.",
       "Sabes que puedes ir mejor, pero no tienes claro por dónde empezar.",
       "Estás dispuesto a mirar los números y tomar decisiones.",
       "Quieres a alguien externo que te diga la verdad, no lo que quieres oír.",
@@ -225,27 +225,27 @@ export const FOR_WHO = {
       "No quieres cambiar nada en tu forma de hacer las cosas.",
       "Solo quieres que alguien te dé la razón.",
       "No estás dispuesto a implicarte en el proceso de mejora.",
-      "Buscas una gestoría o asesoría contable (eso no es lo que hago).",
+      "Buscas una gestoría o asesoría contable (eso no es lo que hacemos).",
     ],
   },
 };
 
 export const ABOUT = {
-  heading: "Sobre mí",
+  heading: "Sobre Consultoría Método",
   paragraphs: [
-    "Soy Pablo García Dacosta. Me gusta ayudar a las personas y a sus negocios. Creo firmemente que las cosas se pueden hacer bien, y eso me mueve desde siempre.",
-    "Desde los 20 años me apasiona la gestión de procesos, la mejora empresarial continua, el marketing y las ventas. He trabajado dentro de empresas y como consultor externo en sectores muy diferentes: casas rurales, hospitales, joyerías, consignatarios de buques, restaurantes, abogados, clínicas y muchos más.",
-    "Llevo más de 25 años ayudando a pymes y empresas a mejorar sus resultados. Mi enfoque es práctico, directo y orientado a resultados. No vendo humo, no doy charlas motivacionales y no te voy a decir que \"todo va bien\" si no es verdad.",
-    "Mi rol es claro: soy la persona que se sienta contigo, mira la realidad de tu empresa con ojos limpios y te ayuda a decidir qué hacer para mejorar. Ni más ni menos.",
+    "Consultoría Método nace de la experiencia de Pablo García Dacosta, con más de 25 años ayudando a empresas a mejorar sus resultados. La gestión de procesos, la mejora empresarial continua, el marketing y las ventas son el núcleo de todo lo que hacemos.",
+    "Pablo ha trabajado dentro de empresas y como consultor externo en sectores muy diferentes: casas rurales, hospitales, joyerías, consignatarios de buques, restaurantes, abogados, clínicas y muchos más. Esa experiencia multisectorial es la base del Método Rentabilismo.",
+    "Nuestro enfoque es práctico, directo y orientado a resultados. No vendemos humo, no damos charlas motivacionales y no te vamos a decir que \"todo va bien\" si no es verdad.",
+    "Nuestro rol es claro: sentarnos contigo, mirar la realidad de tu empresa con ojos limpios y ayudarte a decidir qué hacer para mejorar. Ni más ni menos.",
   ],
 };
 
 export const SEO_LOCAL = {
   heading: "Consultor empresarial en A Coruña, Galicia y online en toda España",
   paragraphs: [
-    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajo contigo presencialmente. Llevo años como consultor de empresas en Galicia y conozco la realidad del tejido empresarial de la zona: sus fortalezas, sus limitaciones y lo que funciona de verdad aquí.",
-    "Y si tu negocio está en Madrid, Barcelona, Valencia, Sevilla, Bilbao o cualquier otra ciudad de España, trabajamos igual de bien por videollamada. El método es el mismo, los resultados son los mismos. La distancia no cambia nada.",
-    "Hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria y cualquier pyme que quiera mejorar sus resultados. Consultoría empresarial con enfoque en gestión de procesos, mejora de rentabilidad y decisiones estratégicas — adaptada a la realidad de cada empresa, esté donde esté.",
+    "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajamos contigo presencialmente. Llevamos años como consultores de empresas en Galicia y conocemos la realidad del tejido empresarial de la zona: sus fortalezas, sus limitaciones y lo que funciona de verdad aquí.",
+    "Si tu negocio está en Madrid, Barcelona, Valencia, Sevilla, Bilbao o cualquier otra ciudad de España, trabajamos igual de bien por videollamada. El método es el mismo, los resultados son los mismos. La distancia no cambia nada.",
+    "Hostelería, comercios, clínicas, academias, empresas de servicios, turismo, industria y cualquier empresa que quiera mejorar sus resultados. Consultoría empresarial con enfoque en gestión de procesos, mejora de rentabilidad y decisiones estratégicas — adaptada a la realidad de cada negocio, esté donde esté.",
   ],
 };
 
@@ -265,7 +265,7 @@ export const FAQS = {
     {
       question: "¿En qué se diferencia de una gestoría?",
       answer:
-        "Una gestoría lleva tus impuestos y tu contabilidad. Yo trabajo en la mejora empresarial y la dirección estratégica de tu negocio: gestión de procesos, ventas, rentabilidad, equipo y decisiones. Son cosas muy distintas y complementarias.",
+        "Una gestoría lleva tus impuestos y tu contabilidad. En Consultoría Método trabajamos en la mejora empresarial y la dirección estratégica de tu negocio: gestión de procesos, ventas, rentabilidad, equipo y decisiones. Son cosas muy distintas y complementarias.",
     },
     {
       question: "¿Trabajas solo en Galicia o también online?",
@@ -286,13 +286,13 @@ export const FAQS = {
 };
 
 export const URGENCY = {
-  text: "Trabajo con un máximo de 4 empresas a la vez para dedicar el tiempo que merece cada una. Si ahora hay hueco, es buen momento para hablarlo.",
+  text: "Trabajamos con un máximo de 4–6 empresas a la vez para dedicar el tiempo que merece cada una. Si ahora hay hueco, es buen momento para hablarlo.",
 };
 
 export const CONTACT = {
   heading: "Hablemos de tu negocio",
   text: "Cada mes sin claridad es dinero que se va de tu negocio. No se trata de trabajar más, se trata de trabajar mejor. Si quieres saber qué mejorar y por dónde empezar, da el primer paso.",
-  formTitle: "Escríbeme",
+  formTitle: "Escríbenos",
   formFields: {
     name: "Tu nombre",
     business: "Nombre de tu negocio",
@@ -302,5 +302,5 @@ export const CONTACT = {
   },
   submitButton: "Enviar mensaje",
   successMessage:
-    "Mensaje enviado correctamente. Me pondré en contacto contigo lo antes posible.",
+    "Mensaje enviado correctamente. Nos pondremos en contacto contigo lo antes posible.",
 };

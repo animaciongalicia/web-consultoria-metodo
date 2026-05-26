@@ -71,8 +71,8 @@ export default function ConsultoriaEmpresarialGalicia() {
             Consultoría empresarial en Galicia
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
-            Acompaño pymes gallegas a mejorar su rentabilidad, su captación de
-            clientes y su forma de organizarse. Base en A Coruña, trabajo en las
+            Acompañamos a empresas gallegas a mejorar su rentabilidad, su captación de
+            clientes y su forma de organizarse. Base en A Coruña, trabajamos en las
             cuatro provincias — presencial cuando la distancia lo permite, online
             el resto.
           </p>
@@ -110,8 +110,8 @@ export default function ConsultoriaEmpresarialGalicia() {
               poca cultura de análisis de datos.
             </p>
             <p>
-              Como consultor empresarial con base en A Coruña, llevo más de
-              25 años trabajando con pymes gallegas. Conozco las
+              Con base en A Coruña, llevamos más de
+              25 años trabajando con empresas gallegas. Conocemos las
               particularidades del mercado local, los sectores estratégicos
               de cada provincia y los retos que se repiten año tras año en
               la mesa del empresario gallego. No es una consultoría pensada
@@ -130,7 +130,7 @@ export default function ConsultoriaEmpresarialGalicia() {
           </h2>
           <p className="mt-4 text-gray-700 md:text-lg">
             Cada provincia tiene su propio ecosistema empresarial, sus sectores
-            dominantes y sus retos específicos. Trabajo con pymes de las cuatro.
+            dominantes y sus retos específicos. Trabajamos con empresas de las cuatro.
           </p>
 
           <div className="mt-10 space-y-6">

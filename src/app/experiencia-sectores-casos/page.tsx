@@ -94,7 +94,7 @@ const sectores = [
   {
     title: "Otros sectores",
     description:
-      "El tejido empresarial en España es amplio y diverso. Si tu sector no aparece aquí, probablemente ya he trabajado con negocios similares — tanto en Galicia como en el resto de España.",
+      "El tejido empresarial en España es amplio y diverso. Si tu sector no aparece aquí, probablemente ya hemos trabajado con negocios similares — tanto en Galicia como en el resto de España.",
   },
 ];
 
@@ -239,9 +239,9 @@ export default function ExperienciaSectoresCasos() {
               problemas y trabajando juntos para resolverlos.
             </p>
             <p>
-              A lo largo de más de 25 años he trabajado con negocios de sectores
+              A lo largo de más de 25 años hemos trabajado con negocios de sectores
               muy distintos, tamaños diferentes y problemas variados. Esa visión
-              amplia es lo que me permite detectar patrones, evitar errores
+              amplia es lo que nos permite detectar patrones, evitar errores
               comunes y aplicar soluciones que funcionan.
             </p>
             <p>
@@ -256,7 +256,7 @@ export default function ExperienciaSectoresCasos() {
       <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Qué tipo de empresas y sectores he analizado o acompañado
+            Qué tipo de empresas y sectores hemos analizado o acompañado
           </h2>
           <p className="section-subtitle text-gray-600">
             Cada sector tiene sus particularidades, pero todos comparten la
@@ -397,7 +397,7 @@ export default function ExperienciaSectoresCasos() {
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">
         <div className="container-narrow text-center">
           <h2 className="text-2xl font-bold text-white md:text-3xl">
-            ¿Quieres que analice tu negocio?
+            ¿Quieres que analicemos tu negocio?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-gray-300">
             Si quieres saber qué mejorar en tu empresa y por dónde empezar,

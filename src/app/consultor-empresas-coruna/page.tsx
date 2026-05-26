@@ -117,11 +117,11 @@ export default function ConsultorEmpresasCoruna() {
               embargo es lo que más impacto tiene en tu beneficio.
             </p>
             <p>
-              Soy Pablo García Dacosta. Trabajo como consultor empresarial con
-              base en A Coruña desde hace más de dos décadas. He acompañado a
-              pymes de hostelería, comercio, clínicas, servicios profesionales,
+              Consultoría Método, fundada por Pablo García Dacosta, trabaja como
+              consultoría empresarial con base en A Coruña desde hace más de dos décadas. Hemos acompañado a
+              empresas de hostelería, comercio, clínicas, servicios profesionales,
               formación, industria y turismo — tanto en la ciudad como en toda
-              la provincia. Mi enfoque se llama{" "}
+              la provincia. Nuestro enfoque se llama{" "}
               <a
                 href="/metodo-herramientas"
                 className="text-accent-600 underline hover:text-accent-700"
@@ -153,11 +153,11 @@ export default function ConsultorEmpresasCoruna() {
             {[
               {
                 titulo: "Conocimiento del tejido coruñés",
-                desc: "Años trabajando con empresas de A Coruña, Santiago, Ferrol y comarcas. Conozco los sectores que predominan, los proveedores habituales y los patrones de cliente local.",
+                desc: "Años trabajando con empresas de A Coruña, Santiago, Ferrol y comarcas. Conocemos los sectores que predominan, los proveedores habituales y los patrones de cliente local.",
               },
               {
                 titulo: "Cercanía real, no virtual",
-                desc: "Puedo ir a tu negocio y ver cómo funciona de verdad. Una cosa es lo que se cuenta en una videollamada y otra es lo que se ve pasando una mañana en tu empresa.",
+                desc: "Podemos ir a tu negocio y ver cómo funciona de verdad. Una cosa es lo que se cuenta en una videollamada y otra es lo que se ve pasando una mañana en tu empresa.",
               },
               {
                 titulo: "Seguimiento presencial",
@@ -277,7 +277,7 @@ export default function ConsultorEmpresasCoruna() {
               {
                 paso: "1",
                 titulo: "Primera conversación gratuita",
-                desc: "30 minutos por teléfono, videollamada o presencial si estás en A Coruña. Me cuentas tu situación, te doy mi opinión honesta, decidimos si tiene sentido trabajar juntos.",
+                desc: "30 minutos por teléfono, videollamada o presencial si estás en A Coruña. Nos cuentas tu situación, te damos nuestra opinión honesta, decidimos si tiene sentido trabajar juntos.",
               },
               {
                 paso: "2",

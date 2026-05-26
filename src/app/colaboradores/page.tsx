@@ -29,27 +29,27 @@ const perfiles = [
   {
     title: "Gestorías",
     description:
-      "Llevan la contabilidad y la fiscalidad de sus clientes. Yo les ayudo a mejorar la rentabilidad, la captación y la organización del negocio.",
+      "Llevan la contabilidad y la fiscalidad de sus clientes. Desde Consultoría Método les ayudamos a mejorar la rentabilidad, la captación y la organización del negocio.",
   },
   {
     title: "Asesorías",
     description:
-      "Asesoran en materia fiscal, laboral o mercantil. Yo trabajo en la mejora operativa y comercial de la empresa.",
+      "Asesoran en materia fiscal, laboral o mercantil. Nosotros trabajamos en la mejora operativa y comercial de la empresa.",
   },
   {
     title: "Despachos laborales",
     description:
-      "Gestionan nóminas, contratos y relaciones laborales. Yo ayudo a que el negocio funcione mejor para que pueda sostener y hacer crecer su equipo.",
+      "Gestionan nóminas, contratos y relaciones laborales. Nuestro trabajo es que el negocio funcione mejor para que pueda sostener y hacer crecer su equipo.",
   },
   {
     title: "Abogados mercantiles",
     description:
-      "Trabajan en el marco legal de la empresa. Yo trabajo en la estrategia, los procesos y la rentabilidad del día a día.",
+      "Trabajan en el marco legal de la empresa. Nos encargamos de la estrategia, los procesos y la rentabilidad del día a día.",
   },
   {
     title: "Consultores fiscales",
     description:
-      "Optimizan la carga fiscal. Yo optimizo la estructura del negocio, sus márgenes y su forma de captar y retener clientes.",
+      "Optimizan la carga fiscal. Optimizamos la estructura del negocio, sus márgenes y su forma de captar y retener clientes.",
   },
   {
     title: "Otros profesionales",
@@ -68,10 +68,10 @@ const aportaciones = [
 ];
 
 const noHacemos = [
-  "No llevo contabilidad",
-  "No hago impuestos ni fiscalidad",
-  "No sustituyo a la gestoría ni a la asesoría",
-  "No invado el área fiscal, laboral ni mercantil",
+  "No llevamos contabilidad",
+  "No hacemos impuestos ni fiscalidad",
+  "No sustituimos a la gestoría ni a la asesoría",
+  "No invadimos el área fiscal, laboral ni mercantil",
 ];
 
 const procesoDerivacion = [
@@ -85,13 +85,13 @@ const procesoDerivacion = [
     number: "02",
     title: "Análisis del negocio",
     description:
-      "Reviso la situación real de la empresa: números, procesos, captación, precios y estructura.",
+      "Revisamos la situación real de la empresa: números, procesos, captación, precios y estructura.",
   },
   {
     number: "03",
     title: "Propuesta clara",
     description:
-      "Si hay margen de mejora, hago una propuesta concreta. Si no, lo digo con la misma claridad.",
+      "Si hay margen de mejora, hacemos una propuesta concreta. Si no, lo decimos con la misma claridad.",
   },
   {
     number: "04",

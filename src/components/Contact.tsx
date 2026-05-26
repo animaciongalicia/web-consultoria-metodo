@@ -3,7 +3,7 @@ import { CONTACT, SITE, URGENCY } from "@/lib/content";
 export default function Contact() {
   const subject = encodeURIComponent("Consulta desde consultoriametodo.es");
   const body = encodeURIComponent(
-    "Hola Pablo,\n\nMe gustaría mejorar mi negocio y me interesa tu consultoría.\n\nMi nombre: \nMi negocio: \nTeléfono: \n\n¿Qué me gustaría mejorar?\n\n"
+    "Hola,\n\nMe gustaría mejorar mi negocio y me interesa vuestra consultoría.\n\nMi nombre: \nMi negocio: \nTeléfono: \n\n¿Qué me gustaría mejorar?\n\n"
   );
   const mailtoLink = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
 

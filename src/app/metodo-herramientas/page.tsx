@@ -34,19 +34,19 @@ const fases = [
     number: "01",
     title: "Diagnóstico inicial",
     description:
-      "Analizo la situación real de la empresa: números, procesos, clientes, equipo, márgenes y estructura. Sin suposiciones. Con datos.",
+      "Analizamos la situación real de la empresa: números, procesos, clientes, equipo, márgenes y estructura. Sin suposiciones. Con datos.",
   },
   {
     number: "02",
     title: "Detección de problemas y oportunidades",
     description:
-      "Identifico qué frena el negocio y qué oportunidades no se están aprovechando. Muchas veces el problema principal no es el que el empresario cree.",
+      "Identificamos qué frena el negocio y qué oportunidades no se están aprovechando. Muchas veces el problema principal no es el que el empresario cree.",
   },
   {
     number: "03",
     title: "Plan de acción",
     description:
-      "Defino qué hacer, en qué orden y con qué recursos. Un plan concreto, no un documento de 80 páginas que nadie va a leer.",
+      "Definimos qué hacer, en qué orden y con qué recursos. Un plan concreto, no un documento de 80 páginas que nadie va a leer.",
   },
   {
     number: "04",
@@ -58,7 +58,7 @@ const fases = [
     number: "05",
     title: "Seguimiento y ajuste",
     description:
-      "Reviso avances, mido resultados y ajusto lo que haga falta. Un negocio no se mejora con una reunión, se mejora con constancia.",
+      "Revisamos avances, medimos resultados y ajustamos lo que haga falta. Un negocio no se mejora con una reunión, se mejora con constancia.",
   },
 ];
 
@@ -122,15 +122,18 @@ const herramientas = [
 ];
 
 const sectoresCaptacion = [
-  "Gimnasios",
-  "Salas de yoga",
-  "Abogados matrimonialistas",
-  "Empresas de gestión de deudas",
-  "Psicólogos",
-  "Fisioterapeutas",
-  "Empresas de eventos y despedidas",
-  "Animación de bodas y eventos",
-  "Agencias de viajes",
+  "Hostelería y restauración",
+  "Comercio y retail",
+  "Clínicas y centros de salud",
+  "Gimnasios y centros deportivos",
+  "Servicios profesionales",
+  "Formación y academias",
+  "Empresas de servicios técnicos",
+  "Turismo y agencias de viajes",
+  "Empresas de eventos",
+  "Construcción e industria auxiliar",
+  "Comercio electrónico",
+  "Empresas tecnológicas y SaaS",
 ];
 
 const beneficiosMetodo = [
@@ -163,7 +166,7 @@ export default function MetodoHerramientas() {
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-300">
             La mejora empresarial no consiste en aplicar ideas al azar. Consiste en
-            analizar, priorizar y actuar con criterio. Trabajo con un enfoque
+            analizar, priorizar y actuar con criterio. Trabajamos con un enfoque
             estructurado de gestión de procesos para detectar problemas, encontrar oportunidades y
             aplicar mejoras reales.
           </p>
@@ -187,7 +190,7 @@ export default function MetodoHerramientas() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Cómo trabajo: gestión de procesos y mejora empresarial paso a paso
+            Cómo trabajamos: gestión de procesos y mejora empresarial paso a paso
           </h2>
           <p className="section-subtitle text-gray-600">
             Un proceso claro, con fases definidas y objetivos concretos en cada
@@ -215,14 +218,14 @@ export default function MetodoHerramientas() {
         </div>
       </section>
 
-      {/* Qué analizo */}
+      {/* Qué analizamos */}
       <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Qué analizo en una empresa
+            Qué analizamos en una empresa
           </h2>
           <p className="section-subtitle text-gray-600">
-            Cada negocio es diferente, pero hay áreas que siempre reviso porque
+            Cada negocio es diferente, pero hay áreas que siempre revisamos porque
             son las que más impacto tienen en la rentabilidad.
           </p>
 
@@ -255,7 +258,7 @@ export default function MetodoHerramientas() {
             Herramientas iniciales para analizar negocios
           </h2>
           <p className="section-subtitle text-gray-600">
-            He desarrollado herramientas propias que permiten hacer un primer
+            Hemos desarrollado herramientas propias que permiten hacer un primer
             análisis antes de empezar a trabajar juntos. Son gratuitas y están
             pensadas para que el empresario empiece a reflexionar sobre su negocio.
           </p>

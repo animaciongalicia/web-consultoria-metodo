@@ -3,7 +3,7 @@ import { SITE } from "@/lib/content";
 export default function DiagnosticoContactForm() {
   const subject = encodeURIComponent("Solicitud de diagnóstico de negocio");
   const body = encodeURIComponent(
-    "Hola Pablo,\n\nMe interesa solicitar un diagnóstico de mi negocio.\n\nMi nombre: \nMi negocio: \nTeléfono: \n\n¿Qué me gustaría mejorar?\n\n"
+    "Hola,\n\nMe interesa solicitar un diagnóstico de mi negocio.\n\nMi nombre: \nMi negocio: \nTeléfono: \n\n¿Qué me gustaría mejorar?\n\n"
   );
   const mailtoLink = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
 

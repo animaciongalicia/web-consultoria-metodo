@@ -18,29 +18,29 @@ const FAQS = [
       "Presencial en A Coruña ciudad y provincia (Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y resto de comarcas). Online en el resto de España. Muchos clientes combinan las dos modalidades: una primera visita presencial y después seguimiento por videollamada.",
   },
   {
-    question: "¿Qué diferencia hay entre contratarte a ti y una asesoría o gestoría?",
+    question: "¿Qué diferencia hay entre contratar Consultoría Método y una asesoría o gestoría?",
     answer:
-      "No hago contabilidad, impuestos ni laboral. Eso lo sigue llevando tu gestoría. Yo trabajo la rentabilidad, la captación de clientes, los precios, los procesos internos y la estrategia. Son tareas que una gestoría no hace y que muchas pymes tienen desatendidas.",
+      "No hacemos contabilidad, impuestos ni laboral. Eso lo sigue llevando tu gestoría. En Consultoría Método trabajamos la rentabilidad, la captación de clientes, los precios, los procesos internos y la estrategia. Son tareas que una gestoría no hace y que muchas empresas tienen desatendidas.",
   },
   {
     question: "¿Cuándo empezaré a ver resultados?",
     answer:
-      "Las primeras mejoras suelen notarse en 4-6 semanas, cuando se aplican las primeras decisiones del plan. Los resultados sólidos (más margen, mejor captación, procesos en orden) llegan entre los 2 y 3 meses. No vendo milagros — sí resultados medibles y sostenibles.",
+      "Las primeras mejoras suelen notarse en 4-6 semanas, cuando se aplican las primeras decisiones del plan. Los resultados sólidos (más margen, mejor captación, procesos en orden) llegan entre los 2 y 3 meses. No vendemos milagros — sí resultados medibles y sostenibles.",
   },
   {
-    question: "¿En qué sectores tienes experiencia?",
+    question: "¿En qué sectores tenéis experiencia?",
     answer:
-      "Más de 15 sectores: hostelería y restauración, comercio local, clínicas y salud, academias y formación, servicios profesionales, despachos, construcción, turismo, industria, eventos y otros. La mayoría de problemas de rentabilidad, precios y organización son comunes a cualquier pyme.",
+      "Más de 15 sectores: hostelería y restauración, comercio local, clínicas y salud, academias y formación, servicios profesionales, despachos, construcción, turismo, industria, tecnología, eventos y otros. La mayoría de problemas de rentabilidad, precios y organización son comunes a cualquier empresa.",
   },
   {
-    question: "¿Atiendes a empresas en toda la provincia de A Coruña?",
+    question: "¿Atendéis a empresas en toda la provincia de A Coruña?",
     answer:
-      "Sí. Voy presencialmente a A Coruña ciudad, Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y cualquier punto de la provincia. Para resto de Galicia y España trabajo online con el mismo método y los mismos resultados.",
+      "Sí. Trabajamos presencialmente en A Coruña ciudad, Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y cualquier punto de la provincia. Para resto de Galicia y España trabajamos online con el mismo método y los mismos resultados.",
   },
   {
     question: "¿Y si después del diagnóstico no me convence seguir?",
     answer:
-      "La primera llamada es gratis y sin compromiso. Si después del diagnóstico no ves valor, no tienes que seguir. En 25 años nunca he tenido que presionar a nadie para que contrate un programa completo — cuando el trabajo es bueno, se nota en la primera conversación.",
+      "La primera llamada es gratis y sin compromiso. Si después del diagnóstico no ves valor, no tienes que seguir. En más de 25 años nunca hemos tenido que presionar a nadie para que contrate un programa completo — cuando el trabajo es bueno, se nota en la primera conversación.",
   },
 ];
 
@@ -98,7 +98,7 @@ export default function DiagnosticoNegocio() {
           </h1>
           <div className="mx-auto mt-8 max-w-3xl space-y-4 text-left text-primary-100/90 md:text-lg">
             <p>
-              Ayudo a empresarios y pymes a entender qué está fallando en su negocio y a
+              Ayudamos a empresarios y empresas a entender qué está fallando en su negocio y a
               aplicar mejoras reales en marketing, gestión y rentabilidad.
             </p>
             <p>
@@ -198,7 +198,7 @@ export default function DiagnosticoNegocio() {
             Cómo trabajo con las empresas
           </h2>
           <p className="section-subtitle text-gray-600">
-            Mi trabajo consiste en analizar el negocio desde fuera, detectar oportunidades
+            Nuestro trabajo consiste en analizar el negocio desde fuera, detectar oportunidades
             de mejora y ayudar a aplicar cambios que tengan impacto real.
           </p>
           <p className="mx-auto mt-2 max-w-2xl text-center text-gray-600">
@@ -391,6 +391,7 @@ export default function DiagnosticoNegocio() {
               puntual, mientras que otros requieren un trabajo más profundo durante varios
               meses. Por eso los programas se ofrecen desde esos importes y pueden adaptarse
               según el tamaño de la empresa y el alcance del trabajo.
+              ¿Tu empresa tiene necesidades más amplias? Diseñamos programas a medida para empresas con mayor alcance.
             </p>
           </div>
         </div>
@@ -467,8 +468,8 @@ export default function DiagnosticoNegocio() {
             Preguntas frecuentes sobre el diagnóstico
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-gray-600 md:text-lg">
-            Las dudas que más me llegan antes de contratar un diagnóstico o un programa de mejora.
-            Si tienes otra pregunta, escríbeme por WhatsApp y te respondo.
+            Las dudas más habituales antes de contratar un diagnóstico o un programa de mejora.
+            Si tienes otra pregunta, escríbenos por WhatsApp y te respondemos.
           </p>
           <div className="mt-10 space-y-4">
             {FAQS.map((faq) => (
