@@ -3,9 +3,9 @@ import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
-    "Consultoría empresarial en Galicia | Consultor de pymes en las 4 provincias — Consultoría Método",
+    "Consultoría empresarial en Galicia | Consultor de empresas en las 4 provincias — Consultoría Método",
   description:
-    "Consultoría empresarial para pymes en Galicia. Base en A Coruña, trabajo con empresas en las 4 provincias: Coruña, Pontevedra, Lugo y Ourense. Rentabilidad, captación, precios y procesos. +25 años de experiencia.",
+    "Consultoría empresarial para empresas en Galicia. Base en A Coruña, trabajamos con empresas en las 4 provincias: Coruña, Pontevedra, Lugo y Ourense. Rentabilidad, captación, precios y procesos. +25 años de experiencia.",
   keywords: [
     "consultoría empresarial Galicia",
     "consultor empresas Galicia",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Consultoría empresarial en Galicia — Consultoría Método",
     description:
-      "Consultor de empresas en Galicia. Base en A Coruña, servicios en las 4 provincias. Diagnóstico, rentabilidad y mejora de pymes.",
+      "Consultor de empresas en Galicia. Base en A Coruña, servicios en las 4 provincias. Diagnóstico, rentabilidad y mejora empresarial.",
     locale: "es_ES",
     type: "website",
   },
@@ -34,7 +34,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Consultoría Método — Consultoría empresarial en Galicia",
   description:
-    "Consultoría empresarial para pymes en las cuatro provincias gallegas. Presencial en A Coruña, online en el resto de Galicia y España.",
+    "Consultoría empresarial para empresas en las cuatro provincias gallegas. Presencial en A Coruña, online en el resto de Galicia y España.",
   url: "https://consultoriametodo.es/consultoria-empresarial-galicia",
   telephone: "+34678288284",
   sameAs: [SITE.googleBusinessProfile],
@@ -100,7 +100,7 @@ export default function ConsultoriaEmpresarialGalicia() {
           </h2>
           <div className="mt-6 space-y-4 text-gray-700 md:text-lg">
             <p>
-              Galicia es una comunidad de pymes. La mayoría del tejido
+              Galicia es una comunidad de empresas. La mayoría del tejido
               empresarial gallego son empresas de menos de 10 trabajadores,
               con frecuencia familiares, muy arraigadas al territorio y a
               sectores tradicionales. Esta realidad tiene sus fortalezas —
@@ -140,7 +140,7 @@ export default function ConsultoriaEmpresarialGalicia() {
                   A Coruña
                 </h3>
                 <span className="rounded-full bg-accent-500 px-3 py-1 text-xs font-semibold text-white">
-                  Mi base
+                  Nuestra base
                 </span>
               </div>
               <p className="mt-3 text-gray-700">
@@ -148,7 +148,7 @@ export default function ConsultoriaEmpresarialGalicia() {
                 Sede de grandes empresas (Inditex como referente global), puerto
                 activo, industria naval y auxiliar en Ferrol, turismo costero,
                 servicios profesionales concentrados en A Coruña ciudad y
-                Santiago de Compostela. Tejido de pymes muy diverso y dinámico.
+                Santiago de Compostela. Tejido empresarial muy diverso y dinámico.
               </p>
               <p className="mt-3">
                 <a
@@ -168,7 +168,7 @@ export default function ConsultoriaEmpresarialGalicia() {
                 Motor de la industria conservera y la pesca gallega. Vigo como
                 nodo industrial (automoción, naval), turismo de las Rías Baixas,
                 comercio en Pontevedra capital. Fuerte tradición exportadora y
-                buena presencia de pymes industriales. Trabajo online con
+                buena presencia de empresas industriales. Trabajamos online con
                 empresas de la zona.
               </p>
             </div>
@@ -179,7 +179,7 @@ export default function ConsultoriaEmpresarialGalicia() {
                 Provincia agroalimentaria y ganadera por excelencia. Industria
                 láctea, cárnica y forestal. Comercio local y hostelería en la
                 capital y A Mariña. Retos particulares: despoblación rural,
-                relevo generacional y digitalización. Trabajo online con pymes
+                relevo generacional y digitalización. Trabajamos online con empresas
                 lucenses.
               </p>
             </div>
@@ -188,10 +188,10 @@ export default function ConsultoriaEmpresarialGalicia() {
               <h3 className="text-xl font-bold text-primary-900">Ourense</h3>
               <p className="mt-3 text-gray-700">
                 La provincia más interior. Viticultura (Ribeiro, Valdeorras),
-                termalismo, agroalimentario y pymes de servicios. Retos
+                termalismo, agroalimentario y empresas de servicios. Retos
                 específicos: envejecimiento de la población, necesidad de
                 atraer talento y oportunidades en sectores emergentes.
-                Trabajo online con empresas ourensanas.
+                Trabajamos online con empresas ourensanas.
               </p>
             </div>
           </div>
@@ -205,7 +205,7 @@ export default function ConsultoriaEmpresarialGalicia() {
             Sectores estratégicos de Galicia
           </h2>
           <p className="mt-4 text-gray-700 md:text-lg">
-            Sectores con peso real en la economía gallega donde he acompañado
+            Sectores con peso real en la economía gallega donde hemos acompañado
             proyectos. En todos ellos los problemas de fondo son similares:
             márgenes sin revisar, captación inconsistente y procesos que no
             han evolucionado al ritmo del negocio.
@@ -264,7 +264,7 @@ export default function ConsultoriaEmpresarialGalicia() {
             Retos específicos del empresario gallego
           </h2>
           <p className="mt-4 text-gray-700 md:text-lg">
-            Además de los problemas comunes a cualquier pyme, el empresario
+            Además de los problemas comunes a cualquier empresa, el empresario
             gallego se enfrenta a algunas realidades propias del territorio
             que conviene mirar con lupa.
           </p>
@@ -288,7 +288,7 @@ export default function ConsultoriaEmpresarialGalicia() {
               },
               {
                 titulo: "Digitalización más lenta que la media nacional",
-                desc: "Muchas pymes gallegas siguen operando con procesos manuales que otras ya automatizaron hace años. No es un problema técnico — es un problema de prioridades y desconocimiento.",
+                desc: "Muchas empresas gallegas siguen operando con procesos manuales que otras ya automatizaron hace años. No es un problema técnico — es un problema de prioridades y desconocimiento.",
               },
               {
                 titulo: "Mercado local pequeño",
@@ -400,7 +400,7 @@ export default function ConsultoriaEmpresarialGalicia() {
           {/* Lecturas locales */}
           <div className="mt-14 border-t border-gray-200 pt-10">
             <h3 className="text-center text-2xl font-bold text-primary-900">
-              Lecturas recomendadas sobre Galicia y sus pymes
+              Lecturas recomendadas sobre Galicia y sus empresas
             </h3>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               <a

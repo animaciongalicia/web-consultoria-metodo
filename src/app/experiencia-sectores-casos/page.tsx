@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Casos Reales de Mejora Empresarial — Consultor de Empresas en Galicia | Consultoría Método",
   description:
-    "Más de 25 años como consultor empresarial mejorando pymes en A Coruña, Galicia y toda España. Casos reales de mejora de rentabilidad, gestión de procesos y captación de clientes en hostelería, comercio, clínicas, servicios e industria.",
+    "Más de 25 años como consultor empresarial mejorando empresas en A Coruña, Galicia y toda España. Casos reales de mejora de rentabilidad, gestión de procesos y captación de clientes en hostelería, comercio, clínicas, servicios e industria.",
   keywords: [
     "casos reales mejora empresarial",
     "consultor empresas Galicia",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Casos Reales de Mejora Empresarial — Consultor en Galicia y España",
     description:
-      "Más de 25 años mejorando pymes. Casos reales de mejora de rentabilidad, gestión y captación en +12 sectores.",
+      "Más de 25 años mejorando empresas. Casos reales de mejora de rentabilidad, gestión y captación en +12 sectores.",
     locale: "es_ES",
     type: "website",
   },
@@ -62,7 +62,7 @@ const sectores = [
       "Desde empresas de limpieza hasta consultoras y agencias. Negocios donde el servicio es el producto y la diferenciación importa.",
   },
   {
-    title: "Pymes industriales",
+    title: "Empresas industriales",
     description:
       "Pequeñas y medianas empresas industriales de distintos sectores que necesitan revisar procesos, costes y estructura comercial.",
   },

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title:
     "Consultoría Empresarial en A Coruña y Galicia | Consultor de Negocios Online — Consultoría Método",
   description:
-    "Consultoría empresarial para pymes en A Coruña, Galicia y online en toda España. Mejora empresarial, gestión de procesos, rentabilidad y decisiones estratégicas. Pablo García Dacosta — Método Rentabilismo. +25 años de experiencia.",
+    "Consultoría empresarial para empresas en A Coruña, Galicia y online en toda España. Mejora empresarial, gestión de procesos, rentabilidad y decisiones estratégicas. Pablo García Dacosta — Método Rentabilismo. +25 años de experiencia.",
   keywords: [
     "consultoría empresarial A Coruña",
     "consultor de negocios Galicia",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title:
       "Consultoría Empresarial en A Coruña y Galicia | Consultoría Método",
     description:
-      "Consultoría de negocios para pymes. Mejora empresarial, gestión de procesos y rentabilidad. Presencial en A Coruña y Galicia, online en toda España.",
+      "Consultoría de negocios para empresas. Mejora empresarial, gestión de procesos y rentabilidad. Presencial en A Coruña y Galicia, online en toda España.",
     locale: "es_ES",
     type: "website",
   },

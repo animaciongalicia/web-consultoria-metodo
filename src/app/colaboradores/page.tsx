@@ -141,7 +141,7 @@ const beneficiosColaborador = [
   {
     title: "Sin competencia",
     description:
-      "No hago fiscalidad, contabilidad ni laboral. Nunca voy a pisar tu terreno. Complemento lo que ya haces.",
+      "No hacemos fiscalidad, contabilidad ni laboral. Nunca vamos a pisar tu terreno. Complementamos lo que ya haces.",
   },
 ];
 
@@ -180,10 +180,10 @@ export default function Colaboradores() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Con qué perfiles colaboro
+            Con qué perfiles colaboramos
           </h2>
           <p className="section-subtitle text-gray-600">
-            Trabajo con profesionales que acompañan a empresas y pymes, y que
+            Trabajamos con profesionales que acompañan a empresas y pymes, y que
             ven que sus clientes necesitan algo más que lo que ellos ya les
             ofrecen.
           </p>
@@ -208,10 +208,10 @@ export default function Colaboradores() {
       <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Qué aporto a sus clientes
+            Qué aportamos a sus clientes
           </h2>
           <p className="section-subtitle text-gray-600">
-            Ayudo a empresas y pymes a mejorar en las áreas que no cubren los
+            Ayudamos a empresas a mejorar en las áreas que no cubren los
             servicios fiscales, contables o laborales.
           </p>
 
@@ -234,10 +234,10 @@ export default function Colaboradores() {
         </div>
       </section>
 
-      {/* Qué NO hago */}
+      {/* Qué NO hacemos */}
       <section className="section-padding bg-white">
         <div className="container-narrow">
-          <h2 className="section-heading text-gray-900">Qué NO hago</h2>
+          <h2 className="section-heading text-gray-900">Qué NO hacemos</h2>
           <p className="section-subtitle text-gray-600">
             Es importante dejarlo claro para que la colaboración funcione sin
             fricciones.
@@ -269,7 +269,7 @@ export default function Colaboradores() {
                   →
                 </span>
                 <span className="font-medium text-primary-800 md:text-lg">
-                  Complemento ese trabajo con enfoque de mejora de negocio y
+                  Complementamos ese trabajo con enfoque de mejora de negocio y
                   rentabilidad.
                 </span>
               </div>
@@ -278,11 +278,11 @@ export default function Colaboradores() {
         </div>
       </section>
 
-      {/* Cómo trabajo con derivados */}
+      {/* Cómo trabajamos con derivados */}
       <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Cómo trabajo con los clientes derivados
+            Cómo trabajamos con los clientes derivados
           </h2>
           <p className="section-subtitle text-gray-600">
             Un proceso simple, profesional y sin fricción para ninguna de las
@@ -391,7 +391,7 @@ export default function Colaboradores() {
                 Método propio
               </h3>
               <p className="mt-2 text-gray-600">
-                Trabajo con un sistema estructurado, no con improvisación. Hay
+                Trabajamos con un sistema estructurado, no con improvisación. Hay
                 proceso, herramientas y seguimiento.
               </p>
             </div>
@@ -400,7 +400,7 @@ export default function Colaboradores() {
                 Sin competencia
               </h3>
               <p className="mt-2 text-gray-600">
-                No hago fiscalidad, contabilidad ni laboral. Nunca voy a pisar
+                No hacemos fiscalidad, contabilidad ni laboral. Nunca vamos a pisar
                 tu terreno.
               </p>
             </div>
@@ -410,7 +410,7 @@ export default function Colaboradores() {
               </h3>
               <p className="mt-2 text-gray-600">
                 Sin promesas vacías, sin humo, sin lenguaje de coach. Trabajo
-                aplicado a negocio real con resultados medibles.
+                aplicado a negocio real, con resultados medibles.
               </p>
             </div>
           </div>

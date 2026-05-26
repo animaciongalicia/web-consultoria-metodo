@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   title:
     "Diagnóstico y Mejora de Rentabilidad para Empresas | Consultor Empresarial — Consultoría Método",
   description:
-    "Diagnóstico estratégico de negocio para empresas y pymes. Mejora la rentabilidad, el marketing y la gestión de tu empresa con un consultor empresarial con más de 25 años de experiencia.",
+    "Diagnóstico estratégico de negocio para empresas. Mejora la rentabilidad, el marketing y la gestión de tu empresa con un consultor empresarial con más de 25 años de experiencia.",
   keywords: [
     "consultor empresarial",
     "mejorar rentabilidad empresa",
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Diagnóstico y Mejora de Rentabilidad para Empresas | Consultoría Método",
     description:
-      "Diagnóstico estratégico de negocio para empresas y pymes. Mejora la rentabilidad, el marketing y la gestión de tu empresa.",
+      "Diagnóstico estratégico de negocio para empresas. Mejora la rentabilidad, el marketing y la gestión de tu empresa.",
     locale: "es_ES",
     type: "website",
   },
@@ -195,7 +195,7 @@ export default function DiagnosticoNegocio() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
-            Cómo trabajo con las empresas
+            Cómo trabajamos con las empresas
           </h2>
           <p className="section-subtitle text-gray-600">
             Nuestro trabajo consiste en analizar el negocio desde fuera, detectar oportunidades
@@ -499,7 +499,7 @@ export default function DiagnosticoNegocio() {
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">consultoría de negocios presencial en Galicia y online en toda España</strong>,
             el <strong className="text-primary-800">Método Rentabilismo</strong> y cómo trabajamos
-            con pymes y empresas.
+            con empresas.
           </p>
           <a
             href="/"

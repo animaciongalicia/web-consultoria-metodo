@@ -3,9 +3,9 @@ import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title:
-    "Consultor de empresas en A Coruña | Consultoría de negocios para pymes — Consultoría Método",
+    "Consultor de empresas en A Coruña | Consultoría de negocios para empresas — Consultoría Método",
   description:
-    "Consultor de empresas en A Coruña con más de 25 años de experiencia. Diagnóstico, rentabilidad, captación de clientes y mejora de pymes en A Coruña ciudad y provincia (Santiago, Ferrol, Betanzos, Carballo). Presencial y online.",
+    "Consultor de empresas en A Coruña con más de 25 años de experiencia. Diagnóstico, rentabilidad, captación de clientes y mejora de empresas en A Coruña ciudad y provincia (Santiago, Ferrol, Betanzos, Carballo). Presencial y online.",
   keywords: [
     "consultor empresas A Coruña",
     "consultor de negocios A Coruña",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Consultor de empresas en A Coruña — Consultoría Método",
     description:
-      "Consultoría de negocios para pymes en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios y captación de clientes. Presencial en toda la provincia y online.",
+      "Consultoría de negocios para empresas en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios y captación de clientes. Presencial en toda la provincia y online.",
     locale: "es_ES",
     type: "website",
   },
@@ -34,7 +34,7 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "Consultoría Método — Consultor de empresas en A Coruña",
   description:
-    "Servicios de consultoría empresarial para pymes en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios, procesos y captación de clientes.",
+    "Servicios de consultoría empresarial para empresas en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios, procesos y captación de clientes.",
   url: "https://consultoriametodo.es/consultor-empresas-coruna",
   telephone: "+34678288284",
   sameAs: [SITE.googleBusinessProfile],
@@ -144,7 +144,7 @@ export default function ConsultorEmpresasCoruna() {
           <p className="mt-4 text-gray-700 md:text-lg">
             La mayoría de consultoras grandes están en Madrid o Barcelona, con
             metodologías pensadas para empresas de otro tamaño y otro contexto.
-            Una pyme gallega tiene realidades diferentes: mercado local más
+            Una empresa gallega tiene realidades diferentes: mercado local más
             pequeño, estacionalidad en muchos sectores, relación directa con
             proveedores y clientes, competencia local conocida, y un ritmo de
             decisión distinto al de una multinacional.
@@ -270,7 +270,7 @@ export default function ConsultorEmpresasCoruna() {
       <section className="section-padding bg-white">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
-            Cómo trabajo con empresas de A Coruña
+            Cómo trabajamos con empresas de A Coruña
           </h2>
           <div className="mt-8 space-y-4">
             {[
@@ -369,7 +369,7 @@ export default function ConsultorEmpresasCoruna() {
           {/* Lecturas locales */}
           <div className="mt-14 border-t border-gray-200 pt-10">
             <h3 className="text-center text-2xl font-bold text-primary-900">
-              Guías locales para pymes de la provincia
+              Guías locales para empresas de la provincia
             </h3>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               <a
@@ -378,7 +378,7 @@ export default function ConsultorEmpresasCoruna() {
               >
                 <p className="text-xs font-bold uppercase tracking-widest text-accent-600">Guía local</p>
                 <p className="mt-2 text-sm font-bold text-primary-900 leading-snug">
-                  Consultor de empresas en A Coruña: guía para pymes
+                  Consultor de empresas en A Coruña: guía para empresas
                 </p>
               </a>
               <a

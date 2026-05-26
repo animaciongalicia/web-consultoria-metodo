@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Método Rentabilismo — Consultoría Metodológica para Mejorar tu Empresa | Consultoría Método",
   description:
-    "Sistema estructurado de consultoría metodológica para analizar y mejorar la rentabilidad de pymes. Gestión de procesos, diagnóstico empresarial y plan de acción. Presencial en A Coruña y Galicia, online en toda España.",
+    "Sistema estructurado de consultoría metodológica para analizar y mejorar la rentabilidad de empresas. Gestión de procesos, diagnóstico empresarial y plan de acción. Presencial en A Coruña y Galicia, online en toda España.",
   keywords: [
     "consultoría metodológica",
     "método mejora empresarial",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Método Rentabilismo — Consultoría Metodológica para Empresas",
     description:
-      "Sistema de consultoría para mejorar procesos, rentabilidad y gestión de pymes. Herramientas gratuitas de diagnóstico.",
+      "Sistema de consultoría para mejorar procesos, rentabilidad y gestión de empresas. Herramientas gratuitas de diagnóstico.",
     locale: "es_ES",
     type: "website",
   },
@@ -325,8 +325,8 @@ export default function MetodoHerramientas() {
             </div>
 
             <p className="mt-8 text-center text-gray-400">
-              Desarrollo herramientas prácticas, pienso en captación real y
-              trabajo con soluciones orientadas a negocio.
+              Desarrollamos herramientas prácticas, pensamos en captación real y
+              trabajamos con soluciones orientadas a negocio.
             </p>
           </div>
         </div>
