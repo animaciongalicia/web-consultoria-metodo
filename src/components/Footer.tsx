@@ -17,12 +17,6 @@ export default function Footer() {
               {link.label}
             </a>
           ))}
-          <a
-            href="/diagnostico-negocio"
-            className="text-sm text-primary-400 transition-colors hover:text-white"
-          >
-            Diagnóstico
-          </a>
         </nav>
 
         <div className="mt-6 text-center">

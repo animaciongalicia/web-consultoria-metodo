@@ -23,10 +23,10 @@ export const SITE = {
 };
 
 export const NAV_LINKS = [
-  { label: "Inicio", href: "/" },
   { label: "Diagnóstico", href: "/diagnostico-negocio" },
-  { label: "Método y herramientas", href: "/metodo-herramientas" },
-  { label: "Experiencia y casos", href: "/experiencia-sectores-casos" },
+  { label: "Servicios", href: "/servicios" },
+  { label: "Método", href: "/metodo-herramientas" },
+  { label: "Experiencia", href: "/experiencia-sectores-casos" },
   { label: "Colaboradores", href: "/colaboradores" },
   { label: "Blog", href: "/blog" },
   { label: "Contacto", href: "/#contacto" },

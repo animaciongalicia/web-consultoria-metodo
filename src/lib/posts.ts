@@ -604,6 +604,7 @@ export const BLOG_POSTS: BlogPost[] = [
 // Páginas principales del sitio para sitemap
 export const STATIC_PAGES = [
   { path: "/", priority: 1.0, changeFrequency: "monthly" as const },
+  { path: "/servicios", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/diagnostico-negocio", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/consultor-empresas-coruna", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/consultoria-empresarial-galicia", priority: 0.9, changeFrequency: "monthly" as const },

@@ -56,19 +56,21 @@ export default function Home() {
       <Testimonial />
       <Benefits />
 
-      {/* Cross-link to diagnostico */}
+      {/* Cross-link to servicios */}
       <section className="bg-accent-50 border-y border-accent-200 py-12">
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
             ¿Quieres conocer en detalle nuestros{" "}
-            <strong className="text-primary-800">programas de consultoría empresarial</strong> y{" "}
-            <strong className="text-primary-800">diagnóstico de negocio</strong>?
+            <strong className="text-primary-800">servicios de consultoría empresarial</strong>?
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-gray-600">
+            Rentabilidad, captación de clientes, organización, procesos y acompañamiento estratégico.
           </p>
           <a
-            href="/diagnostico-negocio"
+            href="/servicios"
             className="btn-primary mt-6 inline-block"
           >
-            Ver programas de consultoría
+            Ver servicios
           </a>
         </div>
       </section>
