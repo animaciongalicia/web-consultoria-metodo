@@ -617,6 +617,9 @@ export const STATIC_PAGES = [
   { path: "/consultoria-servicios-profesionales", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "/consultoria-salud-bienestar", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "/consultoria-formacion-turismo-eventos", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/aviso-legal", priority: 0.3, changeFrequency: "yearly" as const },
+  { path: "/politica-privacidad", priority: 0.3, changeFrequency: "yearly" as const },
+  { path: "/politica-cookies", priority: 0.3, changeFrequency: "yearly" as const },
 ];
 
 export function getVisiblePosts(today: string = new Date().toISOString().slice(0, 10)): BlogPost[] {
