@@ -454,6 +454,25 @@ export default function ArticuloFidelizarClientes() {
         </div>
       </section>
 
+      {/* Consultoría por sectores */}
+      <section className="border-t border-gray-200 bg-gray-50 py-10">
+        <div className="container-narrow text-center">
+          <p className="font-semibold text-primary-900 md:text-lg">
+            Consultoría especializada por sectores
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
+            Trabajamos con negocios de distintos sectores. Cada uno tiene sus retos — y los conocemos.
+          </p>
+          <div className="mx-auto mt-4 flex flex-wrap justify-center gap-3">
+            <a href="/consultoria-hosteleria-restauracion" className="rounded-lg border border-primary-200 bg-white px-4 py-2 text-sm text-primary-700 transition-colors hover:border-primary-400 hover:text-primary-900">Hostelería</a>
+            <a href="/consultoria-comercio-retail" className="rounded-lg border border-primary-200 bg-white px-4 py-2 text-sm text-primary-700 transition-colors hover:border-primary-400 hover:text-primary-900">Comercio y retail</a>
+            <a href="/consultoria-servicios-profesionales" className="rounded-lg border border-primary-200 bg-white px-4 py-2 text-sm text-primary-700 transition-colors hover:border-primary-400 hover:text-primary-900">Servicios profesionales</a>
+            <a href="/consultoria-salud-bienestar" className="rounded-lg border border-primary-200 bg-white px-4 py-2 text-sm text-primary-700 transition-colors hover:border-primary-400 hover:text-primary-900">Salud y bienestar</a>
+            <a href="/consultoria-formacion-turismo-eventos" className="rounded-lg border border-primary-200 bg-white px-4 py-2 text-sm text-primary-700 transition-colors hover:border-primary-400 hover:text-primary-900">Formación y turismo</a>
+          </div>
+        </div>
+      </section>
+
       <BlogNav currentSlug="como-fidelizar-clientes-pyme" />
 
       {/* Cross-link */}
