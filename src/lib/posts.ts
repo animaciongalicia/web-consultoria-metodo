@@ -612,6 +612,11 @@ export const STATIC_PAGES = [
   { path: "/experiencia-sectores-casos", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "/colaboradores", priority: 0.7, changeFrequency: "monthly" as const },
   { path: "/blog", priority: 0.7, changeFrequency: "weekly" as const },
+  { path: "/consultoria-hosteleria-restauracion", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/consultoria-comercio-retail", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/consultoria-servicios-profesionales", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/consultoria-salud-bienestar", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/consultoria-formacion-turismo-eventos", priority: 0.8, changeFrequency: "monthly" as const },
 ];
 
 export function getVisiblePosts(today: string = new Date().toISOString().slice(0, 10)): BlogPost[] {
