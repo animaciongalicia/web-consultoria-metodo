@@ -281,6 +281,24 @@ export default function HosteleriaCorunaRentabilidad() {
         </div>
       </section>
 
+      {/* Consultoría sectorial */}
+      <section className="border-t border-gray-200 bg-gray-50 py-10">
+        <div className="container-narrow text-center">
+          <p className="font-semibold text-primary-900 md:text-lg">
+            ¿Tienes un restaurante, bar o negocio de hostelería?
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
+            Conoce nuestra consultoría especializada en hostelería y restauración: diagnóstico de rentabilidad, escandallos, captación y organización.
+          </p>
+          <a
+            href="/consultoria-hosteleria-restauracion"
+            className="mt-4 inline-block text-sm font-bold text-accent-600 hover:text-accent-700"
+          >
+            Consultoría para hostelería y restauración →
+          </a>
+        </div>
+      </section>
+
       <BlogNav currentSlug="hosteleria-coruna-rentabilidad" />
     </>
   );

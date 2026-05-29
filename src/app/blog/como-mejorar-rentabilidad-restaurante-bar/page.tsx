@@ -942,24 +942,25 @@ export default function ArticuloRentabilidadHosteleria() {
         </div>
       </section>
 
-      <BlogNav currentSlug="como-mejorar-rentabilidad-restaurante-bar" />
-
-      {/* Cross-link */}
-      <section className="border-y border-accent-200 bg-accent-50 py-12">
+      {/* Consultoría sectorial */}
+      <section className="border-t border-gray-200 bg-gray-50 py-10">
         <div className="container-narrow text-center">
-          <p className="text-lg text-gray-700 md:text-xl">
-            Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
-            </strong>{" "}
-            y el{" "}
-            <strong className="text-primary-800">Método Rentabilismo</strong>.
+          <p className="font-semibold text-primary-900 md:text-lg">
+            ¿Tienes un restaurante, bar o negocio de hostelería?
           </p>
-          <a href="/" className="btn-primary mt-6 inline-block">
-            Volver a la página principal
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
+            Conoce nuestra consultoría especializada en hostelería y restauración: diagnóstico de rentabilidad, escandallos, captación y organización.
+          </p>
+          <a
+            href="/consultoria-hosteleria-restauracion"
+            className="mt-4 inline-block text-sm font-bold text-accent-600 hover:text-accent-700"
+          >
+            Consultoría para hostelería y restauración →
           </a>
         </div>
       </section>
+
+      <BlogNav currentSlug="como-mejorar-rentabilidad-restaurante-bar" />
     </>
   );
 }

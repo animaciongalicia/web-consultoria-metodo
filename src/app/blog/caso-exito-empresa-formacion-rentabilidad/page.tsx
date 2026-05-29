@@ -459,6 +459,24 @@ export default function CasoExitoFormacion() {
         </div>
       </section>
 
+      {/* Consultoría sectorial */}
+      <section className="border-t border-gray-200 bg-gray-50 py-10">
+        <div className="container-narrow text-center">
+          <p className="font-semibold text-primary-900 md:text-lg">
+            ¿Tienes una academia, empresa de eventos o negocio de turismo?
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
+            Conoce nuestra consultoría especializada en formación, turismo y eventos: estacionalidad, captación de alumnos, rentabilidad por actividad y organización.
+          </p>
+          <a
+            href="/consultoria-formacion-turismo-eventos"
+            className="mt-4 inline-block text-sm font-bold text-accent-600 hover:text-accent-700"
+          >
+            Consultoría para formación, turismo y eventos →
+          </a>
+        </div>
+      </section>
+
       <BlogNav currentSlug="caso-exito-empresa-formacion-rentabilidad" />
     </>
   );

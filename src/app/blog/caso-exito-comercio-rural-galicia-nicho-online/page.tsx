@@ -398,6 +398,24 @@ export default function CasoExitoComercioRuralGalicia() {
         </div>
       </section>
 
+      {/* Consultoría sectorial */}
+      <section className="border-t border-gray-200 bg-gray-50 py-10">
+        <div className="container-narrow text-center">
+          <p className="font-semibold text-primary-900 md:text-lg">
+            ¿Tienes una tienda, comercio o negocio de retail?
+          </p>
+          <p className="mx-auto mt-2 max-w-xl text-sm text-gray-600">
+            Conoce nuestra consultoría especializada en comercio y retail: márgenes, diferenciación, captación de clientes y organización.
+          </p>
+          <a
+            href="/consultoria-comercio-retail"
+            className="mt-4 inline-block text-sm font-bold text-accent-600 hover:text-accent-700"
+          >
+            Consultoría para comercio y retail →
+          </a>
+        </div>
+      </section>
+
       <BlogNav currentSlug="caso-exito-comercio-rural-galicia-nicho-online" />
     </>
   );
