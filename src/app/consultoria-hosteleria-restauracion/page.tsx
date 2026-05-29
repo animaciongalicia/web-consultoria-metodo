@@ -34,7 +34,8 @@ export const metadata: Metadata = {
 };
 
 const negocios = [
-  "Restaurantes (tradicionales, gastronómicos, de menú diario)",
+  "Restaurantes (tradicionales y gastronómicos)",
+  "Restaurantes de menú diario",
   "Bares y bares de tapas",
   "Cafeterías y brunch",
   "Panaderías con obrador propio",
@@ -42,6 +43,8 @@ const negocios = [
   "Casas rurales y alojamientos turísticos",
   "Empresas de catering",
   "Food trucks",
+  "Chiringuitos y terrazas de temporada",
+  "Obradores y cocinas centrales",
   "Franquicias de restauración",
 ];
 
@@ -281,7 +284,7 @@ export default function ConsultoriaHosteleria() {
       </section>
 
       {/* Tipos de negocio */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
             Si tu negocio es de hostelería o restauración, esto te interesa
@@ -307,7 +310,7 @@ export default function ConsultoriaHosteleria() {
       </section>
 
       {/* Problemas */}
-      <section className="section-padding bg-gray-900">
+      <section className="section-padding bg-gray-800">
         <div className="container-narrow">
           <h2 className="section-heading text-white">
             Los problemas que frenan la rentabilidad en hostelería
@@ -367,7 +370,7 @@ export default function ConsultoriaHosteleria() {
       </section>
 
       {/* Cómo ayudamos */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-100">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
             Cómo ayudamos a negocios de hostelería
@@ -517,7 +520,7 @@ export default function ConsultoriaHosteleria() {
       </section>
 
       {/* Lecturas relacionadas */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-center text-2xl font-bold text-primary-900">
             Lecturas relacionadas para negocios de hostelería
@@ -525,7 +528,7 @@ export default function ConsultoriaHosteleria() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/blog/como-mejorar-rentabilidad-restaurante-bar"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Rentabilidad
@@ -536,7 +539,7 @@ export default function ConsultoriaHosteleria() {
             </a>
             <a
               href="/blog/como-fijar-precios-en-tu-negocio"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Precios
@@ -547,7 +550,7 @@ export default function ConsultoriaHosteleria() {
             </a>
             <a
               href="/blog/como-negociar-con-proveedores"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Proveedores
@@ -558,7 +561,7 @@ export default function ConsultoriaHosteleria() {
             </a>
             <a
               href="/blog/como-gestionar-empleados-pyme"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Equipo

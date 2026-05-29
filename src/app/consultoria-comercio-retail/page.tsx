@@ -43,6 +43,7 @@ const negocios = [
   "Mayoristas y distribuidores",
   "Agroalimentario (producción y venta)",
   "Farmacias",
+  "Otros comercios especializados",
 ];
 
 const problemas = [
@@ -278,7 +279,7 @@ export default function ConsultoriaComercio() {
       </section>
 
       {/* Tipos de negocio */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
             Si tienes un comercio, esto te interesa
@@ -304,7 +305,7 @@ export default function ConsultoriaComercio() {
       </section>
 
       {/* Problemas */}
-      <section className="section-padding bg-gray-900">
+      <section className="section-padding bg-gray-800">
         <div className="container-narrow">
           <h2 className="section-heading text-white">
             Los problemas que frenan la rentabilidad en el comercio
@@ -364,7 +365,7 @@ export default function ConsultoriaComercio() {
       </section>
 
       {/* Cómo ayudamos */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-100">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
             Cómo ayudamos a comercios y tiendas
@@ -513,7 +514,7 @@ export default function ConsultoriaComercio() {
       </section>
 
       {/* Lecturas relacionadas */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-center text-2xl font-bold text-primary-900">
             Lecturas relacionadas para comercios
@@ -521,7 +522,7 @@ export default function ConsultoriaComercio() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/blog/como-fijar-precios-en-tu-negocio"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Precios
@@ -532,7 +533,7 @@ export default function ConsultoriaComercio() {
             </a>
             <a
               href="/blog/como-captar-clientes-negocio-local"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Captación
@@ -543,7 +544,7 @@ export default function ConsultoriaComercio() {
             </a>
             <a
               href="/blog/google-my-business-negocios-locales"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Visibilidad
@@ -554,7 +555,7 @@ export default function ConsultoriaComercio() {
             </a>
             <a
               href="/blog/como-diferenciarte-de-tu-competencia"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Estrategia

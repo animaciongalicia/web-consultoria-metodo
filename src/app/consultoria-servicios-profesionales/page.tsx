@@ -37,7 +37,8 @@ export const metadata: Metadata = {
 const negocios = [
   "Despachos de abogados",
   "Despachos de arquitectos e ingenieros",
-  "Agencias de marketing, diseño y comunicación",
+  "Agencias de marketing y diseño",
+  "Empresas de comunicación",
   "Consultoras y asesorías",
   "Empresas de limpieza e instalaciones",
   "Servicios de mantenimiento",
@@ -285,7 +286,7 @@ export default function ConsultoriaServicios() {
       </section>
 
       {/* Tipos de negocio */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
             Si tu negocio es de servicios, esto te interesa
@@ -311,7 +312,7 @@ export default function ConsultoriaServicios() {
       </section>
 
       {/* Problemas */}
-      <section className="section-padding bg-gray-900">
+      <section className="section-padding bg-gray-800">
         <div className="container-narrow">
           <h2 className="section-heading text-white">
             Los problemas que frenan la rentabilidad en empresas de servicios
@@ -371,7 +372,7 @@ export default function ConsultoriaServicios() {
       </section>
 
       {/* Cómo ayudamos */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-100">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
             Cómo ayudamos a empresas de servicios
@@ -520,7 +521,7 @@ export default function ConsultoriaServicios() {
       </section>
 
       {/* Lecturas relacionadas */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-center text-2xl font-bold text-primary-900">
             Lecturas relacionadas para empresas de servicios
@@ -528,7 +529,7 @@ export default function ConsultoriaServicios() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/blog/como-vender-servicios-profesionales"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Ventas
@@ -539,7 +540,7 @@ export default function ConsultoriaServicios() {
             </a>
             <a
               href="/blog/mi-empresa-depende-de-mi"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Organización
@@ -550,7 +551,7 @@ export default function ConsultoriaServicios() {
             </a>
             <a
               href="/blog/como-subir-precios-sin-perder-clientes"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Precios
@@ -561,7 +562,7 @@ export default function ConsultoriaServicios() {
             </a>
             <a
               href="/blog/como-hacer-proceso-comercial-pyme"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Comercial

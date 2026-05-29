@@ -43,6 +43,7 @@ const negocios = [
   "Agencias de viajes",
   "Turismo activo y aventura",
   "Campamentos y actividades",
+  "Servicios complementarios y experiencias",
 ];
 
 const problemas = [
@@ -281,7 +282,7 @@ export default function ConsultoriaFormacion() {
       </section>
 
       {/* Tipos de negocio */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
             Si tu negocio es de formación, turismo o eventos, esto te interesa
@@ -308,7 +309,7 @@ export default function ConsultoriaFormacion() {
       </section>
 
       {/* Problemas */}
-      <section className="section-padding bg-gray-900">
+      <section className="section-padding bg-gray-800">
         <div className="container-narrow">
           <h2 className="section-heading text-white">
             Los problemas que frenan la rentabilidad en formación, turismo y
@@ -370,7 +371,7 @@ export default function ConsultoriaFormacion() {
       </section>
 
       {/* Cómo ayudamos */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-100">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
             Cómo ayudamos a empresas de formación, turismo y eventos
@@ -521,7 +522,7 @@ export default function ConsultoriaFormacion() {
       </section>
 
       {/* Lecturas relacionadas */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-center text-2xl font-bold text-primary-900">
             Lecturas relacionadas para formación, turismo y eventos
@@ -529,7 +530,7 @@ export default function ConsultoriaFormacion() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/blog/como-crear-oferta-irresistible"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Ventas
@@ -540,7 +541,7 @@ export default function ConsultoriaFormacion() {
             </a>
             <a
               href="/blog/como-captar-clientes-negocio-local"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Captación
@@ -551,7 +552,7 @@ export default function ConsultoriaFormacion() {
             </a>
             <a
               href="/blog/redes-sociales-para-pymes"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Marketing
@@ -562,7 +563,7 @@ export default function ConsultoriaFormacion() {
             </a>
             <a
               href="/blog/como-diferenciarte-de-tu-competencia"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Estrategia

@@ -44,6 +44,8 @@ const negocios = [
   "Consultas de nutrición",
   "Spas y centros termales",
   "Ópticas y centros auditivos",
+  "Peluquerías y barberías",
+  "Centros de uñas y estética avanzada",
 ];
 
 const problemas = [
@@ -278,7 +280,7 @@ export default function ConsultoriaSalud() {
       </section>
 
       {/* Tipos de negocio */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
             Si tu negocio es de salud o bienestar, esto te interesa
@@ -305,7 +307,7 @@ export default function ConsultoriaSalud() {
       </section>
 
       {/* Problemas */}
-      <section className="section-padding bg-gray-900">
+      <section className="section-padding bg-gray-800">
         <div className="container-narrow">
           <h2 className="section-heading text-white">
             Los problemas que frenan la rentabilidad en centros de salud y
@@ -366,7 +368,7 @@ export default function ConsultoriaSalud() {
       </section>
 
       {/* Cómo ayudamos */}
-      <section className="section-padding bg-gray-50">
+      <section className="section-padding bg-gray-100">
         <div className="container-narrow">
           <h2 className="section-heading text-gray-900">
             Cómo ayudamos a centros de salud y bienestar
@@ -515,7 +517,7 @@ export default function ConsultoriaSalud() {
       </section>
 
       {/* Lecturas relacionadas */}
-      <section className="section-padding bg-white">
+      <section className="section-padding bg-gray-50">
         <div className="container-narrow">
           <h2 className="text-center text-2xl font-bold text-primary-900">
             Lecturas relacionadas para centros de salud y bienestar
@@ -523,7 +525,7 @@ export default function ConsultoriaSalud() {
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a
               href="/blog/como-captar-clientes-negocio-local"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Captación
@@ -534,7 +536,7 @@ export default function ConsultoriaSalud() {
             </a>
             <a
               href="/blog/como-fidelizar-clientes-pyme"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Fidelización
@@ -545,7 +547,7 @@ export default function ConsultoriaSalud() {
             </a>
             <a
               href="/blog/como-dejar-de-competir-por-precio"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Precios
@@ -556,7 +558,7 @@ export default function ConsultoriaSalud() {
             </a>
             <a
               href="/blog/google-my-business-negocios-locales"
-              className="block rounded-xl border border-gray-200 bg-gray-50 p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+              className="block rounded-xl border border-gray-200 bg-white p-5 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
                 Visibilidad
