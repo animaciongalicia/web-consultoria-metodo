@@ -178,6 +178,91 @@ export default function ConsultorEmpresasCoruna() {
         </div>
       </section>
 
+      {/* REALIDAD EMPRESARIAL */}
+      <section className="section-padding bg-white">
+        <div className="container-narrow">
+          <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
+            Realidad empresarial de la provincia de A Coruña
+          </h2>
+          <p className="mt-4 text-gray-700 md:text-lg">
+            A Coruña es la provincia más económicamente diversa de Galicia. Tres
+            ejes urbanos con tejidos empresariales distintos, un peso enorme del
+            grupo Inditex y su ecosistema, un puerto activo y un sector naval en
+            Ferrol. Entender esta diversidad es esencial para hacer consultoría
+            con criterio aquí.
+          </p>
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {[
+              {
+                titulo: "Motor económico de Galicia",
+                desc: "Aquí está la sede de Inditex, mayor grupo textil del mundo, y todo su ecosistema logístico. Banca (Abanca), puerto de A Coruña, tecnología y turismo urbano hacen de la provincia el principal motor económico gallego.",
+              },
+              {
+                titulo: "Diversidad sectorial única",
+                desc: "Ninguna provincia gallega tiene esta variedad: textil-moda, banca, tecnología, hostelería, comercio urbano y de barrio, clínicas privadas, servicios profesionales, universidades. Cada sector con sus propias reglas.",
+              },
+              {
+                titulo: "Tres ejes urbanos, tres realidades",
+                desc: "A Coruña ciudad y su área metropolitana de servicios y comercio. Santiago capital administrativa y universitaria. Ferrol y su comarca naval-industrial. Cada una con su tejido propio.",
+              },
+            ].map((item) => (
+              <div
+                key={item.titulo}
+                className="rounded-xl border border-primary-200 bg-white p-6 shadow-sm"
+              >
+                <h3 className="text-lg font-bold text-primary-900">
+                  {item.titulo}
+                </h3>
+                <p className="mt-3 text-gray-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* RETOS TÍPICOS */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-narrow">
+          <h2 className="text-3xl font-extrabold text-primary-900 md:text-4xl">
+            Retos empresariales típicos en A Coruña
+          </h2>
+          <p className="mt-4 text-gray-700 md:text-lg">
+            Los problemas que vemos con más frecuencia en las empresas de la
+            provincia. Todos tienen solución si se abordan con método.
+          </p>
+          <div className="mt-10 grid gap-5 md:grid-cols-2">
+            {[
+              {
+                titulo: "Competencia intensa en hostelería y comercio urbano",
+                desc: "A Coruña, Santiago y Ferrol tienen mucha oferta, y las grandes cadenas presionan al comercio tradicional. Diferenciarse por servicio, especialización y experiencia es la única salida sostenible al precio.",
+              },
+              {
+                titulo: "Dependencia del ecosistema Inditex",
+                desc: "Muchas pymes auxiliares dependen del grupo Inditex o del sector textil. Diversificar clientes y no depender de un único tractor es clave para sostener el negocio a largo plazo.",
+              },
+              {
+                titulo: "Reconversión industrial en Ferrol",
+                desc: "El sector naval y auxiliar vive una reconversión constante. Las empresas que quieren sobrevivir necesitan adaptar modelo, procesos y mercados con criterio.",
+              },
+              {
+                titulo: "Estacionalidad turística en Camino y Costa da Morte",
+                desc: "Santiago y la Costa concentran mucho negocio turístico con estacionalidad marcada. Diseñar oferta complementaria y sistemas de captación propios reduce la dependencia.",
+              },
+            ].map((item) => (
+              <div
+                key={item.titulo}
+                className="rounded-xl border border-gray-200 bg-white p-6"
+              >
+                <h3 className="text-lg font-bold text-primary-900">
+                  {item.titulo}
+                </h3>
+                <p className="mt-3 text-gray-700">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ZONAS */}
       <section className="section-padding bg-white">
         <div className="container-narrow">

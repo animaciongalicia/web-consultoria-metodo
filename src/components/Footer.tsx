@@ -8,6 +8,13 @@ const SECTOR_LINKS = [
   { label: "Formación, turismo y eventos", href: "/consultoria-formacion-turismo-eventos" },
 ];
 
+const PROVINCE_LINKS = [
+  { label: "A Coruña", href: "/consultor-empresas-coruna" },
+  { label: "Lugo", href: "/consultor-empresas-lugo" },
+  { label: "Ourense", href: "/consultor-empresas-ourense" },
+  { label: "Pontevedra", href: "/consultor-empresas-pontevedra" },
+];
+
 const LEGAL_LINKS = [
   { label: "Aviso legal", href: "/aviso-legal" },
   { label: "Protección de datos", href: "/politica-privacidad" },
@@ -21,13 +28,13 @@ export default function Footer() {
     <footer className="border-t border-primary-800 bg-primary-950 px-6 py-12">
       <div className="container-narrow">
         {/* Columnas */}
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Col 1 — Marca */}
           <div>
             <p className="text-lg font-bold text-white">{SITE.name}</p>
             <p className="mt-3 text-sm leading-relaxed text-primary-400">
-              Consultoría empresarial presencial en Galicia, online en toda
-              España.
+              Consultoría empresarial presencial en Galicia y por videollamada
+              en el resto de España.
             </p>
           </div>
 
@@ -56,6 +63,24 @@ export default function Footer() {
             </p>
             <nav className="mt-3 flex flex-col gap-2">
               {SECTOR_LINKS.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-primary-400 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+
+          {/* Col 4 — Provincias */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-widest text-white">
+              Provincias
+            </p>
+            <nav className="mt-3 flex flex-col gap-2">
+              {PROVINCE_LINKS.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
