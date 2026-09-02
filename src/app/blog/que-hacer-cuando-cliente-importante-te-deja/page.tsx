@@ -5,11 +5,14 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Qué hacer cuando un cliente importante te deja | Consultoría Método",
+    "Cómo adaptar la empresa tras perder al principal cliente — Guía práctica | Consultoría Método",
   description:
-    "Perder un cliente clave puede desestabilizar tu negocio. Plan de acción inmediato, señales de alerta y estrategias de diversificación para pymes. Consultoría en Coruña, Galicia y online.",
+    "Perder al principal cliente pone en riesgo tu empresa. Guía práctica para adaptar la empresa en las primeras semanas: 6 pasos, señales de alerta, impacto en tesorería y cómo diversificar para que no vuelva a pasar.",
   keywords: [
-    "perder cliente importante",
+    "adaptar la empresa tras perder al principal cliente",
+    "adaptar empresa perder cliente principal",
+    "qué hacer cuando cliente importante te deja",
+    "perder cliente importante pyme",
     "cliente clave se va",
     "diversificar cartera clientes",
     "dependencia de clientes pyme",
@@ -19,9 +22,9 @@ export const metadata: Metadata = {
     "riesgo concentración clientes",
   ],
   openGraph: {
-    title: "Qué hacer cuando un cliente importante te deja",
+    title: "Cómo adaptar la empresa tras perder al principal cliente — Guía práctica",
     description:
-      "Plan de acción inmediato para pymes que pierden un cliente clave. Señales de alerta, impacto en tesorería y cómo diversificar para que no vuelva a pasar.",
+      "Plan de acción en 6 pasos para adaptar la empresa cuando pierdes al principal cliente. Señales de alerta, impacto en tesorería y cómo diversificar para que no vuelva a pasar.",
     locale: "es_ES",
     type: "article",
   },
@@ -34,9 +37,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Qué hacer cuando un cliente importante te deja",
+  headline: "Cómo adaptar la empresa tras perder al principal cliente — Guía práctica",
   description:
-    "Plan de acción inmediato para pymes que pierden un cliente clave. Señales de alerta, impacto en tesorería y cómo diversificar para que no vuelva a pasar.",
+    "Guía práctica en 6 pasos para adaptar la empresa cuando pierdes al principal cliente. Señales de alerta, impacto en tesorería y cómo diversificar la cartera.",
   author: {
     "@type": "Person",
     name: "Pablo García Dacosta",
@@ -48,7 +51,7 @@ const jsonLd = {
     url: "https://consultoriametodo.es",
   },
   datePublished: "2026-06-01",
-  dateModified: "2026-06-01",
+  dateModified: "2026-09-02",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -71,14 +74,14 @@ export default function ArticuloClienteImportanteTeDeja() {
             Blog — Consultoría Método
           </p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
-            Qué hacer cuando un cliente importante te deja
+            Cómo adaptar la empresa tras perder al principal cliente
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
             Te llega el email o la llamada que no querías recibir: tu
             cliente más importante te comunica que no va a renovar. El
-            suelo se mueve bajo tus pies. Pero lo que hagas en las
-            siguientes 48 horas puede marcar la diferencia entre una
-            crisis y una oportunidad de reconstruir tu negocio sobre
+            suelo se mueve bajo tus pies. Lo que hagas en las siguientes
+            semanas para adaptar la empresa marcará la diferencia entre
+            una crisis y una oportunidad de reconstruir tu negocio sobre
             bases más sólidas.
           </p>
           <p className="mt-4 text-sm text-primary-300">
@@ -98,9 +101,61 @@ export default function ArticuloClienteImportanteTeDeja() {
             trabajando con pymes de toda España, he visto cómo la pérdida
             de un cliente clave puede paralizar a un empresario. Es
             comprensible: ese cliente representaba seguridad, previsibilidad,
-            un ingreso con el que contabas cada mes. Pero la realidad es
-            que si un solo cliente puede poner en riesgo tu negocio, el
-            problema empezó mucho antes de que se fuera.
+            un ingreso con el que contabas cada mes. Adaptar la empresa
+            tras perder al principal cliente no es solo un problema
+            operativo: es una decisión estratégica que define el futuro
+            del negocio. Y si un solo cliente puede poner en riesgo tu
+            empresa, el problema empezó mucho antes de que se fuera.
+          </p>
+
+          {/* Los 6 pasos — bloque nuevo para captar intent */}
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
+            Cómo adaptar la empresa tras perder al principal cliente en 6 pasos
+          </h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Si acabas de recibir la noticia y necesitas un plan de acción
+            claro, este es el orden que recomiendo. Cada paso lo detallo
+            más abajo, pero primero necesitas la fotografía completa para
+            no reaccionar en caliente.
+          </p>
+          <ol className="my-8 space-y-3 rounded-xl border border-primary-200 bg-primary-50/30 p-6 text-gray-700">
+            <li>
+              <strong className="text-primary-900">1. Cuantifica el impacto real</strong> —
+              qué porcentaje de tu facturación y qué margen concreto pierdes.
+              Sin este número no puedes tomar ninguna decisión con criterio.
+            </li>
+            <li>
+              <strong className="text-primary-900">2. Blinda la tesorería</strong> —
+              ajusta pagos, negocia plazos y calcula cuántos meses aguantas
+              con la estructura actual antes de tomar decisiones drásticas.
+            </li>
+            <li>
+              <strong className="text-primary-900">3. Analiza por qué se ha ido</strong> —
+              precio, servicio, cambio interno del cliente o algo que no viste
+              venir. La respuesta condiciona cómo abordas al resto de tu cartera.
+            </li>
+            <li>
+              <strong className="text-primary-900">4. Refuerza la cartera actual</strong> —
+              antes de captar nuevos clientes, protege a los que ya tienes.
+              El riesgo de efecto contagio es real.
+            </li>
+            <li>
+              <strong className="text-primary-900">5. Activa un plan de captación intensivo</strong> —
+              alianzas, referidos, reactivación de clientes dormidos y canales
+              propios. Sin sistema estable de captación, la próxima pérdida
+              será peor.
+            </li>
+            <li>
+              <strong className="text-primary-900">6. Rediseña tu modelo para que no vuelva a pasar</strong> —
+              si un cliente concentraba más del 20 % de tu facturación,
+              tienes un problema estructural, no coyuntural. Toca cambiar
+              cómo funciona tu empresa.
+            </li>
+          </ol>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Ahora vamos con las señales que suele haber antes de que se vaya
+            un cliente importante — y por qué la mayoría de empresarios las
+            ignora.
           </p>
 
           {/* Señales de alerta */}

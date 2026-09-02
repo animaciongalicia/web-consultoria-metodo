@@ -5,12 +5,15 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Cómo hacer un presupuesto empresarial: guía práctica para pymes | Consultoría Método",
+    "Presupuesto anual para tu pyme: guía práctica paso a paso | Consultoría Método",
   description:
-    "Aprende a crear un presupuesto empresarial paso a paso. Guía práctica para pymes que quieren controlar sus finanzas, reducir gastos innecesarios y tomar mejores decisiones de negocio.",
+    "Cómo hacer el presupuesto anual de tu pyme sin ser experto financiero. Guía práctica paso a paso: partidas, estructura mensual, control real de tesorería y ejemplo de plantilla.",
   keywords: [
+    "presupuesto anual para tu pyme",
+    "presupuesto anual pyme",
     "cómo hacer presupuesto empresarial",
     "presupuesto para pymes",
+    "plantilla presupuesto anual pyme",
     "planificación financiera negocio",
     "control de gastos empresa",
     "consultor empresarial Coruña",
@@ -18,9 +21,9 @@ export const metadata: Metadata = {
     "gestión financiera pyme",
   ],
   openGraph: {
-    title: "Cómo hacer un presupuesto empresarial: guía práctica para pymes",
+    title: "Presupuesto anual para tu pyme: guía práctica paso a paso",
     description:
-      "Guía paso a paso para crear un presupuesto empresarial que funcione. Control financiero real para pequeñas y medianas empresas.",
+      "Guía práctica paso a paso para crear el presupuesto anual de tu pyme. Estructura, partidas, seguimiento mensual y ejemplos.",
     locale: "es_ES",
     type: "article",
   },
@@ -34,9 +37,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Cómo hacer un presupuesto empresarial: guía práctica para pymes",
+    "Presupuesto anual para tu pyme: guía práctica paso a paso",
   description:
-    "Aprende a crear un presupuesto empresarial paso a paso. Guía práctica para pymes que quieren controlar sus finanzas, reducir gastos innecesarios y tomar mejores decisiones de negocio.",
+    "Cómo hacer el presupuesto anual de tu pyme paso a paso. Estructura, partidas, seguimiento mensual y plantilla básica.",
   author: {
     "@type": "Person",
     name: "Pablo García Dacosta",
@@ -48,7 +51,7 @@ const jsonLd = {
     url: "https://consultoriametodo.es",
   },
   datePublished: "2025-05-15",
-  dateModified: "2025-05-15",
+  dateModified: "2026-09-04",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -71,12 +74,14 @@ export default function ArticuloPresupuestoEmpresarial() {
             Blog — Consultoría Método
           </p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
-            Cómo hacer un presupuesto empresarial: guía práctica para pymes
+            Presupuesto anual para tu pyme: guía práctica paso a paso
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
-            La mayoría de las pymes españolas no tienen presupuesto. Funcionan
-            mirando la cuenta del banco y cruzando los dedos. En este artículo
-            te enseño a crear uno que te dé control real sobre tus finanzas.
+            La mayoría de las pymes españolas no tienen presupuesto anual.
+            Funcionan mirando la cuenta del banco y cruzando los dedos. En
+            este artículo te enseño a crear el presupuesto anual de tu pyme
+            paso a paso, con la estructura, las partidas y el seguimiento
+            mensual que te dan control real.
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
@@ -114,9 +119,50 @@ export default function ArticuloPresupuestoEmpresarial() {
             la decisión de dejar de improvisar con tu dinero.
           </p>
 
+          {/* Qué es el presupuesto anual — bloque nuevo */}
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
+            Qué es el presupuesto anual de una pyme
+          </h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            El presupuesto anual de una pyme es la previsión, mes a mes,
+            de tus ingresos y gastos para los próximos 12 meses. Es una
+            hoja de ruta financiera: qué esperas facturar, qué esperas
+            gastar, cuánto beneficio proyectas y cuándo prevés picos o
+            valles de tesorería. Nada más y nada nada menos.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            No es contabilidad — eso es mirar hacia atrás. El presupuesto
+            anual mira hacia delante. Y es la única herramienta que te
+            permite comparar cada mes lo previsto con lo real, detectar
+            desviaciones a tiempo y corregir antes de que el problema se
+            haga grande.
+          </p>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Una pyme sin presupuesto anual improvisa. Una pyme con
+            presupuesto anual decide.
+          </p>
+
+          <h3 className="mt-10 text-xl font-bold text-gray-900 md:text-2xl">
+            Estructura mínima de un presupuesto anual para pymes
+          </h3>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            No hace falta software caro ni conocimientos de contabilidad
+            avanzada. Con una hoja de cálculo bien montada tienes de sobra.
+            La estructura mínima incluye:
+          </p>
+          <ul className="my-6 space-y-2 rounded-xl border border-primary-200 bg-primary-50/30 p-6 text-gray-700">
+            <li><strong className="text-primary-900">Ingresos por línea de negocio</strong> — desglosados por producto o servicio, mes a mes.</li>
+            <li><strong className="text-primary-900">Costes variables</strong> — materias primas, mercancía, comisiones, todo lo que sube con las ventas.</li>
+            <li><strong className="text-primary-900">Costes fijos</strong> — alquiler, salarios, suministros, seguros, cuotas, servicios recurrentes.</li>
+            <li><strong className="text-primary-900">Inversiones previstas</strong> — compra de equipamiento, obras, campañas puntuales, contrataciones.</li>
+            <li><strong className="text-primary-900">Impuestos y cuotas</strong> — IVA trimestral, pagos a cuenta, seguros sociales, IS.</li>
+            <li><strong className="text-primary-900">Resultado mensual proyectado</strong> — beneficio o pérdida esperada cada mes.</li>
+            <li><strong className="text-primary-900">Saldo de tesorería acumulado</strong> — cuánto dinero tendrás en la cuenta al cierre de cada mes.</li>
+          </ul>
+
           {/* H2 — Por qué no presupuestan */}
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Por qué la mayoría de las pymes no hacen presupuesto
+            Por qué la mayoría de las pymes no hacen presupuesto anual
           </h2>
           <p className="mt-4 text-gray-600 md:text-lg">
             Las excusas más habituales que escucho son siempre las mismas:

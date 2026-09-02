@@ -5,13 +5,16 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Cómo mejorar la rentabilidad de un restaurante o bar (guía práctica) | Consultoría Método",
+    "Cómo mejorar la rentabilidad de un restaurante o bar en Galicia — Guía práctica | Consultoría Método",
   description:
-    "Guía práctica para mejorar la rentabilidad de tu restaurante o bar. Escandallo, control de costes, food cost, carta rentable y decisiones que aumentan el margen en hostelería.",
+    "Guía práctica para mejorar la rentabilidad de tu restaurante o bar en Galicia (A Coruña, Santiago, Vigo, Lugo, Ourense). Escandallo, food cost, carta rentable y decisiones que aumentan el margen en hostelería.",
   keywords: [
+    "mejorar rentabilidad restaurante galicia",
     "mejorar rentabilidad restaurante",
+    "rentabilidad restaurante A Coruña",
+    "consultor hostelería galicia",
+    "consultor restaurantes A Coruña",
     "rentabilidad bar",
-    "consultor hostelería",
     "escandallar platos restaurante",
     "reducir costes restaurante",
     "consultoría restaurantes",
@@ -19,9 +22,9 @@ export const metadata: Metadata = {
     "carta rentable restaurante",
   ],
   openGraph: {
-    title: "Cómo mejorar la rentabilidad de un restaurante o bar (guía práctica)",
+    title: "Cómo mejorar la rentabilidad de un restaurante o bar en Galicia — Guía práctica",
     description:
-      "El restaurante lleno no siempre es rentable. Descubre cómo controlar costes, escandallar platos y tomar decisiones que mejoran el margen en hostelería.",
+      "Restaurante lleno no siempre es rentable. Cómo controlar costes, escandallar platos y decidir bien en hostelería, con particularidades del mercado gallego.",
     locale: "es_ES",
     type: "article",
   },
@@ -34,9 +37,9 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Cómo mejorar la rentabilidad de un restaurante o bar (guía práctica)",
+  headline: "Cómo mejorar la rentabilidad de un restaurante o bar en Galicia — Guía práctica",
   description:
-    "Guía práctica para mejorar la rentabilidad de tu restaurante o bar. Escandallo, control de costes, food cost, carta rentable y decisiones que aumentan el margen en hostelería.",
+    "Guía práctica para mejorar la rentabilidad de tu restaurante o bar en Galicia. Escandallo, food cost, carta rentable y las particularidades del mercado gallego.",
   author: {
     "@type": "Person",
     name: "Pablo García Dacosta",
@@ -48,7 +51,7 @@ const jsonLd = {
     url: "https://consultoriametodo.es",
   },
   datePublished: "2025-03-15",
-  dateModified: "2025-03-15",
+  dateModified: "2026-09-06",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -71,12 +74,13 @@ export default function ArticuloRentabilidadHosteleria() {
             Blog — Consultoría Método
           </p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
-            Cómo mejorar la rentabilidad de un restaurante o bar (guía práctica)
+            Cómo mejorar la rentabilidad de un restaurante o bar en Galicia
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
             El local lleno, la cocina a tope, el equipo sin parar... y cuando
-            miras la cuenta a final de mes, el dinero no aparece. Si te suena
-            esta historia, este artículo es para ti.
+            miras la cuenta a final de mes, el dinero no aparece. Guía práctica
+            con las palancas reales para mejorar la rentabilidad, y con las
+            particularidades del mercado gallego que hay que tener en cuenta.
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
@@ -127,6 +131,73 @@ export default function ArticuloRentabilidadHosteleria() {
               ganar dinero
             </a>{" "}
             y cómo pasó a tener un margen estable del 12-15 % en tres meses.
+          </p>
+
+          {/* Bloque Galicia — nuevo para reforzar geo */}
+          <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
+            La hostelería en Galicia: particularidades que hay que tener en cuenta
+          </h2>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Mejorar la rentabilidad de un restaurante en Galicia tiene reglas
+            propias que no siempre coinciden con las del mercado de Madrid o
+            Barcelona. En A Coruña, Santiago, Vigo, Lugo, Ourense o Pontevedra
+            hay dinámicas locales que impactan directamente en el margen y
+            que muchos empresarios pasan por alto.
+          </p>
+          <ul className="my-6 space-y-3 rounded-xl border border-primary-200 bg-primary-50/30 p-6 text-gray-700">
+            <li>
+              <strong className="text-primary-900">Estacionalidad marcada</strong> —
+              picos fuertes en verano (Rías Baixas, Costa da Morte), en
+              temporadas del Camino de Santiago (mayo–octubre en Sarria,
+              Santiago, Melide) y en fiestas patronales. Fuera de temporada
+              el local puede quedarse muy vacío. Diseñar oferta y estructura
+              de costes adaptada al calendario es clave.
+            </li>
+            <li>
+              <strong className="text-primary-900">Peso de la cultura gastronómica local</strong> —
+              el cliente gallego valora producto local, marisco fresco,
+              carne de la zona, vinos de las DOs (Rías Baixas, Ribeiro,
+              Ribeira Sacra, Valdeorras, Monterrei). Escandallar bien con
+              proveedores locales protege el margen sin renunciar a calidad.
+            </li>
+            <li>
+              <strong className="text-primary-900">Competencia intensa por zonas</strong> —
+              en A Coruña, Vigo o Santiago la densidad hostelera es enorme.
+              Diferenciarse por posicionamiento (menús del día vs.
+              gastronomía, tapas vs. carta, especialización) marca la
+              diferencia entre pelear precio o defender margen.
+            </li>
+            <li>
+              <strong className="text-primary-900">Turismo del Camino y de Rías</strong> —
+              oportunidad real pero también riesgo de dependencia. Los
+              restaurantes que solo viven de peregrinos o turistas de agosto
+              tienen medio año en tensión. Diversificar clientela local
+              equilibra el negocio.
+            </li>
+            <li>
+              <strong className="text-primary-900">Coste laboral y rotación</strong> —
+              en la costa y ciudades grandes cuesta encontrar y retener
+              personal cualificado, sobre todo cocina. Diseñar procesos,
+              formar y fidelizar equipo evita la sangría constante de
+              rotación.
+            </li>
+          </ul>
+          <p className="mt-4 text-gray-600 md:text-lg">
+            Si tienes un restaurante en Galicia y quieres una consultoría
+            especializada en hostelería, mira nuestra página de{" "}
+            <a
+              href="/consultoria-hosteleria-restauracion"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              consultoría para hostelería y restauración
+            </a>{" "}
+            o la de{" "}
+            <a
+              href="/consultor-empresas-coruna"
+              className="text-accent-600 underline hover:text-accent-700"
+            >
+              consultor de empresas en A Coruña
+            </a>.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             Si tu bar, cafetería o restaurante está en la provincia de A Coruña, también te
