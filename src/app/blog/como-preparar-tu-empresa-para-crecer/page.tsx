@@ -52,7 +52,7 @@ export default function ArticuloPrepararCrecimiento() {
             emocionante durante un rato, hasta que llegas a la primera curva.
           </p>
           <p className="mt-4 text-sm text-primary-300">
-            Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España
+            Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España
           </p>
         </div>
       </section>

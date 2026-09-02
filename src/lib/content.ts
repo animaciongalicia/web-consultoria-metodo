@@ -17,9 +17,9 @@ export const SITE = {
   // Ficha Google Business Profile
   googleBusinessProfile: "https://share.google/jaBnKfqDvizpNf1WV",
   title:
-    "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y Online en toda España",
+    "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y por videollamada en el resto de España",
   description:
-    "Consultoría Método — Consultoría empresarial para pymes y empresas. Presencial en A Coruña y Galicia, online en toda España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
+    "Consultoría Método — Consultoría empresarial para pymes y empresas. Presencial en A Coruña y Galicia, por videollamada en el resto de España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
 };
 
 export const NAV_LINKS = [
@@ -67,7 +67,7 @@ export const PROBLEMS = {
 export const METHOD = {
   heading: "¿Qué es Consultoría Método?",
   paragraphs: [
-    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y online en toda España. No somos una gestoría, no llevamos tus impuestos, no te decimos lo que quieres oír. En Consultoría Método nos sentamos contigo — en persona o en videollamada —, miramos la realidad de tu negocio y te ayudamos a decidir qué hacer para mejorar.",
+    "Consultoría Método es consultoría empresarial y de negocios para pymes y empresas. Presencial en A Coruña y Galicia, y por videollamada en el resto de España. No somos una gestoría, no llevamos tus impuestos, no te decimos lo que quieres oír. En Consultoría Método nos sentamos contigo — en persona o en videollamada —, miramos la realidad de tu negocio y te ayudamos a decidir qué hacer para mejorar.",
     "Nuestro enfoque se llama Método Rentabilismo. Es una consultoría metodológica: un sistema práctico de mejora empresarial basado en la gestión de procesos, el análisis de datos y las decisiones con criterio. Sin humo, sin teoría vacía:",
   ],
   pillars: [
@@ -241,7 +241,7 @@ export const ABOUT = {
 };
 
 export const SEO_LOCAL = {
-  heading: "Consultor empresarial en A Coruña, Galicia y online en toda España",
+  heading: "Consultor empresarial en A Coruña, Galicia y por videollamada en el resto de España",
   paragraphs: [
     "Si tienes un negocio en A Coruña, Santiago, Vigo, Lugo, Ourense o cualquier punto de Galicia, trabajamos contigo presencialmente. Llevamos años como consultores de empresas en Galicia y conocemos la realidad del tejido empresarial de la zona: sus fortalezas, sus limitaciones y lo que funciona de verdad aquí.",
     "Si tu negocio está en Madrid, Barcelona, Valencia, Sevilla, Bilbao o cualquier otra ciudad de España, trabajamos igual de bien por videollamada. El método es el mismo, los resultados son los mismos. La distancia no cambia nada.",

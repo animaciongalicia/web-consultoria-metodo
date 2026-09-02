@@ -186,7 +186,7 @@ export default function ConsultorEmpresasCoruna() {
           </h2>
           <p className="mt-4 text-gray-700 md:text-lg">
             Atiendo pymes y empresas presencialmente en toda la provincia de A
-            Coruña. Para clientes fuera de Galicia, trabajamos online con el
+            Coruña. Para clientes fuera de Galicia, trabajamos por videollamada con el
             mismo método y los mismos resultados.
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

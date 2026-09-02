@@ -5,9 +5,9 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Indicadores clave de una empresa — Guía completa de KPIs y control financiero para pymes | Consultoría Método",
+    "Los 9 indicadores que toda empresa debe medir para no ir a ciegas — Guía completa | Consultoría Método",
   description:
-    "Los KPIs que toda pyme debe controlar: margen, punto muerto, ticket medio, CAC, flujo de caja. Consultoría de mejora de empresas en Coruña, Galicia y online en toda España.",
+    "Los 9 indicadores que cualquier empresa debe medir cada mes: margen, punto muerto, ticket medio, CAC, flujo de caja. Guía práctica con los KPIs clave para pymes y cómo tomar decisiones con números reales.",
   keywords: [
     "indicadores clave de una empresa",
     "indicadores empresa",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      "Indicadores clave de una empresa — Guía completa de KPIs y control financiero para pymes",
+      "Los 9 indicadores que toda empresa debe medir para no ir a ciegas — Guía completa",
     description:
       "Los KPIs que cualquier empresa debe controlar cada mes: margen, punto muerto, ticket medio, CAC, flujo de caja. Cómo interpretar datos y tomar decisiones con números.",
     locale: "es_ES",
@@ -41,7 +41,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Indicadores clave de una empresa — Guía completa de KPIs y control financiero para pymes",
+    "Los 9 indicadores que toda empresa debe medir para no ir a ciegas — Guía completa",
   description:
     "Guía práctica con los KPIs que toda empresa pequeña debe controlar: margen, punto muerto, ticket medio, coste de adquisición, flujo de caja. Cómo interpretar datos y tomar decisiones.",
   author: {
@@ -88,7 +88,7 @@ export default function ArticuloIndicadores() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>

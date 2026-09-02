@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo definir la estrategia de tu negocio para dejar de improvisar — Guía completa para pymes | Consultoría Método",
   description:
-    "Guía práctica para definir la estrategia de tu negocio: modelo, propuesta de valor, posicionamiento y plan estratégico. Consultor empresarial en Coruña, Galicia y online en toda España.",
+    "Guía práctica para definir la estrategia de tu negocio: modelo, propuesta de valor, posicionamiento y plan estratégico. Consultor empresarial en Coruña, Galicia y por videollamada en el resto de España.",
   keywords: [
     "estrategia negocio",
     "plan estratégico pyme",
@@ -89,7 +89,7 @@ export default function ArticuloEstrategia() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>

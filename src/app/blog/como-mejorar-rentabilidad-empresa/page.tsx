@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo mejorar la rentabilidad de una empresa — Guía completa para pymes | Consultoría Método",
   description:
-    "Guía práctica para mejorar la rentabilidad de tu empresa. Márgenes, precios, costes y ventas con ejemplos reales. Consultoría empresarial en Coruña, Galicia y online en toda España.",
+    "Guía práctica para mejorar la rentabilidad de tu empresa. Márgenes, precios, costes y ventas con ejemplos reales. Consultoría empresarial en Coruña, Galicia y por videollamada en el resto de España.",
   keywords: [
     "mejorar rentabilidad empresa",
     "rentabilidad empresarial",
@@ -87,7 +87,7 @@ export default function ArticuloRentabilidadEmpresa() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>
@@ -1252,7 +1252,7 @@ export default function ArticuloRentabilidadEmpresa() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
+              consultoría de negocios presencial en Galicia y por videollamada en el resto de España
             </strong>{" "}
             y el{" "}
             <a

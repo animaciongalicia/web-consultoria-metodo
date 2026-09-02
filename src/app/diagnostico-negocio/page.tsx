@@ -35,7 +35,7 @@ const FAQS = [
   {
     question: "¿Atendéis a empresas en toda la provincia de A Coruña?",
     answer:
-      "Sí. Trabajamos presencialmente en A Coruña ciudad, Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y cualquier punto de la provincia. Para resto de Galicia y España trabajamos online con el mismo método y los mismos resultados.",
+      "Sí. Trabajamos presencialmente en A Coruña ciudad, Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y cualquier punto de la provincia. Para resto de Galicia y España trabajamos por videollamada con el mismo método y los mismos resultados.",
   },
   {
     question: "¿Y si después del diagnóstico no me convence seguir?",
@@ -497,7 +497,7 @@ export default function DiagnosticoNegocio() {
         <div className="container-narrow text-center">
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
-            <strong className="text-primary-800">consultoría de negocios presencial en Galicia y online en toda España</strong>,
+            <strong className="text-primary-800">consultoría de negocios presencial en Galicia y por videollamada en el resto de España</strong>,
             el <strong className="text-primary-800">Método Rentabilismo</strong> y cómo trabajamos
             con empresas.
           </p>

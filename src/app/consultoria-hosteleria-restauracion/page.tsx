@@ -183,9 +183,9 @@ const FAQS = [
       "Las primeras mejoras suelen notarse en 4-6 semanas: márgenes más claros, carta optimizada, costes bajo control. Los resultados sólidos llegan entre los 2 y 3 meses.",
   },
   {
-    question: "¿Trabajáis solo presencialmente o también online?",
+    question: "¿Trabajáis solo presencialmente o también por videollamada?",
     answer:
-      "Presencial en A Coruña y Galicia, online en toda España. Para hostelería solemos recomendar al menos una visita presencial al local, pero no es imprescindible.",
+      "Presencial en A Coruña y Galicia, por videollamada en el resto de España. Para hostelería solemos recomendar al menos una visita presencial al local, pero no es imprescindible.",
   },
   {
     question:

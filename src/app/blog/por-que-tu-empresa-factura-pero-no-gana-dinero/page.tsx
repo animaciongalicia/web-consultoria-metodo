@@ -5,9 +5,9 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Por qué tu empresa factura pero no gana dinero | Consultoría Método",
+    "Por qué tu empresa factura pero no gana dinero: 5 razones y cómo corregirlas | Consultoría Método",
   description:
-    "Descubre por qué mi empresa no es rentable a pesar de facturar. Errores habituales, cómo calcular la rentabilidad real y decisiones que mejoran los beneficios de tu pyme.",
+    "Facturas bien pero no ganas dinero. Las 5 razones más habituales por las que tu empresa no es rentable a pesar de facturar, cómo calcular la rentabilidad real y decisiones concretas para mejorar los beneficios.",
   keywords: [
     "por qué mi empresa no es rentable",
     "empresa factura pero no gana dinero",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "consultoría rentabilidad empresas",
   ],
   openGraph: {
-    title: "Por qué tu empresa factura pero no gana dinero",
+    title: "Por qué tu empresa factura pero no gana dinero: 5 razones y cómo corregirlas",
     description:
       "Muchas pymes facturan bien pero no ven beneficios. Analizamos los errores más habituales y las decisiones que mejoran la rentabilidad rápidamente.",
     locale: "es_ES",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Por qué tu empresa factura pero no gana dinero",
+  headline: "Por qué tu empresa factura pero no gana dinero: 5 razones y cómo corregirlas",
   description:
     "Descubre por qué mi empresa no es rentable a pesar de facturar. Errores habituales, cómo calcular la rentabilidad real y decisiones que mejoran los beneficios de tu pyme.",
   author: {
@@ -78,7 +78,7 @@ export default function ArticuloRentabilidad() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>

@@ -5,9 +5,9 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Problemas de liquidez en pymes: por qué facturas pero nunca hay dinero | Consultoría Método",
+    "Problemas de liquidez en pymes con buena facturación: 7 causas y cómo resolverlas | Consultoría Método",
   description:
-    "Descubre por qué tu pyme factura pero no tiene liquidez. Las 7 causas más comunes de falta de tesorería, señales de alerta y un plan de acción con 8 medidas prácticas para mejorar el cash flow de tu negocio.",
+    "Tu pyme factura bien pero no tiene dinero en la cuenta. Las 7 causas más comunes de falta de liquidez con buena facturación, señales de alerta y 8 medidas prácticas para mejorar el cash flow.",
   keywords: [
     "problemas de liquidez pyme",
     "falta de tesorería negocio",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title:
-      "Problemas de liquidez en pymes: por qué facturas pero nunca hay dinero en la cuenta",
+      "Problemas de liquidez en pymes con buena facturación: 7 causas y cómo resolverlas",
     description:
       "Las 7 causas más comunes de falta de tesorería en pymes y un plan de acción con 8 medidas concretas para mejorar la liquidez de tu negocio.",
     locale: "es_ES",
@@ -34,7 +34,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Problemas de liquidez en pymes: por qué facturas pero nunca hay dinero en la cuenta",
+    "Problemas de liquidez en pymes con buena facturación: 7 causas y cómo resolverlas",
   description:
     "Descubre por qué tu pyme factura pero no tiene liquidez. Las 7 causas más comunes de falta de tesorería, señales de alerta y un plan de acción con 8 medidas prácticas para mejorar el cash flow de tu negocio.",
   author: {
@@ -82,7 +82,7 @@ export default function ArticuloLiquidez() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>
@@ -832,7 +832,7 @@ export default function ArticuloLiquidez() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
+              consultoría de negocios presencial en Galicia y por videollamada en el resto de España
             </strong>{" "}
             y el{" "}
             <strong className="text-primary-800">Método Rentabilismo</strong>.

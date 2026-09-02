@@ -21,7 +21,7 @@ export default function ArticuloMargen() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">Blog — Consultoría Método</p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">Cómo calcular el margen de beneficio de un producto o servicio</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">Si alguien te pregunta «¿qué margen tiene lo que vendes?» y no puedes responder con un número exacto, tienes un problema serio. Porque podrías estar perdiendo dinero en cada venta sin saberlo.</p>
-          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España</p>
+          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España</p>
         </div>
       </section>
       <section className="section-padding bg-white">

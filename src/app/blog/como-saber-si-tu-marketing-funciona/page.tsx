@@ -85,7 +85,7 @@ export default function ArticuloMarketingFunciona() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>
@@ -681,7 +681,7 @@ export default function ArticuloMarketingFunciona() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
+              consultoría de negocios presencial en Galicia y por videollamada en el resto de España
             </strong>{" "}
             y el{" "}
             <strong className="text-primary-800">Método Rentabilismo</strong>.

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Método Rentabilismo — Consultoría Metodológica para Mejorar tu Empresa | Consultoría Método",
   description:
-    "Sistema estructurado de consultoría metodológica para analizar y mejorar la rentabilidad de empresas. Gestión de procesos, diagnóstico empresarial y plan de acción. Presencial en A Coruña y Galicia, online en toda España.",
+    "Sistema estructurado de consultoría metodológica para analizar y mejorar la rentabilidad de empresas. Gestión de procesos, diagnóstico empresarial y plan de acción. Presencial en A Coruña y Galicia, por videollamada en el resto de España.",
   keywords: [
     "consultoría metodológica",
     "método mejora empresarial",

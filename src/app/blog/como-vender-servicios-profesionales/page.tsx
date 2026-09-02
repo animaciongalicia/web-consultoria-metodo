@@ -54,7 +54,7 @@ export default function ArticuloVenderServiciosProfesionales() {
             La buena noticia: vender bien no se parece en nada a lo que imaginas.
           </p>
           <p className="mt-4 text-sm text-primary-300">
-            Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España
+            Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España
           </p>
         </div>
       </section>

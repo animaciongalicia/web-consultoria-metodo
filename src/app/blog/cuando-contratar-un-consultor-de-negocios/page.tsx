@@ -82,7 +82,7 @@ export default function ArticuloConsultor() {
           </p>
           <p className="mt-4 text-sm text-primary-300">
             Por {SITE.consultant} · Consultoría de negocios — Galicia y
-            online en toda España
+            por videollamada en el resto de España
           </p>
         </div>
       </section>
@@ -514,13 +514,13 @@ export default function ArticuloConsultor() {
             </table>
           </div>
 
-          {/* H2 — Presencial vs online */}
+          {/* H2 — Presencial o por videollamada */}
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-            Presencial vs online: ¿funciona la consultoría a distancia?
+            Presencial o por videollamada: ¿funciona la consultoría a distancia?
           </h2>
           <p className="mt-4 text-gray-600 md:text-lg">
             Es una de las preguntas que más me hacen: &ldquo;¿Se puede hacer
-            consultoría online o tiene que ser presencial?&rdquo;. La
+            consultoría por videollamada o tiene que ser presencial?&rdquo;. La
             respuesta corta es que las dos funcionan. La respuesta larga es
             que cada una tiene sus ventajas y hay situaciones donde una
             funciona mejor que otra.
@@ -555,7 +555,7 @@ export default function ArticuloConsultor() {
 
             <div className="rounded-xl border-2 border-accent-300 bg-accent-50 p-6">
               <h3 className="text-lg font-bold text-accent-900">
-                Consultoría online
+                Consultoría por videollamada
               </h3>
               <p className="mt-1 text-sm text-accent-600">
                 Toda España: Madrid, Barcelona, Valencia, Sevilla...
@@ -932,7 +932,7 @@ export default function ArticuloConsultor() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda España
+              consultoría de negocios presencial en Galicia y por videollamada en el resto de España
             </strong>{" "}
             y el{" "}
             <strong className="text-primary-800">Método Rentabilismo</strong>.

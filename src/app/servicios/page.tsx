@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Servicios de consultoría empresarial | Consultoría Método",
   description:
-    "Servicios de consultoría para empresas: mejora de rentabilidad, captación de clientes, organización, procesos y acompañamiento estratégico. Presencial en A Coruña y Galicia, online en toda España.",
+    "Servicios de consultoría para empresas: mejora de rentabilidad, captación de clientes, organización, procesos y acompañamiento estratégico. Presencial en A Coruña y Galicia, por videollamada en el resto de España.",
   keywords: [
     "servicios de consultoría",
     "servicios consultoría empresarial",

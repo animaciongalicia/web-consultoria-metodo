@@ -23,7 +23,7 @@ export default function ArticuloGestionarEmpleados() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">Blog — Consultoría Método</p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">Cómo gestionar empleados en una pyme sin volverte loco</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">La mayoría de empresarios no montaron su negocio para gestionar personas. Pero sin un equipo bien liderado, el negocio no crece. Aquí van las claves que funcionan de verdad.</p>
-          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España</p>
+          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España</p>
         </div>
       </section>
 

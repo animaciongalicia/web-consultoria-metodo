@@ -4,14 +4,14 @@ import BlogNav from "@/components/BlogNav";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo saber si tu negocio es rentable de verdad | Consultoría Método",
-  description: "Facturar no es ganar. Aprende a medir la rentabilidad real de tu negocio con indicadores claros. Consultoría empresarial en Coruña, Galicia y online.",
+  title: "Cómo saber si tu negocio es rentable de verdad — 7 indicadores clave | Consultoría Método",
+  description: "Facturar no es ganar. Aprende a medir la rentabilidad real de tu negocio con 7 indicadores clave. Guía práctica para saber si ganas dinero o solo mueves cifras.",
   keywords: ["cómo saber si mi negocio es rentable", "rentabilidad negocio", "indicadores rentabilidad pyme", "punto de equilibrio empresa", "consultor empresarial Coruña", "consultoría empresas Coruña", "mejora de empresas"],
-  openGraph: { title: "Cómo saber si tu negocio es rentable de verdad", description: "Facturar no es ganar. Aprende a medir la rentabilidad real de tu negocio con indicadores claros.", locale: "es_ES", type: "article" },
+  openGraph: { title: "Cómo saber si tu negocio es rentable de verdad — 7 indicadores clave", description: "Facturar no es ganar. Aprende a medir la rentabilidad real de tu negocio con 7 indicadores clave.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/como-saber-si-mi-negocio-es-rentable" },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo saber si tu negocio es rentable de verdad", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-04-17" };
+const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: "Cómo saber si tu negocio es rentable de verdad — 7 indicadores clave", author: { "@type": "Person", name: "Pablo García Dacosta" }, publisher: { "@type": "Organization", name: "Consultoría Método" }, datePublished: "2025-04-17" };
 
 export default function ArticuloNegocioRentable() {
   return (
@@ -23,7 +23,7 @@ export default function ArticuloNegocioRentable() {
           <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">Blog — Consultoría Método</p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">Cómo saber si tu negocio es rentable de verdad</h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">Facturar mucho no significa ganar dinero. Descubre los indicadores que revelan la rentabilidad real de tu empresa y qué hacer si los números no cuadran.</p>
-          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España</p>
+          <p className="mt-4 text-sm text-primary-300">Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España</p>
         </div>
       </section>
 

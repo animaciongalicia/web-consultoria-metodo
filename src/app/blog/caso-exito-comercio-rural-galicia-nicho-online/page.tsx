@@ -56,7 +56,7 @@ export default function CasoExitoComercioRuralGalicia() {
             con el 45 % de las ventas llegando desde internet. Esta es la historia de como lo hicimos.
           </p>
           <p className="mt-4 text-sm text-primary-300">
-            Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España
+            Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España
           </p>
         </div>
       </section>

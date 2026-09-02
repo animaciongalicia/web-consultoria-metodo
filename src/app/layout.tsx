@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
         width: 800,
         height: 600,
-        alt: "Pablo García Dacosta — Consultor de negocios en Galicia y online en toda España",
+        alt: "Pablo García Dacosta — Consultor de negocios en Galicia y por videollamada en el resto de España",
       },
     ],
   },

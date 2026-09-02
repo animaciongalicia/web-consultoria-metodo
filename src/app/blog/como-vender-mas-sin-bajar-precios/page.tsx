@@ -52,7 +52,7 @@ export default function ArticuloVenderMas() {
             mucho mejores de vender más — y todas pasan por aportar más valor, no menos margen.
           </p>
           <p className="mt-4 text-sm text-primary-300">
-            Por {SITE.consultant} · Consultoría de negocios — Galicia y online en toda España
+            Por {SITE.consultant} · Consultoría de negocios — Galicia y por videollamada en el resto de España
           </p>
         </div>
       </section>
