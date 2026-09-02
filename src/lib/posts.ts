@@ -12,6 +12,42 @@ export type BlogPost = {
 export const BLOG_POSTS: BlogPost[] = [
   // --- PILARES SEO ---
   {
+    slug: "metodos-y-tiempos-para-pymes",
+    title: "Métodos y tiempos para pymes: cómo aplicar principios de eficiencia operativa sin ser una fábrica",
+    excerpt: "El estudio de métodos y tiempos tiene fama de ser cosa de ingenieros industriales con cronómetro en mano. En realidad, sus principios aplican perfectamente a un despacho, un restaurante o una tienda. Guía práctica con ejemplos reales en pymes no industriales.",
+    date: "11 septiembre 2026",
+    category: "Procesos y operaciones",
+    readTime: "12 min",
+    publishDate: "2026-09-11",
+  },
+  {
+    slug: "analisis-competitivo-empresas-coruna",
+    title: "Análisis competitivo para empresas en A Coruña: cómo hacerlo bien sin gastar en informes que no lees",
+    excerpt: "Análisis competitivo no es hacer un DAFO ni comprar un informe sectorial de 80 páginas. Es entender contra quién compites de verdad, qué hace bien y qué mal, y qué puedes aprovechar tú. Guía práctica adaptada al mercado de A Coruña.",
+    date: "18 septiembre 2026",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2026-09-18",
+  },
+  {
+    slug: "consultoria-administrativa-personalizada",
+    title: "Consultoría administrativa personalizada: qué es, qué incluye y cuándo la necesita tu empresa",
+    excerpt: "Consultoría administrativa personalizada no es más gestoría. Es poner orden real en cómo funciona tu empresa por dentro para dejar de perder tiempo y dinero por procesos rotos. Guía práctica con casos reales y diferencias con la gestoría.",
+    date: "15 septiembre 2026",
+    category: "Organización",
+    readTime: "12 min",
+    publishDate: "2026-09-15",
+  },
+  {
+    slug: "segmentacion-clientes-identificar-rentables",
+    title: "Segmentación de clientes: cómo identificar a los rentables (y despedir a los tóxicos)",
+    excerpt: "No todos tus clientes te dejan lo mismo. El 20% suele generar el 80% del beneficio — y otro 20% te hace perder dinero directamente. Guía práctica para segmentar tu cartera por rentabilidad real, con método, casos y cómo despedir clientes con elegancia.",
+    date: "22 septiembre 2026",
+    category: "Rentabilidad",
+    readTime: "13 min",
+    publishDate: "2026-09-22",
+  },
+  {
     slug: "aumentar-rentabilidad-asesoria-despacho-gestoria",
     title: "Cómo aumentar la rentabilidad de una asesoría, despacho o gestoría — Guía práctica",
     excerpt: "El sector de asesorías y gestorías vive una crisis silenciosa: clientes que se van a plataformas online, márgenes estancados y percepción de menos valor. Guía práctica con 6 palancas concretas, casos reales, errores típicos y plan de acción en 90 días.",
