@@ -1,11 +1,12 @@
 import { NAV_LINKS, SITE } from "@/lib/content";
 
-const SECTOR_LINKS = [
+const AREA_LINKS = [
   { label: "Hostelería y restauración", href: "/consultoria-hosteleria-restauracion" },
   { label: "Comercio y retail", href: "/consultoria-comercio-retail" },
   { label: "Servicios profesionales", href: "/consultoria-servicios-profesionales" },
   { label: "Salud y bienestar", href: "/consultoria-salud-bienestar" },
   { label: "Formación, turismo y eventos", href: "/consultoria-formacion-turismo-eventos" },
+  { label: "Coaching empresarial", href: "/coaching-empresarial-coruna-galicia" },
 ];
 
 const PROVINCE_LINKS = [
@@ -56,13 +57,13 @@ export default function Footer() {
             </nav>
           </div>
 
-          {/* Col 3 — Sectores */}
+          {/* Col 3 — Áreas */}
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-white">
-              Sectores
+              Áreas
             </p>
             <nav className="mt-3 flex flex-col gap-2">
-              {SECTOR_LINKS.map((link) => (
+              {AREA_LINKS.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}

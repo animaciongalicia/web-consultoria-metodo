@@ -12,6 +12,16 @@ export type BlogPost = {
 export const BLOG_POSTS: BlogPost[] = [
   // --- PILARES SEO ---
   {
+    slug: "aumentar-rentabilidad-asesoria-despacho-gestoria",
+    title: "Cómo aumentar la rentabilidad de una asesoría, despacho o gestoría — Guía práctica",
+    excerpt: "El sector de asesorías y gestorías vive una crisis silenciosa: clientes que se van a plataformas online, márgenes estancados y percepción de menos valor. Guía práctica con 6 palancas concretas, casos reales, errores típicos y plan de acción en 90 días.",
+    date: "8 septiembre 2026",
+    category: "Servicios profesionales",
+    readTime: "16 min",
+    isPillar: true,
+    publishDate: "2026-09-08",
+  },
+  {
     slug: "como-mejorar-rentabilidad-empresa",
     title: "Cómo mejorar la rentabilidad de tu empresa — Guía completa para pymes",
     excerpt: "Guía pilar con todo lo que necesitas saber para mejorar la rentabilidad de tu pyme: márgenes, costes, precios, productividad, flujo de caja y un plan de acción paso a paso.",
@@ -620,6 +630,7 @@ export const STATIC_PAGES = [
   { path: "/consultoria-servicios-profesionales", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "/consultoria-salud-bienestar", priority: 0.8, changeFrequency: "monthly" as const },
   { path: "/consultoria-formacion-turismo-eventos", priority: 0.8, changeFrequency: "monthly" as const },
+  { path: "/coaching-empresarial-coruna-galicia", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/aviso-legal", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "/politica-privacidad", priority: 0.3, changeFrequency: "yearly" as const },
   { path: "/politica-cookies", priority: 0.3, changeFrequency: "yearly" as const },

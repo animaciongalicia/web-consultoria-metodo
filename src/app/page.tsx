@@ -64,14 +64,20 @@ export default function Home() {
             <strong className="text-primary-800">servicios de consultoría empresarial</strong>?
           </p>
           <p className="mx-auto mt-2 max-w-xl text-gray-600">
-            Rentabilidad, captación de clientes, organización, procesos y acompañamiento estratégico.
+            Rentabilidad, captación de clientes, organización, procesos,
+            acompañamiento estratégico y coaching empresarial.
           </p>
-          <a
-            href="/servicios"
-            className="btn-primary mt-6 inline-block"
-          >
-            Ver servicios
-          </a>
+          <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a href="/servicios" className="btn-primary inline-block">
+              Ver servicios
+            </a>
+            <a
+              href="/coaching-empresarial-coruna-galicia"
+              className="btn-secondary inline-block"
+            >
+              Coaching empresarial
+            </a>
+          </div>
         </div>
       </section>
 

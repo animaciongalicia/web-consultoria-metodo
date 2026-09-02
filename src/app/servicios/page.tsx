@@ -67,8 +67,8 @@ const servicios = [
       "Sesiones periódicas para tomar decisiones con criterio. Revisamos indicadores, ajustamos el rumbo y resolvemos los problemas antes de que crezcan. Un punto de vista externo, profesional y sin compromisos emocionales con el negocio.",
     ideal:
       "Empresarios que se sienten solos en las decisiones, que necesitan alguien que les ayude a pensar con perspectiva, o que quieren mantener las mejoras conseguidas.",
-    link: "/blog/cuando-contratar-un-consultor-de-negocios",
-    linkText: "Cuándo contratar un consultor de negocios",
+    link: "/coaching-empresarial-coruna-galicia",
+    linkText: "Coaching empresarial: cómo acompañamos",
   },
   {
     number: "05",
