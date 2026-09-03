@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
-import { BLOG_POSTS, getVisiblePosts } from "@/lib/posts";
+import { BLOG_POSTS, getVisiblePosts, getLatestPosts } from "@/lib/posts";
 
 // Revalidar cada 24h para que los artículos programados aparezcan en su fecha
 export const revalidate = 86400;
@@ -73,12 +73,21 @@ const categoryColors: Record<
     border: "border-indigo-200",
     shadow: "hover:shadow-indigo-100",
   },
+  "Servicios profesionales": {
+    bg: "bg-slate-50",
+    text: "text-slate-700",
+    border: "border-slate-200",
+    shadow: "hover:shadow-slate-100",
+  },
 };
 
 const posts = BLOG_POSTS;
 
 // Filtrar artículos por fecha de publicación (para publicación programada)
 const visiblePosts = getVisiblePosts();
+
+// Últimos publicados ordenados por fecha descendente
+const latestPosts = getLatestPosts(10);
 
 const categories = Object.keys(categoryColors);
 
@@ -225,6 +234,45 @@ export default function Blog() {
                 </div>
               </div>
 
+              {/* Últimos publicados */}
+              <div className="rounded-xl border-2 border-accent-200 bg-gradient-to-br from-accent-50/60 to-white p-5 shadow-sm">
+                <h3 className="text-sm font-bold uppercase tracking-wider text-accent-700">
+                  Últimos publicados
+                </h3>
+                <p className="mt-1 text-[11px] text-gray-500">
+                  Ordenados por fecha, más recientes primero
+                </p>
+                <nav className="mt-3 space-y-2">
+                  {latestPosts.map((post) => {
+                    const colors = categoryColors[post.category] || {
+                      bg: "bg-gray-50",
+                      text: "text-gray-600",
+                    };
+                    return (
+                      <a
+                        key={post.slug}
+                        href={`/blog/${post.slug}`}
+                        className="group block rounded-lg border border-accent-100 bg-white px-3 py-2.5 transition-all hover:border-accent-300 hover:bg-accent-50/40"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
+                          >
+                            {post.category}
+                          </span>
+                          <span className="text-[10px] text-gray-400">
+                            {post.date}
+                          </span>
+                        </div>
+                        <p className="mt-1 text-xs font-semibold leading-snug text-gray-800 group-hover:text-primary-700 transition-colors">
+                          {post.title}
+                        </p>
+                      </a>
+                    );
+                  })}
+                </nav>
+              </div>
+
               {/* Índice de artículos */}
               <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
                 <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
@@ -232,7 +280,10 @@ export default function Blog() {
                 </h3>
                 <nav className="mt-3 space-y-2">
                   {visiblePosts.map((post) => {
-                    const colors = categoryColors[post.category];
+                    const colors = categoryColors[post.category] || {
+                      bg: "bg-gray-50",
+                      text: "text-gray-600",
+                    };
                     return (
                       <a
                         key={post.slug}

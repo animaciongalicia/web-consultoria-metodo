@@ -703,6 +703,26 @@ export default function ArticuloPrecios() {
         </div>
       </section>
 
+      {/* Lectura recomendada — cross-link a post relacionado nuevo */}
+      <section className="border-t border-gray-200 bg-white py-10">
+        <div className="container-narrow">
+          <div className="mx-auto max-w-2xl rounded-xl border-2 border-accent-200 bg-accent-50/40 p-6 text-center shadow-sm">
+            <p className="text-xs font-bold uppercase tracking-widest text-accent-700">
+              Sigue leyendo
+            </p>
+            <a
+              href="/blog/segmentacion-clientes-identificar-rentables"
+              className="mt-2 block text-base font-bold text-primary-900 hover:text-primary-700 transition-colors md:text-lg"
+            >
+              Segmentación de clientes: cómo identificar a los rentables (y despedir a los tóxicos) →
+            </a>
+            <p className="mt-2 text-sm text-gray-600">
+              Los precios funcionan mejor cuando sabes a quién estás cobrando. Guía práctica para segmentar tu cartera por rentabilidad real.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Consultoría por sectores */}
       <section className="border-t border-gray-200 bg-gray-50 py-10">
         <div className="container-narrow text-center">

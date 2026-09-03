@@ -1,4 +1,4 @@
-import { BLOG_POSTS } from "@/lib/blog";
+import { getLatestPosts, getVisiblePosts } from "@/lib/posts";
 import { SITE } from "@/lib/content";
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
@@ -18,9 +18,12 @@ export default function BlogSidebar({
 }: {
   currentSlug: string;
 }) {
-  const otherPosts = BLOG_POSTS.filter((p) => p.slug !== currentSlug);
+  // Últimos 8 publicados, excluyendo el actual
+  const latestPosts = getLatestPosts(9).filter((p) => p.slug !== currentSlug).slice(0, 8);
 
-  const categories = Array.from(new Set(BLOG_POSTS.map((p) => p.category)));
+  // Categorías del listado completo actual con conteo
+  const visiblePosts = getVisiblePosts();
+  const categories = Array.from(new Set(visiblePosts.map((p) => p.category)));
 
   return (
     <aside className="space-y-8">
@@ -35,7 +38,7 @@ export default function BlogSidebar({
               bg: "bg-gray-50",
               text: "text-gray-600",
             };
-            const count = BLOG_POSTS.filter((p) => p.category === cat).length;
+            const count = visiblePosts.filter((p) => p.category === cat).length;
             return (
               <a
                 key={cat}
@@ -50,13 +53,13 @@ export default function BlogSidebar({
         </div>
       </div>
 
-      {/* Otros artículos */}
-      <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-        <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">
-          Más artículos
+      {/* Últimos publicados */}
+      <div className="rounded-xl border-2 border-accent-200 bg-gradient-to-br from-accent-50/60 to-white p-5 shadow-sm">
+        <h3 className="text-sm font-bold uppercase tracking-wider text-accent-700">
+          Últimos publicados
         </h3>
         <nav className="mt-4 space-y-3">
-          {otherPosts.map((post) => {
+          {latestPosts.map((post) => {
             const colors = categoryColors[post.category] || {
               bg: "bg-gray-50",
               text: "text-gray-600",
@@ -65,19 +68,28 @@ export default function BlogSidebar({
               <a
                 key={post.slug}
                 href={`/blog/${post.slug}`}
-                className="group block rounded-lg border border-gray-100 p-3 transition-all hover:border-primary-200 hover:bg-primary-50/30"
+                className="group block rounded-lg border border-accent-100 bg-white p-3 transition-all hover:border-accent-300 hover:bg-accent-50/40"
               >
-                <span
-                  className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
-                >
-                  {post.category}
-                </span>
+                <div className="flex items-center gap-2">
+                  <span
+                    className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
+                  >
+                    {post.category}
+                  </span>
+                  <span className="text-[10px] text-gray-400">{post.date}</span>
+                </div>
                 <p className="mt-1.5 text-sm font-semibold leading-snug text-gray-800 group-hover:text-primary-700 transition-colors">
                   {post.title}
                 </p>
               </a>
             );
           })}
+          <a
+            href="/blog"
+            className="inline-block text-xs font-semibold text-accent-700 hover:text-accent-800 transition-colors"
+          >
+            Ver todos los artículos →
+          </a>
         </nav>
       </div>
 

@@ -330,6 +330,26 @@ export default function ArticuloVenderServiciosProfesionales() {
         </div>
       </section>
 
+      {/* Lectura recomendada — cross-link a post relacionado nuevo */}
+      <section className="border-t border-gray-200 bg-white py-10">
+        <div className="container-narrow">
+          <div className="mx-auto max-w-2xl rounded-xl border-2 border-accent-200 bg-accent-50/40 p-6 text-center shadow-sm">
+            <p className="text-xs font-bold uppercase tracking-widest text-accent-700">
+              Sigue leyendo
+            </p>
+            <a
+              href="/blog/aumentar-rentabilidad-asesoria-despacho-gestoria"
+              className="mt-2 block text-base font-bold text-primary-900 hover:text-primary-700 transition-colors md:text-lg"
+            >
+              Cómo aumentar la rentabilidad de una asesoría, despacho o gestoría →
+            </a>
+            <p className="mt-2 text-sm text-gray-600">
+              Guía práctica con 6 palancas concretas para despachos y empresas de servicios que quieren dejar de facturar horas para empezar a aportar (y cobrar) más valor.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Consultoría sectorial */}
       <section className="border-t border-gray-200 bg-gray-50 py-10">
         <div className="container-narrow text-center">

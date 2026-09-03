@@ -49,8 +49,8 @@ const jsonLd = {
     name: "Consultoría Método",
     url: "https://consultoriametodo.es",
   },
-  datePublished: "2026-09-18",
-  dateModified: "2026-09-18",
+  datePublished: "2026-08-31",
+  dateModified: "2026-08-31",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -439,6 +439,50 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
           <p className="mt-6 text-sm text-primary-300">
             Primera conversación gratuita — 30 minutos, sin compromiso.
           </p>
+        </div>
+      </section>
+
+      {/* Lecturas relacionadas */}
+      <section className="border-t border-gray-200 bg-white py-10">
+        <div className="container-narrow">
+          <h2 className="text-center text-lg font-bold text-primary-900 md:text-xl">
+            Sigue leyendo
+          </h2>
+          <div className="mx-auto mt-6 grid max-w-4xl gap-4 sm:grid-cols-3">
+            <a
+              href="/blog/como-analizar-tu-competencia"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Estrategia
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Cómo analizar a tu competencia: guía completa
+              </p>
+            </a>
+            <a
+              href="/blog/como-diferenciarte-de-tu-competencia"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Estrategia
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Cómo diferenciarte sin competir en precio
+              </p>
+            </a>
+            <a
+              href="/consultor-empresas-coruna"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Página local
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Consultor de empresas en A Coruña
+              </p>
+            </a>
+          </div>
         </div>
       </section>
 

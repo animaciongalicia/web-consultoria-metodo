@@ -49,8 +49,8 @@ const jsonLd = {
     name: "Consultoría Método",
     url: "https://consultoriametodo.es",
   },
-  datePublished: "2026-09-15",
-  dateModified: "2026-09-15",
+  datePublished: "2026-08-29",
+  dateModified: "2026-08-29",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
@@ -604,6 +604,50 @@ export default function ArticuloConsultoriaAdministrativa() {
           <p className="mt-6 text-sm text-primary-300">
             Primera conversación gratuita — 30 minutos, sin compromiso.
           </p>
+        </div>
+      </section>
+
+      {/* Lecturas relacionadas */}
+      <section className="border-t border-gray-200 bg-white py-10">
+        <div className="container-narrow">
+          <h2 className="text-center text-lg font-bold text-primary-900 md:text-xl">
+            Sigue leyendo
+          </h2>
+          <div className="mx-auto mt-6 grid max-w-4xl gap-4 sm:grid-cols-3">
+            <a
+              href="/blog/metodos-y-tiempos-para-pymes"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Organización
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Métodos y tiempos para pymes: eficiencia sin ser una fábrica
+              </p>
+            </a>
+            <a
+              href="/blog/aumentar-rentabilidad-asesoria-despacho-gestoria"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Servicios profesionales
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Cómo aumentar la rentabilidad de una asesoría o gestoría
+              </p>
+            </a>
+            <a
+              href="/blog/como-organizar-empresa-pequena-salir-autoempleo"
+              className="group block rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm transition-all hover:shadow-md hover:border-primary-300"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Organización
+              </p>
+              <p className="mt-2 text-sm font-bold leading-snug text-primary-900 group-hover:text-primary-700">
+                Cómo organizar tu empresa para salir del autoempleo
+              </p>
+            </a>
+          </div>
         </div>
       </section>
 

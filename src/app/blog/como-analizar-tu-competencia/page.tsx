@@ -398,6 +398,26 @@ export default function ArticuloAnalizarCompetencia() {
 
       <BlogNav currentSlug="como-analizar-tu-competencia" />
 
+      {/* Lectura recomendada — cross-link a post relacionado nuevo */}
+      <section className="border-t border-gray-200 bg-white py-10">
+        <div className="container-narrow">
+          <div className="mx-auto max-w-2xl rounded-xl border-2 border-accent-200 bg-accent-50/40 p-6 text-center shadow-sm">
+            <p className="text-xs font-bold uppercase tracking-widest text-accent-700">
+              Sigue leyendo
+            </p>
+            <a
+              href="/blog/analisis-competitivo-empresas-coruna"
+              className="mt-2 block text-base font-bold text-primary-900 hover:text-primary-700 transition-colors md:text-lg"
+            >
+              Análisis competitivo para empresas en A Coruña: cómo hacerlo bien →
+            </a>
+            <p className="mt-2 text-sm text-gray-600">
+              Versión aplicada al mercado gallego con ejemplos por sector: hostelería, comercio local y servicios profesionales en A Coruña.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Cross-link */}
       <section className="border-y border-accent-200 bg-accent-50 py-12">
         <div className="container-narrow text-center">

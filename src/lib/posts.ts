@@ -15,47 +15,47 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "metodos-y-tiempos-para-pymes",
     title: "Métodos y tiempos para pymes: cómo aplicar principios de eficiencia operativa sin ser una fábrica",
     excerpt: "El estudio de métodos y tiempos tiene fama de ser cosa de ingenieros industriales con cronómetro en mano. En realidad, sus principios aplican perfectamente a un despacho, un restaurante o una tienda. Guía práctica con ejemplos reales en pymes no industriales.",
-    date: "11 septiembre 2026",
-    category: "Procesos y operaciones",
+    date: "27 agosto 2026",
+    category: "Organización",
     readTime: "12 min",
-    publishDate: "2026-09-11",
-  },
-  {
-    slug: "analisis-competitivo-empresas-coruna",
-    title: "Análisis competitivo para empresas en A Coruña: cómo hacerlo bien sin gastar en informes que no lees",
-    excerpt: "Análisis competitivo no es hacer un DAFO ni comprar un informe sectorial de 80 páginas. Es entender contra quién compites de verdad, qué hace bien y qué mal, y qué puedes aprovechar tú. Guía práctica adaptada al mercado de A Coruña.",
-    date: "18 septiembre 2026",
-    category: "Estrategia",
-    readTime: "10 min",
-    publishDate: "2026-09-18",
+    publishDate: "2026-08-27",
   },
   {
     slug: "consultoria-administrativa-personalizada",
     title: "Consultoría administrativa personalizada: qué es, qué incluye y cuándo la necesita tu empresa",
     excerpt: "Consultoría administrativa personalizada no es más gestoría. Es poner orden real en cómo funciona tu empresa por dentro para dejar de perder tiempo y dinero por procesos rotos. Guía práctica con casos reales y diferencias con la gestoría.",
-    date: "15 septiembre 2026",
+    date: "29 agosto 2026",
     category: "Organización",
     readTime: "12 min",
-    publishDate: "2026-09-15",
+    publishDate: "2026-08-29",
+  },
+  {
+    slug: "analisis-competitivo-empresas-coruna",
+    title: "Análisis competitivo para empresas en A Coruña: cómo hacerlo bien sin gastar en informes que no lees",
+    excerpt: "Análisis competitivo no es hacer un DAFO ni comprar un informe sectorial de 80 páginas. Es entender contra quién compites de verdad, qué hace bien y qué mal, y qué puedes aprovechar tú. Guía práctica adaptada al mercado de A Coruña.",
+    date: "31 agosto 2026",
+    category: "Estrategia",
+    readTime: "10 min",
+    publishDate: "2026-08-31",
   },
   {
     slug: "segmentacion-clientes-identificar-rentables",
     title: "Segmentación de clientes: cómo identificar a los rentables (y despedir a los tóxicos)",
     excerpt: "No todos tus clientes te dejan lo mismo. El 20% suele generar el 80% del beneficio — y otro 20% te hace perder dinero directamente. Guía práctica para segmentar tu cartera por rentabilidad real, con método, casos y cómo despedir clientes con elegancia.",
-    date: "22 septiembre 2026",
+    date: "2 septiembre 2026",
     category: "Rentabilidad",
     readTime: "13 min",
-    publishDate: "2026-09-22",
+    publishDate: "2026-09-02",
   },
   {
     slug: "aumentar-rentabilidad-asesoria-despacho-gestoria",
     title: "Cómo aumentar la rentabilidad de una asesoría, despacho o gestoría — Guía práctica",
     excerpt: "El sector de asesorías y gestorías vive una crisis silenciosa: clientes que se van a plataformas online, márgenes estancados y percepción de menos valor. Guía práctica con 6 palancas concretas, casos reales, errores típicos y plan de acción en 90 días.",
-    date: "8 septiembre 2026",
+    date: "3 septiembre 2026",
     category: "Servicios profesionales",
     readTime: "16 min",
     isPillar: true,
-    publishDate: "2026-09-08",
+    publishDate: "2026-09-03",
   },
   {
     slug: "como-mejorar-rentabilidad-empresa",
@@ -674,4 +674,34 @@ export const STATIC_PAGES = [
 
 export function getVisiblePosts(today: string = new Date().toISOString().slice(0, 10)): BlogPost[] {
   return BLOG_POSTS.filter((p) => !p.publishDate || p.publishDate <= today);
+}
+
+const MONTHS_ES: Record<string, string> = {
+  enero: "01", febrero: "02", marzo: "03", abril: "04",
+  mayo: "05", junio: "06", julio: "07", agosto: "08",
+  septiembre: "09", octubre: "10", noviembre: "11", diciembre: "12",
+};
+
+function postSortDate(post: BlogPost): string {
+  if (post.publishDate) return post.publishDate;
+  // Parseo del texto "10 abril 2025" → "2025-04-10"
+  const parts = post.date.toLowerCase().split(" ");
+  if (parts.length === 3) {
+    const [day, monthName, year] = parts;
+    const month = MONTHS_ES[monthName];
+    if (month && /^\d{4}$/.test(year)) {
+      return `${year}-${month}-${day.padStart(2, "0")}`;
+    }
+  }
+  return "2000-01-01";
+}
+
+export function getLatestPosts(
+  limit: number = 8,
+  today: string = new Date().toISOString().slice(0, 10)
+): BlogPost[] {
+  return getVisiblePosts(today)
+    .slice()
+    .sort((a, b) => postSortDate(b).localeCompare(postSortDate(a)))
+    .slice(0, limit);
 }
