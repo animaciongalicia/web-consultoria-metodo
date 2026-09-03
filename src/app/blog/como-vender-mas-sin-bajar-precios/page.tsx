@@ -4,22 +4,25 @@ import BlogNav from "@/components/BlogNav";
 import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
-  title: "Cómo vender más sin bajar precios | Consultoría Método",
+  title: "Cómo vender más sin bajar precios — 7 estrategias para pymes que sí funcionan | Consultoría Método",
   description:
-    "Bajar precios no es una estrategia de ventas. Descubre cómo vender más mejorando tu propuesta de valor. Consultoría empresarial en Coruña, Galicia y online.",
+    "Bajar precios no es una estrategia de ventas. 7 estrategias prácticas para aumentar ventas en pymes sin descuentos, protegiendo el margen y la marca. Con ejemplos reales.",
   keywords: [
     "vender más sin bajar precios",
+    "cómo vender más sin descuentos",
+    "aumentar ventas sin bajar precios",
     "aumentar ventas pyme",
     "estrategia ventas negocio",
     "vender por valor",
+    "más ventas sin descontar",
     "consultor empresarial Coruña",
     "consultoría empresas Coruña",
     "mejora de empresas",
   ],
   openGraph: {
-    title: "Cómo vender más sin bajar precios | Consultoría Método",
+    title: "Cómo vender más sin bajar precios — 7 estrategias para pymes que sí funcionan",
     description:
-      "Bajar precios no es una estrategia de ventas. Descubre cómo vender más mejorando tu propuesta de valor. Consultoría empresarial en Coruña, Galicia y online.",
+      "Bajar precios destruye margen y marca. 7 estrategias reales para vender más sin descuentos, con ejemplos y método aplicable en pymes.",
     locale: "es_ES",
     type: "article",
   },
@@ -29,10 +32,11 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Cómo vender más sin bajar precios",
+  headline: "Cómo vender más sin bajar precios — 7 estrategias para pymes que sí funcionan",
   author: { "@type": "Person", name: "Pablo García Dacosta" },
   publisher: { "@type": "Organization", name: "Consultoría Método" },
   datePublished: "2025-05-01",
+  dateModified: "2026-09-03",
 };
 
 export default function ArticuloVenderMas() {
@@ -45,7 +49,7 @@ export default function ArticuloVenderMas() {
         <div className="container-narrow text-center">
           <p className="text-sm font-semibold uppercase tracking-widest text-accent-400">Blog — Consultoría Método</p>
           <h1 className="mt-4 text-3xl font-extrabold leading-tight text-white md:text-4xl lg:text-5xl">
-            Cómo vender más sin bajar precios
+            Cómo vender más sin bajar precios — 7 estrategias para pymes que sí funcionan
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
             Cada vez que bajas el precio, estás diciéndole al mercado que tu producto no vale lo que pedías. Hay formas

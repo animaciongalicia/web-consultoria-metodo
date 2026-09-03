@@ -112,6 +112,51 @@ export default function Blog() {
         <div className="mx-auto max-w-7xl px-4 lg:grid lg:grid-cols-[1fr_300px] lg:gap-10 xl:gap-14">
           {/* Columna principal - Posts */}
           <div>
+            {/* Últimos publicados — bloque destacado al inicio */}
+            <div className="mb-10">
+              <h2 className="text-xs font-bold uppercase tracking-widest text-accent-600 mb-4">
+                Últimos publicados
+              </h2>
+              <div className="rounded-xl border-2 border-accent-200 bg-gradient-to-br from-accent-50/80 to-white p-4 md:p-5">
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {latestPosts.slice(0, 6).map((post) => {
+                    const colors = categoryColors[post.category] || {
+                      bg: "bg-gray-50",
+                      text: "text-gray-600",
+                    };
+                    return (
+                      <a
+                        key={post.slug}
+                        href={`/blog/${post.slug}`}
+                        className="group flex flex-col rounded-lg border border-accent-200/60 bg-white p-4 shadow-sm transition-all hover:shadow-md hover:border-accent-400"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`inline-block rounded-full px-2 py-0.5 text-[10px] font-semibold ${colors.bg} ${colors.text}`}
+                          >
+                            {post.category}
+                          </span>
+                          <span className="text-[10px] text-gray-400">
+                            {post.date}
+                          </span>
+                        </div>
+                        <h3 className="mt-2 text-sm font-bold leading-snug text-gray-900 group-hover:text-primary-700 transition-colors line-clamp-2">
+                          {post.title}
+                        </h3>
+                        <p className="mt-1.5 flex-1 text-xs text-gray-500 leading-relaxed line-clamp-2">
+                          {post.excerpt}
+                        </p>
+                        <p className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-accent-600 group-hover:gap-1.5 transition-all">
+                          Leer artículo
+                          <span aria-hidden="true">→</span>
+                        </p>
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+
             {/* Guías completas — pilares SEO */}
             <div className="mb-10">
               <h2 className="text-xs font-bold uppercase tracking-widest text-accent-600 mb-4">

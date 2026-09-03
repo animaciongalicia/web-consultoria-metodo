@@ -159,6 +159,26 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
               el método es el mismo.
             </p>
 
+            {/* Resumen visual de los 4 pasos */}
+            <ol className="not-prose my-8 space-y-3 rounded-xl border-2 border-primary-200 bg-primary-50/40 p-6 text-gray-700">
+              <li>
+                <strong className="text-primary-900">1. Identificar competencia real</strong>{" "}
+                — directa (mismo producto o servicio en tu zona) y sustituta (todo lo que resuelve el mismo problema al cliente).
+              </li>
+              <li>
+                <strong className="text-primary-900">2. Recopilar información de campo</strong>{" "}
+                — Google Maps, reseñas, cliente misterioso, precios reales y conversaciones con tus propios clientes.
+              </li>
+              <li>
+                <strong className="text-primary-900">3. Comparar en una tabla simple</strong>{" "}
+                — una sola hoja con tú y tus principales competidores enfrentados por precio, propuesta, servicio y debilidades.
+              </li>
+              <li>
+                <strong className="text-primary-900">4. Decidir qué haces con esa información</strong>{" "}
+                — tres o cuatro acciones concretas: diferenciación, precios, refuerzos y canales de captación.
+              </li>
+            </ol>
+
             <h3 className="mt-8 text-xl font-semibold text-gray-900">
               1. Identificar la competencia real (directa y sustituta)
             </h3>
@@ -247,6 +267,43 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
               ))}
             </ul>
 
+            {/* Tabla comparativa de ejemplo */}
+            <div className="not-prose my-8 overflow-x-auto rounded-xl border border-primary-200 shadow-sm">
+              <table className="w-full min-w-[560px] border-collapse text-sm">
+                <thead className="bg-primary-900 text-white">
+                  <tr>
+                    <th className="px-4 py-3 text-left font-semibold">Competidor</th>
+                    <th className="px-4 py-3 text-left font-semibold">Precio</th>
+                    <th className="px-4 py-3 text-left font-semibold">Propuesta de valor</th>
+                    <th className="px-4 py-3 text-left font-semibold">Debilidad</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-primary-100 bg-white text-gray-700">
+                  <tr>
+                    <td className="px-4 py-3 font-bold text-primary-900">Competidor A</td>
+                    <td className="px-4 py-3">Alto — ticket medio 45 €</td>
+                    <td className="px-4 py-3">Producto premium, marca reconocida</td>
+                    <td className="px-4 py-3">Reseñas quejan del servicio lento</td>
+                  </tr>
+                  <tr className="bg-primary-50/40">
+                    <td className="px-4 py-3 font-bold text-primary-900">Competidor B</td>
+                    <td className="px-4 py-3">Medio — ticket medio 28 €</td>
+                    <td className="px-4 py-3">Relación calidad-precio, cercanía</td>
+                    <td className="px-4 py-3">Sin presencia digital ni reservas online</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3 font-bold text-primary-900">Competidor C</td>
+                    <td className="px-4 py-3">Bajo — ticket medio 18 €</td>
+                    <td className="px-4 py-3">Precio agresivo, rotación alta</td>
+                    <td className="px-4 py-3">Experiencia impersonal, sin fidelización</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-3 text-sm text-gray-500 italic">
+              Ejemplo simplificado. En una sesión real la tabla incluye también tu negocio como columna y añade filas de servicio, captación y presencia digital.
+            </p>
+
             <h3 className="mt-8 text-xl font-semibold text-gray-900">
               4. Decidir qué haces con esa información
             </h3>
@@ -259,19 +316,6 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
               el lunes siguiente, no ha servido de nada.
             </p>
 
-            {/* Aviso */}
-            <div className="my-10 rounded-lg border-l-4 border-red-500 bg-red-50 p-6">
-              <p className="font-semibold text-red-800">
-                Error frecuente
-              </p>
-              <p className="mt-2 text-red-700">
-                Muchos empresarios hacen el análisis, lo miran, dicen
-                «qué interesante» y siguen exactamente igual que estaban.
-                Un análisis competitivo sin plan de acción es un pasatiempo,
-                no una herramienta de gestión.
-              </p>
-            </div>
-
             {/* H2 — Ejemplos por sector */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
               Ejemplos concretos por sector en A Coruña
@@ -282,52 +326,73 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
               en la ciudad y el área metropolitana.
             </p>
 
-            <h3 className="mt-8 text-xl font-semibold text-gray-900">
-              Hostelería en A Coruña centro
-            </h3>
-            <p className="mt-3 text-gray-600 md:text-lg">
-              La competencia en hostelería es hipérlocal: en la Marina, en la
-              zona de Estrella o en Juan Flórez la densidad es tal que compites
-              con quien está a treinta metros. El análisis se centra en
-              posicionamiento — tapa clásica, cocina de mercado, gastronomía
-              temática — y en la experiencia. Diferenciarse por concepto
-              (producto local trabajado, formato compartir, horario
-              atípico) suele funcionar mejor que competir en precio. Si es
-              tu caso, te puede interesar la guía específica sobre{" "}
-              <a
-                href="/blog/hosteleria-coruna-rentabilidad"
-                className="text-accent-600 underline hover:text-accent-700"
-              >
-                hostelería en A Coruña y cómo ser rentable
-              </a>{" "}
-              en un mercado saturado.
-            </p>
+            {/* Tarjetas visuales por sector */}
+            <div className="not-prose my-8 grid gap-4 md:grid-cols-3">
+              <div className="rounded-xl border border-primary-200 bg-primary-50/30 p-5 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                  Sector
+                </p>
+                <p className="mt-2 text-lg font-bold text-primary-900">
+                  Hostelería A Coruña centro
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  Competencia hiperlocal — Marina, Estrella, Juan Flórez —
+                  con densidad de treinta metros. El análisis se centra en
+                  posicionamiento (tapa clásica, cocina de mercado,
+                  gastronomía temática) y en la experiencia. Diferenciarse
+                  por concepto — producto local trabajado, formato
+                  compartir, horario atípico — funciona mejor que competir
+                  en precio.
+                </p>
+                <p className="mt-3 text-sm text-gray-700">
+                  Guía específica:{" "}
+                  <a
+                    href="/blog/hosteleria-coruna-rentabilidad"
+                    className="font-semibold text-accent-600 underline hover:text-accent-700"
+                  >
+                    hostelería en A Coruña y cómo ser rentable
+                  </a>
+                  .
+                </p>
+              </div>
 
-            <h3 className="mt-8 text-xl font-semibold text-gray-900">
-              Comercio local en barrios de A Coruña
-            </h3>
-            <p className="mt-3 text-gray-600 md:text-lg">
-              Un comercio en el Ensanche, en Monte Alto o en Elviña no
-              compite solo con el comercio de su calle. Compite con
-              Marineda City, con el centro comercial Cuatro Caminos y con
-              Amazon. El análisis tiene que incluir esos sustitutos, y la
-              diferenciación suele estar en asesoramiento personal, servicio
-              cercano, gama especializada y experiencia de compra que la
-              gran superficie no puede ofrecer.
-            </p>
+              <div className="rounded-xl border border-primary-200 bg-primary-50/30 p-5 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                  Sector
+                </p>
+                <p className="mt-2 text-lg font-bold text-primary-900">
+                  Comercio local en barrios
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  Un comercio en el Ensanche, Monte Alto o Elviña no
+                  compite solo con la tienda de su calle. Compite con
+                  Marineda City, con Cuatro Caminos y con Amazon. El
+                  análisis debe incluir esos sustitutos. La diferenciación
+                  suele estar en asesoramiento personal, servicio cercano,
+                  gama especializada y experiencia de compra que la gran
+                  superficie no puede ofrecer.
+                </p>
+              </div>
 
-            <h3 className="mt-8 text-xl font-semibold text-gray-900">
-              Servicios profesionales
-            </h3>
-            <p className="mt-3 text-gray-600 md:text-lg">
-              Asesorías, abogados, arquitectos o consultores en A Coruña
-              compiten con despachos locales establecidos y, cada vez más,
-              con plataformas online que ofrecen precio bajo y servicio
-              estándar. Aquí el análisis se centra en posicionamiento
-              (generalista vs. especialista), tarifas, canal de captación
-              y reputación. La diferenciación real está casi siempre en
-              nicho, cercanía y resultados medibles.
-            </p>
+              <div className="rounded-xl border border-primary-200 bg-primary-50/30 p-5 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                  Sector
+                </p>
+                <p className="mt-2 text-lg font-bold text-primary-900">
+                  Servicios profesionales
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  Asesorías, abogados, arquitectos o consultores en A
+                  Coruña compiten con despachos locales establecidos y,
+                  cada vez más, con plataformas online de precio bajo y
+                  servicio estándar. El análisis se centra en
+                  posicionamiento (generalista vs. especialista), tarifas,
+                  canal de captación y reputación. La diferenciación real
+                  está casi siempre en nicho, cercanía y resultados
+                  medibles.
+                </p>
+              </div>
+            </div>
 
             {/* H2 — Errores típicos */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
@@ -347,6 +412,21 @@ export default function ArticuloAnalisisCompetitivoCoruna() {
                 </li>
               ))}
             </ul>
+
+            {/* Caja Error frecuente */}
+            <div className="not-prose my-8 rounded-xl border-l-4 border-red-400 bg-red-50 p-5">
+              <p className="text-sm font-bold uppercase tracking-widest text-red-700">
+                Error frecuente
+              </p>
+              <p className="mt-2 text-gray-800">
+                Muchos empresarios hacen el análisis, lo miran, dicen
+                «qué interesante» y siguen exactamente igual que estaban.
+                Un análisis competitivo sin plan de acción es un pasatiempo,
+                no una herramienta de gestión. Si tu revisión de competencia
+                no termina en tres o cuatro decisiones concretas para el
+                lunes siguiente, has hecho un informe, no un análisis.
+              </p>
+            </div>
 
             {/* H2 — Frecuencia */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">

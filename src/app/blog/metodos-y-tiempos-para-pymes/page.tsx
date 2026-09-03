@@ -118,6 +118,12 @@ export default function ArticuloMetodosYTiempos() {
             margen) cada día.
           </p>
 
+          <blockquote className="not-prose my-10 border-l-4 border-accent-500 bg-accent-50 py-6 px-6 italic text-gray-800 md:text-xl rounded-r-lg">
+            &ldquo;En una pyme, la operativa mal montada no aparece nunca en la
+            cuenta de resultados. Aparece cada noche, en las horas que te has
+            quedado apagando fuegos que ni siquiera deberían existir.&rdquo;
+          </blockquote>
+
           {/* H2 — Qué es realmente */}
           <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
             Qué es realmente el estudio de métodos y tiempos
@@ -207,6 +213,24 @@ export default function ArticuloMetodosYTiempos() {
             jornada completa.
           </p>
 
+          <ol className="not-prose my-8 space-y-3 rounded-xl border-2 border-primary-200 bg-primary-50/40 p-6 text-gray-700">
+            <li>
+              <strong className="text-primary-900">1. Medir antes de mejorar</strong>{" "}
+              — sin cronometrar y observar, cualquier decisión de eficiencia es
+              una estimación de café. Primero foto real, después mejora.
+            </li>
+            <li>
+              <strong className="text-primary-900">2. Estandarizar procesos</strong>{" "}
+              — poner por escrito la mejor forma conocida para que el negocio no
+              dependa de la memoria de dos personas imprescindibles.
+            </li>
+            <li>
+              <strong className="text-primary-900">3. Iterar con foco</strong>{" "}
+              — un proceso cada vez, mejora continua en pasos pequeños. Kaizen
+              aplicado al día a día de la pyme.
+            </li>
+          </ol>
+
           <h3 className="mt-8 text-xl font-semibold text-gray-900">
             1. Medir antes de mejorar
           </h3>
@@ -250,16 +274,17 @@ export default function ArticuloMetodosYTiempos() {
           </p>
 
           {/* Aviso importante */}
-          <div className="my-10 rounded-lg border-l-4 border-red-500 bg-red-50 p-6">
-            <p className="font-semibold text-red-800">
-              Error frecuente al aplicar métodos y tiempos en pymes
+          <div className="not-prose my-10 rounded-xl border-l-4 border-red-400 bg-red-50 p-5">
+            <p className="text-sm font-bold uppercase tracking-widest text-red-700">
+              Error frecuente
             </p>
-            <p className="mt-2 text-red-700">
+            <p className="mt-2 text-gray-800">
               Muchos dueños intentan rediseñar cinco procesos a la vez, con el
               equipo entero, y el resultado es que no cambia ninguno. Se pierde
               el foco, el equipo se satura y el proyecto acaba en un cajón. La
-              regla es sencilla: un proceso cada vez, hasta que quede
-              realmente estable, y solo entonces se pasa al siguiente.
+              regla es sencilla: <strong className="text-red-800">un proceso
+              cada vez</strong>, hasta que quede realmente estable, y solo
+              entonces se pasa al siguiente.
             </p>
           </div>
 
@@ -273,58 +298,142 @@ export default function ArticuloMetodosYTiempos() {
             pymes que no tienen nada de fábrica.
           </p>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Despacho de abogados: el alta de nuevo cliente
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            En un despacho pequeño de Galicia, el proceso de alta de un cliente
-            nuevo tardaba entre dos y tres días, con intercambio de correos,
-            llamadas y un montón de documentos escaneados y reenviados. Al
-            cronometrarlo salieron 47 minutos de trabajo real repartidos entre
-            tres personas. El resto era tiempo de espera. Diseñamos un
-            checklist único con toda la documentación necesaria y una plantilla
-            de correo estándar. El alta bajó a cuatro horas y liberó dos horas
-            semanales al despacho.
-          </p>
+          <div className="not-prose my-10 grid gap-5 md:grid-cols-2">
+            {/* Card 1 — Despacho de abogados */}
+            <div className="rounded-2xl border-2 border-primary-200 bg-white p-6 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Despacho de abogados
+              </p>
+              <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                El alta de nuevo cliente
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-3 rounded-lg bg-gray-50 p-3 text-xs">
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-red-600">
+                    Antes
+                  </p>
+                  <p className="mt-1 text-gray-700">2-3 días · correos cruzados</p>
+                </div>
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-green-700">
+                    Después
+                  </p>
+                  <p className="mt-1 text-gray-700">4 horas · +2 h / semana</p>
+                </div>
+              </div>
+              <p className="mt-4 text-sm leading-relaxed text-gray-700">
+                En un despacho pequeño de Galicia, el proceso de alta de un
+                cliente nuevo tardaba entre dos y tres días, con intercambio
+                de correos, llamadas y un montón de documentos escaneados y
+                reenviados. Al cronometrarlo salieron{" "}
+                <strong>47 minutos de trabajo real</strong> repartidos entre
+                tres personas. El resto era tiempo de espera. Diseñamos un
+                checklist único con toda la documentación necesaria y una
+                plantilla de correo estándar. El alta bajó a cuatro horas y
+                liberó dos horas semanales al despacho.
+              </p>
+            </div>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Restaurante: la salida del servicio de mediodía
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            En un restaurante de menú del día, los platos del segundo tardaban
-            demasiado y se acumulaban comandas. Al observar el pase de cocina
-            durante tres servicios seguidos vimos que la cocinera hacía cinco
-            desplazamientos por plato entre la plancha, la nevera y el pase.
-            Reordenando la mise en place —guarniciones ya emplatadas, salsas al
-            lado de la plancha— pasamos de cinco desplazamientos a dos. El
-            servicio se acortó en 18 minutos de media y la cocina acabó menos
-            estresada.
-          </p>
+            {/* Card 2 — Restaurante */}
+            <div className="rounded-2xl border-2 border-primary-200 bg-white p-6 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Restaurante de menú
+              </p>
+              <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                La salida del servicio de mediodía
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-3 rounded-lg bg-gray-50 p-3 text-xs">
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-red-600">
+                    Antes
+                  </p>
+                  <p className="mt-1 text-gray-700">5 desplazamientos / plato</p>
+                </div>
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-green-700">
+                    Después
+                  </p>
+                  <p className="mt-1 text-gray-700">2 desplazamientos · −18 min</p>
+                </div>
+              </div>
+              <p className="mt-4 text-sm leading-relaxed text-gray-700">
+                En un restaurante de menú del día, los platos del segundo
+                tardaban demasiado y se acumulaban comandas. Al observar el
+                pase de cocina durante tres servicios seguidos vimos que la
+                cocinera hacía cinco desplazamientos por plato entre la
+                plancha, la nevera y el pase. Reordenando la mise en place
+                —guarniciones ya emplatadas, salsas al lado de la plancha—
+                pasamos de cinco desplazamientos a dos. El servicio se acortó
+                en 18 minutos de media y la cocina acabó menos estresada.
+              </p>
+            </div>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Tienda de barrio: la reposición y el cierre de caja
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            En una tienda de alimentación, la reposición se hacía a última hora
-            de la mañana, justo cuando entraba más clientela, con lo que las
-            dos dependientas se pisaban y atendían tarde. Movimos la reposición
-            a primera hora, antes de abrir, y estandarizamos el cierre de caja
-            en una hoja de dos páginas. Resultado: 25 minutos menos cada día,
-            125 minutos a la semana. Más de 100 horas al año recuperadas.
-          </p>
+            {/* Card 3 — Tienda de barrio */}
+            <div className="rounded-2xl border-2 border-primary-200 bg-white p-6 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Tienda de barrio
+              </p>
+              <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                Reposición y cierre de caja
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-3 rounded-lg bg-gray-50 p-3 text-xs">
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-red-600">
+                    Antes
+                  </p>
+                  <p className="mt-1 text-gray-700">Reposición en hora punta</p>
+                </div>
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-green-700">
+                    Después
+                  </p>
+                  <p className="mt-1 text-gray-700">−25 min / día · +100 h / año</p>
+                </div>
+              </div>
+              <p className="mt-4 text-sm leading-relaxed text-gray-700">
+                En una tienda de alimentación, la reposición se hacía a última
+                hora de la mañana, justo cuando entraba más clientela, con lo
+                que las dos dependientas se pisaban y atendían tarde. Movimos
+                la reposición a primera hora, antes de abrir, y estandarizamos
+                el cierre de caja en una hoja de dos páginas. Resultado: 25
+                minutos menos cada día, 125 minutos a la semana. Más de 100
+                horas al año recuperadas.
+              </p>
+            </div>
 
-          <h3 className="mt-8 text-xl font-semibold text-gray-900">
-            Clínica dental: la agenda y los tiempos por tratamiento
-          </h3>
-          <p className="mt-3 text-gray-600 md:text-lg">
-            En una clínica dental, las agendas se hacían asignando el mismo
-            tiempo a todos los tratamientos, y algunos —los más complejos— se
-            alargaban hasta media hora provocando retrasos en cadena. Medimos
-            durante seis semanas el tiempo real de cada tipo de tratamiento y
-            construimos una tabla de duraciones por servicio. La ocupación de
-            gabinete mejoró un 12% y los retrasos habituales prácticamente
-            desaparecieron.
-          </p>
+            {/* Card 4 — Clínica dental */}
+            <div className="rounded-2xl border-2 border-primary-200 bg-white p-6 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-accent-600">
+                Clínica dental
+              </p>
+              <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                Agenda por tiempos de tratamiento
+              </p>
+              <div className="mt-4 grid grid-cols-2 gap-3 rounded-lg bg-gray-50 p-3 text-xs">
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-red-600">
+                    Antes
+                  </p>
+                  <p className="mt-1 text-gray-700">Mismo tiempo para todo</p>
+                </div>
+                <div>
+                  <p className="font-bold uppercase tracking-widest text-green-700">
+                    Después
+                  </p>
+                  <p className="mt-1 text-gray-700">+12% ocupación · sin retrasos</p>
+                </div>
+              </div>
+              <p className="mt-4 text-sm leading-relaxed text-gray-700">
+                En una clínica dental, las agendas se hacían asignando el mismo
+                tiempo a todos los tratamientos, y algunos —los más complejos—
+                se alargaban hasta media hora provocando retrasos en cadena.
+                Medimos durante seis semanas el tiempo real de cada tipo de
+                tratamiento y construimos una tabla de duraciones por servicio.
+                La ocupación de gabinete mejoró un 12% y los retrasos
+                habituales prácticamente desaparecieron.
+              </p>
+            </div>
+          </div>
 
           <blockquote className="my-10 border-l-4 border-accent-500 bg-accent-50 py-6 px-6 italic text-gray-800 md:text-xl rounded-r-lg">
             &ldquo;No cambiamos a la gente. Cambiamos cómo estaba organizado el
@@ -340,6 +449,19 @@ export default function ArticuloMetodosYTiempos() {
             la diferencia entre que funcione o que sea un desastre. Estos son
             los errores que más veo:
           </p>
+
+          <div className="not-prose my-8 rounded-xl border-l-4 border-red-400 bg-red-50 p-5">
+            <p className="text-sm font-bold uppercase tracking-widest text-red-700">
+              Error frecuente
+            </p>
+            <p className="mt-2 text-gray-800">
+              Usar el cronómetro como control policial sobre el equipo. En cuanto
+              la gente lo percibe como una amenaza, se defiende: esconde tiempos
+              reales, se resiste a documentar y sabotea (a veces sin darse cuenta)
+              el propio proyecto. <strong>Métodos y tiempos funciona solo cuando
+              es información compartida para mejorar juntos, nunca como látigo.</strong>
+            </p>
+          </div>
 
           <ul className="my-6 space-y-3 rounded-xl border border-primary-200 bg-primary-50/30 p-6 text-gray-700">
             <li>

@@ -5,23 +5,27 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title:
-    "Cómo fidelizar clientes en una pyme: estrategias que funcionan | Consultoría Método",
+    "Fidelización de clientes en pymes: 8 estrategias prácticas que funcionan | Consultoría Método",
   description:
-    "Retener clientes cuesta 5 veces menos que conseguir nuevos. Descubre estrategias de fidelización para pymes. Consultoría en Coruña, Galicia y online.",
+    "Fidelización de clientes pymes: por qué retener cuesta 5× menos que captar, las 8 estrategias que sí funcionan en pymes reales, errores habituales y cómo montar un sistema estable de recurrencia.",
   keywords: [
-    "fidelizar clientes pyme",
+    "fidelización de clientes pymes",
+    "fidelización clientes pyme",
+    "cómo fidelizar clientes pyme",
     "retener clientes negocio",
     "estrategias fidelización",
     "clientes recurrentes",
+    "sistema fidelización pyme",
+    "programa fidelización pequeño negocio",
     "consultor empresarial Coruña",
     "consultoría empresas Coruña",
     "mejora de empresas",
   ],
   openGraph: {
     title:
-      "Cómo fidelizar clientes en una pyme: estrategias que funcionan",
+      "Fidelización de clientes en pymes: 8 estrategias prácticas que funcionan",
     description:
-      "Retener clientes cuesta 5 veces menos que conseguir nuevos. Estrategias prácticas de fidelización para pequeños negocios.",
+      "Retener cuesta 5× menos que captar. Guía práctica de fidelización de clientes para pymes con 8 estrategias reales, errores típicos y cómo montar un sistema estable.",
     locale: "es_ES",
     type: "article",
   },
@@ -35,9 +39,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline:
-    "Cómo fidelizar clientes en una pyme: estrategias que funcionan",
+    "Fidelización de clientes en pymes: 8 estrategias prácticas que funcionan",
   description:
-    "Retener clientes cuesta 5 veces menos que conseguir nuevos. Estrategias prácticas de fidelización para pequeños negocios.",
+    "Fidelización de clientes pymes: por qué retener cuesta 5× menos que captar, las 8 estrategias que sí funcionan y cómo montar un sistema estable de recurrencia.",
   author: {
     "@type": "Person",
     name: "Pablo García Dacosta",
@@ -49,7 +53,7 @@ const jsonLd = {
     url: "https://consultoriametodo.es",
   },
   datePublished: "2025-04-10",
-  dateModified: "2025-04-10",
+  dateModified: "2026-09-03",
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":

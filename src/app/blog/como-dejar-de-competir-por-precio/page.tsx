@@ -109,6 +109,11 @@ export default function ArticuloDejarCompetirPorPrecio() {
               que tú todavía no haces.
             </p>
 
+            <blockquote className="not-prose my-10 rounded-r-lg border-l-4 border-accent-500 bg-accent-50 px-6 py-6 italic text-gray-800 md:text-xl">
+              &ldquo;Competir por precio es la estrategia por defecto de los
+              negocios que no tienen estrategia&rdquo;
+            </blockquote>
+
             {/* H2 — Por qué caemos en la trampa */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
               Por qué las pymes caen en la trampa del precio
@@ -126,6 +131,17 @@ export default function ArticuloDejarCompetirPorPrecio() {
               apretar tu margen. Pero eso funciona hasta que llega alguien
               dispuesto a apretar un poco más. Y siempre llega.
             </p>
+
+            <div className="not-prose my-8 rounded-xl border-l-4 border-red-400 bg-red-50 p-5">
+              <p className="text-sm font-bold uppercase tracking-widest text-red-700">
+                La trampa
+              </p>
+              <p className="mt-2 text-gray-800">
+                Cuando no sabes qué te hace diferente, lo único que puedes
+                ofrecer es un número más bajo. Y ese número siempre lo puede
+                batir alguien que tenga menos que perder que tú.
+              </p>
+            </div>
 
             <div className="my-8 rounded-xl border border-amber-300 bg-amber-50 p-6">
               <p className="font-bold text-amber-900 md:text-lg">
@@ -225,6 +241,46 @@ export default function ArticuloDejarCompetirPorPrecio() {
               ofreces no se puede comparar con lo de nadie más. Tu trabajo es
               crear esa percepción. Y que sea verdad.&rdquo;
             </blockquote>
+
+            <div className="not-prose my-8 overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="bg-primary-100">
+                  <tr>
+                    <th className="p-3 text-left font-bold text-primary-900">
+                      Aspecto
+                    </th>
+                    <th className="p-3 text-left font-bold text-red-700">
+                      Compitiendo por precio
+                    </th>
+                    <th className="p-3 text-left font-bold text-emerald-700">
+                      Compitiendo por valor
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">Margen</td>
+                    <td className="p-3">Cada vez más pequeño</td>
+                    <td className="p-3">Estable o creciente</td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">Cliente tipo</td>
+                    <td className="p-3">Va y viene según precio</td>
+                    <td className="p-3">Fiel, referidor</td>
+                  </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">Estrés</td>
+                    <td className="p-3">Constante</td>
+                    <td className="p-3">Bajo control</td>
+                  </tr>
+                  <tr>
+                    <td className="p-3 font-semibold">Futuro</td>
+                    <td className="p-3">Peor cada año</td>
+                    <td className="p-3">Más previsible</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
             {/* H2 — Estrategias prácticas */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
@@ -443,12 +499,54 @@ export default function ArticuloDejarCompetirPorPrecio() {
               si cuidas a tu cliente, mereces cobrar un precio que refleje ese
               valor.
             </p>
+
+            <ol className="not-prose my-8 space-y-3 rounded-xl border-2 border-primary-200 bg-primary-50/40 p-6 text-gray-700">
+              <li>
+                <strong className="text-primary-900">
+                  1. Especialización
+                </strong>{" "}
+                — deja de ser un &ldquo;todo para todos&rdquo; y conviértete
+                en el referente de un nicho concreto.
+              </li>
+              <li>
+                <strong className="text-primary-900">
+                  2. Servicio superior
+                </strong>{" "}
+                — cuida el proceso, no solo el resultado. La experiencia
+                importa tanto como el trabajo entregado.
+              </li>
+              <li>
+                <strong className="text-primary-900">
+                  3. Marca y confianza
+                </strong>{" "}
+                — reseñas, casos, contenido y presencia. La opción segura
+                nunca es la más barata.
+              </li>
+              <li>
+                <strong className="text-primary-900">
+                  4. Producto o paquete diferencial
+                </strong>{" "}
+                — deja de vender horas; empaqueta resultados con nombre
+                propio.
+              </li>
+            </ol>
             <p className="mt-4 text-gray-600 md:text-lg">
               El mercado no castiga a los caros. Castiga a los que no aportan
               valor. Si tú aportas valor, el precio deja de ser una barrera y
               se convierte en un filtro que atrae exactamente al tipo de
               cliente que quieres tener.
             </p>
+
+            <div className="not-prose my-8 rounded-xl border-l-4 border-amber-400 bg-amber-50 p-5">
+              <p className="text-sm font-bold uppercase tracking-widest text-amber-700">
+                Consejo práctico
+              </p>
+              <p className="mt-2 text-gray-800">
+                Antes de bajar un precio, pregúntate qué podrías añadir para
+                justificar el actual. Casi siempre es más rentable sumar valor
+                que restar euros — y protege tu margen sin tocar tu tarifa.
+              </p>
+            </div>
 
             {/* CTA interno */}
             <div className="not-prose mt-16 rounded-2xl border border-primary-100 bg-primary-50/60 p-8 text-center">

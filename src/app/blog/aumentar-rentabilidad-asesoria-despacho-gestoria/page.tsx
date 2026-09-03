@@ -832,7 +832,7 @@ export default function ArticuloAumentarRentabilidadAsesoria() {
 
             {/* H2 — Cuándo pedir ayuda */}
             <h2 className="mt-14 text-2xl font-bold text-gray-900 md:text-3xl">
-              Cuándo tiene sentido pedir ayuda externa
+              Cómo Consultoría Método ayuda a asesorías, despachos y gestorías
             </h2>
             <p className="mt-4 text-gray-600 md:text-lg">
               Todo lo anterior se puede hacer solo. He visto titulares
@@ -844,7 +844,64 @@ export default function ArticuloAumentarRentabilidadAsesoria() {
               tomar decisiones.
             </p>
             <p className="mt-4 text-gray-600 md:text-lg">
-              Si es tu caso, la{" "}
+              Cuando una asesoría o gestoría nos contrata, hacemos dos cosas
+              que van de la mano y que resuelven a la vez el problema del
+              despacho y el de su cartera de clientes:
+            </p>
+
+            <div className="not-prose my-8 grid gap-5 md:grid-cols-2">
+              <div className="rounded-2xl border-2 border-primary-200 bg-primary-50/40 p-6 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-widest text-primary-700">
+                  1 · Para tus clientes
+                </p>
+                <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                  Añadir valor real — que ganen más dinero contigo al lado
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  Convertimos tu despacho en un asesor que <strong>aporta
+                  criterio empresarial</strong>, no solo obligaciones fiscales.
+                  Diagnóstico de rentabilidad, análisis de márgenes,
+                  informes trimestrales que sí se leen, decisiones
+                  acompañadas. Tus clientes dejan de percibirte como
+                  &ldquo;el que hace los papeles&rdquo; y empiezan a verte
+                  como <strong>alguien imprescindible que les ayuda a
+                  ganar más dinero</strong>. Fidelización real, ticket
+                  medio arriba, referidos que llegan solos.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border-2 border-accent-200 bg-accent-50/50 p-6 shadow-sm">
+                <p className="text-xs font-bold uppercase tracking-widest text-accent-700">
+                  2 · Para tu propio despacho
+                </p>
+                <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                  Sobrevivir a la transformación del sector — y salir reforzado
+                </p>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700">
+                  El sector asesoría-gestoría <strong>pierde clientes cada
+                  año</strong> hacia plataformas online. El titular está
+                  agotado, el equipo desmotivado y los márgenes se
+                  estrechan. Trabajamos contigo el <strong>rediseño del
+                  modelo</strong>: paquetes de servicios, especialización
+                  vertical, tarifas ajustadas, procesos internos,
+                  captación proactiva. No es teoría — es lo que ya está
+                  funcionando en los despachos que no solo sobreviven,
+                  sino que <strong>ganan más que nunca</strong>.
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-4 text-gray-600 md:text-lg">
+              Estas dos cosas se refuerzan mutuamente: cuando tu despacho
+              aporta más valor a sus clientes, esos clientes pagan más,
+              recomiendan más y se quedan más tiempo — lo que asegura la
+              rentabilidad y sostenibilidad de tu negocio. Y cuando tu
+              despacho está bien estructurado internamente (paquetes,
+              procesos, equipo), puedes aportar más valor sin morir en
+              el intento.
+            </p>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              La{" "}
               <a
                 href="/consultoria-servicios-profesionales"
                 className="text-accent-600 underline hover:text-accent-700"
@@ -869,19 +926,40 @@ export default function ArticuloAumentarRentabilidadAsesoria() {
       {/* CTA FINAL */}
       <section className="section-padding bg-gradient-to-br from-primary-900 via-primary-800 to-primary-950">
         <div className="container-narrow text-center">
-          <h2 className="text-2xl font-bold text-white md:text-3xl">
-            ¿Tu asesoría o despacho vive de facturar horas y ya no da más
-            de sí?
+          <p className="text-xs font-bold uppercase tracking-widest text-accent-400">
+            Consultoría Método para asesorías, despachos y gestorías
+          </p>
+          <h2 className="mt-3 text-2xl font-bold text-white md:text-3xl">
+            Ayudamos a tu despacho a hacer dos cosas — y las dos deciden
+            si sobrevives los próximos 5 años
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-primary-100/90">
-            Trabajar con más clientes o más horas no es la solución. La
-            solución es cambiar el modelo: paquetes, especialización,
-            valor añadido y clientela premium. Si quieres empezar por
-            analizar tu situación real, hablemos.
+          <div className="mx-auto mt-6 grid max-w-3xl gap-3 text-left sm:grid-cols-2">
+            <div className="rounded-xl bg-white/10 p-4 backdrop-blur-sm">
+              <p className="text-sm font-semibold text-accent-300">Para tus clientes</p>
+              <p className="mt-1 text-sm text-primary-100/90">
+                Aportarles valor real, más allá del papeleo — para que
+                ganen más contigo al lado y no se vayan a una plataforma
+                online.
+              </p>
+            </div>
+            <div className="rounded-xl bg-white/10 p-4 backdrop-blur-sm">
+              <p className="text-sm font-semibold text-accent-300">Para tu despacho</p>
+              <p className="mt-1 text-sm text-primary-100/90">
+                Rediseñar el modelo — paquetes, especialización, procesos,
+                captación — para que dejes de trabajar más y ganes más.
+              </p>
+            </div>
+          </div>
+          <p className="mx-auto mt-6 max-w-2xl text-lg text-primary-100/90">
+            No son dos servicios distintos. Es una misma consultoría — la que
+            te permite <strong className="text-white">añadir valor a tus
+            clientes y salir reforzado de la crisis silenciosa del sector</strong>.
+            La primera conversación es gratis, sin compromiso, y 30 minutos
+            que valen la pena hasta si al final no trabajamos juntos.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a href="/diagnostico-negocio" className="btn-primary">
-              Solicitar diagnóstico de mi negocio
+              Solicitar diagnóstico de mi despacho
             </a>
             <a
               href={SITE.whatsapp}
@@ -893,7 +971,8 @@ export default function ArticuloAumentarRentabilidadAsesoria() {
             </a>
           </div>
           <p className="mt-6 text-sm text-primary-300">
-            Primera conversación gratuita — 30 minutos, sin compromiso.
+            30 minutos, sin compromiso · Presencial en A Coruña · Por
+            videollamada en el resto de España
           </p>
         </div>
       </section>
