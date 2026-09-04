@@ -13,9 +13,9 @@ const FAQS = [
       "La sesión inicial son 60-90 minutos. El diagnóstico completo, con informe y plan de acción, se entrega en 1-2 semanas. Los programas de mejora o transformación se desarrollan entre 2 y 3 meses, con reuniones periódicas de seguimiento.",
   },
   {
-    question: "¿El diagnóstico es presencial u online?",
+    question: "¿El diagnóstico es presencial o por videollamada?",
     answer:
-      "Presencial en A Coruña ciudad y provincia (Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y resto de comarcas). Online en el resto de España. Muchos clientes combinan las dos modalidades: una primera visita presencial y después seguimiento por videollamada.",
+      "Presencial en A Coruña ciudad y provincia (Santiago de Compostela, Ferrol, Betanzos, Carballo, Arteixo, Culleredo y resto de comarcas). Por videollamada en el resto de España. Muchos clientes combinan las dos modalidades: una primera visita presencial y después seguimiento por videollamada.",
   },
   {
     question: "¿Qué diferencia hay entre contratar Consultoría Método y una asesoría o gestoría?",

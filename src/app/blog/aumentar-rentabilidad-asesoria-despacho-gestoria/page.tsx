@@ -900,6 +900,210 @@ export default function ArticuloAumentarRentabilidadAsesoria() {
               procesos, equipo), puedes aportar más valor sin morir en
               el intento.
             </p>
+
+            <h3 className="mt-12 text-xl font-bold text-primary-900 md:text-2xl">
+              Sinergia real: no somos tu competencia, somos tu palanca
+            </h3>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              Uno de los miedos más habituales cuando planteo esta
+              colaboración es: <em>&ldquo;¿No os vais a acabar quedando
+              vosotros con mis clientes?&rdquo;</em>. La respuesta es
+              rotundamente <strong>no</strong>. Consultoría Método{" "}
+              <strong>no hace nada de lo que hace una gestoría</strong>: ni
+              impuestos, ni nóminas, ni contabilidad, ni laboral. Cero
+              solape. Nosotros trabajamos rentabilidad, precios, procesos,
+              organización y captación — todo lo que tu cliente necesita
+              pero tú no le puedes dar (ni deberías, porque no es tu core).
+            </p>
+
+            <div className="not-prose my-8 rounded-2xl border-2 border-emerald-200 bg-emerald-50/40 p-6 shadow-sm">
+              <p className="text-xs font-bold uppercase tracking-widest text-emerald-700">
+                Modelo de sinergia
+              </p>
+              <p className="mt-2 text-lg font-bold leading-snug text-primary-900">
+                Tu despacho + Consultoría Método = valor completo para el cliente
+              </p>
+              <div className="mt-4 grid gap-4 md:grid-cols-2">
+                <div>
+                  <p className="text-sm font-bold text-emerald-800">Tú aportas</p>
+                  <ul className="mt-2 space-y-1 text-sm text-gray-700">
+                    <li>· Fiscal, laboral y contable</li>
+                    <li>· Relación de confianza de años</li>
+                    <li>· Conocimiento profundo del cliente</li>
+                    <li>· Continuidad operativa</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-sm font-bold text-emerald-800">Aportamos nosotros</p>
+                  <ul className="mt-2 space-y-1 text-sm text-gray-700">
+                    <li>· Rentabilidad, márgenes y precios</li>
+                    <li>· Procesos y organización</li>
+                    <li>· Captación y estrategia comercial</li>
+                    <li>· Mirada externa con criterio</li>
+                  </ul>
+                </div>
+              </div>
+              <p className="mt-5 text-sm text-gray-700">
+                El cliente se queda contigo. Nosotros nunca aparecemos como
+                proveedor directo si no lo decides tú. Puedes presentarnos
+                como un servicio propio del despacho, como un partner
+                externo, o como quieras. La relación es siempre
+                <strong> a través de ti</strong>.
+              </p>
+            </div>
+
+            <h3 className="mt-10 text-xl font-bold text-primary-900 md:text-2xl">
+              Tres formas concretas de colaborar con Consultoría Método
+            </h3>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              No hay un único modelo. Adaptamos la colaboración al tipo de
+              despacho, tamaño de cartera y tipo de cliente. Estas son las
+              tres formas más habituales en las que ya trabajamos con
+              asesorías y gestorías:
+            </p>
+
+            <div className="not-prose my-8 space-y-4">
+              <div className="rounded-xl border border-primary-200 bg-white p-5 shadow-sm">
+                <div className="flex items-start gap-4">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white">
+                    1
+                  </span>
+                  <div>
+                    <p className="font-bold text-primary-900">
+                      Servicio de valor añadido bajo tu marca
+                    </p>
+                    <p className="mt-2 text-sm text-gray-700">
+                      Empaquetamos una consultoría de rentabilidad, control de
+                      gestión o captación como <strong>servicio premium de tu
+                      despacho</strong>. Tú lo vendes, nosotros lo ejecutamos
+                      contigo o en segundo plano. Tu cliente firma contigo, te
+                      paga a ti y tú te llevas margen. Tu despacho sube ticket
+                      medio sin abrir nueva línea de negocio.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-xl border border-primary-200 bg-white p-5 shadow-sm">
+                <div className="flex items-start gap-4">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white">
+                    2
+                  </span>
+                  <div>
+                    <p className="font-bold text-primary-900">
+                      Derivación con comisión
+                    </p>
+                    <p className="mt-2 text-sm text-gray-700">
+                      Nos derivas al cliente que necesita ayuda que tú no puedes
+                      darle (mejorar rentabilidad, ordenar procesos, salir del
+                      autoempleo, etc.). Nosotros trabajamos con él, tú sigues
+                      llevando su gestoría — y cobras una comisión de
+                      referral. Simple, transparente y sin conflicto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="rounded-xl border border-primary-200 bg-white p-5 shadow-sm">
+                <div className="flex items-start gap-4">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white">
+                    3
+                  </span>
+                  <div>
+                    <p className="font-bold text-primary-900">
+                      Consultoría interna para tu propio despacho
+                    </p>
+                    <p className="mt-2 text-sm text-gray-700">
+                      El cliente somos tú. Trabajamos las <strong>6 palancas
+                      del artículo</strong> aplicadas a tu propio despacho:
+                      paquetes, especialización, valor añadido, automatización,
+                      captación y filtrado de cartera. Programa cerrado de 2-3
+                      meses con resultado medible en tarifas, tiempo del
+                      titular y satisfacción del equipo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className="mt-4 text-gray-600 md:text-lg">
+              Los tres modelos son compatibles y muchas veces empiezan por
+              el <strong>3</strong> (mejorar el propio despacho) y evolucionan
+              al <strong>1</strong> o al <strong>2</strong> cuando la
+              relación se consolida. El primer paso es siempre una
+              conversación sin compromiso donde entendemos tu situación
+              real y te decimos con honestidad si tiene sentido para ti.
+            </p>
+
+            <h3 className="mt-10 text-xl font-bold text-primary-900 md:text-2xl">
+              Cómo agregamos valor concreto a las empresas cliente de tu despacho
+            </h3>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              Cuando entramos a trabajar con un cliente tuyo, aportamos cosas
+              muy concretas que hoy nadie le está dando (y que tú tampoco
+              deberías tener que dar):
+            </p>
+            <ul className="my-6 space-y-3 rounded-xl border border-primary-200 bg-primary-50/30 p-6 text-gray-700">
+              <li>
+                <strong className="text-primary-900">Análisis de rentabilidad real por línea, producto o cliente</strong>{" "}
+                — no lo que sale del PGC, sino qué gana de verdad y dónde
+                pierde dinero. Se traduce en decisiones concretas de subir
+                precios, eliminar productos o cambiar mix.
+              </li>
+              <li>
+                <strong className="text-primary-900">Revisión de precios con criterio</strong>{" "}
+                — la mayoría de pymes lleva años sin ajustar tarifas. Un
+                análisis serio suele traducirse en <strong>subidas del 8-20 %</strong>{" "}
+                sin perder cartera. Ese margen adicional cae directo al
+                beneficio.
+              </li>
+              <li>
+                <strong className="text-primary-900">Sistemas de captación estables</strong>{" "}
+                — proceso comercial documentado, seguimiento estructurado,
+                referidos con método. La cartera de tu cliente deja de
+                depender del boca a boca puro.
+              </li>
+              <li>
+                <strong className="text-primary-900">Organización interna y salida del autoempleo</strong>{" "}
+                — protocolos, delegación real, cuadro de mando. El dueño
+                deja de ser el cuello de botella y puede crecer sin
+                romperse.
+              </li>
+              <li>
+                <strong className="text-primary-900">Cuadro de mando mensual</strong>{" "}
+                — datos clave del negocio revisados una vez al mes. La
+                empresa deja de ir a ciegas y tú tienes con qué conversar
+                cuando te sientas con tu cliente cada trimestre.
+              </li>
+            </ul>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              El resultado que tu cliente ve es simple: <strong>gana más
+              dinero, trabaja mejor y toma decisiones con criterio</strong>.
+              El resultado que ves tú es que ese cliente <strong>te
+              atribuye parte del mérito</strong> (porque tú lo llevaste hasta
+              nosotros), te paga más, se queda contigo más años y te
+              recomienda a otros empresarios como él.
+            </p>
+
+            <h3 className="mt-10 text-xl font-bold text-primary-900 md:text-2xl">
+              Por qué esto funciona hoy — y por qué es urgente
+            </h3>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              El mercado ha cambiado. El cliente de una asesoría ya no se
+              conforma con &laquo;te presento el trimestre a tiempo&raquo;.
+              Quiere un socio que le ayude a decidir. Si tu despacho no se
+              lo da (por sí solo o vía alianza como esta), <strong>otro
+              despacho se lo dará</strong> — y esa es la fórmula real por
+              la que hoy se pierden clientes de asesoría, no por precio.
+            </p>
+            <p className="mt-4 text-gray-600 md:text-lg">
+              Nosotros llevamos <strong>más de 25 años trabajando con pymes
+              en Galicia y en toda España</strong>. Conocemos el sector
+              real, la operativa, los márgenes por sector, los procesos
+              críticos y las palancas que sí mueven el negocio. Y tenemos
+              muy claro que <strong>no te vamos a robar el cliente — te
+              vamos a ayudar a mantenerlo (y a que valga más)</strong>.
+            </p>
             <p className="mt-4 text-gray-600 md:text-lg">
               La{" "}
               <a
