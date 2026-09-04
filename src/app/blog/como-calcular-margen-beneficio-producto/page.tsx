@@ -5,7 +5,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Cómo calcular el margen de beneficio de un producto o servicio | Consultoría Método",
-  description: "Aprende a calcular el margen bruto y neto de tus productos y servicios con fórmulas claras y ejemplos reales. Consultoría empresarial en Coruña, Galicia y online.",
+  description: "Aprende a calcular el margen bruto y neto de tus productos y servicios con fórmulas claras y ejemplos reales. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: ["calcular margen beneficio", "margen bruto producto", "rentabilidad por producto", "margen neto servicio", "fórmula margen beneficio", "consultoría empresas Coruña", "mejora de empresas"],
   openGraph: { title: "Cómo calcular el margen de beneficio de un producto o servicio", description: "La mayoría de pymes no sabe el margen real de lo que vende. Descubre cómo calcularlo y qué hacer cuando descubres que un producto te da pérdidas.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/como-calcular-margen-beneficio-producto" },

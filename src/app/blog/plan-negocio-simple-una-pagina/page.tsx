@@ -5,7 +5,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Plan de negocio en una página: lo único que necesitas | Consultoría Método",
-  description: "Olvida los planes de 50 páginas. Un plan de negocio simple y práctico cabe en una página. Te enseñamos cómo. Consultoría en Coruña, Galicia y online.",
+  description: "Olvida los planes de 50 páginas. Un plan de negocio simple y práctico cabe en una página. Te enseñamos cómo. Consultoría en Coruña, Galicia y por videollamada.",
   keywords: ["plan de negocio simple", "plan negocio una página", "business model canvas pyme", "plan estratégico simple", "consultor empresarial Coruña", "consultoría empresas Coruña", "mejora de empresas"],
   openGraph: { title: "Plan de negocio en una página: lo único que necesitas", description: "Olvida los planes de 50 páginas. Un plan de negocio simple y práctico cabe en una página.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/plan-negocio-simple-una-pagina" },

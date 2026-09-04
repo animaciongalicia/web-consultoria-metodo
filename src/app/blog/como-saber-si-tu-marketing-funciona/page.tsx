@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo saber si tu marketing está funcionando: métricas para pymes | Consultoría Método",
   description:
-    "Aprende a medir si tu marketing funciona con métricas sencillas: CAC, conversión, ROI por campaña y coste por lead. Guía práctica para pymes. Consultoría en Coruña, Galicia y online.",
+    "Aprende a medir si tu marketing funciona con métricas sencillas: CAC, conversión, ROI por campaña y coste por lead. Guía práctica para pymes. Consultoría en Coruña, Galicia y por videollamada.",
   keywords: [
     "métricas marketing pymes",
     "medir marketing funciona",

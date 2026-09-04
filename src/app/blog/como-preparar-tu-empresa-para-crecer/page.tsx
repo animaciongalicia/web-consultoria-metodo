@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cómo preparar tu empresa para crecer sin que se rompa por el camino | Consultoría Método",
   description:
-    "Crecer sin estructura es la receta para el caos. Aprende a preparar tu empresa antes de dar el salto. Consultoría empresarial en Coruña, Galicia y online.",
+    "Crecer sin estructura es la receta para el caos. Aprende a preparar tu empresa antes de dar el salto. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "preparar empresa para crecer",
     "escalar negocio pequeño",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cómo preparar tu empresa para crecer sin que se rompa por el camino | Consultoría Método",
     description:
-      "Crecer sin estructura es la receta para el caos. Aprende a preparar tu empresa antes de dar el salto. Consultoría empresarial en Coruña, Galicia y online.",
+      "Crecer sin estructura es la receta para el caos. Aprende a preparar tu empresa antes de dar el salto. Consultoría empresarial en Coruña, Galicia y por videollamada.",
     locale: "es_ES",
     type: "article",
   },

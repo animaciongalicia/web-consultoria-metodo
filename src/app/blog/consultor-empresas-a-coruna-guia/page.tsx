@@ -221,18 +221,18 @@ export default function ConsultorCorunaGuia() {
               <li><strong>Formación y centros de actividad</strong> — catálogo, estacionalidad, mix.</li>
             </ul>
 
-            <h2>Presencial u online: ¿qué funciona mejor?</h2>
+            <h2>Presencial o por videollamada: ¿qué funciona mejor?</h2>
             <p>
               Atiendo tanto en formato presencial — desplazándome a la empresa en la provincia
-              de A Coruña — como en formato online para pymes en el resto de Galicia y España.
+              de A Coruña — como por videollamada para pymes en el resto de Galicia y España.
               Ninguno es superior al otro. El formato presencial permite ver la operativa real,
-              hablar con el equipo y captar detalles que no salen en un informe. El online, en
+              hablar con el equipo y captar detalles que no salen en un informe. La videollamada, en
               cambio, ahorra tiempo y facilita que las sesiones de seguimiento sean más
               frecuentes.
             </p>
             <p>
               En la práctica, muchos proyectos combinan ambos: sesiones presenciales clave al
-              principio y al final, y seguimiento online durante la ejecución. Eso funciona
+              principio y al final, y seguimiento por videollamada durante la ejecución. Eso funciona
               especialmente bien en pymes de Santiago, Ferrol, Carballo, Betanzos o Arteixo.
             </p>
 

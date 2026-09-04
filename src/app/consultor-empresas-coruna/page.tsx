@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "Consultor de empresas en A Coruña | Consultoría de negocios para empresas — Consultoría Método",
   description:
-    "Consultor de empresas en A Coruña con más de 25 años de experiencia. Diagnóstico, rentabilidad, captación de clientes y mejora de empresas en A Coruña ciudad y provincia (Santiago, Ferrol, Betanzos, Carballo). Presencial y online.",
+    "Consultor de empresas en A Coruña con más de 25 años de experiencia. Diagnóstico, rentabilidad, captación de clientes y mejora de empresas en A Coruña ciudad y provincia (Santiago, Ferrol, Betanzos, Carballo). Presencial y por videollamada.",
   keywords: [
     "consultor empresas A Coruña",
     "consultor de negocios A Coruña",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Consultor de empresas en A Coruña — Consultoría Método",
     description:
-      "Consultoría de negocios para empresas en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios y captación de clientes. Presencial en toda la provincia y online.",
+      "Consultoría de negocios para empresas en A Coruña ciudad y provincia. Diagnóstico, rentabilidad, precios y captación de clientes. Presencial en toda la provincia y por videollamada.",
     locale: "es_ES",
     type: "website",
   },
@@ -161,7 +161,7 @@ export default function ConsultorEmpresasCoruna() {
               },
               {
                 titulo: "Seguimiento presencial",
-                desc: "Las reuniones de seguimiento cara a cara tienen otra profundidad. Cuando hace falta, nos vemos. Cuando no, resolvemos online. Sin rigidez.",
+                desc: "Las reuniones de seguimiento cara a cara tienen otra profundidad. Cuando hace falta, nos vemos. Cuando no, resolvemos por videollamada. Sin rigidez.",
               },
             ].map((item) => (
               <div

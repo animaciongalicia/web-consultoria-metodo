@@ -5,7 +5,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Cómo gestionar empleados en una pyme sin volverte loco | Consultoría Método",
-  description: "Gestionar personas es el mayor reto de las pymes. Claves prácticas para liderar tu equipo. Consultoría empresarial en Coruña, Galicia y online.",
+  description: "Gestionar personas es el mayor reto de las pymes. Claves prácticas para liderar tu equipo. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: ["gestionar empleados pyme", "liderar equipo pequeño", "gestión personas negocio", "problemas con empleados", "consultor empresarial Coruña", "consultoría empresas Coruña", "mejora de empresas"],
   openGraph: { title: "Cómo gestionar empleados en una pyme sin volverte loco", description: "Gestionar personas es el mayor reto de las pymes. Claves prácticas para liderar tu equipo sin perder la cabeza.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/como-gestionar-empleados-pyme" },

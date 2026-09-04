@@ -569,7 +569,7 @@ export default function ArticuloContratarPrimerEmpleado() {
           <p className="text-lg text-gray-700 md:text-xl">
             Conoce más sobre nuestra{" "}
             <strong className="text-primary-800">
-              consultoría de negocios presencial en Galicia y online en toda
+              consultoría de negocios presencial en Galicia y por videollamada en el resto de
               España
             </strong>{" "}
             y el{" "}

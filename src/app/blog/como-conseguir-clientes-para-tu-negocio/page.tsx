@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo conseguir más clientes para tu negocio — Guía completa de captación para pymes | Consultoría Método",
   description:
-    "Guía práctica para conseguir clientes de forma constante: marketing local, digital, alianzas y sistema de ventas para pymes. Consultor de negocios en Coruña, Galicia y online.",
+    "Guía práctica para conseguir clientes de forma constante: marketing local, digital, alianzas y sistema de ventas para pymes. Consultor de negocios en Coruña, Galicia y por videollamada.",
   keywords: [
     "cómo conseguir clientes",
     "captación de clientes pymes",

@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cómo montar un proceso comercial en tu pyme (aunque no seas vendedor) | Consultoría Método",
   description:
-    "Aprende a crear un proceso comercial sencillo y efectivo para tu pyme. Pipeline, seguimiento y sistema de ventas paso a paso. Consultoría empresarial en Coruña, Galicia y online.",
+    "Aprende a crear un proceso comercial sencillo y efectivo para tu pyme. Pipeline, seguimiento y sistema de ventas paso a paso. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "proceso comercial pyme",
     "cómo vender en una pyme",

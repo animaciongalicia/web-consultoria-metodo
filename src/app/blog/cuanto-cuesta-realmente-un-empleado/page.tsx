@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cuánto cuesta realmente un empleado (y cómo calcularlo) | Consultoría Método",
   description:
-    "El coste real de un empleado va mucho más allá del salario bruto. Aprende a calcularlo con datos reales: SS, vacaciones, espacio, herramientas, gestión. Consultoría empresarial en Coruña, Galicia y online.",
+    "El coste real de un empleado va mucho más allá del salario bruto. Aprende a calcularlo con datos reales: SS, vacaciones, espacio, herramientas, gestión. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "cuánto cuesta un empleado",
     "coste real empleado pyme",

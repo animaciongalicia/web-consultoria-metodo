@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Los 10 errores más comunes de los empresarios pyme | Consultoría Método",
   description:
-    "Descubre los errores que frenan a la mayoría de pymes y cómo evitarlos. Consultoría empresarial en Coruña, Galicia y online.",
+    "Descubre los errores que frenan a la mayoría de pymes y cómo evitarlos. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "errores empresarios pyme",
     "errores comunes dueños negocio",
@@ -406,7 +406,7 @@ export default function ArticuloErroresEmpresarios() {
           <p className="mt-4 text-gray-600 md:text-lg">
             Si te has reconocido en varios de estos puntos y no sabes por
             dónde empezar, eso es exactamente lo que hacemos en consultoría
-            de empresas en Coruña y online: analizar tu situación, priorizar
+            de empresas en Coruña y por videollamada: analizar tu situación, priorizar
             y trazar un plan de mejora de empresas realista. A veces, una
             mirada externa es lo que marca la diferencia.
           </p>

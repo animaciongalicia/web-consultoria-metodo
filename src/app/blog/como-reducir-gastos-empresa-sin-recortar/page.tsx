@@ -5,7 +5,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 
 export const metadata: Metadata = {
   title: "Cómo reducir gastos en tu empresa sin recortar en lo que importa | Consultoría Método",
-  description: "7 áreas donde las pymes malgastan dinero y cómo optimizar gastos sin cargarte la calidad ni el crecimiento. Consultoría empresarial en Coruña, Galicia y online.",
+  description: "7 áreas donde las pymes malgastan dinero y cómo optimizar gastos sin cargarte la calidad ni el crecimiento. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: ["reducir gastos empresa", "recortar costes negocio", "optimizar gastos pyme", "ahorrar costes empresa", "gastos innecesarios negocio", "consultor empresarial Coruña", "mejora de empresas Galicia"],
   openGraph: { title: "Cómo reducir gastos en tu empresa sin recortar en lo que importa", description: "Optimizar no es recortar. Descubre las 7 áreas donde tu pyme pierde dinero sin saberlo.", locale: "es_ES", type: "article" },
   alternates: { canonical: "https://consultoriametodo.es/blog/como-reducir-gastos-empresa-sin-recortar" },

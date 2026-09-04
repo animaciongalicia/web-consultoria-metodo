@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cómo automatizar procesos en una empresa pequeña | Consultoría Método",
   description:
-    "No necesitas ser una gran empresa para automatizar. Descubre qué procesos automatizar primero y qué herramientas usar. Consultoría en Coruña, Galicia y online.",
+    "No necesitas ser una gran empresa para automatizar. Descubre qué procesos automatizar primero y qué herramientas usar. Consultoría en Coruña, Galicia y por videollamada.",
   keywords: [
     "automatizar procesos empresa pequeña",
     "automatización pyme",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cómo automatizar procesos en una empresa pequeña | Consultoría Método",
     description:
-      "No necesitas ser una gran empresa para automatizar. Descubre qué procesos automatizar primero y qué herramientas usar. Consultoría en Coruña, Galicia y online.",
+      "No necesitas ser una gran empresa para automatizar. Descubre qué procesos automatizar primero y qué herramientas usar. Consultoría en Coruña, Galicia y por videollamada.",
     locale: "es_ES",
     type: "article",
   },

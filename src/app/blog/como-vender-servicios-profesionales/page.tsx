@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cómo vender servicios profesionales sin sentirte vendedor | Consultoría Método",
   description:
-    "Guía práctica para profesionales que odian vender. Cómo conseguir clientes con un enfoque basado en confianza: diagnosticar antes de proponer, compartir conocimiento y hacer seguimiento sin presión. Consultoría empresarial en Galicia y online.",
+    "Guía práctica para profesionales que odian vender. Cómo conseguir clientes con un enfoque basado en confianza: diagnosticar antes de proponer, compartir conocimiento y hacer seguimiento sin presión. Consultoría empresarial en Galicia y por videollamada en el resto de España.",
   keywords: [
     "vender servicios profesionales",
     "cómo vender sin ser vendedor",

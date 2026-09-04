@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cuánto debe ganar el dueño de un negocio: la pregunta incómoda | Consultoría Método",
   description:
-    "Muchos empresarios pyme cobran menos que sus empleados. Aprende a calcular tu sueldo justo. Consultoría empresarial en Coruña, Galicia y online.",
+    "Muchos empresarios pyme cobran menos que sus empleados. Aprende a calcular tu sueldo justo. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "cuánto ganar dueño negocio",
     "sueldo empresario pyme",
@@ -336,7 +336,7 @@ export default function ArticuloSueldoEmpresario() {
             desajuste grande, ya tienes una prioridad clara para los
             próximos meses. Y si necesitas ayuda para reorganizar tus
             números y trazar un plan, eso es exactamente lo que hacemos
-            en consultoría empresarial en Coruña y online.
+            en consultoría empresarial en Coruña y por videollamada.
           </p>
           <p className="mt-4 text-gray-600 md:text-lg">
             Porque al final, la pregunta no es si puedes permitirte

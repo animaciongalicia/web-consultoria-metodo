@@ -582,9 +582,9 @@ export default function ArticuloConsultor() {
 
           <p className="mt-4 text-gray-600 md:text-lg">
             En mi caso, trabajo presencialmente en A Coruña y toda Galicia, y
-            online con empresas de cualquier punto de España. La realidad es
+            por videollamada con empresas de cualquier punto de España. La realidad es
             que después de la primera o segunda sesión presencial, muchos
-            clientes gallegos también prefieren combinar con sesiones online
+            clientes gallegos también prefieren combinar con sesiones por videollamada
             por comodidad. El formato no importa tanto como la calidad del
             trabajo.
           </p>

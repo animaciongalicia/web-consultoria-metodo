@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title:
     "Cómo hacer crecer una empresa paso a paso — Guía completa de crecimiento empresarial para pymes | Consultoría Método",
   description:
-    "Guía práctica para hacer crecer tu empresa: fases de crecimiento, errores al escalar, cuándo invertir y cuándo contratar. Consultoría empresarial en Coruña, Galicia y online.",
+    "Guía práctica para hacer crecer tu empresa: fases de crecimiento, errores al escalar, cuándo invertir y cuándo contratar. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "crecer empresa",
     "escalar negocio",

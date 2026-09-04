@@ -413,7 +413,7 @@ export default function ArticuloFidelizarClientes() {
           <p className="mt-4 text-gray-600 md:text-lg">
             Si necesitas ayuda para diseñar una estrategia de
             fidelización adaptada a tu pyme, eso es parte de lo que
-            hacemos como consultores empresariales en Coruña y online.
+            hacemos como consultores empresariales en Coruña y por videollamada.
             Analizar, priorizar y poner en marcha lo que realmente
             funciona.
           </p>

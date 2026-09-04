@@ -6,7 +6,7 @@ import BlogSidebar from "@/components/BlogSidebar";
 export const metadata: Metadata = {
   title: "Cómo hacer seguimiento comercial sin ser pesado | Consultoría Método",
   description:
-    "Sistema práctico de seguimiento comercial para pymes. Cadencia, plantillas y CRM básico para no perder ventas sin agobiar al cliente. Consultoría empresarial en Coruña, Galicia y online.",
+    "Sistema práctico de seguimiento comercial para pymes. Cadencia, plantillas y CRM básico para no perder ventas sin agobiar al cliente. Consultoría empresarial en Coruña, Galicia y por videollamada.",
   keywords: [
     "seguimiento comercial",
     "cómo hacer seguimiento de ventas",
