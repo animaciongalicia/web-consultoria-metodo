@@ -17,9 +17,9 @@ export const SITE = {
   // Ficha Google Business Profile
   googleBusinessProfile: "https://share.google/jaBnKfqDvizpNf1WV",
   title:
-    "Consultoría Método | Consultoría de Negocios y Empresas — Presencial en Galicia y por videollamada en el resto de España",
+    "Consultoría empresarial para pymes en España | Consultoría Método",
   description:
-    "Consultoría Método — Consultoría empresarial para pymes y empresas. Presencial en A Coruña y Galicia, por videollamada en el resto de España. Método Rentabilismo: mejora procesos, ventas y rentabilidad con decisiones claras. +25 años de experiencia.",
+    "Consultoría para pymes: rentabilidad, procesos, organización y ventas. Presencial en Galicia, por videollamada en toda España. +25 años. Método Rentabilismo.",
 };
 
 export const NAV_LINKS = [

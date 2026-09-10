@@ -166,6 +166,38 @@ const websiteJsonLd = {
   publisher: { "@id": ORG_ID },
 };
 
+// Person schema para el fundador — golden signal E-E-A-T para LLMs.
+// Solo campos verificables. NO se inventan awards, memberOf ni alumniOf.
+const PERSON_ID = "https://consultoriametodo.es/#pablo-garcia-dacosta";
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": PERSON_ID,
+  name: "Pablo García Dacosta",
+  givenName: "Pablo",
+  familyName: "García Dacosta",
+  jobTitle: "Consultor de negocios",
+  description:
+    "Consultor de negocios y empresas con más de 25 años de experiencia. Fundador de Consultoría Método y creador del Método Rentabilismo. Trabaja con pymes en Galicia y en toda España.",
+  url: "https://consultoriametodo.es",
+  image: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
+  worksFor: { "@id": ORG_ID },
+  founderOf: { "@id": ORG_ID },
+  knowsAbout: [
+    "Consultoría empresarial",
+    "Mejora de rentabilidad",
+    "Gestión de procesos",
+    "Organización empresarial",
+    "Estrategia comercial",
+    "Ventas y captación de clientes",
+    "Control de gestión",
+    "Método Rentabilismo",
+  ],
+  knowsLanguage: ["es", "gl"],
+  nationality: { "@type": "Country", name: "España" },
+  homeLocation: { "@type": "Place", name: "A Coruña, Galicia, España" },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -199,6 +231,17 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
+        {/* RSS feed autodiscovery — crawlers y LLMs lo detectan aquí */}
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Consultoría Método — Blog"
+          href="https://consultoriametodo.es/feed.xml"
         />
       </head>
       <body className="antialiased">

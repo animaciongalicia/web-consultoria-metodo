@@ -1,0 +1,6 @@
+# Security.txt — RFC 9116
+# Canal de contacto para reportar problemas de seguridad.
+Contact: mailto:info@consultoriametodo.es
+Expires: 2027-12-31T23:59:00.000Z
+Preferred-Languages: es, en
+Canonical: https://consultoriametodo.es/.well-known/security.txt

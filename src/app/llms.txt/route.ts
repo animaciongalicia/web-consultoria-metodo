@@ -226,7 +226,7 @@ function renderLlmsTxt({
   lines.push("");
   lines.push(`- Blog completo (todos los artículos): ${BASE_URL}/blog`);
   lines.push(`- Sitemap XML: ${BASE_URL}/sitemap.xml`);
-  lines.push(`- RSS/Atom: (no disponible actualmente)`);
+  lines.push(`- RSS feed: ${BASE_URL}/feed.xml`);
   lines.push("");
 
   // Contacto
