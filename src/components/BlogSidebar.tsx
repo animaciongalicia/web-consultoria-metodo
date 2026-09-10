@@ -1,5 +1,8 @@
-import { getLatestPosts, getVisiblePosts } from "@/lib/posts";
+import { getLatestPosts, getVisiblePosts, BLOG_POSTS } from "@/lib/posts";
 import { SITE } from "@/lib/content";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+
+const BASE_URL = "https://consultoriametodo.es";
 
 const categoryColors: Record<string, { bg: string; text: string }> = {
   Marketing: { bg: "bg-orange-50", text: "text-orange-700" },
@@ -25,8 +28,24 @@ export default function BlogSidebar({
   const visiblePosts = getVisiblePosts();
   const categories = Array.from(new Set(visiblePosts.map((p) => p.category)));
 
+  // BreadcrumbList: Inicio > Blog > (título del post actual)
+  const currentPost = BLOG_POSTS.find((p) => p.slug === currentSlug);
+  const breadcrumbItems = [
+    { name: "Inicio", url: `${BASE_URL}/` },
+    { name: "Blog", url: `${BASE_URL}/blog` },
+    ...(currentPost
+      ? [
+          {
+            name: currentPost.title,
+            url: `${BASE_URL}/blog/${currentPost.slug}`,
+          },
+        ]
+      : []),
+  ];
+
   return (
     <aside className="space-y-8">
+      <BreadcrumbSchema items={breadcrumbItems} />
       {/* Temas */}
       <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
         <h3 className="text-sm font-bold uppercase tracking-wider text-gray-400">

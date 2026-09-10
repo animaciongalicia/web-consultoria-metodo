@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { SITE } from "@/lib/content";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+
+const BASE_URL = "https://consultoriametodo.es";
 
 export const metadata: Metadata = {
   title:
@@ -142,6 +145,19 @@ export default function ConsultorEmpresasOurense() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Inicio", url: `${BASE_URL}/` },
+          {
+            name: "Consultoría en Galicia",
+            url: `${BASE_URL}/consultoria-empresarial-galicia`,
+          },
+          {
+            name: "Consultor de empresas en Ourense",
+            url: `${BASE_URL}/consultor-empresas-ourense`,
+          },
+        ]}
       />
 
       {/* HERO */}
