@@ -1,5 +1,14 @@
 import { NAV_LINKS, SITE } from "@/lib/content";
 
+const BRAND_LINKS = [
+  { label: "Sobre Consultoría Método", href: "/sobre-consultoria-metodo" },
+  { label: "Pablo García Dacosta", href: "/pablo-garcia-dacosta" },
+  { label: "Método Rentabilismo", href: "/rentabilismo" },
+  { label: "Libros y publicaciones", href: "/libros" },
+  { label: "Preguntas frecuentes", href: "/preguntas-frecuentes" },
+  { label: "Método en redes sociales", href: "/redes-sociales" },
+];
+
 const AREA_LINKS = [
   { label: "Hostelería y restauración", href: "/consultoria-hosteleria-restauracion" },
   { label: "Comercio y retail", href: "/consultoria-comercio-retail" },
@@ -30,13 +39,22 @@ export default function Footer() {
       <div className="container-narrow">
         {/* Columnas */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Col 1 — Marca */}
+          {/* Col 1 — Consultoría Método (marca + enlaces) */}
           <div>
-            <p className="text-lg font-bold text-white">{SITE.name}</p>
-            <p className="mt-3 text-sm leading-relaxed text-primary-400">
-              Consultoría empresarial presencial en Galicia y por videollamada
-              en el resto de España.
+            <p className="text-xs font-semibold uppercase tracking-widest text-white">
+              {SITE.name}
             </p>
+            <nav className="mt-3 flex flex-col gap-2">
+              {BRAND_LINKS.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-primary-400 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
           </div>
 
           {/* Col 2 — Navegación */}

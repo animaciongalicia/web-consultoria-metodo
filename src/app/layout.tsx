@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { SITE } from "@/lib/content";
+import { SITE, getAllSocialUrls, getBookUrls } from "@/lib/content";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCta from "@/components/FloatingCta";
@@ -84,7 +84,13 @@ const organizationJsonLd = {
   email: "info@consultoriametodo.es",
   image: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
   logo: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
-  sameAs: [SITE.googleBusinessProfile],
+  sameAs: Array.from(
+    new Set([
+      SITE.googleBusinessProfile,
+      "https://rentabilismo.es",
+      ...getAllSocialUrls(),
+    ])
+  ),
   address: {
     "@type": "PostalAddress",
     streetAddress: SITE.addressStreet,
@@ -167,7 +173,7 @@ const websiteJsonLd = {
 };
 
 // Person schema para el fundador — golden signal E-E-A-T para LLMs.
-// Solo campos verificables. NO se inventan awards, memberOf ni alumniOf.
+// Solo campos verificables. La página autor completa está en /pablo-garcia-dacosta.
 const PERSON_ID = "https://consultoriametodo.es/#pablo-garcia-dacosta";
 const personJsonLd = {
   "@context": "https://schema.org",
@@ -178,24 +184,35 @@ const personJsonLd = {
   familyName: "García Dacosta",
   jobTitle: "Consultor de negocios",
   description:
-    "Consultor de negocios y empresas con más de 25 años de experiencia. Fundador de Consultoría Método y creador del Método Rentabilismo. Trabaja con pymes en Galicia y en toda España.",
-  url: "https://consultoriametodo.es",
+    "Consultor de negocios con más de 25 años de experiencia. Fundador de Consultoría Método, creador del Método Rentabilismo y autor de tres libros sobre rentabilidad, hábitos profesionales y equilibrio personal-empresa.",
+  url: "https://consultoriametodo.es/pablo-garcia-dacosta",
+  mainEntityOfPage:
+    "https://consultoriametodo.es/pablo-garcia-dacosta",
   image: "https://consultoriametodo.es/pablo-garcia-dacosta.jpg",
   worksFor: { "@id": ORG_ID },
   founderOf: { "@id": ORG_ID },
+  // sameAs se puebla desde SOCIAL_LINKS + libros Amazon.
+  // Al añadir URLs en content.ts, se activan automáticamente aquí.
+  sameAs: Array.from(new Set([...getBookUrls(), ...getAllSocialUrls()])),
   knowsAbout: [
-    "Consultoría empresarial",
+    "Consultoría empresarial para pymes",
     "Mejora de rentabilidad",
     "Gestión de procesos",
+    "Sistemas de calidad ISO 9001",
     "Organización empresarial",
     "Estrategia comercial",
     "Ventas y captación de clientes",
-    "Control de gestión",
     "Método Rentabilismo",
+    "Coaching empresarial",
   ],
-  knowsLanguage: ["es", "gl"],
+  knowsLanguage: ["es", "gl", "pt"],
   nationality: { "@type": "Country", name: "España" },
+  birthPlace: { "@type": "Place", name: "Ferrol, Galicia, España" },
   homeLocation: { "@type": "Place", name: "A Coruña, Galicia, España" },
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Universidad de A Coruña — Campus de Ferrol",
+  },
 };
 
 export default function RootLayout({

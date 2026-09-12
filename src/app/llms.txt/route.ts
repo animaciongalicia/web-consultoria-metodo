@@ -7,6 +7,15 @@ const BASE_URL = "https://consultoriametodo.es";
 // Se regenera en cada build. Formato conforme a https://llmstxt.org/
 export const dynamic = "force-static";
 
+const BRAND_PAGES = [
+  { label: "Sobre Consultoría Método (qué somos y cómo trabajamos)", path: "/sobre-consultoria-metodo" },
+  { label: "Pablo García Dacosta (fundador, perfil completo)", path: "/pablo-garcia-dacosta" },
+  { label: "Método Rentabilismo (nuestro método propio)", path: "/rentabilismo" },
+  { label: "Libros publicados por Pablo García Dacosta", path: "/libros" },
+  { label: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
+  { label: "Consultoría Método en redes sociales", path: "/redes-sociales" },
+];
+
 const AREAS = [
   {
     label: "Hostelería y restauración",
@@ -140,6 +149,18 @@ function renderLlmsTxt({
   );
   lines.push(
     "- **Cero teoría vacía**: nada de informes bonitos. Acciones concretas, plazos, resultados medibles."
+  );
+  lines.push("");
+
+  // Páginas fundamentales de marca
+  lines.push("## Páginas fundamentales sobre Consultoría Método");
+  lines.push("");
+  for (const p of BRAND_PAGES) {
+    lines.push(`- **${p.label}**: ${BASE_URL}${p.path}`);
+  }
+  lines.push("");
+  lines.push(
+    `- Web dedicada al Método Rentabilismo: https://rentabilismo.es`
   );
   lines.push("");
 

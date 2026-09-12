@@ -22,6 +22,81 @@ export const SITE = {
     "Consultoría para pymes: rentabilidad, procesos, organización y ventas. Presencial en Galicia, por videollamada en toda España. +25 años. Método Rentabilismo.",
 };
 
+// Perfiles en redes sociales.
+// PLACEHOLDER — dejar vacío ("") mientras no tengamos la URL real.
+// Cuando se rellenen, se activan automáticamente en:
+//   - /redes-sociales (tarjetas activas vs. "Próximamente")
+//   - sameAs del schema Organization y Person del layout global
+export const SOCIAL_LINKS = {
+  metodo: {
+    linkedin: "",
+    instagram: "",
+    facebook: "",
+    youtube: "",
+    substack: "",
+    twitter: "",
+    tiktok: "",
+    threads: "",
+    // Google Business Profile ya en SITE.googleBusinessProfile
+  },
+  rentabilismo: {
+    web: "https://rentabilismo.es",
+    linkedin: "",
+    instagram: "",
+    youtube: "",
+    substack: "",
+  },
+  pablo: {
+    linkedin: "", // TODO: URL LinkedIn Pablo — confirmado, falta URL exacta
+    twitter: "",
+    amazonAuthor: "",
+  },
+} as const;
+
+// Libros publicados — fuente de verdad centralizada
+export const BOOKS: readonly {
+  slug: string;
+  title: string;
+  amazonUrl: string;
+}[] = [
+  {
+    slug: "como-mejorar-rentabilidad-negocio",
+    title: "Cómo Mejorar la Rentabilidad de tu Negocio — Estrategias",
+    amazonUrl:
+      "https://www.amazon.es/CÓMO-MEJORAR-RENTABILIDAD-NEGOCIO-Estrategias-ebook/dp/B0DKZL6BNM",
+  },
+  {
+    slug: "habitos-diarios-transformar-prioridades",
+    title:
+      "Hábitos Diarios para Transformar tus Prioridades Profesionales",
+    amazonUrl:
+      "https://www.amazon.es/Hábitos-Diários-Transformar-Prioridades-Profesional/dp/B0FHFCMDT1",
+  },
+  {
+    slug: "regala-tu-tiempo",
+    title: "Regala tu Tiempo — Recuperar el Equilibrio y Enfocarte",
+    amazonUrl:
+      "https://www.amazon.es/REGALA-TIEMPO-Recuperar-Equilibrio-Enfocarte/dp/8409671883",
+  },
+] as const;
+
+// Helper: devuelve solo las URLs no vacías (para poblar sameAs)
+export function getAllSocialUrls(): string[] {
+  const urls: string[] = [];
+  for (const group of Object.values(SOCIAL_LINKS)) {
+    for (const url of Object.values(group)) {
+      if (url && typeof url === "string" && url.startsWith("http")) {
+        urls.push(url);
+      }
+    }
+  }
+  return urls;
+}
+
+export function getBookUrls(): string[] {
+  return BOOKS.map((b) => b.amazonUrl);
+}
+
 export const NAV_LINKS = [
   { label: "Diagnóstico", href: "/diagnostico-negocio" },
   { label: "Servicios", href: "/servicios" },
